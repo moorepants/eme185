@@ -1,0 +1,31 @@
+:org: Felt Bicycles
+:location: Irvine, CA
+
+Optimal Mountain Bike Rim Design
+================================
+
+More and more manufacturers are making mountain bike rims out of carbon fiber
+to decrease weight and increase stiffness and strength.  Lots of designs are
+coming out, and we've been observing the trends and trying to figure out what
+rim shapes will perform best.  We'd like to get help from a design team to
+optimize the shape of a rim for mountain bikes.  What I would propose is we
+will supply the basic dimensions and shape for the tire bed, and the team will
+design the shape for the sidewalls and outer wall (part that interfaces with
+the spokes).
+
+
+Lateral stiffness-to-weight will be the primary metric, but we're interested in
+the lateral stiffness of the wheel as a whole.  Therefore the analysis could
+include FEA of the rim shape, plus simpler calculations to involve the hub and
+spokes.
+
+The shape does not need to be symmetric, and because it will be molded in
+composites (rather than extruded like metal rims), it does not need to be a
+constant cross section.  If the team can handle it, we could even get into the
+layup schedule to add another dimension to the project.
+
+Felt doesn't have any immediate plans to produce a MTB rim, but we work with a
+factory that is starting to work on their own designs.  If we feel that the
+team has come up with a viable design, we may give the design to this factory
+to produce as their "open mold" (meaning that any company could buy it from the
+factory and brand it as their own, including Felt).
