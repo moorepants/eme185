@@ -1,4 +1,5 @@
-:title: Automated device for orienting a cutting tool perpendicular to a specimen surface
+:title: Automated Device for Orienting a Cutting Tool Perpendicular to a
+        Specimen Surface
 :org: Hill Engineering, LLC
 :website: http://www.hill-engineering.com/
 :location: Rancho Cordova, CA, USA

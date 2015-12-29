@@ -1,4 +1,4 @@
-:title: Automatic board feeder for custom saw/drill station
+:title: Automatic Board Feeder for Custom Saw/drill Station
 :org: Micro-Vu Corporation
 :website:  http://microvu.com/
 :location: Windsor, CA, USA

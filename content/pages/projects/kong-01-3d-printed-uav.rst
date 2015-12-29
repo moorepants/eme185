@@ -2,6 +2,7 @@
 :org: Cyber-Human-Physical Systems Lab
 :website: http://cphslab.com/
 :location: Davis, CA, USA
+:skills: dynamics, control, software, materials, mechanical design
 :status: hidden
 :template: project-page
 

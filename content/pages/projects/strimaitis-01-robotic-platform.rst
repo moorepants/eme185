@@ -14,7 +14,7 @@ cameras and lights. Project team members will gain unique experience with
 designing equipment under the constraints imposed by creating submersible
 robotic equipment that works at depths up to 6000 meters.
 
-SCHILLING ROBOTICS BUSINESS DESCRIPTION
+Schilling Robotics Business Description
 =======================================
 
 FMC Technologies Schilling Robotics brings nearly 30 years of technological
@@ -27,7 +27,7 @@ of reliability and service at every point in the product lifecycle. We value
 our customers as partners, and believe that our success depends on our
 customers' success.
 
-THE PROBLEM WE WOULD LIKE YOU TO SOLVE
+The Problem We Would Like You To Solve
 ======================================
 
 Our current pan and tilt, which has been in production for years, needs
@@ -37,7 +37,7 @@ for submersion. We need you to completely rethink the pan and tilt design and
 propose a revolutionary new design--something exciting that no one at Schilling
 Robotics has imagined.
 
-SCOPE
+Scope
 =====
 
 At Schilling Robotics, we break up development into two major phases: (1)
@@ -55,7 +55,7 @@ needed to support the mechanical development.
 We understand that the project lasts less than 5 months, and we do not expect a
 final design.
 
-HOW SCHILLING ROBOTICS WILL SUPPORT YOUR PROJECT
+How Schilling Robotics Will Support Your Project
 ================================================
 
 - We will provide a tour of our facility’s product development area and
@@ -76,7 +76,7 @@ HOW SCHILLING ROBOTICS WILL SUPPORT YOUR PROJECT
   founder of Schilling Robotics, typically attends these presentations. He will
   be very interested in your design approach and prototypes.
 
-SKILLS AND KNOWLEDGE THAT WE ARE LOOKING FOR
+Skills And Knowledge That We Are Looking For
 ============================================
 
 - Strong mechanical background.
@@ -117,50 +117,55 @@ minutes).
 
 http://www.bloomberg.com/news/videos/b/f040833b-3b05-4848-ae64-9c85b4b5df8c
 
-.. figure:: {filename}/images/schilling-01.png
-   :width: 300px
+.. figure:: {filename}/images/schilling-01.jpg
+   :width: 400px
 
    Picture 1, our Davis Location on Second Street
 
-.. figure:: {filename}/images/schilling-02.png
-   :width: 300px
+.. figure:: {filename}/images/schilling-02.jpg
+   :width: 400px
 
    Picture 2, our primary machine shop in Shingle Springs (we also have a
    smaller one in Davis)
 
-.. figure:: {filename}/images/schilling-03.png
-   :width: 300px
+.. figure:: {filename}/images/schilling-03.jpg
+   :width: 400px
 
    Picture 3, Equipment test pool
 
-.. figure:: {filename}/images/schilling-04.png
-   :width: 300px
+.. figure:: {filename}/images/schilling-04.jpg
+   :width: 400px
 
    Picture 3.5, Engineers building the first unit of our latest ROV design
 
-.. figure:: {filename}/images/schilling-05.png
-   :width: 300px
+.. figure:: {filename}/images/schilling-05.jpg
+   :width: 400px
 
    Picture 4, A typical manipulator
 
 .. figure:: {filename}/images/schilling-06.png
-   :width: 300px
+   :width: 400px
 
    Picture 5, A typical ROV
 
-.. figure:: {filename}/images/schilling-07.png
-   :width: 300px
+.. figure:: {filename}/images/schilling-07.jpg
+   :width: 400px
 
    Picture 7, Our ROV system on deck during sea trials
 
-.. figure:: {filename}/images/schilling-08.png
-   :width: 300px
+.. figure:: {filename}/images/schilling-08.jpg
+   :width: 400px
+
+   Picture 7, Our ROV system on deck during sea trials
+
+.. figure:: {filename}/images/schilling-09.jpg
+   :width: 400px
 
    Picture 8, A series of prototypes created during in the development of our
    latest camera (which mounts onto our pan and tilt)!
 
-.. figure:: {filename}/images/schilling-09.png
-   :width: 300px
+.. figure:: {filename}/images/schilling-10.jpg
+   :width: 400px
 
    Picture 9, An ROV with our current pan and  tilt (with two mounted cameras
    and a light)

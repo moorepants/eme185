@@ -14,6 +14,7 @@ ergonomics, ease of transport and other needs exist such as the ability to keep
 a cart from rolling down hill.
 
 .. image:: {filename}/images/recyclers-transportation-cart.png
+   :width: 500px
 
 Other Requirements
 ==================
