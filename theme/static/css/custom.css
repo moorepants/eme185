@@ -1,0 +1,9 @@
+tr:nth-child(even) {
+  background: #E0E0EB
+}
+tr:nth-child(odd) {
+  background: #FFF
+}
+img.homeworkfig {
+  width: 600px
+}

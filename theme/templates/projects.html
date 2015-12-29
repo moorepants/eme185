@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %} {% endblock %}
+{% block content %}
+<section id="content" class="body">
+<h2>Projects</h2>
+<p>
+</p>
+<ol>
+{% for page in hidden_pages %}
+  <li>
+    <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a> </br>
+    <a href="{{ page.website }}">{{ page.org }}</a>, {{ page.location }} </br>
+    Relavant Skills: {{ page.skills }}
+  </li>
+{% endfor %}
+</ol>
+</section>
+{% endblock %}
