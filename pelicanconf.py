@@ -16,6 +16,9 @@ DEFAULT_LANG = u'en'
 
 TEMPLATE_PAGES = {'projects.html': 'projects.html'}
 
+PLUGIN_PATHS = ['plugins', '/moorepants/src/pelican-plugins']
+PLUGINS = ['neighbors']
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
