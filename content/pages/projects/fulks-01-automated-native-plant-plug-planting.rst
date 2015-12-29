@@ -1,6 +1,8 @@
 :title: Automated Native Plant Plug Planting
 :org: UCD Arboretum
+:website: http://arboretum.ucdavis.edu/
 :location: Davis, CA, USA
+:skills: mechanical design, agriculture
 
 For native grassland restoration, the typical sequence of events in the Fall is
 to disk a field, wait for the first germinating rains, spray the field with
@@ -23,8 +25,3 @@ something that could be used in small and large areas, is potentially scalable
 from a few thousand to tens of thousands of plugs, can handle slight inclines,
 and is either self-propelled or can be pulled on a medium-sized quad or small
 tractor.
-
-Required Skills/Interests
-=========================
-
-mechanical design, agriculture

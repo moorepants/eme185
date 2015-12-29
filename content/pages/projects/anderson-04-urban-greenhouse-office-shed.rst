@@ -1,19 +1,13 @@
+:title: Urban Greehouse Office Shed
 :org: Postworks
 :location: Alameda, CA, USA
-
-Urban Greehouse Office Shed
-===========================
+:skills: structural design, solar heating, ventilation
 
 The typical trendy "tiny house on wheels" is not actually legal to occupy in
 most towns, not legal to possess in Oakland and others. The structure becomes a
 burden on the owner (my friends) when evicted. small agricultural membrane
 structures are allowed, and could be designed to provide very adaptable
 work/living space.
-
-Required Skills
----------------
-
-structural design, solar heating, ventilation
 
 Other requirements
 ------------------

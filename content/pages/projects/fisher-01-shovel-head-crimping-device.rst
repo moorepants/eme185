@@ -1,6 +1,8 @@
 :title: Crimping device for refitting broken shovel heads
 :org: Torema Products
+:website: http://www.torema.org
 :location: Davis, CA, USA
+:skills: mechanical design, manufacturing, sustainability
 
 The Problem
 ===========

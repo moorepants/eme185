@@ -1,6 +1,8 @@
 :title: Automated Pond Algae Removal
 :org: UCD Arboretum
+:website: http://arboretum.ucdavis.edu/
 :location: Davis, CA, USA
+:skills: mechanical design, microcontroller, fluids, boats, environmental
 
 The Arboretum waterway is a warm, nutrient-laden water body with ample solar
 exposure. The result of these conditions is plant and algae growth on the water
@@ -14,13 +16,8 @@ removal of undesirable surface water algae and aquatic plants in the interim.
 Such a system should be portable, avoid wildlife impacts, and have a plan in
 place to deal with disposal of surface materials (such as use by the
 biodigester, if possible). Commercial products are available, but they tend to
-be expensive, slow, or require constant attention and dispos al of ma terials
+be expensive, slow, or require constant attention and disposal of materials
 in small quantity batches. This would not be cost effective for us.
 Alternatively, design of equipment that modifies water surface movement to
 prevent formation of such surface plants in the first place, could be
 considered.
-
-Skills/Interests
-================
-
-mechanical design, microcontroller, fluids, boats, environmental

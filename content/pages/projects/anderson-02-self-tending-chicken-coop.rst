@@ -1,20 +1,14 @@
-Self-tending Chicken Coop
-=========================
-
-| Postworks
-| Alameda, CA
+:title: Self-tending Chicken Coop
+:org: Postworks
+:location: Alameda, CA, USA
+:skills: structural, sensing, automation
 
 Chickens are jungle fowl and thrive in the wild in proper conditions. The
 project involves designing and building a coop which is fully self-tending. The
-chickens should be able to  pit themselves away for the night and it should be
+chickens should be able to pit themselves away for the night and it should be
 impossible for predators to get the chickens. Furthermore, the coop will need
 to have a self-tending run that allows them a place to kick droppings away and
 be collected for a vermi-composting bin or other reuse.
-
-Required Skills
----------------
-
-structural design, sensing and automation
 
 Other requirements
 ------------------
