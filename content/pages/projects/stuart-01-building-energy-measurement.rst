@@ -3,6 +3,8 @@
 :website: http://www.davisenergy.com/
 :location: Davis, CA, USA
 :skills: instrumentation, measurement, software, electronics
+:status: hidden
+:template: project-page
 
 One service we do a lot of here is to consult on projects trying to determine
 energy savings in buildings before and after energy saving measures have been

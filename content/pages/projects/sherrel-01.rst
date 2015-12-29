@@ -3,6 +3,8 @@
 :website: https://www.smud.org/en/about-smud/environment/renewable-energy/solar-regatta.htm
 :location: Davis, CA, USA
 :skills: mechanical design, nautical engineering, solar energy
+:status: hidden
+:template: project-page
 
 Join us for the 5th annual Northern California Solar Regatta. The competition
 will take place on Saturday, May 14, 2016 at Rancho Seco Recreational Area in

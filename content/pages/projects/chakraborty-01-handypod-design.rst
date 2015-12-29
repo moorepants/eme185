@@ -3,6 +3,8 @@
 :website: http://wetlandswork.com
 :location: Phnom Phen, Cambodia
 :skills: product design, sanitation, fluid mechanics, appropriate technology, manufacturing
+:status: hidden
+:template: project-page
 
 Wetlands Work Ltd is a social enterprise based in Cambodia, working on
 sanitation and wastewater treatment. The HandyPod is novel sanitation solution

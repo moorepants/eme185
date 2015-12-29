@@ -2,6 +2,8 @@
 :org: Postworks
 :location: Alameda, CA, USA
 :skills: structural, sensing, automation
+:status: hidden
+:template: project-page
 
 Chickens are jungle fowl and thrive in the wild in proper conditions. The
 project involves designing and building a coop which is fully self-tending. The

@@ -4,6 +4,8 @@
 :location: Irvine, CA
 :skills: mechanical design, strength of materials, finite element analysis,
          composites
+:status: hidden
+:template: project-page
 
 More and more manufacturers are making mountain bike rims out of carbon fiber
 to decrease weight and increase stiffness and strength. Lots of designs are

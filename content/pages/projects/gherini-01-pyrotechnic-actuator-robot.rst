@@ -3,6 +3,8 @@
 :website: http://www.sandia.gov/
 :location: Livermore, CA, USA
 :skills: mechanical design, robotics, software
+:status: hidden
+:template: project-page
 
 Pyrotechnic actuators are highly reliable, compact single shot devices that are
 used by industry to perform rapid mechanical work on components. Due to their

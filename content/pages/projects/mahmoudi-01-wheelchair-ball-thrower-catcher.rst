@@ -3,6 +3,8 @@
 :website: http://davincicharteracademy.net/
 :location: Davis, CA, USA
 :skills: mechanical design, dynamics
+:status: hidden
+:template: project-page
 
 This proposal was written in collaboration between a teacher and a student.
 The student is a very social 7th grader with a unique physical impairment which

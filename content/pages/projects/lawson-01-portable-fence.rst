@@ -3,6 +3,8 @@
 :website: http://www.pieranch.org/
 :location: Pescadero, CA, USA
 :skills: mechanical design
+:status: hidden
+:template: project-page
 
 While there is a rise in the development of pasture-based animal agriculture,
 where multiple species are "stacked" in a managed rotation, there is a lack in

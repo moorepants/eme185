@@ -3,6 +3,8 @@
 :website: http://www.icuemotion.com/
 :location: San Francisco, CA, USA
 :skills: dynamics, machine design, software, instrumentation
+:status: hidden
+:template: project-page
 
 ICUEMOTION is a small lab in San Francisco that studies sports skills. Part of
 building a biomechanical model of the player involves having accurate

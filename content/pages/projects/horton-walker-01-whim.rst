@@ -3,6 +3,8 @@
 :website: http://WHIMUnlimited.com
 :location: Davis, CA, USA
 :skills: mechanical design, robotics, ergonomics
+:status: hidden
+:template: project-page
 
 Current power wheelchairs depend on custom parts, available only with a
 doctor's prescription and a multi-week (or month) delay between breakdown and

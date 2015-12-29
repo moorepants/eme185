@@ -2,6 +2,8 @@
 :org: Cyber-Human-Physical Systems Lab
 :website: http://cphslab.com/
 :location: Davis, CA, USA
+:status: hidden
+:template: project-page
 
 The goal of the project is to use 3D printing to build a VTOL (vertical takeoff
 and landing) aircraft that is capable of performing some basic maneuvers, such

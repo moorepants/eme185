@@ -3,6 +3,8 @@
 :website: http://mae.ucdavis.edu
 :location: Davis, CA, USA
 :skills: fluids, instrumentation, software, robotics
+:status: hidden
+:template: project-page
 
 The watertable experiment is a simple yet effective method to visualize air
 flow phenomena. It uses the hydraulic analogy, that the height of the water

@@ -2,6 +2,8 @@
 :org: Postworks
 :skills: thermodynamics, combustion, experimental design, instrumentation, chemistry
 :location: Alameda, CA, USA
+:status: hidden
+:template: project-page
 
 Biodiesel spoils (polymerizes) in less than a year and glues the fuel path in
 diesel engines, killing the vehicle. We have a list of combustible solvents,

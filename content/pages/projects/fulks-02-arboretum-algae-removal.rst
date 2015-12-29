@@ -3,6 +3,8 @@
 :website: http://arboretum.ucdavis.edu/
 :location: Davis, CA, USA
 :skills: mechanical design, microcontroller, fluids, boats, environmental
+:status: hidden
+:template: project-page
 
 The Arboretum waterway is a warm, nutrient-laden water body with ample solar
 exposure. The result of these conditions is plant and algae growth on the water

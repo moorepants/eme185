@@ -2,6 +2,8 @@
 :org: Department of Medicine and Epidemiology, School of Veterinary Medicine
 :location: Davis, CA, USA
 :skills: mechanical design, software
+:status: hidden
+:template: project-page
 
 Veterinarians and emergency first responders need the ability to move and lift
 horses that are recumbent for surgery or that are injured due to an accident.

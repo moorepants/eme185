@@ -3,6 +3,8 @@
 :website: http://www.bdillon.com/
 :location: Rancho Cordova, CA, USA
 :skills: mechanical design, dynamics
+:status: hidden
+:template: project-page
 
 Project Description
 ===================

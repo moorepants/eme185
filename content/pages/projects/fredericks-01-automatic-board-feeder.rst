@@ -3,6 +3,8 @@
 :website:  http://microvu.com/
 :location: Windsor, CA, USA
 :skills: mechanical design
+:status: hidden
+:template: project-page
 
 Project statement
 =================

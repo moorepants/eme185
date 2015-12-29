@@ -3,6 +3,8 @@
 :website: http://www.inscitech.com/
 :location: Mountain View, CA, USA
 :skills: instrumentation, measurement, software, dynamics
+:status: hidden
+:template: project-page
 
 Need
 ====

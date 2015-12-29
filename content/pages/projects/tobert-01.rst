@@ -3,6 +3,8 @@
 :website: http://thecloverleaffarm.com
 :location: Davis, CA, USA
 :skills: mechanical design, argriculture, vehicle design
+:status: hidden
+:template: project-page
 
 We are an organic fruit farm in Davis and are in need of renewably powered,
 ergonomic way to pick and transport fruit out of our orchard. We currently

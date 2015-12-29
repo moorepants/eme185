@@ -3,6 +3,8 @@
 :website: http://unitrans.ucdavis.edu
 :location: Davis, CA, USA
 :skills: mechanical design, hydraulics
+:status: hidden
+:template: project-page
 
 Design and build a rolling caddy to easily mount a Stertil Koni JB160 Rolling
 Jack (http://www.stertil-koni.nl/en/products/accessories/jacking-beams ) to a

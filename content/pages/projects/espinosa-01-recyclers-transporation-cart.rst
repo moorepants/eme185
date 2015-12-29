@@ -3,6 +3,8 @@
 :website: http://piet.ucdavis.edu/?page_id=12
 :location: Cali, Columbia
 :skills: mechanical design, appropirate technology
+:status: hidden
+:template: project-page
 
 Recyclers in Cali, Colombia are a well organized guild of waste
 pickers/collectors that work formally with the government and are part of the
@@ -11,7 +13,7 @@ themselves out of recycled waste. These designs do the job but improvements on
 ergonomics, ease of transport and other needs exist such as the ability to keep
 a cart from rolling down hill.
 
-.. image:: {filename}/recyclers-transportation-cart.png
+.. image:: {filename}/images/recyclers-transportation-cart.png
 
 Other Requirements
 ==================

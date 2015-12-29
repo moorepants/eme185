@@ -3,6 +3,8 @@
 :website: http://www.kickstart.org/
 :location: Nairobi, Kenya
 :skills: mechanical design
+:status: hidden
+:template: project-page
 
 KickStart wants to promote the use of solar irrigation pumps for smallholder
 farmers in Africa. Smallholder irrigation is the best single-input income

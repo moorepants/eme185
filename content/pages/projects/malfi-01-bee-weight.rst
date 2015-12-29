@@ -3,6 +3,8 @@
 :website: https://polleneaters.wordpress.com/
 :location: Davis, CA, USA
 :skills: mechanical design, instrumentation
+:status: hidden
+:template: project-page
 
 Background
 ==========

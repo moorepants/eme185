@@ -3,6 +3,8 @@
 :website: http://www.thirdspacedavis.com/
 :location: Davis, CA, USA
 :skills: mechanical design, biomechanics
+:status: hidden
+:template: project-page
 
 I want to build a large scale human-powered zoetrope that simulates the
 sensation of walking within a hemiplegic body. The zoetrope will be engineered

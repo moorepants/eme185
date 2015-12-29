@@ -3,6 +3,8 @@
 :website: http://afs.ucdavis.edu/our_services/distribution-services/microscope-services/index.html
 :location: Davis, CA, USA
 :skills: mechanical design, vibrations/dynamics, ergonomics
+:status: hidden
+:template: project-page
 
 Microscope Services would like a microscope stand that is inertially stable but
 movable so that a wheelchair bound user can bring it up to their chair. It has

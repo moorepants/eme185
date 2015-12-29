@@ -3,6 +3,8 @@
 :website: http://www.spacex.com/hyperloop
 :location: Davis, CA, USA
 :skills: mechanical design
+:status: hidden
+:template: project-page
 
 The Hyperloop Pod Team at UC Davis aims to compete in the 2016 SpaceX Hyperloop
 Pod challenge; the purpose of this senior design project will be to design and

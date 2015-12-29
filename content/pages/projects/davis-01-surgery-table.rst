@@ -2,6 +2,8 @@
 :org: Department of Veterinary Medicine and Epidemiology
 :location: Davis, CA, USA
 :skills: mechanical design, hydraulics
+:status: hidden
+:template: project-page
 
 Problem
 =======

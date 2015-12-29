@@ -1,8 +1,10 @@
-:title:
+:title: Deep Submersible Pan and Tilt Device
 :org: Schilling Robotics
 :website: http://www.fmctechnologies.com/en/SchillingRobotics.aspx
 :location: Davis, CA, USA
 :skills: mechanical design, robotics
+:status: hidden
+:template: project-page
 
 FMC Technologies Schilling Robotics would like to sponsor a team of engineering
 students in the UC Davis Mechanical Engineering Capstone Program. We are
@@ -115,49 +117,49 @@ minutes).
 
 http://www.bloomberg.com/news/videos/b/f040833b-3b05-4848-ae64-9c85b4b5df8c
 
-.. figure:: schilling-01.png
+.. figure:: {filename}/images/schilling-01.png
    :width: 300px
 
    Picture 1, our Davis Location on Second Street
 
-.. figure:: schilling-02.png
+.. figure:: {filename}/images/schilling-02.png
    :width: 300px
 
    Picture 2, our primary machine shop in Shingle Springs (we also have a
    smaller one in Davis)
 
-.. figure:: schilling-03.png
+.. figure:: {filename}/images/schilling-03.png
    :width: 300px
 
    Picture 3, Equipment test pool
 
-.. figure:: schilling-04.png
+.. figure:: {filename}/images/schilling-04.png
    :width: 300px
 
    Picture 3.5, Engineers building the first unit of our latest ROV design
 
-.. figure:: schilling-05.png
+.. figure:: {filename}/images/schilling-05.png
    :width: 300px
 
    Picture 4, A typical manipulator
 
-.. figure:: schilling-06.png
+.. figure:: {filename}/images/schilling-06.png
    :width: 300px
 
    Picture 5, A typical ROV
 
-.. figure:: schilling-07.png
+.. figure:: {filename}/images/schilling-07.png
    :width: 300px
 
    Picture 7, Our ROV system on deck during sea trials
 
-.. figure:: schilling-08.png
+.. figure:: {filename}/images/schilling-08.png
    :width: 300px
 
    Picture 8, A series of prototypes created during in the development of our
    latest camera (which mounts onto our pan and tilt)!
 
-.. figure:: schilling-09.png
+.. figure:: {filename}/images/schilling-09.png
    :width: 300px
 
    Picture 9, An ROV with our current pan and  tilt (with two mounted cameras

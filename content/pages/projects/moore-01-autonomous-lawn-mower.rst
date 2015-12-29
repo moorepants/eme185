@@ -2,6 +2,8 @@
 :org: University of California MAE Department
 :location: Davis, CA, USA
 :skills: mechanical design, robotics, software
+:status: hidden
+:template: project-page
 
 We are living in the era of Internet of Things. Every house has a lawn mower,
 but people are lazy to use them. I have heard a boy told his father when he

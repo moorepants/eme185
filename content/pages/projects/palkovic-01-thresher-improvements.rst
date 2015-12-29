@@ -3,6 +3,8 @@
 :website: http://www.plantsciences.ucdavis.edu/gepts/geptslab.htm
 :location: Davis, CA, USA
 :skills: mechanical design
+:status: hidden
+:template: project-page
 
 The Problem
 ===========

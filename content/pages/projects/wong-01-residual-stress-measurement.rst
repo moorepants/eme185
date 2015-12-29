@@ -3,6 +3,8 @@
 :website: http://www.hill-engineering.com/
 :location: Rancho Cordova, CA, USA
 :skills: mechanical design
+:status: hidden
+:template: project-page
 
 Project description
 ===================

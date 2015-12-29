@@ -2,6 +2,8 @@
 :org: Postworks
 :location: Alameda, CA, USA
 :skills: structural design, solar heating, ventilation
+:status: hidden
+:template: project-page
 
 The typical trendy "tiny house on wheels" is not actually legal to occupy in
 most towns, not legal to possess in Oakland and others. The structure becomes a

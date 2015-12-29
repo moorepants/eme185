@@ -3,6 +3,8 @@
 :website: http://arboretum.ucdavis.edu/
 :location: Davis, CA, USA
 :skills: mechanical design, agriculture
+:status: hidden
+:template: project-page
 
 For native grassland restoration, the typical sequence of events in the Fall is
 to disk a field, wait for the first germinating rains, spray the field with

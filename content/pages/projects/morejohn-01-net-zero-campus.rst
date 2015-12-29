@@ -3,6 +3,8 @@
 :website: http://facilities.ucdavis.edu/energy_conservation/
 :location: Davis, CA, USA
 :skills: heat transfer, modeling
+:status: hidden
+:template: project-page
 
 Description
 ===========

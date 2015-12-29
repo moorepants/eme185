@@ -3,6 +3,8 @@
 :website: http://www.torema.org
 :location: Davis, CA, USA
 :skills: mechanical design, manufacturing, sustainability
+:status: hidden
+:template: project-page
 
 The Problem
 ===========

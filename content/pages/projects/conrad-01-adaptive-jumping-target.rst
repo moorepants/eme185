@@ -3,6 +3,8 @@
 :website: http://www.nike.com
 :location: Portland, OR, USA
 :skills: biomechanics, controls, microcontroller, sensing, design
+:status: hidden
+:template: project-page
 
 We have done some research on repeated jumps and one of the challenges we have
 had is getting the best effort from subjects on every single jump over 30+

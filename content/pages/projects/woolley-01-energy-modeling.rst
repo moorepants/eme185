@@ -3,6 +3,8 @@
 :website: http://wcec.ucdavis.edu/
 :location: Davis, CA, USA
 :skills: heat transfer, modeling, software
+:status: hidden
+:template: project-page
 
 Project Objectives
 ==================

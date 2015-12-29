@@ -2,6 +2,8 @@
 :org: Postworks
 :location: Alameda, CA, USA
 :skills: controls, HVAC, solar, heat transfer, biology
+:status: hidden
+:template: project-page
 
 This project will involve creating a solution to use solar pawer to sterilize
 compost, humanure, etc. The solution will have to verifiably eliminates

@@ -3,6 +3,8 @@
 :website: http://www.ucdmc.ucdavis.edu/medicalcenter/
 :location: Sacramento, CA, USA
 :skills: mechanical design, mechanisms, kinematics, dynamics
+:status: hidden
+:template: project-page
 
 Clinical Problem/Translational Importance
 =========================================

@@ -3,6 +3,8 @@
 :website: http://ucanr.edu/
 :location: Davis, CA, USA
 :skills: mechanical design, robotics, software
+:status: hidden
+:template: project-page
 
 Imagine a field of strawberries with bright red fruit hanging from the plants.
 This is an alluring image to many- humans, insects and birds.  Several

@@ -2,6 +2,8 @@
 :org: Department of Medicine and Epidemiology, School of Veterinary Medicine
 :location: Davis, CA, USA
 :skills: materials, fluids, anatomy
+:status: hidden
+:template: project-page
 
 Veterinary students need to practice skills to achieve clinical competency. One
 key skill is the ability to accurately place an intravenous catheter into the
