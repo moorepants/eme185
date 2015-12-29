@@ -3,14 +3,18 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Jason K. Moore'
-SITENAME = u'EME 185 Mechanical Systems Design Project'
+SITENAME = u'EME 185: Mechanical Systems Design Project'
 SITEURL = ''
 
 PATH = 'content'
+THEME = 'theme'
+PAGE_ORDER_BY = 'sortorder'
 
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
+
+TEMPLATE_PAGES = {'projects.html': 'projects.html'}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
