@@ -9,7 +9,7 @@ Course Description
 | University of California, Davis
 | Department of Mechanical and Aerospace Engineering
 | Mechanical Design - EME 185A
-| Fall 2015, Lecture: W 1:20-200PM, Studio: A02 T 4:10-7:00PM, A03 W 4:10-7:00PM
+| Winter 2016, Lecture: W 1:20-200PM, Studio: A02 T 4:10-7:00PM, A03 W 4:10-7:00PM
 | CRN: A02 43644, A03 22256
 | `Catalog Entry`_
 
@@ -44,7 +44,7 @@ Prerequites
 -----------
 
 You must have Senior standing in EMEC and a C- or better in the following
-classes are required:
+classes:
 
 - EME 150A
 - EME 165 (may be taken concurrently)
@@ -62,7 +62,7 @@ Instructors
 | 2095 Bainer Hall
 | jasonmoore@ucdavis.edu
 |
-| Steve Velinsky
+| Steve A. Velinsky
 | *Lecture Co-Instructor*
 | savelinsky@ucdavis.edu
 |
@@ -110,3 +110,75 @@ Assignments & Grades
 
 Letter grade based on design project and assignments related directly to the
 project, and final exam for 185A.
+
+Course Philosophy
+=================
+
+This course differs from almost all other courses that you have taken at the
+University in that there is no predetermined list of theories, facts or
+physical laws that you are expected to learn and master. The sole objective of
+the design project course is to provide you with an opportunity to use your own
+skills and knowledge to solve an engineering design problem. This experience
+will help you make the transition from school to work; i.e., to bridge the gap
+between theory and applications.
+
+You are expected to attend every class, to use your own initiative to plan your
+own outside work schedule, both in class and outside of class, and to complete
+various major design project phases by their deadlines. Your instructor should
+be viewed as a consultant and not as a taskmaster; he will not direct your work
+effort or make your decisions, but is there to assist you with technical
+engineering problems.
+
+In 185A, a one-hour lecture is used each week to present material related to
+the design process. Additionally, a 3-hour laboratory is used for group
+activities, supplemental lecture material, and individual group meetings with
+the instructor. Groups will follow the design process in their respective
+projects. Groups are expected to meet regularly outside of formal class hours.
+Groups will additionally meet with their project's faculty mentor on a regular
+basis during the quarter for direction, group presentations and design reviews.
+Based on the nature of the project, some groups will also meet with industry
+sponsors on a regular basis. Towards the end of Fall Quarter, sessions will be
+scheduled for project presentations to the entire class.
+
+In 185B, each group will register for a 2-hour block of time for both meetings
+with the instructor and to allow a common time for group meetings. Also, each
+group will meet weekly with their project's faculty mentor. Additionally, many
+of the projects will require group meetings with their corporate sponsors, and
+these are additionally arranged based on everyone's schedules. There will be no
+formal lecture time scheduled for 185B. During approximately the last week of
+185B class, there will be a poster session to present the final designs to the
+entire class. They are normally scheduled for late afternoon/early evening.
+
+Student'S Role & Responsibility
+===============================
+
+Each student should view his/her role as that of an engineer as part of a
+design team charged with the responsibility of managing and completing a design
+project. As such you must do whatever is necessary to carry out this
+responsibility. Specifically, your group must carry a design project from the
+conception stage through the presentation stage. You are also responsible for
+all written and oral reports and materials required by your instructor. Some
+projects may require the fabrication of feasibility test components and/or
+first generation prototype components. This may be accomplished through a
+combination of student work in the engineering student faculty shop and/or the
+corporate sponsor accepting this responsibility.
+
+Instructor'S/Faculty Mentor'S Role & Responsibility
+===================================================
+
+Your instructor/faculty mentor has two primary responsibilities. First, he
+will serve as an engineering consultant to the design project teams. In this
+capacity, he expects to be kept informed of your project progress, have
+discussions about design concepts and problems, point out appropriate reference
+materials, suggest analysis methods, etc. He will not make engineering
+decisions that he feels are rightly the responsibility of the design project
+engineer, and he will generally play the role of devil's advocate in your
+decision making process. Every student should keep in mind that the best time
+to use your consultant is before your problem becomes unmanageable.
+
+Your instructor's/faculty mentor's second responsibility is to evaluate your
+performance and your design solution to the project. This is done by periodic
+review of your progress (written and/or oral reports) and especially by
+evaluation of your Final Design Project Report. It should be noted that each
+project's sponsor will provide feedback that may contribute to final grading as
+well.
