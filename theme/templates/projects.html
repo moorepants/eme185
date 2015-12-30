@@ -2,17 +2,37 @@
 {% block title %} {% endblock %}
 {% block content %}
 <section id="content" class="body">
-<h2>Projects</h2>
+  <h1>Instructions</h1>
+  <p>The following list of project proposals have been submitted by a variety
+  industry, education, and research sponsors. You will have the opportunity to
+  vote on your top three choices in the CATME Team Maker survey. We will then
+  pair a project to a team of 3 to 5 students based on the survey data. Please
+  take note of the following guidelines:</p>
+  <ul>
+    <li>Be sure to note any additional requirements like sponsor location,
+      communication needs (language, timezone), ability to travel to the
+      sponsor's location for meetings or work, etc.</li>
+    <li>Many of these projects could provide leads towards internship and
+      employment opportunities.</li>
+    <li>Each project has a unique ID which you will use to cast you votes.</li>
+    <li>All questions you have about the projects (clarity, more info, etc)
+      should be asked on Smartsite: Q & A (Piazza) so that everyone in the
+      class can benefit from the answers.</li>
+    <li>There are 45 proposals, but only about 30 projects will be
+      selected.</li>
+  </ul>
+<h1>Project Proposal List</h1>
 <p>
 </p>
-<ol>
+<ul>
 {% for page in hidden_pages %}
   <li>
     <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a> </br>
-    <a href="{{ page.website }}">{{ page.org }}</a>, {{ page.location }} </br>
-    Relavant Skills: {{ page.skills }}
+    <strong>{{ page.org }}</strong>, {{ page.location }} </br>
+    Relevant Skills: {{ page.skills }} </br>
+    ID: <strong>{{ page.id }}</strong>
   </li>
 {% endfor %}
-</ol>
+</ul>
 </section>
 {% endblock %}
