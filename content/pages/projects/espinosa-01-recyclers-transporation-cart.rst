@@ -3,6 +3,7 @@
 :website: http://piet.ucdavis.edu/?page_id=12
 :location: Cali, Columbia
 :skills: mechanical design, appropirate technology
+:id: EDR4
 :status: hidden
 :template: project-page
 

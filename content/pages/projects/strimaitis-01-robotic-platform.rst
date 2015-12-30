@@ -3,6 +3,7 @@
 :website: http://www.fmctechnologies.com/en/SchillingRobotics.aspx
 :location: Davis, CA, USA
 :skills: mechanical design, robotics
+:id: SSD7
 :status: hidden
 :template: project-page
 

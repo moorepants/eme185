@@ -1,8 +1,9 @@
-:title: Automated Pond Algae Removal
+:title: Pond Algae Removal
 :org: UCD Arboretum
 :website: http://arboretum.ucdavis.edu/
 :location: Davis, CA, USA
 :skills: mechanical design, microcontroller, fluids, boats, environmental
+:id: FUP7
 :status: hidden
 :template: project-page
 

@@ -3,6 +3,7 @@
 :website: http://www.pieranch.org/
 :location: Pescadero, CA, USA
 :skills: mechanical design
+:id: LPM7
 :status: hidden
 :template: project-page
 

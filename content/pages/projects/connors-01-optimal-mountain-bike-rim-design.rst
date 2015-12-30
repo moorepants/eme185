@@ -4,6 +4,7 @@
 :location: Irvine, CA
 :skills: mechanical design, strength of materials, finite element analysis,
          composites
+:id: CFO6
 :status: hidden
 :template: project-page
 

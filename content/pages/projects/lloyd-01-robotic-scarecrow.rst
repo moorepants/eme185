@@ -3,6 +3,7 @@
 :website: http://ucanr.edu/
 :location: Davis, CA, USA
 :skills: mechanical design, robotics, software
+:id: LUR1
 :status: hidden
 :template: project-page
 

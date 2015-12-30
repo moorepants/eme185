@@ -1,8 +1,9 @@
-:title: Renewably powered ergonomic fruit picker and transporter
+:title: Renewably Powered Ergonomic Fruit Picker and Transporter
 :org: Cloverleaf Farm
 :website: http://thecloverleaffarm.com
 :location: Davis, CA, USA
 :skills: mechanical design, argriculture, vehicle design
+:id: TCR8
 :status: hidden
 :template: project-page
 

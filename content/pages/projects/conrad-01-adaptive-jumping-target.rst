@@ -3,6 +3,7 @@
 :website: http://www.nike.com
 :location: Portland, OR, USA
 :skills: biomechanics, controls, microcontroller, sensing, design
+:id: CNA7
 :status: hidden
 :template: project-page
 

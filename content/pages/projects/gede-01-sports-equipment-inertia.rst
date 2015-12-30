@@ -3,6 +3,7 @@
 :website: http://www.icuemotion.com/
 :location: San Francisco, CA, USA
 :skills: dynamics, machine design, software, instrumentation
+:id: GIS8
 :status: hidden
 :template: project-page
 

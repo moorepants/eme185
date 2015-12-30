@@ -3,6 +3,7 @@
 :website: http://afs.ucdavis.edu/our_services/distribution-services/microscope-services/index.html
 :location: Davis, CA, USA
 :skills: mechanical design, vibrations/dynamics, ergonomics
+:id: DUM0
 :status: hidden
 :template: project-page
 

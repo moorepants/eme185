@@ -3,6 +3,7 @@
 :website: http://wetlandswork.com
 :location: Phnom Phen, Cambodia
 :skills: product design, sanitation, fluid mechanics, appropriate technology, manufacturing
+:id: CWH0
 :status: hidden
 :template: project-page
 

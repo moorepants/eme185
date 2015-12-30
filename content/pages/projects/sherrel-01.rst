@@ -2,6 +2,7 @@
 :org: SMUD's Energy and Technology Center
 :website: https://www.smud.org/en/about-smud/environment/renewable-energy/solar-regatta.htm
 :location: Davis, CA, USA
+:id: SSS5
 :skills: mechanical design, nautical engineering, solar energy
 :status: hidden
 :template: project-page

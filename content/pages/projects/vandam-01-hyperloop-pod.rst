@@ -3,6 +3,7 @@
 :website: http://www.spacex.com/hyperloop
 :location: Davis, CA, USA
 :skills: mechanical design
+:id: VMU7
 :status: hidden
 :template: project-page
 

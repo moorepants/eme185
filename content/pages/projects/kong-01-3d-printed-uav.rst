@@ -3,6 +3,7 @@
 :website: http://cphslab.com/
 :location: Davis, CA, USA
 :skills: dynamics, control, software, materials, mechanical design
+:id: KM32
 :status: hidden
 :template: project-page
 

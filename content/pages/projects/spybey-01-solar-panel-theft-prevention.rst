@@ -3,6 +3,7 @@
 :website: http://www.kickstart.org/
 :location: Nairobi, Kenya
 :skills: mechanical design
+:id: SKT2
 :status: hidden
 :template: project-page
 

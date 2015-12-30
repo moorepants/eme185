@@ -3,6 +3,7 @@
 :website: http://www.davisenergy.com/
 :location: Davis, CA, USA
 :skills: instrumentation, measurement, software, electronics
+:id: SDE0
 :status: hidden
 :template: project-page
 

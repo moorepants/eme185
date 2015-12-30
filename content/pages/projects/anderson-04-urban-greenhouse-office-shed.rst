@@ -2,6 +2,7 @@
 :org: Postworks
 :location: Alameda, CA, USA
 :skills: structural design, solar heating, ventilation
+:id: APU6
 :status: hidden
 :template: project-page
 

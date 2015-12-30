@@ -3,6 +3,7 @@
 :website: http://www.sandia.gov/
 :location: Livermore, CA, USA
 :skills: mechanical design, robotics, software
+:id: GSP6
 :status: hidden
 :template: project-page
 

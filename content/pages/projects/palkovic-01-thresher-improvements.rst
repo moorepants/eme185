@@ -1,6 +1,7 @@
 :title: Improving Dry Bean Field Breeding
 :org: Paul Gepts' Lab, UC Davis Department of Plant Sciences
 :website: http://www.plantsciences.ucdavis.edu/gepts/geptslab.htm
+:id: PUI8
 :location: Davis, CA, USA
 :skills: mechanical design
 :status: hidden

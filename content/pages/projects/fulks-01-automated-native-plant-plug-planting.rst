@@ -3,6 +3,7 @@
 :website: http://arboretum.ucdavis.edu/
 :location: Davis, CA, USA
 :skills: mechanical design, agriculture
+:id: FUA7
 :status: hidden
 :template: project-page
 

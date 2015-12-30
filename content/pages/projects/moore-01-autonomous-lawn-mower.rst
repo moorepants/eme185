@@ -2,6 +2,7 @@
 :org: University of California MAE Department
 :location: Davis, CA, USA
 :skills: mechanical design, robotics, software
+:id: MMA8
 :status: hidden
 :template: project-page
 

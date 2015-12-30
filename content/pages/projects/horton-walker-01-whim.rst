@@ -3,6 +3,7 @@
 :website: http://WHIMUnlimited.com
 :location: Davis, CA, USA
 :skills: mechanical design, robotics, ergonomics
+:id: HWO8
 :status: hidden
 :template: project-page
 
