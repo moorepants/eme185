@@ -67,15 +67,15 @@ Instructors
 | savelinsky@ucdavis.edu
 |
 | Farhad Ghadamli
-| *Teaching Assitant*
+| *Teaching Assistant*
 | fghadamli@ucdavis.edu
 |
 | Tsz Fung
-| *Teaching Assitant*
+| *Teaching Assistant*
 | syfung@ucdavis.edu
 |
 | Matthew Lefort
-| *Teaching Assitant*
+| *Teaching Assistant*
 | mplefort@ucdavis.edu
 
 Time and Location
