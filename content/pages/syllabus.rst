@@ -57,26 +57,21 @@ It is recommended to have taken:
 Instructors
 ===========
 
-| Jason K. Moore
-| *Primary Instructor*
-| 2095 Bainer Hall
-| jasonmoore@ucdavis.edu
-|
-| Steve A. Velinsky
-| *Lecture Co-Instructor*
-| savelinsky@ucdavis.edu
-|
-| Farhad Ghadamli
-| *Teaching Assistant*
-| fghadamli@ucdavis.edu
-|
-| Tsz Fung
-| *Teaching Assistant*
-| syfung@ucdavis.edu
-|
-| Matthew Lefort
-| *Teaching Assistant*
-| mplefort@ucdavis.edu
++---------------------------+--------------------------+
+| Instructors               | Teaching Assistants      |
++===========================+==========================+
+| | Jason K. Moore          |  | Farhad Ghadamli       |
+| | *Primary Instructor*    |  | fghadamli@ucdavis.edu |
+| | 2095 Bainer Hall        |                          |
+| | jasonmoore@ucdavis.edu  |                          |
++---------------------------+--------------------------+
+| | Steve A. Velinsky       | | Tsz Fung               |
+| | *Lecture Co-Instructor* | | syfung@ucdavis.edu     |
+| | savelinsky@ucdavis.edu  |                          |
++---------------------------+--------------------------+
+|                           | | Matthew Lefort         |
+|                           | | mplefort@ucdavis.edu   |
++---------------------------+--------------------------+
 
 Time and Location
 =================
