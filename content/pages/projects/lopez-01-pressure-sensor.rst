@@ -1,4 +1,4 @@
-:title: Pressure Sensor Deisng Development
+:title: Pressure Sensor Design Development
 :org: Lawrence Livermore National Laboaratory
 :website: https://www.llnl.gov/
 :skills: instrumentation

@@ -17,6 +17,9 @@ will supply the basic dimensions and shape for the tire bed, and the team will
 design the shape for the sidewalls and outer wall (part that interfaces with
 the spokes).
 
+.. figure:: {filename}/images/connors-01.png
+   :width: 500px
+
 Lateral stiffness-to-weight will be the primary metric, but we're interested in
 the lateral stiffness of the wheel as a whole. Therefore the analysis could
 include FEA of the rim shape, plus simpler calculations to involve the hub and
