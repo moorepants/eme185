@@ -42,4 +42,7 @@ Other requirements
 ------------------
 
 The team will be responsible for communicating through video conferencing with
-the sponsors in the Cambodian timezone.
+the sponsors in the Cambodian timezone. It would also be ideal if the students
+in this project enroll in D-Lab_ for the Winter and Spring quarters.
+
+.. _D-Lab: http://piet.ucdavis.edu/?page_id=12

@@ -27,4 +27,7 @@ Other Requirements
 ==================
 
 The group will have to communicate via video conferencing and coordinate with
-the timezone of Kenya.
+the timezone of Kenya. It would also be ideal if the students in this project
+enroll in D-Lab_ for the Winter and Spring quarters.
+
+.. _D-Lab: http://piet.ucdavis.edu/?page_id=12

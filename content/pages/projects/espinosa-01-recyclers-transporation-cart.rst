@@ -22,5 +22,7 @@ Other Requirements
 
 A significant number of students in this group must be fluent in Spanish so
 that they can communicate with the stakeholders in Cali. It would also be ideal
-if the students in this project enroll in D-Lab for the Winter and Spring
+if the students in this project enroll in D-Lab_ for the Winter and Spring
 quarters.
+
+.. _D-Lab: http://piet.ucdavis.edu/?page_id=12
