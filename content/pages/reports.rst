@@ -19,7 +19,7 @@ The reports will be due in PDF format via Smartsite by midnight of the due
 dates posted in the `schedule <{filename}/pages/schedule.rst>`_. A single
 report should be submitted by one team member.
 
-- The report should fit on 8.5" x 11" sheets of paper[2]_.
+- The report should fit on 8.5" x 11" sheets of paper[1]_.
 - All margins should be 1".
 - The font of main text should be 11 pt.
 - The font size in captions can be 10 pt.
@@ -28,7 +28,7 @@ report should be submitted by one team member.
 - Equations should be numbered and rendered as proper mathematical notation.
 - Any citation style is permitted.
 
-.. [2] Be sure to scale layout drawings correctly.
+.. [1] Be sure to scale layout drawings correctly.
 
 Title Page
 ----------

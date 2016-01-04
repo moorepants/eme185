@@ -1,5 +1,5 @@
 :title: Resources
-:sortorder: 2
+:sortorder: 4
 
 College of Engineering Design Showcase
 ======================================

@@ -53,7 +53,7 @@ formal lecture time scheduled for 185B. During approximately the last week of
 185B class, the teams will present a poster at the College of Engineering's
 Design Showcase.
 
-Student'S Role & Responsibility
+Student's Role & Responsibility
 -------------------------------
 
 Each student should view their role as that of an engineer as part of a design

@@ -34,7 +34,6 @@
                     <li{% if pg == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ pg.url }}">{{ pg.title }}</a></li>
                 {% endfor %}
                 {% endif %}
-                    <li><a href="{{ SITEURL }}/projects.html">Projects</a></li>
                 {% if DISPLAY_CATEGORIES_ON_MENU -%}
                 {% for cat, null in categories %}
                     <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
