@@ -27,12 +27,14 @@
 </p>
 <ul>
 {% for page in hidden_pages %}
+  {% if page.template == 'project-page' %}
   <li>
     <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a> </br>
     <strong>{{ page.org }}</strong>, {{ page.location }} </br>
     Relevant Skills: {{ page.skills }} </br>
     ID: <strong>{{ page.id }}</strong>
   </li>
+  {% endif %}
 {% endfor %}
 </ul>
 </section>
