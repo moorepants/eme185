@@ -32,16 +32,26 @@ content.
 Memo 1: Project Selection [Due: Friday, January 8, 2016]
 ========================================================
 
-This "memo" will be in the form of a CATME Team Maker Survey and your résumé.
-You will receive and notice via email and will need to fill out the survey on
-the CATME website. Your resume should be turned in via Smartsite as a PDF.
-**Note that your résumé should not exceed more that two pages.**
+This "memo" will be in the form of a CATME Team Maker Survey, a cover letter,
+and your résumé. You will receive a notice via email and will need to fill out
+the survey on the CATME website. Your cover letter and résumé should be turned
+in via Smartsite as a single PDF. **Note that your résumé should not exceed
+more that two pages.** Prepend the résumé with a 1 page cover letter that
+explains why you should be chosen for the projects that you have selected on
+the CATME survey.
+
+The CATME Survey can be accessed via this link:
+
+https://www.catme.org/
+
+Resources for developing your résumé and cover letter can be found on the
+`resources page <{filename}/pages/resources.rst>`_.
 
 Memo 2: Specifications [Due: Sunday, January 17, 2016]
 ======================================================
 
 The purpose of this memo is to summarize what you have learned from your
-project sponsor about their needs and desired outcomes. Your should use the
+project sponsor about their needs and desired outcomes. You should use the
 initial conversations with the sponsor to learn much as possible. The memo's
 purpose will then be to communicate the sponsor's needs in your own language as
 you understand them. Suggestions of what to include:
