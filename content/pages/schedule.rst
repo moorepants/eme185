@@ -6,7 +6,7 @@ This is the schedule for the quarter. **Check the schedule periodically for chan
 =======  ==========  ==========  ====================================  =============  =====
 Section  Date        Instructor  Topic                                 Materials      Assignment Due
 =======  ==========  ==========  ====================================  =============  =====
-A02      T Jan 5     Moore       - Introduction
+A02      T Jan 5     Moore       - Introduction                        `Plan 1`_
                                  - Go over syllabus
                                  - Introduce projects
 -------  ----------  ----------  ------------------------------------  -------------  -----
@@ -89,3 +89,5 @@ All      W Mar 9                 TBA
 -------  ----------  ----------  ------------------------------------  -------------  -----
 A02/A03  S Mar 13                                                                     Report 2: Preliminary Design
 =======  ==========  ==========  ====================================  =============  =====
+
+.. _Plan 1: {filename}/pages/lesson-plans/plan-01.rst
