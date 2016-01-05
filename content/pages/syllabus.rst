@@ -172,7 +172,11 @@ The preparation and readings for the lectures will come from:
 *Product Design and Development*, Ulrich, K.T. and Eppinger, S.D., 5th Edition,
 McGraw-Hill 2011. ISBN 978-0073404776 [`Book Information`_]
 
+Note that there is also a `MIT Open Courseware class`_ that goes with this
+book. There are a lot of useful materials available.
+
 .. _Book Information: http://www.ulrich-eppinger.net/
+.. _MIT Open Courseware class: http://ocw.mit.edu/courses/sloan-school-of-management/15-783j-product-design-and-development-spring-2006/
 
 Assignments & Grades
 ====================
