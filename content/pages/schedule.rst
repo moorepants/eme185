@@ -4,78 +4,88 @@
 This is the schedule for the quarter. **Check the schedule periodically for changes.**
 
 =======  ==========  ==========  ====================================  =============  =====
-Type     Date        Instructor  Topic                                 Materials      Assignment Due
+Section  Date        Instructor  Topic                                 Materials      Assignment Due
 =======  ==========  ==========  ====================================  =============  =====
-Studio   | T Jan 5   Moore       - Introduction                        NA             NA
-         | W Jan 6               - Go over syllabus
+A02      T Jan 5     Moore       - Introduction
+                                 - Go over syllabus
                                  - Introduce projects
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Lecture  W Jan 6     Velinsky    The Design Process
+All      W Jan 6     Velinsky    The Design Process                    Chapters 1,2
 -------  ----------  ----------  ------------------------------------  -------------  -----
-NA       F Jan 8                                                                      Project Preference
+A03      W Jan 6     Moore       - Introduction                        Chapters 5,6
+                                 - Go over syllabus
+                                 - Introduce projects
+                                 - Specifications
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Studio   | T Jan 12  Moore       - Specifications
-         | W Jan 13              - Announce project assignments
+A02/A03  F Jan 8                                                                      Memo 1
+-------  ----------  ----------  ------------------------------------  -------------  -----
+A02      T Jan 12    Moore       - Specifications                      Chapters 5,6
+                                 - Announce project assignments
                                  - Ideation
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Lecture  W Jan 13    Velinsky    Concept Generation
+All      W Jan 13    Velinsky    Concept Generation                    Chapter 7
 -------  ----------  ----------  ------------------------------------  -------------  -----
-NA       S Jan 17                                                                     Memo 1
+A03      W Jan 13    Moore       - Concept Selection                   Chapter 8
+                                 - Announce project assignments
+                                 - Ideation
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Studio   | T Jan 19  Moore       Concept Selection
-         | W Jan 20
+A02/A03  S Jan 17                                                                     Memo 2
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Lecture  W Jan 20    Velinsky    Product Architecture
+A02      T Jan 19    Moore       Concept Selection                     Chatper 8
 -------  ----------  ----------  ------------------------------------  -------------  -----
-NA       S Jan 24                                                                     Memo 2
+All      W Jan 20    Velinsky    Product Architecture
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Studio   | T Jan 26  Moore
-         | W Jan 27
+A03      W Jan 20    Moore
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Lecture  W Jan 27    Moore       Planning and Scheduling
+A02/A03  S Jan 24                                                                     Memo 3
 -------  ----------  ----------  ------------------------------------  -------------  -----
-NA       S Jan 31                                                                     Report 1: Project Proposal
+| A02    | T Jan 26  Moore
+| A03    | W Jan 27
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Studio   | T Feb 2   Moore       - Setup meeting times for 185B
-         | W Feb 3
+All      W Jan 27    Moore       Planning and Scheduling
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Lecture  W Feb 3     Velinsky    Intellectual Property
+A02/A03  S Jan 31                                                                     Report 1: Project Proposal
 -------  ----------  ----------  ------------------------------------  -------------  -----
-NA       S Feb 7                                                                      Memo 3
+| A02    | T Feb 2   Moore       - Setup meeting times for 185B
+| A03    | W Feb 3
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Studio   | T Feb 9   Moore
-         | W Feb 10
+All      W Feb 3     Velinsky    Intellectual Property
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Lecture  W Feb 10    Velinsky    Guarding
+A02/A03  S Feb 7                                                                      Memo 4
 -------  ----------  ----------  ------------------------------------  -------------  -----
-NA       S Feb 14                                                                     Memo 4
+| A02    | T Feb 9   Moore
+| A03    | W Feb 10
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Studio   | T Feb 16  Moore
-         | W Feb 17
+All      W Feb 10    Velinsky    Guarding
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Lecture  W Feb 17    Moore       Microcontrollers
+A02/A03  S Feb 14                                                                     Memo 5
 -------  ----------  ----------  ------------------------------------  -------------  -----
-NA       S Feb 21                                                                     Memo 5
+| A02    | T Feb 16  Moore
+| A03    | W Feb 17
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Studio   | T Feb 23  Moore
-         | W Feb 24
+All      W Feb 17    Moore       Microcontrollers
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Lecture  W Feb 24                TBA
+A02/A03  S Feb 21                                                                     Memo 6
 -------  ----------  ----------  ------------------------------------  -------------  -----
-NA       R Feb 25                Critical Design Reviews
-         F Feb 26
+| A02    | T Feb 23  Moore
+| A03    | W Feb 24
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Studio   | T Mar 1   Moore
-         | W Mar 2
+All      W Feb 24                TBA
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Lecture  W Mar 2                 TBA
+A02/A03  | R Feb 25              Critical Design Reviews
+         | F Feb 26
 -------  ----------  ----------  ------------------------------------  -------------  -----
-NA       S Mar 6
+| A02    | T Mar 1   Moore
+| A03    | W Mar 2
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Studio   | T Mar 8   Moore       Class Presentations
-         | W Mar 9
+All      W Mar 2                 TBA
 -------  ----------  ----------  ------------------------------------  -------------  -----
-Lecture  W Mar 9                 TBA
+A02/A03  S Mar 6                                                                      Memo 7
 -------  ----------  ----------  ------------------------------------  -------------  -----
-NA       S Mar 13                                                                     Report 2: Preliminary Design
+| A02    | T Mar 8   Moore       Class Presentations
+| A03    | W Mar 9
+-------  ----------  ----------  ------------------------------------  -------------  -----
+All      W Mar 9                 TBA
+-------  ----------  ----------  ------------------------------------  -------------  -----
+A02/A03  S Mar 13                                                                     Report 2: Preliminary Design
 =======  ==========  ==========  ====================================  =============  =====
