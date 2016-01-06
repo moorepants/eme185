@@ -18,13 +18,12 @@ http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase/
 Starting a Company
 ==================
 
-`Engineering Stduent Startup Center`_
+`Engineering Student Startup Center`_
    UCD CoE provides a center and support for getting your idea off the ground.
 `primeUC`_
-   The UC has a competition to help seed the most promissing startups.
+   The UC has a competition to help seed the most promising startups.
 
-.. _Engineering Student Startup Center:
-http://engineering.ucdavis.edu/undergraduate/engineering-student-startup-center/
+.. _Engineering Student Startup Center: http://engineering.ucdavis.edu/undergraduate/engineering-student-startup-center/
 .. _primeUC: http://primeuc.org/
 
 Getting a Job
