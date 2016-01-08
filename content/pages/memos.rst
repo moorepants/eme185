@@ -92,7 +92,7 @@ Memo 5: Concept Selection [Due: Friday, Feburary 5, 2016]
 TBA
 
 Memo 6: Product Architecture [Due: Friday, Feburary 12, 2016]
-============================================================
+=============================================================
 
 TBA
 
