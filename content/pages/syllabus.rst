@@ -19,7 +19,7 @@ Course Philosophy
 -----------------
 
 This course differs from almost all other courses that you have taken at the
-University in that there is no predetermined list of theories, facts, or
+university in that there is no predetermined list of theories, facts, or
 physical laws that you are expected to learn and master. The sole objective of
 the design project course is to provide you with an opportunity to use your own
 skills and knowledge to solve an engineering design problem. This experience
@@ -38,11 +38,11 @@ the design process. Additionally, a 3-hour laboratory is used for group
 activities, supplemental lecture material, and individual group meetings with
 the instructors. Groups will follow the design process in their respective
 projects. Groups are expected to meet regularly outside of formal class hours.
-Groups will additionally meet with their project's faculty mentor on a regular
-basis during the quarter for direction, group presentations and design reviews.
-Based on the nature of the project, some groups will also meet with industry
-sponsors on a regular basis. Towards the end of the quarter, sessions will be
-scheduled for project presentations to the entire class.
+Groups will additionally meet with their instructors on a regular basis during
+the quarter for direction, group presentations, and design reviews. Based on
+the nature of the project, some groups will also meet with industry sponsors on
+a regular basis. Towards the end of the quarter, sessions will be scheduled for
+project presentations to the entire class.
 
 In 185B, each group will register for a block of time for both meetings with
 the instructor and to allow a common time for group meetings. Also, each group
@@ -132,16 +132,17 @@ Instructors
 +--------------------------------+--------------------------+
 | Instructors                    | Teaching Assistants      |
 +================================+==========================+
-| | Jason K. Moore               |  | Farhad Ghadamli       |
-| | *A02/A03 Primary Instructor* |  | fghadamli@ucdavis.edu |
-| | 2095 Bainer Hall             |                          |
-| | jasonmoore@ucdavis.edu       |                          |
-+--------------------------------+--------------------------+
 | | Steve A. Velinsky            | | Tsz Fung               |
-| | *A01 Primary Instructor*     | | syfung@ucdavis.edu     |
-| | savelinsky@ucdavis.edu       |                          |
+| | *A01 Primary Instructor*     | | *A01*                  |
+| | savelinsky@ucdavis.edu       | | syfung@ucdavis.edu     |
++--------------------------------+--------------------------+
+| | Jason K. Moore               |  | Farhad Ghadamli       |
+| | *A02/A03 Primary Instructor* |  | *A02/A03*             |
+| | 2095 Bainer Hall             |  | fghadamli@ucdavis.edu |
+| | jkm@ucdavis.edu              |                          |
 +--------------------------------+--------------------------+
 |                                | | Matthew Lefort         |
+|                                | | *A02/A03*              |
 |                                | | mplefort@ucdavis.edu   |
 +--------------------------------+--------------------------+
 
@@ -206,7 +207,7 @@ Memos_
    This report will document your preliminary design.
 In class
    There will be a variety of in class activities that will count towards your
-   grade.
+   grade and you will be expected to attend.
 `Design Review`_
    This presentation will be followed by a critique and discussion of your
    design choices.
