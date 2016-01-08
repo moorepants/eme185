@@ -5,10 +5,13 @@ Studio Meetings
 ===============
 
 Each team will be assigned a teaching assistant. During the studio sections,
-each team will meet with the teaching assistant and/or the instructor to
-discuss the weekly progress for 15 minutes. You must prepare an agenda for
-these meetings, share it with the TA the day before your studio section, and
-have it available during the meeting.
+each team will meet with the teaching assistant for 15 minutes to discuss the
+weekly progress and/or the current studio activity. Every other week, you will
+additionally meet with the primary instructor for an additional 15 minutes.
+You must prepare an agenda for these meetings and have it available during the
+meeting. **Your in-class grade will be affected if you don't have an agenda or
+if you don't show up to these meetings, i.e. don't waste the instructors'
+time.**
 
 Critical Design Review
 ======================
