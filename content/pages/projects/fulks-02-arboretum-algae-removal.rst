@@ -3,7 +3,7 @@
 :website: http://arboretum.ucdavis.edu/
 :location: Davis, CA, USA
 :skills: mechanical design, microcontroller, fluids, boats, environmental
-:id: FUP7
+:id: FUP6
 :status: hidden
 :template: project-page
 
