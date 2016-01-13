@@ -1,4 +1,4 @@
-:title: Plan for Tuesday, January 5, 2016
+:title: Studio Plan for Tuesday, January 5, 2016
 :status: hidden
 
 Introduction
