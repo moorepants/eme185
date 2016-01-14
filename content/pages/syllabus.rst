@@ -252,3 +252,36 @@ Q & A (Piazza)
 Resources
    Private and copyrighted files, documents, and other resources will be
    available here for download.
+
+Communication
+=============
+
+This class requires a lot of communication: among your team, with your
+sponsors, with your mentors, and with the instructors. This can quickly get
+unmanageable, especially for the instructors. So here are some simple rules to
+follow with respect to communication:
+
+Smartsite Q&A (Piazza)
+   This is the first place to ask questions. Use Piazza to ask questions that
+   are general for the class. Try to restructure your less general questions
+   into general ones so you can ask here. This minimizes the # of times a
+   question has to be answered and allows both students and instructors to
+   collectively answer questions. You can post anonymously if needed.
+Email
+   Use email for individualized communication, i.e. for questions about project
+   specifics or other personal needs. Email your TA first before you email the
+   primary instructor. Do not copy any of the instructors into your email
+   conversations among your team or with your sponsors. We are your technical
+   consultants, only email us when you have a specific question that you need
+   help answering. Lastly, all emails to the instructors must prepend
+   "[EME185]" to their subject line.
+Class
+   You will get to meet with the instructors during the studio time. You must
+   prepare an agenda for the meeting. You will get at least 15 minutes of time
+   from your TA and 15 minutes every other week with the primary instructor.
+Office Hours
+   The primary instructor will hold office hours in which you can schedule a 30
+   minute block for your team to meet with them.
+Appointments
+   You may schedule an appointment with any of the instructors if all of the
+   above doesn't work for some reason. Use this as a last resort.
