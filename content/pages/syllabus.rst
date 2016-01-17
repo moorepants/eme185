@@ -280,8 +280,8 @@ Class
    prepare an agenda for the meeting. You will get at least 15 minutes of time
    from your TA and 15 minutes every other week with the primary instructor.
 Office Hours
-   The primary instructor will hold office hours in which you can schedule a 30
-   minute block for your team to meet with them.
+   The primary instructor will hold office hours in which you can schedule up
+   to a 30 minute block for your team to meet.
 Appointments
    You may schedule an appointment with any of the instructors if all of the
    above doesn't work for some reason. Use this as a last resort.
