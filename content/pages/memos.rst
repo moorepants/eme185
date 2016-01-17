@@ -8,17 +8,17 @@ Assignments by midnight on the respective due date (typically Fridays).
 Each memo should stand on its own and you will be able to use the content as a
 base to develop the reports. In addition to turning in the assignment, you are
 welcome to share these memos with your project sponsor(s) for feedback but the
-main audience are the course instructors.
+main audience you should address are the course instructors.
 
 The memos should have no more than two pages of main content and an optional
-two pages of appendices. The "main content" is defined as the essential text,
-figures, tables, etc. to tell your story. Additionally, feel free to link to
-rich media: videos, websites, demos, etc. This main content should stand on its
-own without the appendices. The appendices can include figures, tables,
-drawings, renderings, source code, and other relevant material to support the
-story told in your main content pages if the reader desires to understand
-further details. The appendices should not be required to understand the main
-content.
+additional two pages of appendices. The "main content" is defined as the
+essential text, figures, tables, etc. to tell your story. Additionally, feel
+free to link to rich media: videos, websites, demos, etc. This main content
+should stand on its own without the appendices. The appendices can include
+figures, tables, drawings, renderings, analyses, source code, and other
+relevant material to support the story told in your main content pages if the
+reader desires to understand further details. The appendices should not be
+required to understand the main content.
 
 - Each memo must be submitted as a single PDF document made up of 8.5" x 11"
   sheets to Smartsite. **You will be docked points if you submit a format other
@@ -76,10 +76,44 @@ Suggestions of what may be helpful to include:
 - The organized target specifications.
 - Reflections on the process and the results.
 
-Memo 3: Concept Generation and Existing Solutions [Due: Friday, January 22, 2016]
-=================================================================================
+Memo 3: Concept Generation [Due: Friday, January 22, 2016]
+==========================================================
 
-TBA
+The purpose of this memo is to summarize your initial exploration of external
+and internal concepts. Using the needs and specifications that you developed in
+the previous weeks and those that you continue to identify during your
+interactions with stakeholders, you should begin to generate concepts that can
+meet the specifications.
+
+The external concepts should be obtained through extensive searches in product
+information on the web, patents, discussions with experts, literature searches,
+etc. Specifications from external concepts should be compared to specifications
+you have derived from your needs.
+
+You should also generate a large number of internal concepts both individually
+and as a group. The more concepts you can generate, the better. Also remember
+to suspend judgment during this process. The goal is to explore all
+possibilities regardless of how crazy they seem.
+
+The memo should present the findings of the preliminary external and internal
+concept generation process. We highly recommend making heavy use of graphical
+means to communicate the concepts along with accompanying textual information.
+All of your concepts will not fit into the standard memo format, so feel free
+to make the appendices longer as necessary to show the breadth of your work for
+this particular memo.
+
+You are welcome to use any process to generate concepts, but we recommend
+following the processes presented in class and in the text as a starting point.
+
+Suggestions of what to include:
+
+- Problem decomposition (function diagrams, etc.)
+- Identification of critical sub-problems.
+- Summary of external concepts and how they influenced your internal concepts.
+- Summary of internal concepts along with the main themes.
+- An organized depiction of the developed concepts (e.g. tables, charts,
+  classification trees, combination tables, etc.)
+- Reflection on the process and the results.
 
 Memo 4: Preliminary Analysis [Due: Friday, January 29, 2016]
 ============================================================
