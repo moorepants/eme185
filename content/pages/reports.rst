@@ -80,12 +80,12 @@ The primary purpose of the project proposal is for your team to clearly
 articulate your understanding of the customer's needs and to share your
 preliminary research findings, concepts, timeline, budget, and goals. This
 story should convince your instructors and sponsors that you have a clear
-understanding of the needs, have realistic scope, and are ready to move forward
-with concept selection, design, and analysis.
+understanding of the needs, have a realistic scope, and are ready to move
+forward with concept selection, design, and analysis.
 
-This document should be shared with your sponsor(s) for feedback and in
-addition to being turned into the instructors. Be sure to adjust the content to
-best fit this combined audience.
+This document should be shared with your sponsor(s) for feedback in addition to
+being turned into the instructors. Be sure to adjust the content to best fit
+this combined audience.
 
 **The main content sections of the report should not exceed 6 pages.**
 
