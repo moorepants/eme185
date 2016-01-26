@@ -115,17 +115,17 @@ Suggestions of what to include:
   classification trees, combination tables, etc.)
 - Reflection on the process and the results.
 
-Memo 4: Preliminary Analysis [Due: Friday, January 29, 2016]
+Memo 4: Preliminary Analysis [Due: Friday, Feburary 5, 2016]
 ============================================================
 
 TBA
 
-Memo 5: Concept Selection [Due: Friday, Feburary 5, 2016]
-=========================================================
+Memo 5: Concept Selection [Due: Friday, Feburary 12, 2016]
+==========================================================
 
 TBA
 
-Memo 6: Product Architecture [Due: Friday, Feburary 12, 2016]
+Memo 6: Product Architecture [Due: Friday, Feburary 19, 2016]
 =============================================================
 
 TBA
