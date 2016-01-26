@@ -9,6 +9,7 @@ Last lecture was on the product design process:
 - ID Needs > Target Specs > Concepts > Select > Test > Final Specs
 
 Announcements
+-------------
 
 - Memo 3: Concept Generation is due Friday
 
@@ -22,8 +23,11 @@ Announcements
 - Office hours: R 2-4, F 11-1
 - Communication rules
 - Meet here from now on for the studio sessions.
+- Onshape and classroom design.
+- Encourage blog
 
 Studio structure
+----------------
 
 - Begin with a 1 hr lecture or activity (not every week).
 - Work on your project.
