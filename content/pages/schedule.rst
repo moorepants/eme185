@@ -34,8 +34,8 @@ A03      W Jan 13    Moore       - Concept Selection Lecture           Chapter 8
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Jan 15                                                                       Memo 2: Needs/Specs
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-A02      T Jan 19    Moore       - Concept Selection Lecture           Chapter 8
-                                 - Concept generation activity
+A02      T Jan 19    Moore       - Concept Selection Lecture           - Chapter 8
+                                 - Concept generation activity         - `Plan A02 3`_
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 All      W Jan 20    Velinsky    Product Architecture Lecture          Chapter 10
 -------  ----------  ----------  ------------------------------------  ---------------  -----
@@ -43,17 +43,19 @@ A03      W Jan 20    Moore       - Concept generation activity
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Jan 22                                                                       Memo 3: Concepts
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-| A02    | T Jan 26  Moore
-| A03    | W Jan 27
+A02      T Jan 26    Moore       Planning and budget activity
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-All      W Jan 27    Moore       Planning and Scheduling               Chapter 4,18
+All      W Jan 27    Moore       Planning and Scheduling               Chapters 4,18
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A03      W Jan 27    Moore       Planning and budget activity
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Jan 29                                                                       Report 1: Project Proposal
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-| A02    | T Feb 2   Moore       Setup meeting times for 185B
-| A03    | W Feb 3
+A02      T Feb 2     Moore       Setup meeting times for 185B
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-All      W Feb 3     Velinsky    Intellectual Property Lecture         Chapter 16
+All      W Feb 3     Velin/Moor  Intellectual Property Lecture         Chapter 16
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A03      W Feb 3     Moore       Setup meeting times for 185B
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Feb 5                                                                        Memo 4: Prelim Analysis
 -------  ----------  ----------  ------------------------------------  ---------------  -----
@@ -75,30 +77,33 @@ A02/A03  F Feb 12                                                               
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02      T Feb 23    Moore
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-All      W Feb 24
+All      W Feb 24                TBA
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A03      W Feb 24                Meijo University Visit
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  | R Feb 25              Critical Design Reviews
          | F Feb 26
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-| A02    | T Mar 1   Moore
-| A03    | W Mar 2
+A02      T Mar 1     Moore
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 All      W Mar 2                 TBA
 -------  ----------  ----------  ------------------------------------  ---------------  -----
+A03      W Mar 2     Moore
+-------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Mar 4                                                                        Memo 7: TBA
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-| A02    | T Mar 8   Moore       Class Presentations
-| A03    | W Mar 9
+A02      T Mar 8     Moore       Class Presentations
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 All      W Mar 9                 TBA
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-A02/A03  S Mar 13                                                                       Report 2: Preliminary Design
+A03      W Mar 9                 Class Presentations
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  U Mar 13                                                                       Report 2: Preliminary Design
 =======  ==========  ==========  ====================================  ===============  =====
 
 .. _Plan A02 1: {filename}/pages/lesson-plans/studio-a02-01.rst
 .. _Plan A02 2: {filename}/pages/lesson-plans/studio-a02-02.rst
+.. _Plan A02 3: {filename}/pages/lesson-plans/studio-a02-03.rst
 
 .. _Plan A03 1: {filename}/pages/lesson-plans/studio-a03-01.rst
 
