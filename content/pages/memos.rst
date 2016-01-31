@@ -139,7 +139,7 @@ Suggestions of what to include:
 - Plans or results from any required testing.
 - Any other relevant analyses that you have done.
 
-.. back-of-the-envelope:: https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation
+.. _back-of-the-envelope: https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation
 
 Memo 5: Concept Selection [Due: Friday, Feburary 12, 2016]
 ==========================================================
