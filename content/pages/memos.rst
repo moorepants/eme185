@@ -118,7 +118,28 @@ Suggestions of what to include:
 Memo 4: Preliminary Analysis [Due: Friday, Feburary 5, 2016]
 ============================================================
 
-TBA
+To select your final design concept you will need to determine if the different
+concepts meet your target specifications. This typically requires preliminary
+engineering analysis and/or testing to make those decisions. For many
+specifications a "back-of-the-envelope_" calculation is sufficient for decision
+making and is preferred because it takes little time. This memo should detail
+the preliminary analyses for any concepts that need to be evaluated. Analysis
+is not required for all of your concepts. To reduce the number of concepts feel
+free to screen them at this point. If you believe testing is required to make
+your final concept selection you will need to explain the necessary testing and
+a plan to get that done.
+
+Suggestions of what to include:
+
+- Descriptions of the methods needed to determine if concepts meet target
+  specifications.
+- Screened concepts that need analyses or testing for further scoring.
+- Preliminary analyses that shows whether concepts meet or fail to meet target
+  specifications.
+- Plans or results from any required testing.
+- Any other relevant analyses that you have done.
+
+.. back-of-the-envelope:: https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation
 
 Memo 5: Concept Selection [Due: Friday, Feburary 12, 2016]
 ==========================================================
