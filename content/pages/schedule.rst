@@ -45,7 +45,8 @@ A02/A03  F Jan 22                                                               
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02      T Jan 26    Moore       Planning and budget activity
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-All      W Jan 27    Moore       Planning and Scheduling               Chapters 18
+All      W Jan 27    Moore       Planning and Scheduling               - Chapters 18
+                                                                       - `Plan 4`_
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A03      W Jan 27    Moore       Planning and budget activity
 -------  ----------  ----------  ------------------------------------  ---------------  -----
@@ -100,6 +101,8 @@ A03      W Mar 9                 Class Presentations
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  U Mar 13                                                                       Report 2: Preliminary Design
 =======  ==========  ==========  ====================================  ===============  =====
+
+.. _Plan 4: {filename}/pages/lesson-plans/lecture-04.rst
 
 .. _Plan A02 1: {filename}/pages/lesson-plans/studio-a02-01.rst
 .. _Plan A02 2: {filename}/pages/lesson-plans/studio-a02-02.rst
