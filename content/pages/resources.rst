@@ -1,6 +1,13 @@
 :title: Resources
 :sortorder: 4
 
+Purchasing Parts and Materials
+==============================
+
+Please review the `MAE Purchasing Guidelines`_.
+
+.. _MAE Purchasing Guidelines: {filename}/pages/purchasing.rst
+
 College of Engineering Design Showcase
 ======================================
 
