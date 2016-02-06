@@ -141,17 +141,12 @@ Suggestions of what to include:
 
 .. _back-of-the-envelope: https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation
 
-Memo 5: Concept Selection [Due: Friday, Feburary 12, 2016]
+Memo 5: Concept Selection [Due: Friday, Feburary 19, 2016]
 ==========================================================
 
 TBA
 
-Memo 6: Product Architecture [Due: Friday, Feburary 19, 2016]
-=============================================================
-
-TBA
-
-Memo 7: TBA [Due: Friday, March 4, 2016]
-========================================
+Memo 6: Product Architecture [Due: Friday, March 4, 2016]
+=========================================================
 
 TBA
