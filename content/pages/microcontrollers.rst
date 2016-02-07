@@ -54,6 +54,7 @@ Reference
 - `Arduino Website <http://www.arduino.cc>`_
 - `Arduino IDE Download <https://www.arduino.cc/en/Main/Software>`_
 - `Arduino Language Reference <https://www.arduino.cc/en/Reference/HomePage>`_
+- `Q & A for Arduino <http://arduino.stackexchange.com/>`_
 - 123d.circuits.io_
 - `Etherpad for the class <http://pad.software-carpentry.org/eme185-winter-2016-arduino>`_
 
