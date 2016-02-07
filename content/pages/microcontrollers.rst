@@ -1,11 +1,14 @@
+:title: Microcontroller Tutorial Materials and Information
+:status: hidden
+
 Introduction
 ============
 
-Microcontrollers are are powerful tools that will allow you to bring life to
-your machines. Relatively recently the cost of microcontrollers has dropped
-such that hobbyists can make wide use of them. Furthermore, the accessibility
-has been increased drastically, being fueled by a large community centered
-around open hardware and open source code.
+Microcontrollers are powerful tools that will allow you to bring your machines
+to life. Relatively recently the cost of microcontrollers has dropped and the
+accessibility increased such that hobbyists can make wide use of them. The wide
+adoption is furthermore being fueled by a large community centered around open
+hardware and open source code.
 
 On Wednesday, February 10th, we will lead you through a tutorial that
 introduces you to using a lightweight microcontroller called the Arduino_. This
@@ -52,5 +55,6 @@ Reference
 - `Arduino IDE Download <https://www.arduino.cc/en/Main/Software>`_
 - `Arduino Language Reference <https://www.arduino.cc/en/Reference/HomePage>`_
 - 123d.circuits.io_
+- `Etherpad for the class <http://pad.software-carpentry.org/eme185-winter-2016-arduino>`_
 
 .. _123d.circuits.io: https://123d.circuits.io
