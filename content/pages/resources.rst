@@ -6,7 +6,7 @@ Lecture and Activity Materials
 
 - Lecture slides and documents will be shared on the "Resources" tab of
   Smartsite.
-- `Microcontroller Materials and Information <{filename}/pages/microcontrollers.rst`_
+- `Microcontroller Materials and Information <{filename}/pages/microcontrollers.rst>`_
 
 Purchasing Parts and Materials
 ==============================
