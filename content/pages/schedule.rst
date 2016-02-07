@@ -62,17 +62,17 @@ A02/A03  F Feb 5                                                                
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02      T Feb 9     Moore
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-All      W Feb 10    Moore       Microcontrollers Lecture
+All      W Feb 10    Moore       `Microcontroller Tutorial`__
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A03      W Feb 10    Moore
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Feb 12
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-A02      T Feb 16    Lefort      Microcontrollers activity
+A02      T Feb 16    Lefort      `Microcontroller Tutorial`_
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 All      W Feb 17    Velinsky    Guarding/Safety
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-A03      W Feb 17    Lefort      Microcontrollers activity
+A03      W Feb 17    Lefort      `Microcontroller Tutorial`_
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Feb 19                                                                       Memo 5: Concept Selection
 -------  ----------  ----------  ------------------------------------  ---------------  -----
@@ -111,3 +111,5 @@ A02/A03  U Mar 13                                                               
 .. _Plan A03 1: {filename}/pages/lesson-plans/studio-a03-01.rst
 
 .. _Slides 1: https://docs.google.com/presentation/d/1tYiwuictCFIsQAk8bWypbqxQUnryAWFR0eMAvIoFoD4/edit?usp=sharing
+
+.. _Microcontroller Tutorial: {filename}/pages/microcontrollers.rst

@@ -1,6 +1,13 @@
 :title: Resources
 :sortorder: 4
 
+Lecture and Activity Materials
+==============================
+
+- Lecture slides and documents will be shared on the "Resources" tab of
+  Smartsite.
+- `Microcontroller Materials and Information <{filename}/pages/microcontrollers.rst`_
+
 Purchasing Parts and Materials
 ==============================
 
@@ -22,8 +29,8 @@ See the following website for more information:
 
 http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase/
 
-Starting a Company
-==================
+Entrepreneurship
+================
 
 `Engineering Student Startup Center`_
    UCD CoE provides a center and support for getting your idea off the ground.
