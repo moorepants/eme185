@@ -4,7 +4,7 @@
 Introduction
 ============
 
-Microcontrollers are powerful tools that will allow you to bring your machines
+Microcontrollers_ are powerful tools that will allow you to bring your machines
 to life. Relatively recently the cost of microcontrollers has dropped and the
 accessibility increased such that hobbyists can make wide use of them. The wide
 adoption is furthermore being fueled by a large community centered around open
@@ -17,6 +17,7 @@ about programming the microcontroller. The following week we will have an hour
 long activity in the studio sessions where you will get to work with the real
 hardware and will implement a simple control system in pairs of two people.
 
+.. _Microcontrollers: https://en.wikipedia.org/wiki/Microcontroller
 .. _Arduino: https://www.arduino.cc
 
 Preparation
