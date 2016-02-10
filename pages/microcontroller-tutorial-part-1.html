@@ -31,8 +31,8 @@
     
     <div class="section" id="introduction">
 <h2>Introduction</h2>
-<p>This lesson will introduce you to programming the Arduino microcontroller
-board.</p>
+<p>This lesson will introduce you to programming the Arduino microcontroller board
+using an electronics emulator.</p>
 </div>
 <div class="section" id="objectives">
 <h2>Objectives</h2>
@@ -42,15 +42,43 @@ board.</p>
 <li>To understand what is and how to use an emulator.</li>
 </ul>
 </div>
+<div class="section" id="microcontrollers">
+<h2>Microcontrollers</h2>
+<p>Microcontrollers are very simple computers that have a central processing unit
+(CPU), memory, and various electrical inputs and outputs. They allow us to
+enhance electrical circuits with logic and algorithms. They are particularly
+useful to engineers due to the ability to implement control systems for driving
+electrically controlled actuators. They allow you write programs that can
+execute in real time. The are typically used as &quot;embedded systems&quot;, i.e.  for
+lightweight very specific use hardware enhancements.</p>
+<p>Examples:</p>
+<ul class="simple">
+<li>PIC family of chipsets.</li>
+<li>AVR family of chipsets.</li>
+</ul>
+<p>It is important to note the difference between computers and microcontrollers.
+Computers may have multiple CPUs with many more inputs and outputs. They also
+have more and varied memory. Computers can typically display to rich displays
+and handle many standardized peripherals. Finally, a computer typically runs an
+operating system that manages many processes at once and interfaces with
+complex hardware. Operating systems typically do not execute their commands in
+real time, but are queued.</p>
+<p>Examples:</p>
+<ul class="simple">
+<li>Laptop</li>
+<li>Smart phone</li>
+<li>Raspberry Pi</li>
+</ul>
+</div>
 <div class="section" id="emulation">
 <h2>Emulation</h2>
-<p>In general, the code you write on your computer must be compiled, i.e.
-transformed into the language of the Arduino's CPU, and then uploaded onto the
-Arudino's memory. To try out code on the Arduino you must have the actual
-hardware. But during this lesson we will make use of an Arduino emulator which
-allows us to try out code we want to run on an Arduino without having the
-actual hardware. There are a number of Arduino emulators available, but we will
-make use of a web application called <a class="reference external" href="http://123d.circuits.io">123d.circuits.io</a>.</p>
+<p>In general, the code you write on your computer for the microcontroller must be
+compiled, i.e.  transformed into the language of the Arduino's CPU, and then
+uploaded onto the Arudino's memory. To try out code on the Arduino you must
+have the actual hardware. But during this lesson we will make use of an Arduino
+emulator which allows us to try out code we want to run on an Arduino without
+having the actual hardware. There are a number of Arduino emulators available,
+but we will make use of a web application called <a class="reference external" href="http://123d.circuits.io">123d.circuits.io</a>.</p>
 <ol class="arabic simple">
 <li>Visit 123d.circuits.io and create an account.</li>
 <li>Log in to your account.</li>
@@ -59,27 +87,43 @@ make use of a web application called <a class="reference external" href="http://
 <li>Open a new &quot;Electronics Lab&quot;</li>
 </ol>
 <dl class="docutils">
+<dt>Components</dt>
+<dd>Open a library of components that can be dropped onto the workspace.</dd>
+<dt>Breadboard</dt>
+<dd>The breadboard is a simple has a grid of input pins. The rows along the top
+and bottom are connected and generally used to supply a common voltage and
+ground. The columns in the middle rows are tied together.</dd>
+</dl>
+<p>Search for Arduino Uno and drag it onto the screen.</p>
+<p>The Arduino board has the CPU chip which is connected to the black pins along
+the edges. There is a USB plug to connect to your computer for communication
+purposes.</p>
+<dl class="docutils">
+<dt>Ground</dt>
+<dd>The common ground for the circuit (the negative polarity side of the
+circuit).</dd>
+<dt>5V</dt>
+<dd>A 5V power supply which can provide up to X amps of current.</dd>
+<dt>Digital I/O</dt>
+<dd>Pins that can read binary inputs and write binary outputs.</dd>
+<dt>Analog Inputs</dt>
+<dd>Pins that can read continuous inputs and convert them to a digital signal.</dd>
 <dt>Code editor</dt>
 <dd>Here you can edit the code that will be loaded onto any component that
 excepts code, e.g. the Arduino UNO.</dd>
-<dt>Start Simulation</dt>
-<dd>This will run the simulation of the circuit.</dd>
 <dt>Serial monitor</dt>
 <dd>This will display the outputs of the USB connection on the Arduino board.</dd>
-<dt>Components</dt>
-<dd>Open a library of components that can be dropped onto the workspace.</dd>
+<dt>Start Simulation</dt>
+<dd>This will run the simulation of the circuit.</dd>
 </dl>
-<p>TODO: Briefly explain the bread board</p>
-<p>Search for Arduino Uno and drag it onto the screen.</p>
-<p>TODO: Explain Arduino (show Matt's slide)</p>
 </div>
 <div class="section" id="processing-language">
 <h2>Processing Language</h2>
-<p>The Arduino can be programmed by writing code in the Processing language, which
-is derivative of the C programming language. C is a low level language that
-compiles directly to machine code for different architectures and is one of the
-most widely used programming languages. Most work with microcontrollers is done
-with C.</p>
+<p>The Arduino can be programmed by writing code in the <a class="reference external" href="https://en.wikipedia.org/wiki/Processing_%28programming_language%29">Processing language</a>,
+which is derivative of the C programming language. C is a low level language
+that compiles directly to machine code for different CPU architectures and is
+one of the most widely used programming languages. Most work with
+microcontrollers is done in C.</p>
 </div>
 <div class="section" id="variables">
 <h2>Variables</h2>
@@ -124,14 +168,14 @@ you can convert an integer to a double with:</p>
 </ol>
 </div>
 </div>
-<div class="section" id="functions-setup-loop-and-other">
-<h2>Functions: setup(), loop(), and other</h2>
+<div class="section" id="functions-setup-loop-and-custom">
+<h2>Functions: setup(), loop(), and custom</h2>
 <p>Objectives:</p>
 <ul class="simple">
 <li>Understand what a function is, how to write one, and how to use one.</li>
 <li>Learn what the required <tt class="docutils literal">setup()</tt> and <tt class="docutils literal">loop()</tt> functions are.</li>
 </ul>
-<p>For the first program let's send these values from the Arduino to the connected
+<p>For the first program let's send values from the Arduino to the connected
 computer using the Universal Serial Bus (USB). Before we can do this we need to
 discuss the two main functions that are in every Arduino program. The first
 function is the <cite>setup()</cite> function and you specify it like so:</p>
@@ -143,16 +187,16 @@ function is the <cite>setup()</cite> function and you specify it like so:</p>
 <tt class="docutils literal">setup()</tt> function will return. In this case, the type <tt class="docutils literal">void</tt> means that
 the setup function will not return anything, which is convention for this
 function. Also convention, is the function name <tt class="docutils literal">setup</tt>, which tells the
-Arudino that whatever is in this function must be run once before the Arduino
+Arduino that whatever is in this function must be run once before the Arduino
 starts the main computation loop. This is typically used for setting the
 initial states of pins or initializing various attached devices. The <tt class="docutils literal">()</tt>
-paranthese typically hold the arguments to the function but as convention
+parentheses typically hold the arguments to the function but as convention
 <tt class="docutils literal">setup</tt> has no arguments. Finally the braces <tt class="docutils literal">{}</tt> bound the code that will
 execute in that function.</p>
 <p>The second function that must be in every Arduino program is called <tt class="docutils literal">loop</tt>.
-This function executes once every clock cycle (at 16 MHz) and contains the main
-code for your application. The function follows the style of <tt class="docutils literal">setup</tt> and
-looks like:</p>
+This function executes once every clock cycle (at 16 MHz) or as fast as it can
+and contains the main code for your application. The function follows the style
+of <tt class="docutils literal">setup</tt> and looks like:</p>
 <div class="highlight"><pre><span class="kt">void</span> <span class="nx">loop</span><span class="p">()</span> <span class="p">{</span>
 
 <span class="p">};</span>
@@ -176,9 +220,12 @@ function can be used as such:</p>
 <span class="n">average</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">);</span>
 </pre></div>
 <p>which will result in the value <tt class="docutils literal">2.0</tt>.</p>
-<div class="section" id="id1">
+<p>Note that variables declared inside functions will not be available to other
+functions.</p>
+<div class="section" id="id2">
 <h3>Exercise</h3>
-<p>What will the result of the following code be?</p>
+<p>What will the result of the following code be if the values returned by the
+<tt class="docutils literal">square()</tt> function were displayed to the screen?</p>
 <div class="highlight"><pre><span class="kt">int</span> <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
 <span class="kt">int</span> <span class="nf">square</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
@@ -196,7 +243,7 @@ function can be used as such:</p>
 <span class="p">};</span>
 </pre></div>
 </div>
-<div class="section" id="id2">
+<div class="section" id="id3">
 <h3>Exercise</h3>
 <p>What is wrong with the following code?</p>
 <div class="highlight"><pre><span class="kt">void</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
@@ -208,7 +255,7 @@ function can be used as such:</p>
 <span class="p">};</span>
 </pre></div>
 <p>Since <tt class="docutils literal">a</tt> is declared inside the <tt class="docutils literal">setup()</tt> function it will not be
-available in the <tt class="docutils literal">loop()</tt> function due to the scoping rules of the processing
+available in the <tt class="docutils literal">loop()</tt> function due to the scoping rules of the Processing
 language. You can make <tt class="docutils literal">a</tt> available to the <tt class="docutils literal">setup()</tt> and <tt class="docutils literal">loop()</tt>
 functions by declaring it globally, i.e. outside and above each function.</p>
 </div>
@@ -217,13 +264,14 @@ functions by declaring it globally, i.e. outside and above each function.</p>
 <h2>Serial Communications</h2>
 <p>Objectives:</p>
 <ul class="simple">
-<li>To understand the serial communications</li>
+<li>To understand the serial communications available on an Arduino.</li>
+<li>To learn to print the results of a calculation to the serial port.</li>
 </ul>
 <p>The Arduino is capable of communicating using serial communications and we can
 send simple ASCII text to and from the Arduino. There are many builtin
 functions that are predefined that can be used in an Arduino program. To
-initialize a serial communication with the Arduino at a coommunication baud
-rate of 9600 you can call:</p>
+initialize a serial communication with the Arduino at a communication baud rate
+of 9600 symbols per second you can call:</p>
 <div class="highlight"><pre><span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
 </pre></div>
 <p>This function is typically called in <tt class="docutils literal">setup()</tt>.</p>
@@ -245,10 +293,10 @@ values to the serial port:</p>
 <p>Let's modify the above exercise code so that we can see if our guess about the
 result of the code is correct. You will need to open the serial monitor while
 this code simulates to see the results.</p>
-<div class="section" id="id3">
+<div class="section" id="id4">
 <h3>Exercise</h3>
 <p>Add some print statements to your code so that you can see the results of the
-<tt class="docutils literal">square</tt> function calls.</p>
+<tt class="docutils literal">square()</tt> function calls on the serial monitor.</p>
 <div class="highlight"><pre><span class="kt">int</span> <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
 <span class="kt">int</span> <span class="nf">square</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
@@ -270,7 +318,7 @@ this code simulates to see the results.</p>
 </div>
 <div class="section" id="digital-i-o">
 <h2>Digital I/O</h2>
-<p>The digital I/O pins on the board can be set to either input or outpu mode and
+<p>The digital I/O pins on the board can be set to either input or output mode and
 can be activated or deactivated as you see fit for your particular application.</p>
 <p>Typically in <tt class="docutils literal">setup()</tt> you will set the mode of the particular pin to input
 or output, for example:</p>
@@ -281,55 +329,84 @@ or output, for example:</p>
 <span class="p">};</span>
 </pre></div>
 <p>In the above code, the builtin function <tt class="docutils literal">pinMode()</tt> is used to set mode of
-pin number 13 to <tt class="docutils literal">OUTPUT</tt> which is a builtin predefined variable <a class="footnote-reference" href="#id5" id="id4">[1]</a>.</p>
+pin number 13 to <tt class="docutils literal">OUTPUT</tt> which is a builtin predefined variable <a class="footnote-reference" href="#id6" id="id5">[1]</a>.</p>
 <p>It turns out that pin #13 on the Arduino is wired in parallel to a small LED on
 the board. So we can make this LED blink by utilizing the builtin
 <tt class="docutils literal">digitalWrite()</tt> function. In addition, the builtin <tt class="docutils literal">delay()</tt> function can
 be used to control the duration of the cycle.</p>
 <div class="highlight"><pre><span class="kt">void</span> <span class="nx">loop</span><span class="p">()</span> <span class="p">{</span>
   <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
-  <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+  <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
   <span class="n">dgitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
-  <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+  <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
 <span class="p">};</span>
 </pre></div>
-<p><tt class="docutils literal">HIGH</tt> and <tt class="docutils literal">LOW</tt> are builtin global variables that are [TODO].</p>
-<table class="docutils footnote" frame="void" id="id5" rules="none">
+<p><tt class="docutils literal">HIGH</tt> and <tt class="docutils literal">LOW</tt> are builtin global variables that cause the pins to create
+maximum and minimum voltage, respectively.</p>
+<table class="docutils footnote" frame="void" id="id6" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
-<tr><td class="label"><a class="fn-backref" href="#id4">[1]</a></td><td>All caps are convention for global variables.</td></tr>
+<tr><td class="label"><a class="fn-backref" href="#id5">[1]</a></td><td>All caps are convention for global variables.</td></tr>
 </tbody>
 </table>
-<div class="section" id="id6">
+<div class="section" id="id7">
 <h3>Exercise</h3>
-<p>Plug in an LED to the breadboard and connect its anode to the number 13 pin and
-its cathode to the ground pin and confirm that the LED component blinks the
-same as the on board LED.</p>
+<p>Plug in an LED to the breadboard and connect its anode (+, long side) to a 150
+ohm resistor <a class="footnote-reference" href="#id9" id="id8">[2]</a>.  Then connect the other end of the resistor to the number 13 pin.
+Finally, connect the LED's cathode (-, short side) to the ground pin and
+confirm that the LED component blinks the same as the on board LED.</p>
+<table class="docutils footnote" frame="void" id="id9" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id8">[2]</a></td><td>The resistor ensures that the LED doesn't draw more current than the
+Arduino board and the LED can handle.</td></tr>
+</tbody>
+</table>
 </div>
 </div>
 <div class="section" id="conditionals">
 <h2>Conditionals</h2>
 <p>Processing supports flow control with <tt class="docutils literal">if</tt> statements. For example, if you'd
-like to activate a digital pin every 5th cycle of the main loop, wait for 1000
-milliseconds and then deactivate the pin. You coul use:</p>
-<div class="highlight"><pre><span class="k">if</span> <span class="p">(</span><span class="n">count</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
-    <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
-    <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
-    <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
-<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-    <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
-    <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
-    <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
-    <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
-<span class="p">};</span>
+like to activate the on-board LED every 100 milliseconds except on every 5th
+cycle wait for 1000 milliseconds. You could use:</p>
+<div class="highlight"><pre><span class="kt">int</span> <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nf">pinMode</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">OUTPUT</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nx">loop</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">count</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
+      <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+  <span class="p">};</span>
+  <span class="n">count</span> <span class="o">=</span> <span class="n">count</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span>
 </pre></div>
+<p>The <tt class="docutils literal">%</tt> operator computes the modulus (remainder after division).</p>
+<div class="section" id="id10">
+<h3>Exercise</h3>
+<p>What does the following code do?</p>
+<div class="highlight"><pre><span class="k">if</span> <span class="p">(</span><span class="nf">digitalRead</span><span class="p">(</span><span class="mi">13</span><span class="p">)</span> <span class="o">==</span> <span class="kc">HIGH</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
+<span class="k">else</span> <span class="p">{</span>
+  <span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
 </div>
 <div class="section" id="loops">
 <h2>Loops</h2>
-<p>There are too types of loops available for use <tt class="docutils literal">for</tt> and <tt class="docutils literal">while</tt> loops. To
+<p>There are two types of loops available for use <tt class="docutils literal">for</tt> and <tt class="docutils literal">while</tt> loops. To
 do something a specific number of times you can use a for loop. For example,
-this loop will execute ten times.</p>
+this loop will execute ten times, i.e. i = 0, 1, 2, ..., 9.</p>
 <div class="highlight"><pre><span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">,</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
 
   <span class="kt">int</span> <span class="n">milliseconds</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="mi">100</span><span class="p">;</span>
@@ -342,34 +419,45 @@ this loop will execute ten times.</p>
 
 <span class="nf">delay</span><span class="p">(</span><span class="mi">5000</span><span class="p">);</span>
 </pre></div>
-<div class="highlight"><pre><span class="k">while</span>  <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">val</span><span class="p">)</span> <span class="p">{</span>
-
-  <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">&gt;</span> <span class="n">val2</span><span class="p">)</span> <span class="p">{</span>
-    <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">2</span><span class="p">;</span>
-  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-    <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
 </div>
 <div class="section" id="analog-read">
 <h2>Analog Read</h2>
-<p>TODO</p>
+<p>There are six analog input pins on the Arduino Uno. Sources that supply
+continuous voltage from 0 to 5 volts can be read using these pins. For example,
+it is useful for reading the voltage from a potentiometer. To read the voltage
+from pin <tt class="docutils literal">A0</tt> you simply call:</p>
+<div class="highlight"><pre><span class="kt">int</span> <span class="n">pin_num</span> <span class="o">=</span> <span class="n">A0</span><span class="p">;</span>
+
+<span class="kt">int</span> <span class="n">val</span> <span class="o">=</span> <span class="nf">analogRead</span><span class="p">(</span><span class="n">pin_num</span><span class="p">);</span>
+</pre></div>
+<p>Note that this returns an integer. The on-board analog to digital converter has
+10 bit resolution, i.e. 2^10 = 1024 possible readings. The values 0 to 1023 are
+mapped to 0 to 5 volts, i.e. .0049 volts per step. You will need a conversion
+factor to convert the value from an integer to a voltage value of double
+precision.</p>
+<div class="section" id="id11">
+<h3>Exercise</h3>
+<p>Drop in a power supply component and connect the black pin to the Arduino's
+ground and the red pin to the <tt class="docutils literal">A0</tt> pin. Write some code that causes the
+voltage to display to the serial monitor and ensure that it matches the voltage
+supplied by the power supply.</p>
+</div>
 </div>
 <div class="section" id="arduino-ide">
 <h2>Arduino IDE</h2>
-<p>TODO</p>
+<p>To work with the real Arduino hardware you will use the Arduino integrated
+development environment.</p>
 </div>
 <div class="section" id="homework-assignment">
 <h2>Homework Assignment</h2>
-<p>The goal of the homework assignment is to create a fuel level meter with LEDS.
-The sensor for the fuel level should be a simple potentiometer. It is connected
-to a floating bob in the fuel tank and the potentiometer rotates as the fuel
-level increases and decreases. The potentionmeter voltage (0 to 5 volts) should
-be used to control at least 10 LEDs lined up in a row on the bread board. If
-all of the LEDs are on that signals that the fuel level is at a maximum and if
-all of the LEDs are off that signals that the fuel tank is empty. If some LEDs
-are on that should correspond linearly to the fuel level.</p>
+<p>The goal of the homework assignment is to create a fuel level indicator using a
+row of 10 LEDS. The sensor for the fuel level should be a simple potentiometer.
+It is connected to a floating bob in the fuel tank and the potentiometer
+rotates as the fuel level increases and decreases. The potentiometer voltage (0
+to 5 volts) should be used to control at least 10 LEDs lined up in a row on the
+bread board. If all of the LEDs are on that signals that the fuel level is at a
+maximum and if all of the LEDs are off that signals that the fuel tank is
+empty. If some LEDs are on that should correspond linearly to the fuel level.</p>
 <p>TODO : Make a sketch of the bob, arm, and pot.</p>
 </div>
 
