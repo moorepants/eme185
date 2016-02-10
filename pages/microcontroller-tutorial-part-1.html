@@ -53,8 +53,8 @@ execute in real time. The are typically used as &quot;embedded systems&quot;, i.
 lightweight very specific use hardware enhancements.</p>
 <p>Examples:</p>
 <ul class="simple">
-<li>PIC family of chipsets.</li>
-<li>AVR family of chipsets.</li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/PIC_microcontroller">PIC</a> family of chipsets.</li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Atmel_AVR">AVR</a> family of chipsets.</li>
 </ul>
 <p>It is important to note the difference between computers and microcontrollers.
 Computers may have multiple CPUs with many more inputs and outputs. They also
@@ -67,7 +67,8 @@ real time, but are queued.</p>
 <ul class="simple">
 <li>Laptop</li>
 <li>Smart phone</li>
-<li>Raspberry Pi</li>
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a></li>
+<li>Supercomputer</li>
 </ul>
 </div>
 <div class="section" id="emulation">
@@ -453,12 +454,15 @@ development environment.</p>
 <p>The goal of the homework assignment is to create a fuel level indicator using a
 row of 10 LEDS. The sensor for the fuel level should be a simple potentiometer.
 It is connected to a floating bob in the fuel tank and the potentiometer
-rotates as the fuel level increases and decreases. The potentiometer voltage (0
-to 5 volts) should be used to control at least 10 LEDs lined up in a row on the
-bread board. If all of the LEDs are on that signals that the fuel level is at a
-maximum and if all of the LEDs are off that signals that the fuel tank is
-empty. If some LEDs are on that should correspond linearly to the fuel level.</p>
-<p>TODO : Make a sketch of the bob, arm, and pot.</p>
+rotates as the fuel level increases and decreases. The potentiometer voltage 0
+to 5 volts maps to a rotation of 270 degrees (the simple potentiometer
+component on 123d.circuits.io). If all of the LEDs are on, that signals that the
+fuel level is at a maximum and if all of the LEDs are off that signals that the
+fuel tank is empty. If some LEDs are on, the number of lights should correspond
+linearly to the fuel level. The following diagram shows the physical system.
+Your job is to create the electronic side.</p>
+<object class="align-center" data="http://moorepants.github.io/eme185/images/fuel-meter.svg" style="width: 600px;" type="image/svg+xml">
+</object>
 </div>
 
 </section>
