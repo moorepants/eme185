@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Microcontroller Tutorial Part 1</title>
+  <title>Part 1: Intro to Microcontrollers With Emulation</title>
   <link rel="stylesheet" href="http://moorepants.github.io/eme185/theme/css/main.css" />
   <link rel="stylesheet" href="http://moorepants.github.io/eme185/theme/css/custom.css" />
 
@@ -27,7 +27,7 @@
     </ul></nav>
   </header><!-- /#banner -->
 <section id="content" class="body">
-    <h1 class="entry-title">Microcontroller Tutorial Part 1</h1>
+    <h1 class="entry-title">Part 1: Intro to Microcontrollers With Emulation</h1>
     
     <div class="section" id="introduction">
 <h2>Introduction</h2>
@@ -298,6 +298,7 @@ this code simulates to see the results.</p>
 <h3>Exercise</h3>
 <p>Add some print statements to your code so that you can see the results of the
 <tt class="docutils literal">square()</tt> function calls on the serial monitor.</p>
+<p>Solution:</p>
 <div class="highlight"><pre><span class="kt">int</span> <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
 <span class="kt">int</span> <span class="nf">square</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
@@ -356,6 +357,7 @@ maximum and minimum voltage, respectively.</p>
 ohm resistor <a class="footnote-reference" href="#id9" id="id8">[2]</a>.  Then connect the other end of the resistor to the number 13 pin.
 Finally, connect the LED's cathode (-, short side) to the ground pin and
 confirm that the LED component blinks the same as the on board LED.</p>
+<p><a class="reference external" href="https://123d.circuits.io/circuits/1573816-simple-led">Solution</a></p>
 <table class="docutils footnote" frame="void" id="id9" rules="none">
 <colgroup><col class="label" /><col /></colgroup>
 <tbody valign="top">
@@ -442,12 +444,16 @@ precision.</p>
 ground and the red pin to the <tt class="docutils literal">A0</tt> pin. Write some code that causes the
 voltage to display to the serial monitor and ensure that it matches the voltage
 supplied by the power supply.</p>
+<p><a class="reference external" href="https://123d.circuits.io/circuits/1588003-simple-analog-read">Solution</a></p>
 </div>
 </div>
 <div class="section" id="arduino-ide">
 <h2>Arduino IDE</h2>
 <p>To work with the real Arduino hardware you will use the Arduino integrated
-development environment.</p>
+development environment (IDE). The &quot;verify&quot; button compiles your code and
+reports any errors you may have. The &quot;upload&quot; button will send the program to
+the Arudino for execution.</p>
+<p><a class="reference external" href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a></p>
 </div>
 <div class="section" id="homework-assignment">
 <h2>Homework Assignment</h2>
