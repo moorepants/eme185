@@ -465,7 +465,7 @@ continuous voltage from 0 to 5 volts can be read using these pins. For example,
 it is useful for reading the voltage from a potentiometer. To read the voltage
 from pin ``A0`` you simply call:
 
-.. code-block::
+.. code-block:: arduino
 
    int pin_num = A0;
 
