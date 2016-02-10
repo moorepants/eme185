@@ -49,6 +49,11 @@ Objectives
 - To learn how to control a high power motor with a low power control circuit.
 - To practice building a physical control circuit.
 
+Lesson Materials
+================
+
+- `Part 1: Intro to Microcontrollers With Emulation. <{filename}/pages/microcontroller-tutorial-part-01.rst>`_
+
 Reference
 =========
 

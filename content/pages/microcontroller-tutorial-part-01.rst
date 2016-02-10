@@ -1,4 +1,4 @@
-:title: Microcontroller Tutorial Part 1
+:title: Part 1: Intro to Microcontrollers With Emulation
 :status: hidden
 
 Introduction
@@ -326,6 +326,8 @@ Exercise
 Add some print statements to your code so that you can see the results of the
 ``square()`` function calls on the serial monitor.
 
+Solution:
+
 .. code-block:: arduino
 
    int counter = 1;
@@ -391,6 +393,8 @@ Plug in an LED to the breadboard and connect its anode (+, long side) to a 150
 ohm resistor [#]_.  Then connect the other end of the resistor to the number 13 pin.
 Finally, connect the LED's cathode (-, short side) to the ground pin and
 confirm that the LED component blinks the same as the on board LED.
+
+`Solution <https://123d.circuits.io/circuits/1573816-simple-led>`__
 
 .. [#] The resistor ensures that the LED doesn't draw more current than the
    Arduino board and the LED can handle.
@@ -489,11 +493,17 @@ ground and the red pin to the ``A0`` pin. Write some code that causes the
 voltage to display to the serial monitor and ensure that it matches the voltage
 supplied by the power supply.
 
+`Solution <https://123d.circuits.io/circuits/1588003-simple-analog-read>`__
+
 Arduino IDE
 ===========
 
 To work with the real Arduino hardware you will use the Arduino integrated
-development environment.
+development environment (IDE). The "verify" button compiles your code and
+reports any errors you may have. The "upload" button will send the program to
+the Arudino for execution.
+
+`Arduino IDE <https://www.arduino.cc/en/Main/Software>`_
 
 Homework Assignment
 ===================
