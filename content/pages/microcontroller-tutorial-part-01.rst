@@ -27,8 +27,11 @@ lightweight very specific use hardware enhancements.
 
 Examples:
 
-- PIC family of chipsets.
-- AVR family of chipsets.
+- PIC_ family of chipsets.
+- AVR_ family of chipsets.
+
+.. _PIC: https://en.wikipedia.org/wiki/PIC_microcontroller
+.. _AVR: https://en.wikipedia.org/wiki/Atmel_AVR
 
 It is important to note the difference between computers and microcontrollers.
 Computers may have multiple CPUs with many more inputs and outputs. They also
@@ -42,7 +45,8 @@ Examples:
 
 - Laptop
 - Smart phone
-- Raspberry Pi
+- `Raspberry Pi <https://en.wikipedia.org/wiki/Raspberry_Pi>`_
+- Supercomputer
 
 Emulation
 =========
@@ -497,10 +501,14 @@ Homework Assignment
 The goal of the homework assignment is to create a fuel level indicator using a
 row of 10 LEDS. The sensor for the fuel level should be a simple potentiometer.
 It is connected to a floating bob in the fuel tank and the potentiometer
-rotates as the fuel level increases and decreases. The potentiometer voltage (0
-to 5 volts) should be used to control at least 10 LEDs lined up in a row on the
-bread board. If all of the LEDs are on that signals that the fuel level is at a
-maximum and if all of the LEDs are off that signals that the fuel tank is
-empty. If some LEDs are on that should correspond linearly to the fuel level.
+rotates as the fuel level increases and decreases. The potentiometer voltage 0
+to 5 volts maps to a rotation of 270 degrees (the simple potentiometer
+component on 123d.circuits.io). If all of the LEDs are on, that signals that the
+fuel level is at a maximum and if all of the LEDs are off that signals that the
+fuel tank is empty. If some LEDs are on, the number of lights should correspond
+linearly to the fuel level. The following diagram shows the physical system.
+Your job is to create the electronic side.
 
-TODO : Make a sketch of the bob, arm, and pot.
+.. image:: {filename}/images/fuel-meter.svg
+   :width: 600px
+   :align: center
