@@ -118,16 +118,16 @@ Suggestions of what to include:
 Memo 4: Preliminary Analysis [Due: Friday, Feburary 5, 2016]
 ============================================================
 
-To select your final design concept you will need to determine if the different
-concepts meet your target specifications. This typically requires preliminary
-engineering analysis and/or testing to make those decisions. For many
-specifications a "back-of-the-envelope_" calculation is sufficient for decision
-making and is preferred because it takes little time. This memo should detail
-the preliminary analyses for any concepts that need to be evaluated. Analysis
-is not required for all of your concepts. To reduce the number of concepts feel
-free to screen them at this point. If you believe testing is required to make
-your final concept selection you will need to explain the necessary testing and
-a plan to get that done.
+To select your final design concept, you will need to determine if the
+different concepts meet your target specifications. This typically requires
+preliminary engineering analysis and/or testing to make those decisions. For
+many specifications a "back-of-the-envelope_" calculation is sufficient for
+decision making and is preferred because it takes little time. This memo should
+detail the preliminary analyses for any concepts that need to be evaluated.
+Analysis is not required for all of your concepts. To reduce the number of
+concepts feel free to screen them at this point. If you believe testing is
+required to make your final concept selection you will need to explain the
+necessary testing and a plan to get that done.
 
 Suggestions of what to include:
 
@@ -144,7 +144,23 @@ Suggestions of what to include:
 Memo 5: Concept Selection [Due: Friday, Feburary 19, 2016]
 ==========================================================
 
-TBA
+The purpose of this memo is to show that you have narrowed down your concepts
+and have a solution that you want to move forward with. Ideally, you have one
+concept at this point, but if not, you should be down to a very minimal set of
+choices and have a strong justification as to why you are having a hard time
+deciding. Finally, you should show that your selected concept has a very high
+probability of meeting your target specs and solving your problem.
+
+Suggestions of what to include:
+
+- A detailed description of your selected concept.
+- Proof that indicates this concept will meet all or most of your target
+  specifications. If it doesn't meet all of them, justification as to why is
+  needed.
+- Justification for your elimination of the abandoned concepts.
+- A description of your selection process to document why you ended up with the
+  selected choice.
+- Any screening or scoring charts/tables/graphs, etc.
 
 Memo 6: Product Architecture [Due: Friday, March 4, 2016]
 =========================================================
