@@ -53,6 +53,11 @@ Lesson Materials
 ================
 
 - `Part 1: Intro to Microcontrollers With Emulation. <{filename}/pages/microcontroller-tutorial-part-01.rst>`_
+- Part 2: DC Motor Controller Circuit and Logic.
+
+  - `Slides
+    <https://docs.google.com/a/ucdavis.edu/presentation/d/1IJzwrOuvgW0oGP8jkPtX1QpHwR-OC6J30xvlxWtnbHE/edit?usp=sharing>`__
+  - `Processing Sketch Skeleton Code <https://gist.githubusercontent.com/moorepants/a26390544172dc3cc0a6/raw/fc2dbb8320b7aeb6713d95733a90877b8cdbb8d6/FanTempSkeleton.ino>`_
 
 Reference
 =========
