@@ -16,6 +16,9 @@ time.**
 Critical Design Review
 ======================
 
+Critical Design Reviews will be held on Thursday and Friday February 25th and
+26th, 2016.
+
 Your team will be scheduled for a 30 minute critical design review during the
 eighth week of the winter quarter. The first 15 minutes will be for your
 presentation. This will be followed by 10 minutes for the review questions and
@@ -40,6 +43,9 @@ Suggestions of what to include:
   design is very likely to succeed.
 - Any relevant technical preliminary design details.
 - A schedule and financial plan to execute your design.
+
+**You will need to submit your presentation materials as a PDF to Smartsite by
+midnight Saturday, February 27th.**
 
 Preliminary Design Presentation
 ===============================
