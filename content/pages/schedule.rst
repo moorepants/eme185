@@ -95,11 +95,12 @@ A02/A03  F Mar 4
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02      T Mar 8     Moore       Class Presentations
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-All      W Mar 9     Moore       Industry Panel
+All      W Mar 9     Moore       Course Evals & Industry Panel
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A03      W Mar 9     Moore       Class Presentations
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-A02/A03  U Mar 13                                                                       Report 2: Preliminary Design
+A02/A03  U Mar 13                                                                       - Report 2: Preliminary Design
+                                                                                        - Peer Evaluations
 =======  ==========  ==========  ====================================  ===============  =====
 
 .. _Plan 4: {filename}/pages/lesson-plans/lecture-04.rst
