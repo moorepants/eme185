@@ -9,11 +9,11 @@ parser.add_argument('d')
 args = parser.parse_args()
 
 files = [f for f in os.listdir(args.d) if f.endswith('.pdf')]
-fulls = [f for f in files if f.endswith('full.pdf')]
+graded = [f for f in files if f.endswith('graded.pdf')]
 
 pathy = lambda x: os.path.join(args.d, x)
 
-for f in fulls:
+for f in graded:
     os.remove(pathy(f))
 
 files = [f for f in os.listdir(args.d) if f.endswith('.pdf')]
@@ -21,6 +21,6 @@ rubrics = sorted([f for f in files if f.endswith('rubric.pdf')])
 reports = sorted(list(set(files).difference(rubrics)))
 
 for report, rubric in zip(reports, rubrics):
-    name = os.path.splitext(report)[0] + '-full.pdf'
+    name = os.path.splitext(report)[0] + '-graded.pdf'
     os.system("pdftk {} {} cat output {}".format(pathy(rubric), pathy(report),
                                                  pathy(name)))
