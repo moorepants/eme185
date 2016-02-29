@@ -161,8 +161,3 @@ Suggestions of what to include:
 - A description of your selection process to document why you ended up with the
   selected choice.
 - Any screening or scoring charts/tables/graphs, etc.
-
-Memo 6: Product Architecture [Due: Friday, March 4, 2016]
-=========================================================
-
-TBA
