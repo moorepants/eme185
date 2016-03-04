@@ -1,8 +1,8 @@
 :title: Plan for Tuesday, January 26, 2016
 :status: hidden
 
-Annoucements
-============
+Announcements
+=============
 
 - CoE Design Showcase: June 2 2-4pm at the Pavillion.
 - Memo 3 grades have been released.
