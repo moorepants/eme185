@@ -28,5 +28,7 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = False
 
+IGNORE_FILES = ['README*']
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
