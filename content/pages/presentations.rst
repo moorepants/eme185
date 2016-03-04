@@ -59,5 +59,4 @@ The presentations will be 5 minutes comprised of an overview of the project and
 selected design concept. There will 3 minutes for questions and changing
 groups. This presentation will be good practice for a high level presentation
 in industry (for example, to high level executives). All students are required
-to attend this session, and will provide a critique of each other groups'
-presentation.
+to attend this session.
