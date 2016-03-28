@@ -101,6 +101,27 @@ A03      W Mar 9     Moore       Class Presentations
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  U Mar 13                                                                       - Report 2: Preliminary Design
                                                                                         - Peer Evaluations
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  F Apr 22                                                                       `Showcase registration`_
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  F Apr 29                                                                       - Report 3: Midterm Progress
+                                                                                        - Peer evaluations
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  F May 13                                                                       - `Sandia award`_ intent [1]_
+                                                                                        - Showcase coordination
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  F May 27                                                                       `Sandia award`_ report [1]_
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  TBA                                                                            Poster submission
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  R Jun 2                 `Engineering Design Showcase`_
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  F Jun 3                                                                        Report 4: Final Design
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  M Jun 6                 Critical Design Reviews
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  T Jun 7                 Critical Design Reviews                                - Presentation materials
+                                                                                        - Peer evaluations
 =======  ==========  ==========  ====================================  ===============  =====
 
 .. _Plan 4: {filename}/pages/lesson-plans/lecture-04.rst
@@ -114,3 +135,9 @@ A02/A03  U Mar 13                                                               
 .. _Slides 1: https://docs.google.com/presentation/d/1tYiwuictCFIsQAk8bWypbqxQUnryAWFR0eMAvIoFoD4/edit?usp=sharing
 
 .. _Microcontroller Tutorial: {filename}/pages/microcontrollers.rst
+
+.. _Sandia award: http://engineering.ucdavis.edu/wp-content/uploads/2016/02/2016-Sandia-Announcement.pdf
+.. _Showcase Registration: https://docs.google.com/forms/d/1TNeQLa5H-L7bvlZe-pwQ7gfwpL7Q62r3i_2lawmZb6g/viewform?c=0&w=1
+.. _Engineering Design Showcase: http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase
+
+.. [1] The Sandia Design Award submissions are optional.

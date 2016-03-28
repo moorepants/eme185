@@ -4,14 +4,16 @@
 Lecture and Activity Materials
 ==============================
 
-- Lecture slides and documents will be shared on the "Resources" tab of
-  Smartsite.
+- Copyright sensitive lecture slides and documents will be shared on the
+  "Resources" tab of Smartsite.
 - `Microcontroller Materials and Information <{filename}/pages/microcontrollers.rst>`_
 
 Purchasing Parts and Materials
 ==============================
 
-Please review the `MAE Purchasing Guidelines`_.
+You may need to purchase parts and materials for your project with funds that
+are provided by (or by proxy through) the MAE department. Please review the
+`MAE Purchasing Guidelines`_ to learn how to do this.
 
 .. _MAE Purchasing Guidelines: {filename}/pages/purchasing.rst
 
@@ -20,10 +22,10 @@ College of Engineering Design Showcase
 
 At the end of the course you will be expected to present your results to
 faculty, students, and visitors at the College of Engineering Design Showcase.
-This year's showcase will be at the ARC Pavilion on **June 2, 2016** and
-registration will open in March. At the showcase you will meet with industry
-sponsors and will have the opportunity to win various awards and to show off
-your work to potential employers.
+This year's showcase will be at the ARC Pavilion on **June 2, 2016** from 2 to
+4 pm and registration will open in March. At the showcase you will meet with
+industry sponsors and will have the opportunity to win various awards and to
+show off your work to potential employers.
 
 See the following website for more information:
 
@@ -32,10 +34,15 @@ http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase/
 Entrepreneurship
 ================
 
+If you would like to turn your ideas and work into an entrepreneurial endeavor
+the campus offers support for this. Some resources are:
+
 `Engineering Student Startup Center`_
    UCD CoE provides a center and support for getting your idea off the ground.
 `primeUC`_
    The UC has a competition to help seed the most promising startups.
+
+Ask the instructors for help if you are unsure how to pursue this.
 
 .. _Engineering Student Startup Center: http://engineering.ucdavis.edu/undergraduate/engineering-student-startup-center/
 .. _primeUC: http://primeuc.org/

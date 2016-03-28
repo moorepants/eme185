@@ -224,3 +224,13 @@ understand your design and justification.
 Be sure to utilize your memos, proposal, and critical design review as a basis
 for your report. Use the feedback from them all to improve the work for this
 final written presentation of your preliminary design.
+
+Report #3: Spring Midterm Progress [Due: April 29, 2016]
+========================================================
+
+TBA
+
+Report #4: Final Design [Due: June 3, 2016]
+========================================================
+
+TBA

@@ -1,8 +1,8 @@
 :title: Presentations
 :status: hidden
 
-Studio Meetings
-===============
+Winter Quarter Studio Meetings
+==============================
 
 Each team will be assigned a teaching assistant. During the studio sections,
 each team will meet with the teaching assistant for 15 minutes to discuss the
@@ -13,8 +13,8 @@ meeting. **Your in-class grade will be affected if you don't have an agenda or
 if you don't show up to these meetings, i.e. don't waste the instructors'
 time.**
 
-Critical Design Review
-======================
+Preliminary Critical Design Review
+==================================
 
 Critical Design Reviews will be held on Thursday and Friday February 25th and
 26th, 2016.
@@ -60,3 +60,48 @@ selected design concept. There will 3 minutes for questions and changing
 groups. This presentation will be good practice for a high level presentation
 in industry (for example, to high level executives). All students are required
 to attend this session.
+
+Spring Quarter Studio Meetings
+==============================
+
+Each team will meet with the instructor and their teaching assistant for 20
+minutes to discuss the weekly progress. You must prepare an agenda for these
+meetings and have it available during the meeting. **Your in-class grade will
+be affected if you don't have an agenda or if you don't show up to these
+meetings, i.e. don't waste the instructors' time.**
+
+Final Critical Design Review
+============================
+
+Critical Design Reviews will be held on Monday and Tuesday June 6th and 7th.
+
+Your team will be scheduled for a 30 minute critical design review during
+finals week of spring quarter. The first 15 minutes will be for your
+presentation. This will be followed by 10 minutes for the review questions and
+discussion.
+
+**You will need to submit your presentation materials as a PDF to Smartsite by
+midnight Tuesday, June 7th.**
+
+More info TBA as the date approaches.
+
+Engineering Design Showcase Poster Presentation
+===============================================
+
+Your team will be required to present your work at the Engineering Design
+Showcase at the ARC Pavilion on Thursday June 2nd from 2-4 pm. You need to
+`register for the showcase`_ by April 22nd. Each team will develop a poster
+that showcases and explains your project which must be submitted to Smartsite
+and Alin Wakefield (amwakefield@ucdavis.edu) for printing by the due date
+(TBA). You are also welcome and encouraged to bring any prototype that you have
+constructed or videos and other media that will explain your project. Any
+special accommodations for your prototype (size, power, etc) or presentation
+must be coordinated with Alin Wakefield with the initial contact happening by
+May 13th. At least one member of the team must be present at the poster at all
+times from 2-4 pm and all team members must attend the event. Sponsors and
+reviewers from many engineering companies will be present, so prepare
+accordingly.
+
+More info TBA as the date approaches.
+
+.. _register for the showcase: https://docs.google.com/forms/d/1TNeQLa5H-L7bvlZe-pwQ7gfwpL7Q62r3i_2lawmZb6g/viewform?c=0&w=1

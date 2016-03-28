@@ -187,40 +187,65 @@ throughout the course along with class statistics. Check the website on a
 regular basis to gauge your performance. Keep in mind that **15% is deducted
 per business day late** on all assignments.
 
-==================  ===
-Memos               15%
-Project Proposal    20%
-Preliminary Design  30%
-In class            5%
-Design Review       20%
-Presentation        10%
-Peer Evaluation     Modifies grade up or down
-==================  ===
-
 .. _smartsite.ucdavis.edu: http://smartsite.ucdavis.edu
 
+=========================  ===
+EME 185A
+=========================  ===
+Preliminary Design Report  30%
+Preliminary Design Review  20%
+Project Proposal Report    20%
+Memos                      15%
+Presentation               10%
+In class                   5%
+Peer Evaluation            May modify individual grade up or down
+=========================  ===
+
+=========================  ===
+EME 185B
+=========================  ===
+Final Design Report        40%
+Final Design Review        35%
+Midterm Progress Report    10%
+Poster Presentation        10%
+In class                   5%
+Peer Evaluation            May modify individual grade up or down
+=========================  ===
+
 Memos_
-   You will turn a memo team generated memo approximately once a week.
-`Project Proposal`_
-   This report will document your proposal.
-`Preliminary Design`_
+   You will turn a team generated memo approximately once every two weeks.
+Project Proposal Report_
+   This report will present your proposal in terms of sponsor needs,
+   engineering specs, and possible solutions.
+Preliminary Design Report_
    This report will document your preliminary design.
+Midterm Progress Report_
+   This report will document your design and engineering progress mid spring
+   quarter.
+Final Design Report_
+   This report will document your final design and/or prototype.
+Preliminary Design Review_
+   This presentation will be followed by a critique and discussion of your
+   preliminary design choices.
+Final Design Review_
+   This presentation will be followed by a critique and discussion of your
+   final design.
+Presentation_
+   This marketing style presentation will be directed towards your classmates.
+Poster Presentation_
+   This poster presentation will be given at the Engineering Design Showcase to
+   sponsors, educators, and fellow students.
 In class
    There will be a variety of in class activities that will count towards your
-   grade and you will be expected to attend.
-`Design Review`_
-   This presentation will be followed by a critique and discussion of your
-   design choices.
-`Presentation`_
-   This presentation will be directed towards your sponsors and classmates.
+   grade and you will be expected to attend the sessions and meetings.
 Peer Evaluation
-   You will evaluate your teammates' work on the project and this evaluation
-   will modify your grade up or down from the groups score.
+   You will evaluate your teammates' work on the project multiple times in the
+   coure and this evaluation may modify your grade up or down relative to the
+   group score.
 
 .. _Memos: {filename}/pages/memos.rst
-.. _Project Proposal: {filename}/pages/reports.rst
-.. _Preliminary Design: {filename}/pages/reports.rst
-.. _Design Review: {filename}/pages/presentations.rst
+.. _Report: {filename}/pages/reports.rst
+.. _Review: {filename}/pages/presentations.rst
 .. _Presentation: {filename}/pages/presentations.rst
 
 Smartsite
