@@ -102,17 +102,16 @@ A03      W Mar 9     Moore       Class Presentations
 A02/A03  U Mar 13                                                                       - Report 2: Preliminary Design
                                                                                         - Peer Evaluations
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-A02/A03  F Apr 22                                                                       `Showcase registration`_
--------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Apr 29                                                                       - Report 3: Midterm Progress
                                                                                         - Peer evaluations
+                                                                                        - `Showcase registration`_
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F May 13                                                                       - `Sandia award`_ intent [1]_
                                                                                         - Showcase coordination
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F May 27                                                                       `Sandia award`_ report [1]_
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-A02/A03  TBA                                                                            Poster submission
+A02/A03  W May 18                                                                       Poster submission
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  R Jun 2                 `Engineering Design Showcase`_
 -------  ----------  ----------  ------------------------------------  ---------------  -----
