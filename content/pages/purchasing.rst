@@ -22,7 +22,7 @@ College of Engineering Purchasing/Accounts Payable Shared Services
 
 **On-line Purchase System (OPS) Link**: http://ops.engineering.ucdavis.edu/home.aspx
 
-- Lyra Pineda, llpineda@ucdavis.edu, 752-7433 (primary)
+- Kathy Sanchez, kasanchez@ucdavis.edu, 530-752-7433
 - Melanie Burt-Schipke, maburt@ucdavis.edu, 754-0394 (back-up)
 - Forms link: http://intranet.engineering.ucdavis.edu/shared-service-units/purchasing-and-accounts-payable/purchasing-and-travel/
 
