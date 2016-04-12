@@ -8,12 +8,16 @@ Course Description
 
 | University of California, Davis
 | Department of Mechanical and Aerospace Engineering
-| Mechanical Design - EME 185A
+| Mechanical Design - EME 185A/B
 | Winter 2016, Lecture: W 1:20-200PM, Studio: A02 T 4:10-7:00PM, A03 W 4:10-7:00PM
 | CRN: A02 43644, A03 22256
-| `Catalog Entry`_
+| `A Catalog Entry`_
+| Spring 2016
+| CRN: 63396, 63754, 63755, 63756, 63757, 63758
+| `B Catalog Entry`_
 
-.. _Catalog Entry: http://catalog.ucdavis.edu/programs/EME/EMEcourses.html#pgfId-3864068
+.. _A Catalog Entry: http://catalog.ucdavis.edu/programs/EME/EMEcourses.html#pgfId-3864068
+.. _B Catalog Entry: http://catalog.ucdavis.edu/programs/EME/EMEcourses.html#pgfId-3864070
 
 Course Philosophy
 -----------------
@@ -149,12 +153,30 @@ Instructors
 Time and Location
 =================
 
-The lecture meets on Wednesdays from 1:20 to 2:00 PM in Wellman 2. The A02
-studio sections will meet on Tuesday from 4:10 to 7:00 PM in Young 184 and the
-A03 studio sections will meet on Tuesday from 4:10 to 7:00 PM in Chem 176.
+The winter lecture meets on Wednesdays from 1:20 to 2:00 PM in Wellman 2. The
+A02 studio sections will meet on Tuesday from 4:10 to 7:00 PM in Young 184 and
+the A03 studio sections will meet on Tuesday from 4:10 to 7:00 PM in Chem 176.
+
+The spring meetings will be scheduled during the winter quarter.
 
 **If you have any conflicts with the schedule you must tell me by email in the
 first week of class (emergencies will be the only exception).**
+
+Office Hours
+============
+
+Winter/Spring, Bainer 2095
+
+Jason: R 2-4pm, F 11-1
+
+**You must sign up for 30 minutes office hour slots with Jason.**
+
+Spring
+
+TA office hours are in the CAE lab (design studio side).
+
+- Farhad: M 12:00 - 1:00 PM, R 10:00 - 11:00 AM
+- Matt: M 3:00 - 4:00 PM, W 11:30 - 12:30 PM
 
 Academic Integrity
 ==================
