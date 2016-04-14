@@ -286,13 +286,14 @@ Layout Drawings
    what a particular part looks like, etc., then the layout is adequate.
 Bill of Materials
    The Bill of Materials or Parts List is a tabular list of all of the parts,
-   components, sub-assemblies, etc. that constitute the design.  Both
-   manufactured items and purchased items are included. The list should include
-   part numbers, part names, number required, material, whether purchased or
-   fabricated, and if purchased, the name and part number of the supplier. The
-   Bill of Materials is used for such aspects as: insuring that all parts are
-   on hand when production begins, to ensure that detailed drawings are
-   prepared for all components, for planning of the manufacturing process, etc.
+   components, sub-assemblies, etc. that are needed to manufacture and/or test
+   your design. Both manufactured items and purchased items are included. The
+   list should include part numbers, part names, number required, material,
+   whether purchased or fabricated, and if purchased, the name and part number
+   of the supplier with associated costs. The Bill of Materials is used for
+   such aspects as: insuring that all parts are on hand when production begins,
+   to ensure that detailed drawings are prepared for all components, for
+   planning of the manufacturing process, etc.
 
 Report #4: Final Design [Due: June 3, 2016]
 ========================================================
