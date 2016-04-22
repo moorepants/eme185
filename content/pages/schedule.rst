@@ -119,7 +119,9 @@ A02/A03  F Jun 3                                                                
 -------  ----------  ----------  ------------------------------------  ---------------  -----
 A02/A03  M Jun 6                 Critical Design Reviews
 -------  ----------  ----------  ------------------------------------  ---------------  -----
-A02/A03  T Jun 7                 Critical Design Reviews                                - Presentation materials
+A02/A03  T Jun 7                 Critical Design Reviews
+-------  ----------  ----------  ------------------------------------  ---------------  -----
+A02/A03  W Jun 8                 Critical Design Reviews                                - Presentation materials
                                                                                         - Peer evaluations
 =======  ==========  ==========  ====================================  ===============  =====
 
