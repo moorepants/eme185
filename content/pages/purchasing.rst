@@ -47,6 +47,10 @@ register as OPS user and obtain a brief OPS user training. Provide your
 Kerberos ID and phone number (cell phone preferably) for OPS user registration
 to MAE staff.
 
+Note that the required "unit" column in the web form is to specify the unit of
+the quantity number. For example if could be "kilograms", "each", "bundles",
+etc.
+
 Order for Supplies and Consumables using a Department Purchase Order (DPO)
 ==========================================================================
 
