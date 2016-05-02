@@ -1,10 +1,13 @@
 :title: Reports
 :status: hidden
 
-Two reports will be due during the winter quarter:
+Two reports will be due during the winter quarter and two reports will be due
+during the spring quarter:
 
 1. Project Proposal
 2. Preliminary Design
+3. Midterm Progress Update
+4. Final Design Report
 
 Please note that each report should be standalone. You may refer to earlier
 reports, but each report should provide adequate information to allow a reader
@@ -34,7 +37,8 @@ report should be submitted by one team member.
   sponsor.
 - All graphical communication means should be legible.
 
-.. [1] Be sure to scale layout drawings correctly with legible font sizes.
+.. [1] Be sure to either scale layout drawings correctly with legible font
+   sizes or print them in the appendices on larger paper sizes.
 
 Title Page
 ----------
@@ -129,8 +133,8 @@ Use your memos as building blocks for the proposal. The instructors and
 sponsors will evaluate your report to determine the size and scope of your
 project and if the objectives are both well thought out and feasible.
 
-Report #2: Preliminary Design
-=============================
+Report #2: Preliminary Design [Due: March 13th, 2016]
+=====================================================
 
 The purpose of the preliminary design report is to present your selected
 design, show that it is highly likely to work and that your goals will
@@ -296,6 +300,6 @@ Bill of Materials
    planning of the manufacturing process, etc.
 
 Report #4: Final Design [Due: June 3, 2016]
-========================================================
+===========================================
 
 TBA
