@@ -78,7 +78,7 @@ Showcase at the ARC Pavilion on Thursday June 2nd from 2-4 pm. You need to
 `register for the showcase`_ by **midnight April 29th**. Each team will develop
 a poster that showcases and explains your project which must be submitted to
 both Smartsite and to Alin Wakefield for printing by **12 PM Wednesday May
-18th**.  You are also welcome and encouraged to bring any prototype that you
+18th**. You are also welcome and encouraged to bring any prototype that you
 have constructed or videos and other media that will explain your project. Any
 special accommodations for your prototype (size, power, etc) or presentation
 must be coordinated with Alin Wakefield with the initial contact happening by
@@ -90,20 +90,58 @@ grade.
 
 .. _register for the showcase: https://docs.google.com/forms/d/1TNeQLa5H-L7bvlZe-pwQ7gfwpL7Q62r3i_2lawmZb6g/viewform?c=0&w=1
 
+Content Suggestions
+-------------------
+
+Keep in mind that the posters should be designed for a more general audience.
+Most of the visitors to the showcase will either be students, faculty, staff,
+or representatives from industry. So the poster should be understandable by
+people that aren't necessarily mechanical engineers. Your poster should
+address:
+
+- A description of your project.
+- The main need or needs and how you've addressed them.
+- Why your project is a great solution.
+- Any innovative things you've come up with.
+
+You can get ideas for posters by checking out the previous posters in the
+resources section of Smartsite or those that are hanging in Bainer Hall.
+
+There are many websites offering tips on making posters. Here is a good one for
+scientific posters, but most of the advice is also applicable to your poster
+design:
+
+http://hsp.berkeley.edu/sites/default/files/ScientificPosters.pdf
+
+Your poster should sell your ideas and yourselves. This is a great opportunity
+to show your engineering prowess to the world!
+
+Software
+--------
+
+Posters can be created with a variety of software packages, for example:
+
+- Slide decks software (MS
+  Powerpoint, LibreOffice Impress, Google Presentations, etc.)
+- `Publishing software <https://en.wikipedia.org/wiki/Desktop_publishing>`_ (MS
+  Publisher, Scribus, Adobe InDesign)
+- Word processors (MS Word, LaTeX, etc.)
+- Graphics (Adobe Illustrator, Inkscape, Photoshop, Gimp, etc.)
+
 Printing Instructions
 ---------------------
 
-This describes details about formatting and submitting a poster if you would
-like to have it printed at no cost to you or your department. All team members
-should read this message carefully and completely to ensure a timely and
-quality product.
+This describes details about formatting and submitting a poster. All team
+members should read this message carefully and completely to ensure a timely
+and quality product.
 
-1. The Engineering Dean's Office will cover the cost of printing one 36"x48"
-   full-color poster per team. No other dimensions or sizes will be allowed.
-   Only 1 poster per team will be printed (no reprints).
-2. The poster file must be emailed to amwakefield@ucdavis.edu no later
-   than noon (12:00 PM) on Wednesday, May 18th. Alin will not accept nor print
-   any file received after this deadline.
+1. The Engineering Dean's Office will cover the cost of printing one landscape
+   36" x 48" full-color poster per team. No other dimensions or sizes will be
+   allowed. Only 1 poster per team will be printed (no reprints).
+2. The poster file must be emailed to amwakefield@ucdavis.edu no later than
+   noon (12:00 PM) on Wednesday, May 18th *and* submitted to Smartsite
+   assignments at the same time. Alin will not accept nor print any file
+   received after this deadline.
 3. Files must be submitted as a PDF (highest quality preferred).
 4. When designing your poster, please carefully check the page setup settings.
    You must ensure your poster is correctly sized at 36" x 48".
