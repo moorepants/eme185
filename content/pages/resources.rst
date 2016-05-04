@@ -21,7 +21,7 @@ Project Storage
 ===============
 
 We have a small space that is available for temporary storage of your project
-while you are working on it during the Spring quarter. You can get access to
+while you are working on it during the spring quarter. You can get access to
 this room, Bainer 1071A, by asking your TA for the keypad entry code. The
 following list shows the rules for the use of the space. Any abuse of these
 will cause all teams to lose access to the space.
@@ -29,7 +29,6 @@ will cause all teams to lose access to the space.
 - You should only request the key if you actually need storage space.
 - Do not share the keypad entry key code. If you do, then you jeopardize the
   security people's projects.
-- Only students from our class should ever be in the room.
 - Do not work or hangout in the space. It is only for storage.
 - Group your items into as few boxes as possible.
 - Label all boxes and any freestanding items with a contact name and phone
