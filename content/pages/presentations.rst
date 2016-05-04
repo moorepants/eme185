@@ -128,6 +128,12 @@ Posters can be created with a variety of software packages, for example:
 - Word processors (MS Word, LaTeX, etc.)
 - Graphics (Adobe Illustrator, Inkscape, Photoshop, Gimp, etc.)
 
+UCD Logos
+---------
+
+If you'd like to use UCD logos in your poster you can find information about
+them at http://marketingtoolbox.ucdavis.edu/identity/logos/index.html.
+
 Printing Instructions
 ---------------------
 
