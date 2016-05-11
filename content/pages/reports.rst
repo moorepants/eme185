@@ -302,4 +302,89 @@ Bill of Materials
 Report #4: Final Design [Due: June 3, 2016]
 ===========================================
 
+The final design report should be a comprehensive report detailing the final
+version of your project. It is not necessary to provide information about
+previous designs.
+
+Main Content
+------------
+
+Introduction
+
+   Here, you should introduce your problem in context with respect to your
+   sponsors work and their broader goals.
+
+   Your mission statement should be clearly defined with respect to these. The
+   sub-problems you have to solve should be clearly described and how they
+   relate to the main problem.
+
+   The sponsor's needs should be clearly explained along with the associated
+   target specifications that you've developed from the needs.
+
+   This can also include comparisons of your solution to existing solutions and
+   any relevant literature that helps put your problem and solution into
+   context.
+
+Design Description
+
+   You should fully describe your design and clearly explain how it functions.
+   The goal is to provide sufficient technical details to communicate the
+   conceptual design to the reader.
+
+   Be sure to make heavy use of graphical means to communicate the design. The
+   general descriptions in the main content should be supported by mechanical,
+   software, and electrical drawings and schematics in the appendices.
+
+   The system architecture should be presented through schematics and layout
+   drawings of the design, discussion of the various subsystems, and discussion
+   of the interface between the various subsystems.
+
+Design Justification
+
+   This section should present sufficient justification to prove that your
+   final design works, that the needs are satsified, and that the target
+   specifications have been met.
+
+   You can justify your design in two main ways: (1) engineering theorectical
+   and computational analysis and (2) demonstration that the design works
+   through experimental testing. You must provide (1) and can optionally
+   provide (2) if your project included a prototype and/or experiments.
+
+Deliverables Met
+
+   This section should list and describe the final, acutal deliverables of your
+   project. This should include everything that you are providing your sponsor.
+
+Conclusion
+
+   In this section, you can summarize the main innovations that your design
+   offers and reflect on any technical things that should be done differently
+   if the project is carried forward.
+
+Appendix
+--------
+
+The appendix should include any technical documentations needed to support the
+main content of your paper.
+
+Layout drawings
+
+Final Bill of materials
+
+Supporting Calculations
+
+
+
+The final design report will consist of the following components:
+	a.  Layout Drawing(s)
+	b.  Bill of Materials
+	c.  Calculations
+	d.  Summary Report.
+
+Layout Drawings - You should refer to a good engineering graphics text for examples of layout drawings.  The layout drawing is drawn to scale and must show the shape, size, and position of all parts.  It should show how the parts fit together and if they will function properly.  The design details are worked out on this drawing.  The designer additionally uses the layout drawing to show and sell his design and ideas to his management; it is used by drafts people to prepare detailed part drawings and an assembly drawing; it is used by manufacturing engineers to determine manufacturing processes and costs although this has been increasingly incorporated into the design process.  How detailed should it be?  It must be adequately complete so that it can meet the above uses.  If it is not necessary to ask how the design works or what a particular part looks like, etc., then the layout is adequate.
+
+Bill of Materials - The Bill of Materials or Parts List is a tabular list of all of the parts, components, subassemblies, etc. that constitute the design.  Both manufactured items and purchased items are included.  The list should include part numbers, part names, number required, material, whether purchased or fabricated, and if purchased, the name and part number of the supplier.  The Bill of Materials is used for such aspects as: insuring that all parts are on hand when production begins, to ensure that detailed drawings are prepared for all components, for planning of the manufacturing process, etc.
+
+Summary Report - This may be brief but should include the items as discussed to follow.  Review and describe the basic features of your design and any features that you feel are novel.  Describe how your design works.  Point out what are specific attributes that you feel extremely positive about, and note aspects that are weaknesses and you would change in re-design.  Discuss any work that you feel still needs to be performed and other changes that would improve the design.  Discuss how the design will be assembled and your choice of materials and manufacturing processes.
+
 TBA
