@@ -18,9 +18,9 @@ project.
 Report Format
 =============
 
-The reports will be due in PDF format via Smartsite by midnight of the due
-dates posted in the `schedule <{filename}/pages/schedule.rst>`_. A single
-report should be submitted by one team member.
+The reports will be due in PDF format via Smartsite by the due dates and times
+posted in the `schedule <{filename}/pages/schedule.rst>`_ and on the Smartsite
+assignment. A single report should be submitted by one team member.
 
 - The report should fit on 8.5" x 11" sheets of paper [1]_.
 - All margins should be 1".
