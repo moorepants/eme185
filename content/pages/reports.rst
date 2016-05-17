@@ -77,6 +77,33 @@ the details that back them up should go in the appendices. Keep in mind that
 the content sections should stand on their own. Additionally, feel free to link
 to rich media: videos, websites, demos, etc.
 
+Definitions
+===========
+
+Layout Drawings
+   You should refer to a good engineering graphics text for examples of layout
+   drawings. The layout drawing is drawn to scale and must show the shape,
+   size, and position of all parts. It should show how the parts fit together
+   and if they will function properly.  The design details are worked out on
+   this drawing. The designer additionally uses the layout drawing to show and
+   sell his design and ideas to his management; it is used by drafts people to
+   prepare detailed part drawings and an assembly drawing; it is used by
+   manufacturing engineers to determine manufacturing processes and costs
+   although this has been increasingly incorporated into the design process.
+   How detailed should it be? It must be adequately complete so that it can
+   meet the above uses. If it is not necessary to ask how the design works or
+   what a particular part looks like, etc., then the layout is adequate.
+Bill of Materials
+   The Bill of Materials or Parts List is a tabular list of all of the parts,
+   components, sub-assemblies, etc. that are needed to manufacture and/or test
+   your design. Both manufactured items and purchased items are included. The
+   list should include part numbers, part names, number required, material,
+   whether purchased or fabricated, and if purchased, the name and part number
+   of the supplier with associated costs. The Bill of Materials is used for
+   such aspects as: insuring that all parts are on hand when production begins,
+   to ensure that detailed drawings are prepared for all components, for
+   planning of the manufacturing process, etc.
+
 Report #1: Project Proposal [Due: January 29th, 2016]
 =====================================================
 
@@ -273,33 +300,82 @@ Technical Documentation
    We will provide feedback on this material so that your documentation can be
    improved for the final report.
 
-More detail on layout drawings and bill of materials:
-
-Layout Drawings
-   You should refer to a good engineering graphics text for examples of layout
-   drawings. The layout drawing is drawn to scale and must show the shape,
-   size, and position of all parts. It should show how the parts fit together
-   and if they will function properly.  The design details are worked out on
-   this drawing. The designer additionally uses the layout drawing to show and
-   sell his design and ideas to his management; it is used by drafts people to
-   prepare detailed part drawings and an assembly drawing; it is used by
-   manufacturing engineers to determine manufacturing processes and costs
-   although this has been increasingly incorporated into the design process.
-   How detailed should it be? It must be adequately complete so that it can
-   meet the above uses. If it is not necessary to ask how the design works or
-   what a particular part looks like, etc., then the layout is adequate.
-Bill of Materials
-   The Bill of Materials or Parts List is a tabular list of all of the parts,
-   components, sub-assemblies, etc. that are needed to manufacture and/or test
-   your design. Both manufactured items and purchased items are included. The
-   list should include part numbers, part names, number required, material,
-   whether purchased or fabricated, and if purchased, the name and part number
-   of the supplier with associated costs. The Bill of Materials is used for
-   such aspects as: insuring that all parts are on hand when production begins,
-   to ensure that detailed drawings are prepared for all components, for
-   planning of the manufacturing process, etc.
-
 Report #4: Final Design [Due: June 3, 2016]
 ===========================================
 
-TBA
+The final design report should be a comprehensive report detailing the final
+version of your project. It is not necessary to provide information about the
+process that led to this design. This report should have sufficient information
+for someone unfamiliar with your project to understand what it is for, how to
+fabricate it, and how to use it. The report should be self contained.
+
+Be sure to utilize your past memos, reports, and critical design review as a
+basis for your report. Use the feedback from them all to improve the work for
+this final written presentation of your design.
+
+Main Content
+------------
+
+**The main content should be no longer than 15 pages.**
+
+Introduction
+   Here, you should introduce your problem in context with respect to your
+   sponsors work and their broader goals. Your mission statement should be
+   clearly defined with respect to these. The sub-problems you have solved
+   should be described and how they relate to the main problem. This should
+   also include any relevant existing solutions and literature that helps put
+   your problem and solution into context.
+Needs, Specifications, and Standards
+   The sponsor's needs should be explained along with the target specifications
+   that you've developed from the needs. Note any engineering standards that
+   are relevant to your project.
+Design Description
+   You should fully describe your design and explain how it functions. The goal
+   is to provide sufficient technical details to communicate the conceptual
+   design to the reader. Point out any features that you feel are novel and
+   unique. The system architecture should be presented through schematics and
+   drawings of the design, discussion of the various sub-systems, and
+   discussion of the interface between the various sub-systems. Be sure to make
+   heavy use of graphical means to communicate these ideas.
+Design Justification
+   This section should present sufficient justification to prove that your
+   final design works, that the needs are satisfied, and that the target
+   specifications have been met. You can justify your design in two main ways:
+   (1) engineering theoretical and computational analysis and (2) demonstration
+   that the design works through experimental testing. You must provide (1) and
+   can optionally provide (2) if your project included a prototype and/or
+   experiments.
+Manufacturing
+   In this section, describe how you would or did manufacture your design.
+   Discuss how the design will be assembled and your choice of materials and
+   manufacturing processes. Include any ideas about potential mass production.
+Deliverables
+   This section should list and describe the final, actual deliverables of your
+   project. This should include everything that you are providing your sponsor.
+Conclusion
+   In this section, you can summarize the main innovations that your design
+   offers and reflect on any technical things that should be done differently
+   if the project is carried forward. Point out what are specific attributes
+   that you feel extremely positive about and note aspects that are weaknesses.
+   Discuss any work that you feel still needs to be performed and other changes
+   that would improve the design.
+
+Appendices
+----------
+
+The appendices should include any technical documentation needed to support the
+main content of your paper. The general descriptions in the main content should
+be supported by drawings and schematics of the mechanical, software, and
+electrical systems. Other possible items to include:
+
+- Mechanical layout drawings
+- Electrical schematics
+- Final bill of materials
+- Supporting calculations
+- Manufacturing guides
+- User manual
+- Experiment details and results
+- Explanatory code snippets
+- Full set of needs and specs
+- CAD renderings
+- Engineering standards details
