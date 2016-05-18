@@ -142,15 +142,15 @@ members should read this message carefully and completely to ensure a timely
 and quality product.
 
 1. The Engineering Dean's Office will cover the cost of printing one landscape
-   36" x 48" full-color poster per team. No other dimensions or sizes will be
-   allowed. Only 1 poster per team will be printed (no reprints).
+   36" H x 48" W full-color poster per team. No other dimensions or sizes will
+   be allowed. Only 1 poster per team will be printed (no reprints).
 2. The poster file must be emailed to amwakefield@ucdavis.edu no later than
    noon (12:00 PM) on Wednesday, May 18th *and* submitted to Smartsite
    assignments at the same time. Alin will not accept nor print any file
    received after this deadline.
 3. Files must be submitted as a PDF (highest quality preferred).
 4. When designing your poster, please carefully check the page setup settings.
-   You must ensure your poster is correctly sized at 36" x 48".
+   You must ensure your poster is correctly sized at 36" H x 48" W.
 5. A PowerPoint poster template is available on our Smartsite under the
    Resources tab for optional use.
 6. The CoE cannot be responsible for verifying the accuracy of technical
@@ -173,4 +173,28 @@ and discussion.
 **You will need to submit your presentation materials as a PDF to Smartsite by
 midnight Wednesday, June 8th.**
 
-More info TBA as the date approaches.
+
+Your team will be scheduled for a 30 minute critical design review during the
+eighth week of the winter quarter. The first 15 minutes will be for your
+presentation. This will be followed by 10 minutes for the review questions and
+discussion. The primary purpose of this review is for your team to justify your
+concept selection and design decisions through technical details and analysis.
+We are not concerned with the path to the final design (i.e., initial concepts,
+etc.) but what the final concept is and why you feel confident it will work.
+The intent of critical design reviews is to insure that the proper methods are
+being used in analyses and that the design is valid and valuable, i.e. it meets
+specifications, it can be manufactured, etc. Both your teaching assistant and
+the primary instructor will be present along with other potential reviewers.
+The presentation should be geared toward and "engineering management" audience.
+
+Suggestions of what to include:
+
+- A technical description of the need you are trying to solve.
+- The primary specs and metrics your solution must meet.
+- A detailed technical description of your selected concept and solution.
+- Justification for your concept solution in terms of meeting the engineering
+  specifications.
+- Theoretical or experimental proof that your selected concept and preliminary
+  design is very likely to succeed.
+- Any relevant technical preliminary design details.
+- A schedule and financial plan to execute your design.
