@@ -300,7 +300,7 @@ Technical Documentation
    We will provide feedback on this material so that your documentation can be
    improved for the final report.
 
-Report #4: Final Design [Due: June 3, 2016]
+Report #4: Final Design [Due: June 5, 2016]
 ===========================================
 
 The final design report should be a comprehensive report detailing the final
