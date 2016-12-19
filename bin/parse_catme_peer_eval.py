@@ -1,3 +1,4 @@
+import os
 import argparse
 from io import StringIO
 
@@ -66,25 +67,87 @@ def print_sorted(df, ascending=True):
         print('\n\n')
 
 
+def load_main_table(table_text):
+
+    lines = table_text.split('\n')
+    i = 1
+    cols = []
+    for thing in lines[1].split('","'):
+        if thing in ['C ', 'I ', 'K ', 'E ', 'H ']:
+            cols.append(thing.strip() + str(i) + ' ')
+            if thing == 'H ':
+                i += 1
+        else:
+            cols.append(thing)
+    lines[1] = '","'.join(cols)
+    text = "\n".join(lines[1:])
+    df = pd.read_csv(StringIO(text))
+    df['Student ID'] = df['Student ID'].str.split('-').str.join('')
+    df.index = df['Student ID']
+
+    return df
+
+
+def load_catme_data_sections(path_to_file):
+
+    with open(path_to_file, 'r') as f:
+        text = f.read()
+
+    sections = text.split('\n\n')
+
+    return sections
+
+
+def create_team_factor(df):
+    # TODO : What to do about note="over"
+    df['Team Factor'] = df['Adj Factor (w/ Self)']
+    unders = df['Note'] == 'Under'
+    df['Team Factor'][unders] = df['Adj Factor (w/o Self)'][unders]
+    df['Team Factor'][df['Team Factor'] > 1.05] = 1.05
+    df['Team Factor'][(df['Team Factor'] >= 0.95) & (df['Team Factor'] < 1.0)] = 1.0
+    if 'Manip' in df['Note']:
+        df['Team Factor'][df['Team ID'] == df.loc[df['Note'] == 'Manip']['Team ID'].values[0]] = 1.0
+    return df
+
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument('file')
     args = parser.parse_args()
 
-    with open(args.file, 'r') as f:
-        text = f.read()
+    path = '/home/moorepants/Teaching/eme185'
 
-    sections = text.split('\n\n')
+    file1 = 'Moore-EME_185A_Peer_Evaluation-EME_185-Winter_2016.csv'
+    file2 = 'Moore-Final_Peer_Evaluation-EME_185-Winter_2016.csv'
+    file3 = 'Moore-Spring_Midterm_Peer_Evaluation-EME_185-Winter_2016.csv'
 
-    q_map = question_map(sections[3])
-    conflict_df = parse_answer_section(sections[4], q_map)
-    print_sorted(conflict_df, False)
+    sections1 = load_catme_data_sections(os.path.join(path, file1))
+    sections2 = load_catme_data_sections(os.path.join(path, file2))
+    sections3 = load_catme_data_sections(os.path.join(path, file3))
 
-    q_map = question_map(sections[5])
-    satis_df = parse_answer_section(sections[6], q_map)
-    print_sorted(satis_df, False)
+    df1 = load_main_table(sections1[1])
+    df2 = load_main_table(sections2[1])
+    df3 = load_main_table(sections3[1])
 
-    q_map = question_map(sections[7])
-    satis_df = parse_answer_section(sections[8], q_map)
-    print_sorted(satis_df, False)
+    df1 = create_team_factor(df1)
+    df2 = create_team_factor(df2)
+    df3 = create_team_factor(df3)
+
+    df = df3[['Student Name', 'Student ID', 'Team Factor']].copy()
+    df['Team Factor'] = (df1['Team Factor'] + df2['Team Factor'] + df3['Team Factor']) / 3
+
+    df[['Student ID', 'Team Factor']].to_csv('team_factor.csv')
+
+    # Parse extra questions
+    #q_map = question_map(sections[3])
+    #conflict_df = parse_answer_section(sections[4], q_map)
+    #print_sorted(conflict_df, False)
+#
+    #q_map = question_map(sections[5])
+    #satis_df = parse_answer_section(sections[6], q_map)
+    #print_sorted(satis_df, False)
+#
+    #q_map = question_map(sections[7])
+    #satis_df = parse_answer_section(sections[8], q_map)
+    #print_sorted(satis_df, False)
