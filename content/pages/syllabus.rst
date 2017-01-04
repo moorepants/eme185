@@ -9,15 +9,13 @@ Course Description
 | University of California, Davis
 | Department of Mechanical and Aerospace Engineering
 | Mechanical Design - EME 185A/B
-| Winter 2016, Lecture: W 1:20-200PM, Studio: A02 T 4:10-7:00PM, A03 W 4:10-7:00PM
-| CRN: A02 43644, A03 22256
-| `A Catalog Entry`_
-| Spring 2016
-| CRN: 63396, 63754, 63755, 63756, 63757, 63758
-| `B Catalog Entry`_
+| Winter 2017, Lecture: T 3:10-4:00PM, Studio: A02 W 3:10-6:00PM, A03 R 3:10-6:00PM
+| CRN: A02 22399, A03 22400
+| Spring 2017
+| CRN: 70981, 70982, 70983, 70984, 70985, 70986
+| `Catalog Entry`_
 
-.. _A Catalog Entry: http://catalog.ucdavis.edu/programs/EME/EMEcourses.html#pgfId-3864068
-.. _B Catalog Entry: http://catalog.ucdavis.edu/programs/EME/EMEcourses.html#pgfId-3864070
+.. _Catalog Entry: http://catalog.ucdavis.edu/programs/EME/EMEcourses.html
 
 Course Philosophy
 -----------------
@@ -108,13 +106,37 @@ Engineering and Aeronautical Science and Engineering Programs::
       needs within realistic constraints such as economic, environmental,
       social, political, ethical, health and safety, manufacturability, and
       sustainability
+   d.
    e. an ability to identify, formulate, and solve engineering problems
    f. an understanding of professional and ethical responsibility
    g. an ability to communicate effectively
    h. the broad education necessary to understand the impact of engineering
       solutions in a global, economic, environmental, and societal context
+   i.
+   j.
    k. an ability to use the techniques, skills, and modern engineering tools
       necessary for engineering practice.
+
+Course Learning Outcomes
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Students will be able to:
+
+1. work comfortably and competently with mathematics, science, and basic
+   engineering principles,
+2. design and conduct experiments as well as collect, analyze and interpret
+   data,
+3. design an engineering system, component, or process to meet prescribed needs
+   and constraints,
+4. work comfortably on multi-disciplinary teams,
+5. identify, formulate and solve engineering problems,
+6. understand professional and ethical responsibility,
+7. communicate effectively,
+8. understand the impact of engineering solutions in a global, economic,
+   environmental, and societal context,
+9. stay abreast of contemporary issues, and
+10. use the techniques, skills, and modern engineering tools necessary for
+    engineering practice.
 
 Prerequites
 -----------
@@ -133,29 +155,34 @@ It is recommended to have taken:
 Instructors
 ===========
 
-+--------------------------------+--------------------------+
-| Instructors                    | Teaching Assistants      |
-+================================+==========================+
-| | Steve A. Velinsky            | | Tsz Fung               |
-| | *A01 Primary Instructor*     | | *A01*                  |
-| | savelinsky@ucdavis.edu       | | syfung@ucdavis.edu     |
-+--------------------------------+--------------------------+
-| | Jason K. Moore               |  | Farhad Ghadamli       |
-| | *A02/A03 Primary Instructor* |  | *A02/A03*             |
-| | 2095 Bainer Hall             |  | fghadamli@ucdavis.edu |
-| | jkm@ucdavis.edu              |                          |
-+--------------------------------+--------------------------+
-|                                | | Matthew Lefort         |
-|                                | | *A02/A03*              |
-|                                | | mplefort@ucdavis.edu   |
-+--------------------------------+--------------------------+
++--------------------------------+-----------------------------+
+| Instructors                    | Teaching Assistants         |
++================================+=============================+
+| | Steve A. Velinsky            | | Stephanie Fung            |
+| | *A01 Primary Instructor*     | | *A01*                     |
+| | savelinsky@ucdavis.edu       | | stfung@ucdavis.edu        |
++--------------------------------+-----------------------------+
+| | Jason K. Moore               | | Kenneth Lyons             |
+| | *A02/A03 Primary Instructor* | | *A02/A03*                 |
+| | 2095 Bainer Hall             | | krlyons@ucdavis.edu       |
+| | 530-752-4805                 |                             |
+| | jkm@ucdavis.edu              |                             |
++--------------------------------+-----------------------------+
+|                                | | Naveen Gowrishankar       |
+|                                | | *A02/A03*                 |
+|                                | | ngowrishankar@ucdavis.edu |
++--------------------------------+-----------------------------+
+|                                | | Gang Chen                 |
+|                                | | *A02/A03*                 |
+|                                | | ggchen@ucdavis.edu        |
++--------------------------------+-----------------------------+
 
 Time and Location
 =================
 
-The winter lecture meets on Wednesdays from 1:20 to 2:00 PM in Wellman 2. The
-A02 studio sections will meet on Tuesday from 4:10 to 7:00 PM in Young 184 and
-the A03 studio sections will meet on Tuesday from 4:10 to 7:00 PM in Chem 176.
+The winter lecture meets on Tuesdays from 3:10 to 4:00 PM in Storer 1322. The
+A02 studio sections will meet on Wednesday from 3:10 to 6:00 PM the A03 studio
+sections will meet on Thursday from 3:10 to 6:00 PM, both in Bainer 2071.
 
 The spring meetings will be scheduled during the winter quarter.
 
@@ -165,27 +192,29 @@ first week of class (emergencies will be the only exception).**
 Office Hours
 ============
 
-Winter/Spring, Bainer 2095
+Jason's winter office hours are Mondays and Wednesdays from 10:00-12:00 in
+Bainer 2095. **For Jason's office hours, book a time slot for your team at
+least 12 hours in advance via http://moorepants.youcanbook.me.** [#]_ If you
+can't make the regular scheduled office hours, check Jason's `work calendar`_
+for an open time slot between 8AM and 6:30PM on weekdays and email hime with a
+request for a meeting.
 
-Jason: R 2-4pm, F 11-1
+.. _work calendar: http://www.moorepants.info/work-calendar.html
 
-**You must sign up for 30 minutes office hour slots with Jason.**
+TA office hours: TBA
 
-Spring
-
-TA office hours are in the CAE lab (design studio side).
-
-- Farhad: M 12:00 - 1:00 PM, R 10:00 - 11:00 AM
-- Matt: M 3:00 - 4:00 PM, W 11:30 - 12:30 PM
+.. [#] This is necessary to give teams exclusive time with the instructor.
 
 Academic Integrity
 ==================
 
 Academic dishonesty will not be tolerated. Please visit the `Academic Integrity
-web page <http://sja.ucdavis.edu/academic-integrity.html>`_ from UC Davis
-Office of Student Judicial Affairs to review the campus' policy on academic
-responsibility and integrity and read the UC Davis `code of academic conduct
-<http://sja.ucdavis.edu/cac.html>`_.
+web page`_ from UC Davis Office of Student Judicial Affairs to review the
+campus' policy on academic responsibility and integrity and read the UC Davis
+`code of academic conduct`_.
+
+.. _Academic Integrity web page: http://sja.ucdavis.edu/academic-integrity.html
+.. _code of academic conduct: http://sja.ucdavis.edu/cac.html
 
 Textbook
 ========
@@ -204,38 +233,37 @@ book. There are a lot of useful materials available.
 Assignments & Grades
 ====================
 
-Grades will be available in the smartsite.ucdavis.edu_ grade book periodically
+You will receive a single grade for EME185A and EME185B (total of 8 units) that
+will be reported to you via the registrar at the end of the spring quarter.
+After the winter quarter you grade will show as IP until the end of the spring
+quarter.
+
+Grades will be available in the canvas.ucdavis.edu_ grade book periodically
 throughout the course along with class statistics. Check the website on a
 regular basis to gauge your performance. Keep in mind that **15% is deducted
 per business day late** on all assignments.
 
-.. _smartsite.ucdavis.edu: http://smartsite.ucdavis.edu
+.. _canvas.ucdavis.edu: http://canvas.ucdavis.edu
 
 =========================  ===
 EME 185A
 =========================  ===
-Preliminary Design Report  30%
-Preliminary Design Review  20%
-Project Proposal Report    20%
-Memos                      15%
-Presentation               10%
-In class                   5%
-Peer Evaluation            May modify individual grade up or down
-=========================  ===
-
-=========================  ===
-EME 185B
-=========================  ===
-Final Design Report        40%
-Final Design Review        35%
-Midterm Progress Report    10%
-Poster Presentation        10%
-In class                   5%
+Memos                      7.5%
+Project Proposal Report    10%
+Preliminary Design Report  15%
+Midterm Progress Report    5%
+Final Design Report        20%
+Preliminary Design Review  10%
+Final Design Review        17.5%
+Presentation               5%
+Poster Presentation        5%
+In class                   7.5%
 Peer Evaluation            May modify individual grade up or down
 =========================  ===
 
 Memos_
-   You will turn a team generated memo approximately once every two weeks.
+   You will turn a team generated memo approximately once every two weeks in
+   the first quarter.
 Project Proposal Report_
    This report will present your proposal in terms of sponsor needs,
    engineering specs, and possible solutions.
@@ -270,48 +298,40 @@ Peer Evaluation
 .. _Review: {filename}/pages/presentations.rst
 .. _Presentation: {filename}/pages/presentations.rst
 
-Smartsite
-=========
+Canvas
+======
 
-We will make use of SmartSite for the course. Log in to smartsite.ucdavis.edu
-with you Kerberos ID and passphrase then select **EME 185A A02-A03 WQ 2016** or
-access the SmartSite through this link:
+We will make use of Canvas for the course. Log in to canvas.ucdavis.edu_ with
+your Kerberos ID and passphrase then select **EME 185A A02 WQ 2017**.
 
-https://smartsite.ucdavis.edu/portal/site/eme185a-winter-2016
-
-We will be using several features in SmartSite:
+We will be using several features in canvas:
 
 Announcements
-   All class announcements will be sent to your UCD email address and be
-   collected here. Check your UCD email and/or this tab regularly during the
-   class for important information.
+   This will be my primary communication avenue to you. These announcements
+   will be forwarded automatically to your UCD email address. You are expected
+   to read these either through your email program or on the Canvas website.
 Assignments
-   The assignments will be distributed and collected here.
-Course Website
-   This displays this website within SmartSite.
-Gradebook
+   The electronic assignments will be distributed and collected here.
+Grades
    Your grades and basic stats on your relative performance will be available
    as the course goes along.
-Q & A (Piazza)
-   Piazza should be used for all questions that everyone would benefit from.
-   Please default to asking questions on Piazza instead of email. Use personal
-   emails only for correspondence that needs privacy.
-Resources
-   Private and copyrighted files, documents, and other resources will be
-   available here for download.
+Files
+   Copyrighted and private files, documents, and other resources will be
+   available here for download. The rest will be available for download on this
+   website.
 
 Communication
 =============
 
 This class requires a lot of communication: among your team, with your
 sponsors, with your mentors, and with the instructors. This can quickly get
-unmanageable, especially for the instructors. So here are some simple rules to
-follow with respect to communication:
+unmanageable, especially for the instructors' email inboxes. So here are some
+simple rules to follow with respect to communication:
 
-Smartsite Q&A (Piazza)
+Piazza
    This is the first place to ask questions. Use Piazza to ask questions that
    are general for the class. Try to restructure your less general questions
-   into general ones so you can ask here. This minimizes the # of times a
+   into general ones so you can ask here. This minimizes the number of times a
    question has to be answered and allows both students and instructors to
    collectively answer questions. You can post anonymously if needed.
 Email
