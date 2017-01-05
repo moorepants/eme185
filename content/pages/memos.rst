@@ -33,8 +33,8 @@ required to understand the main content.
 .. [#] I recommend collaborative editors for team work like Google Docs,
    ShareLaTeX, OverLeaf, SageMathCloud, Etherpad, etc.
 
-Memo 1: Project Selection [Due: Friday, January 8, 2016]
-========================================================
+Memo 1: Project Selection [Due: Friday, January 13, 2017]
+=========================================================
 
 This "memo" will be in the form of a CATME Team Maker Survey, a cover letter,
 and your résumé. You will receive a notice via email and will need to fill out
@@ -51,7 +51,7 @@ https://www.catme.org/
 Resources for developing your résumé and cover letter can be found on the
 `resources page <{filename}/pages/resources.rst>`_.
 
-Memo 2: Needs and Specs [Due: Friday, January 15, 2016]
+Memo 2: Needs and Specs [Due: Friday, January 20, 2017]
 =======================================================
 
 The purpose of this memo is to summarize what you have learned from the
@@ -76,7 +76,7 @@ Suggestions of what may be helpful to include:
 - The organized target specifications.
 - Reflections on the process and the results.
 
-Memo 3: Concept Generation [Due: Friday, January 22, 2016]
+Memo 3: Concept Generation [Due: Friday, February 3, 2017]
 ==========================================================
 
 The purpose of this memo is to summarize your initial exploration of external
@@ -115,8 +115,8 @@ Suggestions of what to include:
   classification trees, combination tables, etc.)
 - Reflection on the process and the results.
 
-Memo 4: Preliminary Analysis [Due: Friday, Feburary 5, 2016]
-============================================================
+Memo 4: Preliminary Analysis [Due: Friday, Feburary 17, 2017]
+=============================================================
 
 To select your final design concept, you will need to determine if the
 different concepts meet your target specifications. This typically requires
@@ -141,8 +141,8 @@ Suggestions of what to include:
 
 .. _back-of-the-envelope: https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation
 
-Memo 5: Concept Selection [Due: Friday, Feburary 19, 2016]
-==========================================================
+Memo 5: Concept Selection [Due: Friday, March 3, 2017]
+======================================================
 
 The purpose of this memo is to show that you have narrowed down your concepts
 and have a solution that you want to move forward with. Ideally, you have one
