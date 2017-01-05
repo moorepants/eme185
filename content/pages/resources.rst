@@ -5,7 +5,7 @@ Lecture and Activity Materials
 ==============================
 
 - Copyright sensitive lecture slides and documents will be shared on the
-  "Resources" tab of Smartsite.
+  "Files" tab of Canvas.
 - `Microcontroller Materials and Information <{filename}/pages/microcontrollers.rst>`_
 
 Purchasing Parts and Materials
@@ -45,7 +45,7 @@ College of Engineering Design Showcase
 
 At the end of the course you will be expected to present your results to
 faculty, students, and visitors at the College of Engineering Design Showcase.
-This year's showcase will be at the ARC Pavilion on **June 2, 2016** from 2 to
+This year's showcase will be at the ARC Pavilion on **June 8, 2017** from 2 to
 4 pm and registration will open in March. At the showcase you will meet with
 industry sponsors and will have the opportunity to win various awards and to
 show off your work to potential employers.

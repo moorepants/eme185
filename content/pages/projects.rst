@@ -19,6 +19,5 @@ following guidelines:
 - Many of these projects could provide leads towards internship and employment
   opportunities.
 - All questions you have about the projects (clarity, more info, etc) should be
-  asked on Smartsite: Q & A (Piazza) so that everyone in the class can benefit
-  from the answers.
+  asked on Piazza so that everyone in the class can benefit from the answers.
 - There are 46 proposals, but only about 30 projects will be selected.

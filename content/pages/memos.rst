@@ -2,7 +2,7 @@
 :status: hidden
 
 In general, you will create weekly memos that document your team's
-accomplishments and progress. The memos should all be turned in to Smartsite
+accomplishments and progress. The memos should all be turned in to Canvas
 Assignments by midnight on the respective due date (typically Fridays).
 
 Each memo should stand on its own and you will be able to use the content as a
@@ -21,7 +21,7 @@ reader desires to understand further details. The appendices should not be
 required to understand the main content.
 
 - Each memo must be submitted as a single PDF document made up of 8.5" x 11"
-  sheets to Smartsite. **You will be docked points if you submit a format other
+  sheets to Canvas. **You will be docked points if you submit a format other
   than PDF.**
 - Your group is free to use any software you prefer to prepare the documents.
   [#]_.
@@ -39,7 +39,7 @@ Memo 1: Project Selection [Due: Friday, January 13, 2017]
 This "memo" will be in the form of a CATME Team Maker Survey, a cover letter,
 and your résumé. You will receive a notice via email and will need to fill out
 the survey on the CATME website. Your cover letter and résumé should be turned
-in via Smartsite as a single PDF. **Note that your résumé should not exceed
+in via Canvas as a single PDF. **Note that your résumé should not exceed
 more that two pages.** Prepend the résumé with a 1 page cover letter that
 explains why you should be chosen for the projects that you have selected on
 the CATME survey.

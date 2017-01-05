@@ -18,8 +18,8 @@ project.
 Report Format
 =============
 
-The reports will be due in PDF format via Smartsite by the due dates and times
-posted in the `schedule <{filename}/pages/schedule.rst>`_ and on the Smartsite
+The reports will be due in PDF format via Canvas by the due dates and times
+posted in the `schedule <{filename}/pages/schedule.rst>`_ and on the Canvas
 assignment. A single report should be submitted by one team member.
 
 - The report should fit on 8.5" x 11" sheets of paper [1]_.
@@ -160,7 +160,7 @@ Use your memos as building blocks for the proposal. The instructors and
 sponsors will evaluate your report to determine the size and scope of your
 project and if the objectives are both well thought out and feasible.
 
-Report #2: Preliminary Design [Due: March 19th, 2016]
+Report #2: Preliminary Design [Due: March 19th, 2017]
 =====================================================
 
 The purpose of the preliminary design report is to present your selected

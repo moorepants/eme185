@@ -103,7 +103,7 @@ address:
 - Any innovative things you've come up with.
 
 You can get ideas for posters by checking out the previous posters in the
-resources section of Smartsite or those that are hanging in Bainer Hall.
+files section of Canvas or those that are hanging in Bainer Hall.
 
 There are many websites offering tips on making posters. Here is a good one for
 scientific posters, but most of the advice is also applicable to your poster
@@ -143,14 +143,14 @@ and quality product.
    48" W x 36" H full-color poster per team. No other dimensions or sizes will
    be allowed. Only 1 poster per team will be printed (no reprints).
 2. The poster file must be emailed to amwakefield@ucdavis.edu no later than
-   noon (12:00 PM) on Wednesday, May 18th *and* submitted to Smartsite
+   noon (12:00 PM) on Wednesday, May 18th *and* submitted to Canvas
    assignments at the same time. Alin will not accept nor print any file
    received after this deadline.
 3. Files must be submitted as a PDF (highest quality preferred).
 4. When designing your poster, please carefully check the page setup settings.
    You must ensure your poster is correctly sized at 48" W x 36" H.
-5. A PowerPoint poster template is available on our Smartsite under the
-   Resources tab for optional use.
+5. A PowerPoint poster template is available on our Canvas under the
+   Files tab for optional use.
 6. The CoE cannot be responsible for verifying the accuracy of technical
    content, so you are strongly advised to have your instructor review your
    poster prior to submission.
