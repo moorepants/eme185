@@ -235,8 +235,10 @@ Assignments & Grades
 
 You will receive a single grade for EME185A and EME185B (total of 8 units) that
 will be reported to you via the registrar at the end of the spring quarter.
-After the winter quarter you grade will show as IP until the end of the spring
-quarter.
+After the winter quarter your grade will show as "IP" until the end of the
+spring quarter. All of the work in this class is graded per group, with each
+team member receiving the same grade as the group. Your peer evaluations may
+affect you individual grade.
 
 Grades will be available in the canvas.ucdavis.edu_ grade book periodically
 throughout the course along with class statistics. Check the website on a
@@ -248,16 +250,16 @@ per business day late** on all assignments.
 =========================  ===
 EME 185A
 =========================  ===
-Memos                      7.5%
+Memos                      5%
 Project Proposal Report    10%
 Preliminary Design Report  15%
-Midterm Progress Report    5%
+Midterm Progress Report    10%
 Final Design Report        20%
 Preliminary Design Review  10%
-Final Design Review        17.5%
+Final Design Review        15%
 Presentation               5%
 Poster Presentation        5%
-In class                   7.5%
+In class                   5%
 Peer Evaluation            May modify individual grade up or down
 =========================  ===
 
