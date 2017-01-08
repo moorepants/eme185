@@ -36,7 +36,7 @@ work effort or make your decisions, but are there to assist you with technical
 engineering problems.
 
 In 185A, a one-hour lecture is used each week to present material related to
-the design process. Additionally, a 3-hour laboratory is used for group
+the design process. Additionally, a 3-hour studio is used for group
 activities, supplemental lecture material, and individual group meetings with
 the instructors. Groups will follow the design process in their respective
 projects. Groups are expected to meet regularly outside of formal class hours.
