@@ -6,6 +6,7 @@ end of EME 185B. The grade will be based on the reports, memos, presentations,
 in-class participation, and peer evaluations. Information for the various
 assignments are linked below:
 
+- `Meetigs <{filename}/pages/meeetings.rst>`_
 - `Memos <{filename}/pages/memos.rst>`_
 - `Reports <{filename}/pages/reports.rst>`_
 - `Presentations <{filename}/pages/presentations.rst>`_

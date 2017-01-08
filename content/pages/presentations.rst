@@ -1,18 +1,6 @@
 :title: Presentations
 :status: hidden
 
-Winter Quarter Studio Meetings
-==============================
-
-Each team will be assigned a teaching assistant. During the studio sections,
-each team will meet with the teaching assistant for 20+ minutes to discuss the
-weekly progress and/or the current studio activity. Every other week, you will
-additionally meet with the primary instructor for an additional 10+ minutes.
-You must prepare an AIO for these meetings and have it available during the
-meeting. **Your in-class grade will be affected if you don't have an agenda or
-if you don't show up to these meetings, i.e. don't waste the instructors'
-time.**
-
 Preliminary Critical Design Review
 ==================================
 
