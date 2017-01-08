@@ -30,12 +30,12 @@
     <h1 class="entry-title">Part 1: Intro to Microcontrollers With Emulation</h1>
     
     <div class="section" id="introduction">
-<h2>Introduction</h2>
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
 <p>This lesson will introduce you to programming the Arduino microcontroller board
 using an electronics emulator.</p>
 </div>
 <div class="section" id="objectives">
-<h2>Objectives</h2>
+<h2>Objectives<a class="headerlink" href="#objectives" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>To understand what a microcontroller is and what it may be used for.</li>
 <li>To introduce the basics of programming an Arduino microcontroller.</li>
@@ -43,7 +43,7 @@ using an electronics emulator.</p>
 </ul>
 </div>
 <div class="section" id="microcontrollers">
-<h2>Microcontrollers</h2>
+<h2>Microcontrollers<a class="headerlink" href="#microcontrollers" title="Permalink to this headline">¶</a></h2>
 <p>Microcontrollers are very simple computers that have a central processing unit
 (CPU), memory, and various electrical inputs and outputs. They allow us to
 enhance electrical circuits with logic and algorithms. They are particularly
@@ -72,7 +72,7 @@ real time, but are queued.</p>
 </ul>
 </div>
 <div class="section" id="emulation">
-<h2>Emulation</h2>
+<h2>Emulation<a class="headerlink" href="#emulation" title="Permalink to this headline">¶</a></h2>
 <p>In general, the code you write on your computer for the microcontroller must be
 compiled, i.e.  transformed into the language of the Arduino's CPU, and then
 uploaded onto the Arudino's memory. To try out code on the Arduino you must
@@ -119,7 +119,7 @@ excepts code, e.g. the Arduino UNO.</dd>
 </dl>
 </div>
 <div class="section" id="processing-language">
-<h2>Processing Language</h2>
+<h2>Processing Language<a class="headerlink" href="#processing-language" title="Permalink to this headline">¶</a></h2>
 <p>The Arduino can be programmed by writing code in the <a class="reference external" href="https://en.wikipedia.org/wiki/Processing_%28programming_language%29">Processing language</a>,
 which is derivative of the C programming language. C is a low level language
 that compiles directly to machine code for different CPU architectures and is
@@ -127,7 +127,7 @@ one of the most widely used programming languages. Most work with
 microcontrollers is done in C.</p>
 </div>
 <div class="section" id="variables">
-<h2>Variables</h2>
+<h2>Variables<a class="headerlink" href="#variables" title="Permalink to this headline">¶</a></h2>
 <p>Objectives:</p>
 <ul class="simple">
 <li>Explain how to declare and assign variables.</li>
@@ -153,7 +153,7 @@ you can convert an integer to a double with:</p>
 <span class="kt">double</span> <span class="n">double_val</span> <span class="o">=</span> <span class="p">(</span><span class="kt">double</span><span class="p">)</span> <span class="n">int_val</span><span class="p">;</span>
 </pre></div>
 <div class="section" id="exercise">
-<h3>Exercise</h3>
+<h3>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h3>
 <p>What will the value of the variable <tt class="docutils literal">result`</tt> be in the following code?</p>
 <div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
 <span class="kt">int</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
@@ -170,7 +170,7 @@ you can convert an integer to a double with:</p>
 </div>
 </div>
 <div class="section" id="functions-setup-loop-and-custom">
-<h2>Functions: setup(), loop(), and custom</h2>
+<h2>Functions: setup(), loop(), and custom<a class="headerlink" href="#functions-setup-loop-and-custom" title="Permalink to this headline">¶</a></h2>
 <p>Objectives:</p>
 <ul class="simple">
 <li>Understand what a function is, how to write one, and how to use one.</li>
@@ -224,7 +224,7 @@ function can be used as such:</p>
 <p>Note that variables declared inside functions will not be available to other
 functions.</p>
 <div class="section" id="id2">
-<h3>Exercise</h3>
+<h3>Exercise<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <p>What will the result of the following code be if the values returned by the
 <tt class="docutils literal">square()</tt> function were displayed to the screen?</p>
 <div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
@@ -245,7 +245,7 @@ functions.</p>
 </pre></div>
 </div>
 <div class="section" id="id3">
-<h3>Exercise</h3>
+<h3>Exercise<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <p>What is wrong with the following code?</p>
 <div class="highlight"><pre><span></span><span class="kt">void</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
   <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
@@ -262,7 +262,7 @@ functions by declaring it globally, i.e. outside and above each function.</p>
 </div>
 </div>
 <div class="section" id="serial-communications">
-<h2>Serial Communications</h2>
+<h2>Serial Communications<a class="headerlink" href="#serial-communications" title="Permalink to this headline">¶</a></h2>
 <p>Objectives:</p>
 <ul class="simple">
 <li>To understand the serial communications available on an Arduino.</li>
@@ -295,7 +295,7 @@ values to the serial port:</p>
 result of the code is correct. You will need to open the serial monitor while
 this code simulates to see the results.</p>
 <div class="section" id="id4">
-<h3>Exercise</h3>
+<h3>Exercise<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <p>Add some print statements to your code so that you can see the results of the
 <tt class="docutils literal">square()</tt> function calls on the serial monitor.</p>
 <p>Solution:</p>
@@ -319,7 +319,7 @@ this code simulates to see the results.</p>
 </div>
 </div>
 <div class="section" id="digital-i-o">
-<h2>Digital I/O</h2>
+<h2>Digital I/O<a class="headerlink" href="#digital-i-o" title="Permalink to this headline">¶</a></h2>
 <p>The digital I/O pins on the board can be set to either input or output mode and
 can be activated or deactivated as you see fit for your particular application.</p>
 <p>Typically in <tt class="docutils literal">setup()</tt> you will set the mode of the particular pin to input
@@ -352,7 +352,7 @@ maximum and minimum voltage, respectively.</p>
 </tbody>
 </table>
 <div class="section" id="id7">
-<h3>Exercise</h3>
+<h3>Exercise<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <p>Plug in an LED to the breadboard and connect its anode (+, long side) to a 150
 ohm resistor <a class="footnote-reference" href="#id9" id="id8">[2]</a>.  Then connect the other end of the resistor to the number 13 pin.
 Finally, connect the LED's cathode (-, short side) to the ground pin and
@@ -368,7 +368,7 @@ Arduino board and the LED can handle.</td></tr>
 </div>
 </div>
 <div class="section" id="conditionals">
-<h2>Conditionals</h2>
+<h2>Conditionals<a class="headerlink" href="#conditionals" title="Permalink to this headline">¶</a></h2>
 <p>Processing supports flow control with <tt class="docutils literal">if</tt> statements. For example, if you'd
 like to activate the on-board LED every 100 milliseconds except on every 5th
 cycle wait for 1000 milliseconds. You could use:</p>
@@ -395,7 +395,7 @@ cycle wait for 1000 milliseconds. You could use:</p>
 </pre></div>
 <p>The <tt class="docutils literal">%</tt> operator computes the modulus (remainder after division).</p>
 <div class="section" id="id10">
-<h3>Exercise</h3>
+<h3>Exercise<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <p>What does the following code do?</p>
 <div class="highlight"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="nf">digitalRead</span><span class="p">(</span><span class="mi">13</span><span class="p">)</span> <span class="o">==</span> <span class="kc">HIGH</span><span class="p">)</span> <span class="p">{</span>
   <span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
@@ -406,7 +406,7 @@ cycle wait for 1000 milliseconds. You could use:</p>
 </div>
 </div>
 <div class="section" id="loops">
-<h2>Loops</h2>
+<h2>Loops<a class="headerlink" href="#loops" title="Permalink to this headline">¶</a></h2>
 <p>There are two types of loops available for use <tt class="docutils literal">for</tt> and <tt class="docutils literal">while</tt> loops. To
 do something a specific number of times you can use a for loop. For example,
 this loop will execute ten times, i.e. i = 0, 1, 2, ..., 9.</p>
@@ -424,7 +424,7 @@ this loop will execute ten times, i.e. i = 0, 1, 2, ..., 9.</p>
 </pre></div>
 </div>
 <div class="section" id="analog-read">
-<h2>Analog Read</h2>
+<h2>Analog Read<a class="headerlink" href="#analog-read" title="Permalink to this headline">¶</a></h2>
 <p>There are six analog input pins on the Arduino Uno. Sources that supply
 continuous voltage from 0 to 5 volts can be read using these pins. For example,
 it is useful for reading the voltage from a potentiometer. To read the voltage
@@ -439,7 +439,7 @@ mapped to 0 to 5 volts, i.e. .0049 volts per step. You will need a conversion
 factor to convert the value from an integer to a voltage value of double
 precision.</p>
 <div class="section" id="id11">
-<h3>Exercise</h3>
+<h3>Exercise<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <p>Drop in a power supply component and connect the black pin to the Arduino's
 ground and the red pin to the <tt class="docutils literal">A0</tt> pin. Write some code that causes the
 voltage to display to the serial monitor and ensure that it matches the voltage
@@ -448,7 +448,7 @@ supplied by the power supply.</p>
 </div>
 </div>
 <div class="section" id="arduino-ide">
-<h2>Arduino IDE</h2>
+<h2>Arduino IDE<a class="headerlink" href="#arduino-ide" title="Permalink to this headline">¶</a></h2>
 <p>To work with the real Arduino hardware you will use the Arduino integrated
 development environment (IDE). The &quot;verify&quot; button compiles your code and
 reports any errors you may have. The &quot;upload&quot; button will send the program to
@@ -456,7 +456,7 @@ the Arudino for execution.</p>
 <p><a class="reference external" href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a></p>
 </div>
 <div class="section" id="homework-assignment">
-<h2>Homework Assignment</h2>
+<h2>Homework Assignment<a class="headerlink" href="#homework-assignment" title="Permalink to this headline">¶</a></h2>
 <p>The goal of the homework assignment is to create a fuel level indicator using a
 row of 10 LEDS. The sensor for the fuel level should be a simple potentiometer.
 It is connected to a floating bob in the fuel tank and the potentiometer
