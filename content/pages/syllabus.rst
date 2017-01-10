@@ -193,7 +193,7 @@ first week of class (emergencies will be the only exception).**
 Office Hours
 ============
 
-Jason's winter office hours are Mondays and Wednesdays from 10:00-12:00 in
+Jason's winter office hours are Tuesdays and Wednesdays from 10:00-12:00 in
 Bainer 2095. **For Jason's office hours, book a time slot for your team at
 least 12 hours in advance via:** http://moorepants.youcanbook.me. [#]_ If you
 can't make the regular scheduled office hours, check Jason's `work calendar`_
