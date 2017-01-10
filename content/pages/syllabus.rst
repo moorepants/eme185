@@ -95,6 +95,27 @@ Objectives
 To study and experience the engineering design process using all of the tools
 developed throughout the curriculum through an industrial-type design project.
 
+Course Learning Outcomes
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Students will be able to:
+
+1. work comfortably and competently with mathematics, science, and basic
+   engineering principles,
+2. design and conduct experiments as well as collect, analyze and interpret
+   data,
+3. design an engineering system, component, or process to meet prescribed needs
+   and constraints,
+4. work comfortably on multi-disciplinary teams,
+5. identify, formulate and solve engineering problems,
+6. understand professional and ethical responsibility,
+7. communicate effectively,
+8. understand the impact of engineering solutions in a global, economic,
+   environmental, and societal context,
+9. stay abreast of contemporary issues, and
+10. use the techniques, skills, and modern engineering tools necessary for
+    engineering practice.
+
 ABET Educational Student Outcomes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -116,27 +137,6 @@ Engineering and Aeronautical Science and Engineering Programs::
    j.
    k. an ability to use the techniques, skills, and modern engineering tools
       necessary for engineering practice.
-
-Course Learning Outcomes
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Students will be able to:
-
-1. work comfortably and competently with mathematics, science, and basic
-   engineering principles,
-2. design and conduct experiments as well as collect, analyze and interpret
-   data,
-3. design an engineering system, component, or process to meet prescribed needs
-   and constraints,
-4. work comfortably on multi-disciplinary teams,
-5. identify, formulate and solve engineering problems,
-6. understand professional and ethical responsibility,
-7. communicate effectively,
-8. understand the impact of engineering solutions in a global, economic,
-   environmental, and societal context,
-9. stay abreast of contemporary issues, and
-10. use the techniques, skills, and modern engineering tools necessary for
-    engineering practice.
 
 Prerequites
 -----------
@@ -315,6 +315,8 @@ Announcements
    to read these either through your email program or on the Canvas website.
 Assignments
    The electronic assignments will be distributed and collected here.
+Discussion
+   This discussion board is the first place to ask questions about the class.
 Grades
    Your grades and basic stats on your relative performance will be available
    as the course goes along.
@@ -331,12 +333,12 @@ sponsors, with your mentors, and with the instructors. This can quickly get
 unmanageable, especially for the instructors' email inboxes. So here are some
 simple rules to follow with respect to communication:
 
-Piazza
-   This is the first place to ask questions. Use Piazza to ask questions that
-   are general for the class. Try to restructure your less general questions
-   into general ones so you can ask here. This minimizes the number of times a
-   question has to be answered and allows both students and instructors to
-   collectively answer questions. You can post anonymously if needed.
+Canvas Discussions
+   This is the first place to ask questions. Use this forum to ask questions
+   that are general for the class. Try to restructure your less general
+   questions into general ones so you can ask here. This minimizes the number
+   of times a question has to be answered and allows both students and
+   instructors to collectively answer questions.
 Email
    Use email for individualized communication, i.e. for questions about project
    specifics or other personal needs. Email your TA first before you email the
