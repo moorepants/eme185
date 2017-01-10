@@ -7,9 +7,9 @@ Instructions
 
 The following list of project proposals have been submitted by a variety
 industry, education, and research sponsors. You will have the opportunity to
-vote on your top three choices in the `CATME Team Maker survey
+vote on your top five choices in the `CATME Team Maker survey
 <https://www.catme.org/login/>`_. The instructors will then pair a project to a
-team of 3 to 5 students based on the survey data. Please take note of the
+team of 4 to 5 students based on the survey data. Please take note of the
 following guidelines:
 
 - Be sure to note any additional requirements like sponsor location,
@@ -19,5 +19,6 @@ following guidelines:
 - Many of these projects could provide leads towards internship and employment
   opportunities.
 - All questions you have about the projects (clarity, more info, etc) should be
-  asked on Piazza so that everyone in the class can benefit from the answers.
-- There are 46 proposals, but only about 30 projects will be selected.
+  asked on Canvas discussions so that everyone in the class can benefit from
+  the answers.
+- There are 22 proposals, but only about 17 projects will be selected.

@@ -17,8 +17,10 @@ DEFAULT_LANG = u'en'
 
 TEMPLATE_PAGES = {'projects.html': 'projects.html'}
 
-PLUGIN_PATHS = ["plugins", join(expanduser("~"), 'src', 'pelican-plugins')]
-PLUGINS = ['neighbors', 'headerid']
+# NOTE: The order here is important. The last item is the first to be searched
+# it seems.
+PLUGIN_PATHS = [join(expanduser("~"), 'src', 'pelican-plugins'), "plugins"]
+PLUGINS = ['neighbors', 'render_math', 'headerid']
 
 # headerid options
 HEADERID_LINK_CHAR = "¶"

@@ -30,6 +30,8 @@ def get_translation(page, prefered_language):
 
 def set_neighbors(pages, next_name, prev_name):
     pages = sorted(pages, key=(lambda x: x.title), reverse=True)
+    # make sure we are only using pages from the projects directory
+    pages = [p for p in pages if str(p.metadata['category']) == "projects"]
     for nxt, cur, prv in iter3(pages):
         setattr(cur, next_name, nxt)
         setattr(cur, prev_name, prv)
