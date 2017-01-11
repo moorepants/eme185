@@ -50,11 +50,17 @@ Resources for developing your résumé can be found on the
 
 CATME takes into account all of the information that you provide it and
 attempts to algorithmically select optimal teams to align schedules, distribute
-similar and dissimilar qualities, and ensure a project of you choice. We will
+similar and dissimilar qualities, and ensure a project of your choice. We will
 read your your résumé to get to know you a bit better and to provide you
 feedback for improving it for the upcoming `Engineering Career Fair`_ (Jan 25).
 
 .. _Engineering Career Fair: https://icc.ucdavis.edu/employer/fairs.htm
+
+I make all projects available to students in both sections (A02, A03) but each
+selected group will have to attend the same section. If you are willing to
+switch from attending Wednesday to attending Thursday or vice versa, then you
+will have a larger chance of getting the project you want. Please indicate this
+in the survey.
 
 Memo 2: Needs and Specs [Due: Friday, January 20, 2017]
 =======================================================
