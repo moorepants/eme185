@@ -21,4 +21,4 @@ following guidelines:
 - All questions you have about the projects (clarity, more info, etc) should be
   asked on Canvas discussions so that everyone in the class can benefit from
   the answers.
-- There are 22 proposals, but only about 17 projects will be selected.
+- There are 21 proposals, but only about 17 projects will be selected.
