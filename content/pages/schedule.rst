@@ -22,21 +22,22 @@ All      T Jan 17       Moore       Planning and Scheduling Lecture       Chapte
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  W/R Jan 18/19  Moore       - Concept Generation Lecture          Chapter 7
                                     - User stories activity
-                                    - Concept generation activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  F Jan 20                                                                          Memo 2: Needs/Specs
+A02/A03  F Jan 20
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 24       Velinsky    Concept Selection Lecture             Chapter 8
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  W/R Jan 25/26  Moore       TBA
+A02/A03  W/R Jan 25/26  Moore       - Concept generation activity
+                                    - Planning and Scheduling activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  F Jan 27
+A02/A03  F Jan 27                                                                          Memo 2: Needs/Specs
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 31       Velinsky    Product Architecture Lecture          Chapter 10
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  W/R Feb 1/2    Moore       TBA                                                    Sign up for 185B meeting times
+A02/A03  W/R Feb 1/2    Moore       - Concept selection activity                           Sign up for 185B meeting times
+                                    - Technical Reports Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Feb 3                                                                           Memo 3: Concepts
 -------  -------------  ----------  ------------------------------------  ---------------  -----
