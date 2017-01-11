@@ -36,20 +36,25 @@ required to understand the main content.
 Memo 1: Project Selection [Due: Friday, January 13, 2017]
 =========================================================
 
-This "memo" will be in the form of a CATME Team Maker Survey, a cover letter,
-and your résumé. You will receive a notice via email and will need to fill out
-the survey on the CATME website. Your cover letter and résumé should be turned
-in via Canvas as a single PDF. **Note that your résumé should not exceed
-more that two pages.** Prepend the résumé with a 1 page cover letter that
-explains why you should be chosen for the projects that you have selected on
-the CATME survey.
+This "memo" will be in the form of a CATME Team Maker Survey and your résumé.
+You will receive a notice via email for CATME and will need to fill out the
+survey on the CATME website. Your résumé should be turned in via Canvas as a
+single PDF. **Note that your résumé should not exceed more that two pages.**
 
 The CATME Survey can be accessed via this link:
 
 https://www.catme.org/
 
-Resources for developing your résumé and cover letter can be found on the
+Resources for developing your résumé can be found on the
 `resources page <{filename}/pages/resources.rst>`_.
+
+CATME takes into account all of the information that you provide it and
+attempts to algorithmically select optimal teams to align schedules, distribute
+similar and dissimilar qualities, and ensure a project of you choice. We will
+read your your résumé to get to know you a bit better and to provide you
+feedback for improving it for the upcoming `Engineering Career Fair`_ (Jan 25).
+
+.. _Engineering Career Fair: https://icc.ucdavis.edu/employer/fairs.htm
 
 Memo 2: Needs and Specs [Due: Friday, January 20, 2017]
 =======================================================
