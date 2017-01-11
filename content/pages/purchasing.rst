@@ -14,7 +14,7 @@ The MAE staff is your first stop for help with purchaing.
 MAE Main Office, 2132 Bainer Hall
 Business hours: 9:00 a.m. - 4:00 p.m., except - 12-1 p.m.
 
-- Dave Richardson,  ddrichardson@ucdavis.edu, 752-1498
+- Jennifer Young,  jlyoung@ucdavis.edu, 752-1498
 - Lili Scheiber, lmscheiber@ucdavis.edu, 752-7266
 - CeCe Coyle,  ccoyle@ucdavis.edu, 752-6256
 
