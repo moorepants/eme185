@@ -1,4 +1,4 @@
-:title: MAE Purchsaing Guidelines
+:title: Instructor Guide
 :status: hidden
 
 Primary Duties
@@ -87,7 +87,7 @@ roster as an instructor.
 Piazza
 ------
 
-Students should be directed to Piazza to ask asyncronous questions
+Students should be directed to Piazza to ask asynchronous questions
 electronically (instead of email). Any question that could benefit more than
 one student should be asked here, so if student email you directly, kindly
 direct them to Piazza. It is the instructors' responsibility to answer these
@@ -115,14 +115,14 @@ Reports and Memos
 =================
 
 You will be responsible for grading the memos. The purpose of the memos is so
-the students pace out the draft writing and tha we provide feedback on the
+the students pace out the draft writing and that we provide feedback on the
 material before it is put in the final report. Jason will provide grading
 rubrics.
 
 We will co-grade the final reports. There is a grading rubric, each of us will
 take a section of the report, and can grade it at our leisure. We will either
 use Google Drive to collaboratively annotate the PDFs or use the Canvas
-funcitonality.
+functionality.
 
 Instructor Feedback
 ===================
@@ -145,19 +145,58 @@ Memos
 
 The purpose of the memos is two fold:
 
-- to improve the student's ability to communicate clearly through professional techinial writing
+- to improve the student's ability to communicate clearly through professional technical writing
 - to provide quality instructor feedback on their work and progress
 
-Each memo has a rubric that is availabe in Canvas's speed grading tool.
+Each memo has a rubric that is available in Canvas's speed grading tool.
 
 - Grade relatively "hard" on memos so that the students take the feedback
   seriously.
 - When completely the rubric always start at the lowest category and work
-  upwards through each so that yo uare consistent.
+  upwards through each so that you are consistent.
 - Calibrate with other graders.
 
-Reports
+Weekly Tasks
+============
 
-Critical Design Reviews
+Week 0
+------
 
-Presentations
+The instructors should meeting the week before class starts for an
+introduction.
+
+- Setup a weekly instructor meeting time.
+
+Week 1
+------
+
+- TAs should come to the first 15 minutes of the first lecture to be introduced
+  to the whole class.
+- TAs should prepare a 5 to 7 minute introduction. I would like you to have a 5
+  to 10 minute "show and tell" and introduction for the lab on Wednesday and
+  Thursday. The idea would be to introduce your self and show a few things,
+  slides, or just talk about a project or projects you have done that is
+  relevant to them in the class. It should also give the students and idea what
+  technical advice you can offer them.
+- Send a list of project preferences by the same due date as the CATME survey.
+
+Lead TA
++++++++
+
+- Get design supplies for the needs and specifications studio activity.
+
+Week 2
+------
+
+- Choose teams and send out team emails and sponsor rejection emails.
+
+Lead TA
++++++++
+
+- Create Canvas rubric for grading the resumes.
+- Prepare the group charter and name assignment.
+
+TAs
++++
+
+- Grade the resumes.
