@@ -3,7 +3,7 @@
 :org_url: https://www.facebook.com/artthroughpod/
 :skills: mechanical design
 :location: Sacramento, CA, USA
-:id: pod
+:id: artpod
 :status: hidden
 :template: project-page
 
