@@ -17,7 +17,7 @@ washed and shredded into PET flakes to be used as raw material for a range of
 products. In Japan, the caps of plastic drinking bottles must be removed from
 the bottle and placed into separate recycling bins. See below:
 
-.. figure:: {filename}/images/bottle-cap-01.jpg
+.. figure:: {filename}/images/bottlecap-01.jpg
    :width: 300px
 
 This is problematic because most people are too lazy or indifferent to remove
