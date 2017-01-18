@@ -188,15 +188,21 @@ Lead TA
 Week 2
 ------
 
+Main Instructor
+~~~~~~~~~~~~~~~
+
 - Choose teams and send out team emails and sponsor rejection emails.
 
+
 Lead TA
-+++++++
+~~~~~~~
 
 - Create Canvas rubric for grading the resumes.
 - Prepare the group charter and name assignment.
 
 TAs
-+++
+~~~
 
 - Grade the resumes.
+- Create placards for team tables (student names, blank line for team name, and
+  project ID)
