@@ -191,18 +191,15 @@ Week 2
 Main Instructor
 ~~~~~~~~~~~~~~~
 
-- Choose teams and send out team emails and sponsor rejection emails.
+- Choose teams.
+- Send out team assignment emails.
+- Send out sponsor rejection emails.
 
-
-Lead TA
-~~~~~~~
-
-- Create Canvas rubric for grading the resumes.
-- Prepare the group charter and name assignment.
-
-TAs
-~~~
-
-- Grade the resumes.
-- Create placards for team tables (student names, blank line for team name, and
-  project ID)
+- [Lead TA] Create Canvas rubric for grading the resumes.
+- [Lead TA] Prepare the group charter and name assignment.
+- [TA 1] Create placards for team tables (student names, blank line for team
+  name, and project ID)
+- [TA 2] Create the 2 hr and 3hr meeting schedule.
+- [All TAs] Grade the resumes.
+- [All TAs] Read chapters 5 and 6, needs/specs slides, and needs/specs activity
+  handout.
