@@ -69,10 +69,9 @@ Course Website
 
 All of the public information about the course should go on this website
 (http://moorepants.github.io/eme185/). The website source is at
-https://github.com/moorepants/eme150a-website. You'll need to make a Github
-account and share your user name with Jason to get access to modify the
-website. See the README for instructions on editing and viewing the site
-locally.
+https://github.com/moorepants/eme185. You'll need to make a Github account and
+share your user name with Jason to get access to modify the website. See the
+README for instructions on editing and viewing the site locally.
 
 Canvas
 ------
@@ -82,16 +81,15 @@ that is shared with the students, e.g. grades, copyrighted materials,
 announcements, roster, email lists, solutions, etc. Request to be added to the
 roster as an instructor.
 
+Students should be directed to the Discussions section of the course Canvas
+page to ask asynchronous questions electronically (instead of email). Any
+question that could benefit more than one student should be asked here, so if
+students email you directly, kindly direct them to Discussions. It is the
+instructors' responsibility to answer these questions in a timely manner.
+Consider enabling email notifications for discussion posts in your Canvas
+account preferences.
+
 .. _Canvas: http://canvas.ucdavis.edu
-
-Piazza
-------
-
-Students should be directed to Piazza to ask asynchronous questions
-electronically (instead of email). Any question that could benefit more than
-one student should be asked here, so if student email you directly, kindly
-direct them to Piazza. It is the instructors' responsibility to answer these
-questions in a timely manner.
 
 Google Drive
 ------------
@@ -128,7 +126,7 @@ Instructor Feedback
 ===================
 
 I collect feedback on the Github issues page
-https://github.com/moorepants/eme150a/issues for anything that we need
+https://github.com/moorepants/eme185/issues for anything that we need
 to note for the future. These can be things that need to fixed on the website,
 ideas for improving the course, things that suck about the course, etc.
 
