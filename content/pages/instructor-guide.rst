@@ -132,7 +132,6 @@ https://github.com/moorepants/eme150a/issues for anything that we need
 to note for the future. These can be things that need to fixed on the website,
 ideas for improving the course, things that suck about the course, etc.
 
-
 Grading
 =======
 
@@ -179,22 +178,14 @@ Week 1
   relevant to them in the class. It should also give the students and idea what
   technical advice you can offer them.
 - Send a list of project preferences by the same due date as the CATME survey.
-
-Lead TA
-+++++++
-
 - Get design supplies for the needs and specifications studio activity.
 
 Week 2
 ------
 
-Main Instructor
-~~~~~~~~~~~~~~~
-
 - Choose teams.
 - Send out team assignment emails.
 - Send out sponsor rejection emails.
-
 - [Lead TA] Create Canvas rubric for grading the resumes.
 - [Lead TA] Prepare the group charter and name assignment.
 - [TA 1] Create placards for team tables (student names, blank line for team
