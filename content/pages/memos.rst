@@ -1,34 +1,38 @@
 :title: Memos
 :status: hidden
 
-In general, you will create weekly memos that document your team's
+In general, you will create a number of memos that document your team's
 accomplishments and progress. The memos should all be turned in to Canvas
 Assignments by midnight on the respective due date (typically Fridays).
 
 Each memo should stand on its own and you will be able to use the content as a
-base to develop the reports. In addition to turning in the assignment, you are
-welcome to share these memos with your project sponsor(s) for feedback but the
-main audience you should address are the course instructors.
+base to develop the reports. In addition to turning in the assignment, you
+should share these memos with your project sponsor(s) for feedback but the main
+audience you should address are the course instructors.
 
 The memos should have no more than two pages of main content and an optional
-additional two pages of appendices. The "main content" is defined as the
-essential text, figures, tables, etc. to tell your story. Additionally, feel
-free to link to rich media: videos, websites, demos, etc. This main content
-should stand on its own without the appendices. The appendices can include
-figures, tables, drawings, renderings, analyses, source code, and other
-relevant material to support the story told in your main content pages if the
-reader desires to understand further details. The appendices should not be
-required to understand the main content.
+appendices. The "main content" is defined as the essential text, figures,
+tables, etc. to tell your story. Additionally, feel free to link to rich media:
+videos, websites, demos, etc. This main content should stand on its own without
+the appendices. The appendices can include labeled and captioned figures,
+tables, drawings, renderings, analyses, source code, and other relevant
+material to support the story told in your main content pages if the reader
+desires to understand further details. Reference the items in the appendices in
+the main text. The appendices should not be required to understand the main
+content.
 
 - Each memo must be submitted as a single PDF document made up of 8.5" x 11"
   sheets to Canvas. **You will be docked points if you submit a format other
   than PDF.**
 - Your group is free to use any software you prefer to prepare the documents.
   [#]_.
-- They should be treated as a professional documents and formatted as such.
 - The audience you should write for is a technically competent reader, e.g.
   another engineering colleague or engineering management, and/or your project
   sponsor.
+- They should be treated as a professional documents and formatted as such.
+- Check out this `MIT document`_ for memo writing tips.
+
+.. _MIT document: https://ocw.mit.edu/courses/materials-science-and-engineering/3-003-principles-of-engineering-practice-spring-2010/labs/MIT3_003S10_memo.pdf
 
 .. [#] I recommend collaborative editors for team work like Google Docs,
    ShareLaTeX, OverLeaf, SageMathCloud, Etherpad, etc.
@@ -62,7 +66,10 @@ switch from attending Wednesday to attending Thursday or vice versa, then you
 will have a larger chance of getting the project you want. Please indicate this
 in the survey.
 
-Memo 2: Needs and Specs [Due: Friday, January 20, 2017]
+Memo 2: Team Charter [Due: Friday, January 20, 2017]
+====================================================
+
+Memo 3: Needs and Specs [Due: Friday, January 27, 2017]
 =======================================================
 
 The purpose of this memo is to summarize what you have learned from the
@@ -80,14 +87,14 @@ that you have found. Techniques for generating the specifications from the
 needs are provided in Chapter 6, where the first portion explains getting to
 target specs.
 
-Suggestions of what may be helpful to include:
+Other items to include:
 
 - Summary of the problem, i.e. the mission statement.
-- The organized identified needs.
-- The organized target specifications.
+- The organized identified needs (appendices).
+- The organized target specifications (appendices).
 - Reflections on the process and the results.
 
-Memo 3: Concept Generation [Due: Friday, February 3, 2017]
+Memo 4: Concept Generation [Due: Friday, February 3, 2017]
 ==========================================================
 
 The purpose of this memo is to summarize your initial exploration of external
@@ -126,7 +133,7 @@ Suggestions of what to include:
   classification trees, combination tables, etc.)
 - Reflection on the process and the results.
 
-Memo 4: Preliminary Analysis [Due: Friday, Feburary 17, 2017]
+Memo 5: Preliminary Analysis [Due: Friday, Feburary 17, 2017]
 =============================================================
 
 To select your final design concept, you will need to determine if the
@@ -152,7 +159,7 @@ Suggestions of what to include:
 
 .. _back-of-the-envelope: https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation
 
-Memo 5: Concept Selection [Due: Friday, March 3, 2017]
+Memo 6: Concept Selection [Due: Friday, March 3, 2017]
 ======================================================
 
 The purpose of this memo is to show that you have narrowed down your concepts
