@@ -23,7 +23,7 @@ All      T Jan 17       Moore       Planning and Scheduling Lecture       Chapte
 A02/A03  W/R Jan 18/19  Moore       - Concept Generation Lecture          Chapter 7
                                     - User stories activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  F Jan 20
+A02/A03  F Jan 20                                                                          Memo 2: Team Charter
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 24       Velinsky    Concept Selection Lecture             Chapter 8
@@ -31,7 +31,7 @@ All      T Jan 24       Velinsky    Concept Selection Lecture             Chapte
 A02/A03  W/R Jan 25/26  Moore       - Concept generation activity
                                     - Planning and Scheduling activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  F Jan 27                                                                          Memo 2: Needs/Specs
+A02/A03  F Jan 27                                                                          Memo 3: Needs/Specs
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 31       Velinsky    Product Architecture Lecture          Chapter 10
@@ -39,7 +39,7 @@ All      T Jan 31       Velinsky    Product Architecture Lecture          Chapte
 A02/A03  W/R Feb 1/2    Moore       - Concept selection activity                           Sign up for 185B meeting times
                                     - Technical Reports Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  F Feb 3                                                                           Memo 3: Concepts
+A02/A03  F Feb 3                                                                           Memo 4: Concepts
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Feb 7        Velinsky    Patents Lecture                       Chapter 16
@@ -55,7 +55,7 @@ All      T Feb 14       Velinsky    - Showcase Announcment (Wakefield)
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  W/R Feb 15/16  Moore       TBA
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  F Feb 17                                                                          Memo 4: Prelim Analysis
+A02/A03  F Feb 17                                                                          Memo 5: Prelim Analysis
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Feb 21       Moore       `Microcontroller Tutorial`_ Part 1
@@ -71,7 +71,7 @@ All      T Feb 28       Moore       TBA
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  W/R Mar 1/2    Moore       Meijo University Visit
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  F Mar 3                                                                           - Memo 5: Concept Selection
+A02/A03  F Mar 3                                                                           - Memo 6: Concept Selection
                                                                                            - Design review slides
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
