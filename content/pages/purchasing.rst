@@ -1,4 +1,4 @@
-:title: MAE Purchsaing Guidelines
+:title: MAE Purchasing Guidelines
 :status: hidden
 
 EME 185 A/B Capstone MAE Purchasing And Out-Of-Pocket Reimbursement Guidelines
