@@ -184,6 +184,7 @@ Week 2
 - Choose teams.
 - Send out team assignment emails.
 - Send out sponsor rejection emails.
+- [Lead TA] Create Canvas group set and add students to their assigned groups.
 - [Lead TA] Create Canvas rubric for grading the resumes.
 - [Lead TA] Prepare the group charter and name assignment.
 - [TA 1] Create placards for team tables (student names, blank line for team
@@ -192,3 +193,13 @@ Week 2
 - [All TAs] Grade the resumes.
 - [All TAs] Read chapters 5 and 6, needs/specs slides, and needs/specs activity
   handout.
+- [All TAs] Grade week 2 participation.
+
+Week 3
+------
+
+- [All TAs] Grade team charters.
+- [All TAs] Read chapter 7, concept generation slides, and concept generation
+  activity.
+- [All TAs] Review AIOs before studio sessions.
+- [All TAs] Grade week 3 AIO + participation.
