@@ -56,17 +56,5 @@ Requirements:
 - Ideally it will have no central hub (not joined to a central mount) but fixed
   end to end.
 
-Pictures are to establish principles only and should not server as ridged
-guidelines.
-
-.. image:: {filename}/images/merry-02.jpg
-   :width: 400px
-
-.. image:: {filename}/images/merry-03.jpg
-   :width: 400px
-
-.. image:: {filename}/images/merry-04.jpg
-   :width: 400px
-
 Note that this project requires the students to meet with the client via video
 or phone conferencing.
