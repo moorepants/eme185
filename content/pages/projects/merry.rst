@@ -16,20 +16,19 @@ Franklin County Parks and Recreation is striving to provide needed and new
 social offerings for our rural community, create an open and welcoming
 environment, and develop quality offerings.  In working toward this purpose and
 thinking about keeping the fun in everything we do, the idea of making a toy
-came to mind.  You may be familiar with this unique bicycle merry go round
-(pictured below) created by Robert Wechsler, an artist living in Los Angeles.
-I would like to offer something similar as a platform to unite people, generate
-interest in active recreation and even spur on healthy competition. The bicycle
-merry go round would be a highlight at Roanoke Go Outside Festival which drew
-in nearly 30,000 attendants in Oct of 2016. Parks and Recreation would also
-use this at numerous other events and programs throughout our region.  It would
-be a free offering that is unlike any other. In making some basic plans I have
-encountered the geometrical challenges associated with a project like this.
+came to mind. I would like to offer something similar as a platform to unite
+people, generate interest in active recreation and even spur on healthy
+competition. The bicycle merry go round would be a highlight at Roanoke Go
+Outside Festival which drew in nearly 30,000 attendants in Oct of 2016. Parks
+and Recreation would also use this at numerous other events and programs
+throughout our region. It would be a free offering that is unlike any other.
+In making some basic plans I have encountered the geometrical challenges
+associated with a project like this.
 
 **The challenges** of design and construction of this human powered machine far
 exceeds the resources available to our parks and recreation department.  As I
 began to sketch out design options for creating a functional bicycle merry go
-round I discovered engineering would be best if outsourced.  Complicated
+round I discovered engineering would be best if outsourced. Complicated
 engineering, geometry, force distribution and design requirements make for a
 unique challenge.
 
