@@ -10,9 +10,6 @@
 Design, Construction and a Human Powered Machine
 ================================================
 
-.. image:: {filename}/images/merry-01.jpg
-   :width: 400px
-
 What does Parks and Recreation have to do with Mechanical engineering?
 
 Franklin County Parks and Recreation is striving to provide needed and new
