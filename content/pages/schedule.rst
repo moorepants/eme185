@@ -28,32 +28,32 @@ A02/A03  F Jan 20                                                               
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 24       Velinsky    Concept Selection Lecture             Chapter 8
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  W/R Jan 25/26  Moore       - Concept generation activity
-                                    - Planning and Scheduling activity
+A02/A03  W/R Jan 25/26  Moore       - Planning and Scheduling activity
+                                    - Concept generation activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Jan 27                                                                          Memo 3: Needs/Specs
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 31       Velinsky    Product Architecture Lecture          Chapter 10
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  W/R Feb 1/2    Moore       - Concept selection activity                           Sign up for 185B meeting times
-                                    - Technical Reports Lecture
+A02/A03  W/R Feb 1/2    Moore       - Technical Reports Lecture                            Sign up for 185B meeting times
+                                    - Concept generation activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Feb 3                                                                           Memo 4: Concepts
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Feb 7        Velinsky    Patents Lecture                       Chapter 16
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  W/R Feb 8/9    Moore       TBA
+A02/A03  W/R Feb 8/9    Moore       - Preliminary analysis activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Feb 10                                                                          - Report 1: Project Proposal
                                                                                            - Peer Evaluation
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-All      T Feb 14       Velinsky    - Showcase Announcment (Wakefield)
+All      T Feb 14       Velinsky    - Showcase Announcement (Wakefield)
                                     - Human Factors Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  W/R Feb 15/16  Moore       TBA
+A02/A03  W/R Feb 15/16  Moore       - Concept selection activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Feb 17                                                                          Memo 5: Prelim Analysis
 -------  -------------  ----------  ------------------------------------  ---------------  -----
@@ -69,7 +69,7 @@ A02/A03  Feb 27-Mar 3               Critical Design Reviews
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Feb 28       Moore       TBA
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  W/R Mar 1/2    Moore       Meijo University Visit
+A02/A03  W/R Mar 1/2    Moore       - Meijo University Visit
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Mar 3                                                                           - Memo 6: Concept Selection
                                                                                            - Design review slides
