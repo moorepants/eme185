@@ -14,7 +14,7 @@ Pelican sites::
 Clone the plugin repository::
 
    (pelican)$ mkdir ~/src
-   (pelican)$ git clone git@github.com:getpelican/pelican-plugins.git ~/src/
+   (pelican)$ git clone git@github.com:getpelican/pelican-plugins.git ~/src/pelican-plugins
 
 Rebuild and serve the site locally::
 
