@@ -116,12 +116,10 @@ possibilities regardless of how crazy they seem.
 The memo should present the findings of the preliminary external and internal
 concept generation process. We highly recommend making heavy use of graphical
 means to communicate the concepts along with accompanying textual information.
-All of your concepts will not fit into the standard memo format, so feel free
-to make the appendices longer as necessary to show the breadth of your work for
-this particular memo.
 
 You are welcome to use any process to generate concepts, but we recommend
-following the processes presented in class and in the text as a starting point.
+following the processes presented in class and in the textbook as a starting
+point.
 
 Suggestions of what to include:
 
