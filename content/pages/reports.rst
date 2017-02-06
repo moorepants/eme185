@@ -35,7 +35,10 @@ assignment. A single report should be submitted by one team member.
 - The audience you should write for is a technically competent reader, e.g.
   another engineering colleague or engineering management, and/or your project
   sponsor.
-- All graphical communication means should be legible.
+- All graphics should be legible with adequate font sizes and clear lines.
+
+For report writing tips see the slides from lecture that are available on
+Canvas.
 
 .. [1] Be sure to either scale layout drawings correctly with legible font
    sizes or print them in the appendices on larger paper sizes.
@@ -71,28 +74,30 @@ Appendices
 
 The appendices can be any length and contain details that do not belong in the
 content section(s). This could include large figures, sketches, layout
-drawings, 3D renderings, detailed calculations, big tables, source code, etc.
-Basically, anything that takes attention away from the main points but provides
-the details that back them up should go in the appendices. Keep in mind that
-the content sections should stand on their own. Additionally, feel free to link
-to rich media: videos, websites, demos, etc.
+drawings, 3D renderings, detailed calculations, big tables, short source code
+snippets, etc.  Basically, anything that takes attention away from the main
+points but provides the details that back them up should go in the appendices.
+Keep in mind that the content sections should stand on their own. Additionally,
+feel free to link to rich media: videos, websites, demos, etc.
 
 Definitions
 ===========
 
 Layout Drawings
    You should refer to a good engineering graphics text for examples of layout
-   drawings. The layout drawing is drawn to scale and must show the shape,
-   size, and position of all parts. It should show how the parts fit together
-   and if they will function properly.  The design details are worked out on
-   this drawing. The designer additionally uses the layout drawing to show and
-   sell his design and ideas to his management; it is used by drafts people to
-   prepare detailed part drawings and an assembly drawing; it is used by
-   manufacturing engineers to determine manufacturing processes and costs
-   although this has been increasingly incorporated into the design process.
-   How detailed should it be? It must be adequately complete so that it can
-   meet the above uses. If it is not necessary to ask how the design works or
-   what a particular part looks like, etc., then the layout is adequate.
+   drawings. We expect you to create layout drawings for your mechanical,
+   electrical, and architectural designs. A mechanical layout drawing is drawn
+   to scale and must show the shape, size, and position of all parts. It should
+   show how the parts fit together and if they will function properly. The
+   design details are worked out on this drawing. The designer additionally
+   uses the layout drawing to show and sell his design and ideas to his
+   management; it is used by drafts people to prepare detailed part drawings
+   and an assembly drawing; it is used by manufacturing engineers to determine
+   manufacturing processes and costs although this has been increasingly
+   incorporated into the design process.  How detailed should it be? It must be
+   adequately complete so that it can meet the above uses. If it is not
+   necessary to ask how the design works or what a particular part looks like,
+   etc., then the layout is adequate.
 Bill of Materials
    The Bill of Materials or Parts List is a tabular list of all of the parts,
    components, sub-assemblies, etc. that are needed to manufacture and/or test
@@ -109,14 +114,14 @@ Report #1: Project Proposal [Due: February 10th, 2017]
 
 The primary purpose of the project proposal is for your team to clearly
 articulate your understanding of the customer's needs and to share your
-preliminary research findings, concepts, timeline, budget, and goals. This
-story should convince your instructors and sponsors that you have a clear
-understanding of the needs, have a realistic scope, and are ready to move
-forward with concept selection, design, and analysis.
+preliminary research findings, concepts, first quarter timeline, preliminary
+budget, and goals. This story should convince your instructors and sponsors
+that you have a clear understanding of the needs, have a realistic scope, and
+are ready to move forward with design, analysis, concept selection.
 
-This document should be shared with your sponsor(s) for feedback in addition to
-being turned into the instructors. Be sure to adjust the content to best fit
-this combined audience.
+This document should be shared with your sponsor(s) by email (cc the instructor
+and TA) for feedback in addition to being turned into Canvas. Be sure to adjust
+the content to best fit this combined audience.
 
 **The main content sections of the report should not exceed 6 pages.**
 
@@ -138,22 +143,23 @@ Refined target specifications
 External concepts and existing solutions
    It should be clear that you've "done your homework", i.e. searched for
    existing solutions and used them to help develop your specifications and
-   concepts.
+   concepts. Compare specs from existing solutions to your desired specs.
 Initial design concepts
    You should have a large number of concepts to share at this point. Be sure
    to show these off so that your sponsor can see that there are a wide range
-   of possible solutions to their needs.
+   of possible solutions to their needs. You can highlight the most promising
+   ideas.
 Preliminary planning and scheduling
    The preliminary plan should give at least a coarse idea of the important
-   milestones you will need to meet over the next several months to complete
-   your project. For example, you can state your objective in terms of what you
-   expect to complete by the end of each quarter, mid-quarter, or month.
+   milestones you will need to meet over the next quarter. You should include a
+   Gantt chart with the details.
 Preliminary budget
    The purpose of the preliminary budget statement is to give a very rough idea
-   of what expected project costs may be. This will vary based on your or your
-   sponsor's desire to construct a prototype or run testing. The instructors
-   and sponsors will use this number to start planning resource allocation. A
-   refined budget will be presented in the final report of the winter quarter.
+   of what expected project costs may be for your top designs. This will vary
+   based on your or your sponsor's desire to construct a prototype or run
+   testing. The instructors and sponsors will use this number to start planning
+   resource allocation. A refined budget will be presented in the final report
+   of the winter quarter.
 
 You may add other information that is deemed necessary to "sell" your proposal.
 Use your memos as building blocks for the proposal. The instructors and
