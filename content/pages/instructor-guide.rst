@@ -203,3 +203,13 @@ Week 3
   activity.
 - [All TAs] Review AIOs before studio sessions.
 - [All TAs] Grade week 3 AIO + participation.
+
+Week 4
+------
+
+- Create Memo 4 assignment (concept generation)
+- [All TAs] Grade Memo 3 (needs and specs)
+- [Lead TA] Check microcontroller kits for all parts and charged batteries.
+- [All TAs] Grade week 4 AIO + participation.
+- [Lead TA] Create a 185B scheduling spreadsheet for teams to sign up for
+  meeting times.
