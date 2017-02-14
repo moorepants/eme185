@@ -5,12 +5,12 @@ These are some recommendations for finding items you might need for your
 project. For instructions on how to make purchases, see the `MAE Purchasing
 Guidelines <{filename}/pages/purchasing.rst>`_.
 
-
 General Advice
 --------------
 
 - While purchasing parts online is convenient, it may be cost and time
-  effective to browse locally first.
+  effective to browse locally first. Suppliers like McMaster-Carr, Grainger,
+  etc. can deliver rapidly, but you are paying a premium for that service.
 - 80/20 is not the only way to make a sturdy frame.
 - Perform a realistic evaluation of the quality of materials required. You may
   or may not require high-speed tool steel, but you should know for sure before
@@ -25,6 +25,10 @@ Local
 
 - Davis Ace Hardware
 - Home Depot (Woodland, West Sacramento)
+- `Blue Collar Supply`_ (Sacramento) sells a variety of metals and other
+  materials. They have a selection of small pieces.
+
+.. _Blue Collar Supply: http://www.bluecollar-supply.com/
 
 Online
 ^^^^^^
@@ -34,10 +38,12 @@ Online
   need locally or with another supplier.
 - `Grainger`_ is another large supplier. They have several nearby warehouse
   locations, so parts can often be obtained relatively quickly.
+- `OnlineMetals.com`_ allows you to order small cuts of a variety of metals.
 
 
 .. _McMaster-Carr: https://www.mcmaster.com/
 .. _Grainger: https://www.grainger.com/
+.. _OnlineMetals.com: http://www.onlinemetals.com/
 
 
 Electrical
@@ -71,8 +77,8 @@ printed:
 Local
 ^^^^^
 
-- Radio Shack
-- Davis Ace Hardware
+- Radio Shack (Davis)
+- Davis Ace Hardware (Davis)
 - Fry's Electronics (Natomas)
 
 Online

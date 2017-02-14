@@ -73,6 +73,15 @@ Applicable to Store Pickup, FAX/Internet Order, Credit Card Order
 - Submit packing slips as soon as possible to process payment of invoices.
 - Plan ahead to avoid unnecessary high shipping charges.
 
+You can ship items to the department and they will notify you via email when
+they arrive:
+
+| <your name>
+| Mechanical and Aerospace Engineering Department
+| University of California, Davis
+| One Shields Avenue
+| Davis, CA 95616
+
 Local Purchases
 ===============
 
