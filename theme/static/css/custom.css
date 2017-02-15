@@ -26,3 +26,6 @@ dt:hover > a.headerlink {
 a.headerlink{
   visibility: hidden;
 }
+.strike {
+  text-decoration: line-through;
+}
