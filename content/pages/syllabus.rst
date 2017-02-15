@@ -220,7 +220,7 @@ campus' policy on academic responsibility and integrity and read the UC Davis
 Textbook
 ========
 
-The preparation and readings for the lectures will come from:
+The majority of preparation and readings for the lectures will come from:
 
 *Product Design and Development*, Ulrich, K.T. and Eppinger, S.D., 5th Edition,
 McGraw-Hill 2011. ISBN 978-0073404776 [`Book Information`_]
