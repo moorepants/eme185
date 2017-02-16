@@ -152,7 +152,7 @@ Initial design concepts
 Preliminary planning and scheduling
    The preliminary plan should give at least a coarse idea of the important
    milestones you will need to meet over the next quarter. You should include a
-   Gantt chart with the details.
+   `Gantt chart <{filename}/pages/gantt-chart.rst>`_ with the details.
 Preliminary budget
    The purpose of the preliminary budget statement is to give a very rough idea
    of what expected project costs may be for your top designs. This will vary

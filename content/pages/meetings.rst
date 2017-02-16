@@ -24,9 +24,9 @@ week, (2) what issues you encountered during that week and would like help
 with, and finally (3) what your objectives are for the coming week. Both the
 accomplishments and objectives sections should indicate who worked on (or will
 work on) each item and how much time that person spent (or will spend) on that
-item. Lastly, this document should include a snapshot of your Gantt Chart with
-a vertical line indicating the date of the meeting and the percent complete of
-each task in the chart.
+item. Lastly, this document should include a snapshot of your `Gantt Chart
+<{filename}/pages/gantt-chart.rst>`_ with a vertical line indicating the date
+of the meeting and the percent complete of each task in the chart.
 
 **Your in-class grade will be affected if you don't send an AIO or if you don't
 show up to these meetings.**
