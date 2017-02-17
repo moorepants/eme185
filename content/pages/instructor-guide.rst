@@ -153,6 +153,52 @@ Each memo has a rubric that is available in Canvas's speed grading tool.
   upwards through each so that you are consistent.
 - Calibrate with other graders.
 
+Planning
+========
+
+The lead TA will be responsible for several scheduling tasks.
+
+Preliminary Design Reviews
+--------------------------
+
+Preliminary design reviews take place during week 8 of EME 185A. The design
+reviews are 50-minute sessions for teams to present their selected concept to
+the instructor and their TA. The timing is as follows:
+
+- 5 minutes of setup
+- 25 minutes of presentation by the team
+- 20 minutes of Q&A
+- 10 minutes for grading (instructor + TA only)
+
+This timing allows the reviews to be scheduled back-to-back in slots that fit
+the class schedule (e.g. 9:00 AM - 9:50 AM, 2:10 PM - 3:00 PM, etc.). Getting
+the schedule together is difficult logistically, but the following steps should
+lead to minimal issues:
+
+#. Get the instructor's availability.
+#. Find out from the MAE office when small rooms (~10-person capacity) are
+   available.
+#. Generate a spreadsheet with the common availability from the steps above.
+#. Have the TAs fill in when they are available.
+#. Send a refined version out to students, instructing them to select only
+   a slot that their TA has available.
+#. Get the schedule to the MAE office as soon as possible to reserve the rooms
+   at the selected times.
+
+185B Scheduling
+---------------
+
+Scheduling the second quarter of the course (185B) is somewhat similar to
+scheduling the design reviews, with somewhat less emphasis on making sure
+a room is available ahead of time.
+
+Meijo University Visit
+----------------------
+
+- Reserve a room for catered lunch.
+- Book a campus tour.
+- Set up a tour of the machine shop (EFL).
+
 Weekly Tasks
 ============
 
@@ -217,10 +263,17 @@ Week 4
 Week 5
 ------
 
+- Create Report 1 assignment (project proposal)
+- [All TAs] Grade Memo 4
+- [All TAs] Grade week 5 AIO + participation.
+- [Lead TA] Prototype a control system for the microcontroller studio session
+- [Lead TA] Create a preliminary schedule for Meijo visit
+
 Week 6
 ------
 
 - [Instructor] Send out microcontroller preparation instructions after lecture.
 - [Instructor] Update microcontroller lesson and prepare for giving it.
-- [All] Grade one report together and grade the reports by Friday 5pm.
-
+- [Instructor + all TAs] Co-grade a report in person.
+- [Instructor + all TAs] Grade report 1 by Friday 5pm.
+- [All TAs] Grade week 6 AIO + participation.
