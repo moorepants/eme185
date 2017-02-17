@@ -5,6 +5,10 @@ A Gantt chart displaying your team's progress and plans throughout the quarter
 will be required for the weekly AIOs and the reports. Here are some tips for
 generating a quality Gantt chart.
 
+No matter what tool you decide to use for creating a Gantt chart, make sure the
+chart you submit is legible and shows the full timeline of the project. Vector
+formats (e.g. PDF) are preferred because they can be fit to a standard page
+size, and they can be zoomed into without losing legibility.
 
 InstaGantt
 ----------
