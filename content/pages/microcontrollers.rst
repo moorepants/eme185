@@ -10,7 +10,7 @@ accessibility increased such that hobbyists can make wide use of them. The wide
 adoption is furthermore being fueled by a large community centered around open
 hardware and open source code.
 
-On Wednesday, February 10th, we will lead you through a tutorial that
+During the lecture and studio we will lead you through a tutorial that
 introduces you to using a lightweight microcontroller called the Arduino_. This
 first lesson will use an emulator for the hardware and we will cover the basics
 about programming the microcontroller. The following week we will have an hour
@@ -28,7 +28,7 @@ Please do all of the following before coming to class:
 - Install the Arduino Integrated Development Environment (IDE) from the
   `software page`_ on the Arduino website.
 - Make sure you have an up-to-date web browser.
-- Sign up for a free 123d.circuits.io_ account.
+- Sign up for a free circuits.io_ account.
 
 .. _software page: https://www.arduino.cc/en/Main/Software
 
@@ -69,4 +69,4 @@ Reference
 - 123d.circuits.io_
 - `Etherpad for the class <http://pad.software-carpentry.org/eme185-winter-2016-arduino>`_
 
-.. _123d.circuits.io: https://123d.circuits.io
+.. _circuits.io: https://circuits.io
