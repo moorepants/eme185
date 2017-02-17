@@ -213,3 +213,14 @@ Week 4
 - [All TAs] Grade week 4 AIO + participation.
 - [Lead TA] Create a 185B scheduling spreadsheet for teams to sign up for
   meeting times.
+
+Week 5
+------
+
+Week 6
+------
+
+- [Instructor] Send out microcontroller preparation instructions after lecture.
+- [Instructor] Update microcontroller lesson and prepare for giving it.
+- [All] Grade one report together and grade the reports by Friday 5pm.
+
