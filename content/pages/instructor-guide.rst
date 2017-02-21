@@ -192,6 +192,10 @@ Scheduling the second quarter of the course (185B) is somewhat similar to
 scheduling the design reviews, with somewhat less emphasis on making sure
 a room is available ahead of time.
 
+One extra concern for Spring quarter scheduling is Memorial Day. One solution
+is to make it clear to students when they sign up for a meeting time that they
+will have to move that week's meeting to Friday that week.
+
 Meijo University Visit
 ----------------------
 

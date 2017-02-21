@@ -66,7 +66,5 @@ Reference
 - `Arduino IDE Download <https://www.arduino.cc/en/Main/Software>`_
 - `Arduino Language Reference <https://www.arduino.cc/en/Reference/HomePage>`_
 - `Q & A for Arduino <http://arduino.stackexchange.com/>`_
-- circuits.io_
+- `circuits.io <https://circuits.io>`_
 - `Etherpad for the class <http://pad.software-carpentry.org/eme185-winter-2016-arduino>`_
-
-.. _circuits.io: https://circuits.io
