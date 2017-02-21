@@ -57,9 +57,9 @@ uploaded onto the Arudino's memory. To try out code on the Arduino you must
 have the actual hardware. But during this lesson we will make use of an Arduino
 emulator which allows us to try out code we want to run on an Arduino without
 having the actual hardware. There are a number of Arduino emulators available,
-but we will make use of a web application called 123d.circuits.io_.
+but we will make use of a web application called circuits.io_.
 
-1. Visit 123d.circuits.io and create an account.
+1. Visit circuits.io and create an account.
 2. Log in to your account.
 3. Select the "Create" tab.
 4. Open "Electronics Lab Hub"
@@ -96,7 +96,7 @@ Serial monitor
 Start Simulation
    This will run the simulation of the circuit.
 
-.. _123d.circuits.io: http://123d.circuits.io
+.. _circuits.io: http://circuits.io
 
 Processing Language
 ===================
@@ -377,7 +377,7 @@ be used to control the duration of the cycle.
    void loop() {
      digitalWrite(led_pin_num, HIGH);
      delay(100);
-     dgitalWrite(led_pin_num, LOW);
+     digitalWrite(led_pin_num, LOW);
      delay(100);
    };
 
@@ -458,7 +458,7 @@ this loop will execute ten times, i.e. i = 0, 1, 2, ..., 9.
      int milliseconds = i * 100;
      digitalWrite(led_pin_num, HIGH);
      delay(milliseconds);
-     digitalWrite(led_pin_num, LOw);
+     digitalWrite(led_pin_num, LOW);
      delay(milliseconds);
 
    }
@@ -513,7 +513,7 @@ row of 10 LEDS. The sensor for the fuel level should be a simple potentiometer.
 It is connected to a floating bob in the fuel tank and the potentiometer
 rotates as the fuel level increases and decreases. The potentiometer voltage 0
 to 5 volts maps to a rotation of 270 degrees (the simple potentiometer
-component on 123d.circuits.io). If all of the LEDs are on, that signals that the
+component on circuits.io). If all of the LEDs are on, that signals that the
 fuel level is at a maximum and if all of the LEDs are off that signals that the
 fuel tank is empty. If some LEDs are on, the number of lights should correspond
 linearly to the fuel level. The following diagram shows the physical system.
