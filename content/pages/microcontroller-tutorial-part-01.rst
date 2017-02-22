@@ -453,7 +453,7 @@ this loop will execute ten times, i.e. i = 0, 1, 2, ..., 9.
 
 .. code-block:: arduino
 
-   for (int i = 0, i < 10, i++) {
+   for (int i = 0; i < 10; i++) {
 
      int milliseconds = i * 100;
      digitalWrite(led_pin_num, HIGH);
