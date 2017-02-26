@@ -208,9 +208,25 @@ to check the lab schedule to make sure no other classes are using it.
 Meijo University Visit
 ----------------------
 
-- Reserve a room for catered lunch.
-- Book a campus tour.
-- Set up a tour of the machine shop (EFL).
+On one of the visit days, the Meijo students and faculty, some (~10) of the
+EME185 students, the instructors, and some UCD professors will have a catered
+lunch. Make sure to schedule a room for about 50 people that is suitable for
+this. For catering, we have used Panera Bread in the past. You can go in to set
+up an order and let them know that the Meijo professor will come in or call at
+some point to provide payment information. Follow up a day or two before the
+lunch to make sure payment info has been provided, or they won't start making
+the order on the morning of.
+
+Set up a campus tour for the Meijo students and faculty. Use the `"other" large
+group tour <http://visit.ucdavis.edu/tourreg/groupTours/tourForm.cfm?gid=7>`_
+signup, and just make a comment explaining the nature of the tour. One of the
+TAs or the instructor should chaperone them on the tour. The chaperone may want
+to let the tour guide that the students have variable English fluency, but they
+tend to talk quickly anyway because they're following a script and need to hit
+timing targets to refer to buildings at the correct time, etc.
+
+Go to the EFL and ask Mike or Shawn about giving the Meijo students and faculty
+a tour of the shop. Make sure it is not on a day scheduled for EME50.
 
 Weekly Tasks
 ============
