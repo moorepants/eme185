@@ -188,13 +188,22 @@ lead to minimal issues:
 185B Scheduling
 ---------------
 
-Scheduling the second quarter of the course (185B) is somewhat similar to
-scheduling the design reviews, with somewhat less emphasis on making sure
-a room is available ahead of time.
+For the second quarter of senior design, each team will meet weekly with their
+TA and the instructor for 55 minutes. This requires a small room for about 10
+people with an AV system and preferably a whiteboard.
+
+Scheduling for these weekly meetings is somewhat similar to scheduling the
+design reviews, but it may be useful to ask for room availability in large
+blocks so back-to-back meetings don't require the instructors to move around.
 
 One extra concern for Spring quarter scheduling is Memorial Day. One solution
 is to make it clear to students when they sign up for a meeting time that they
-will have to move that week's meeting to Friday that week.
+will have to move that week's meeting to Friday that week. This will need to be
+taken into consideration when booking rooms as well.
+
+The design studio (CAE lab) may be a fallback if no rooms are available, but
+it's not ideal to take over the whole room for one group meeting. You'll have
+to check the lab schedule to make sure no other classes are using it.
 
 Meijo University Visit
 ----------------------
