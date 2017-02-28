@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Part 2: Implementing a PI Controller with an Arduino</title>
+  <link rel="stylesheet" href="https://moorepants.github.io/eme185/theme/css/main.css" />
+  <link rel="stylesheet" href="https://moorepants.github.io/eme185/theme/css/custom.css" />
+
+  <!--[if IE]>
+      <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body id="index" class="home">
+  <header id="banner" class="body">
+    <h1><a href="https://moorepants.github.io/eme185/">EME 185: Mechanical Systems Design Project </a></h1>
+    <nav><ul>
+        <li><a href="https://moorepants.github.io/eme185/">Syllabus</a></li>
+        <li><a href="https://moorepants.github.io/eme185/pages/schedule.html">Schedule</a></li>
+        <li><a href="https://moorepants.github.io/eme185/pages/assignments.html">Assignments</a></li>
+        <li><a href="https://moorepants.github.io/eme185/pages/projects.html">Projects</a></li>
+        <li><a href="https://moorepants.github.io/eme185/pages/resources.html">Resources</a></li>
+    </ul></nav>
+  </header><!-- /#banner -->
+<section id="content" class="body">
+    <h1 class="entry-title">Part 2: Implementing a PI Controller with an Arduino</h1>
+    
+    <div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>This lesson will walk through using an Arduino to control ambient brightness
+using a light-emitting diode (LED) for actuation and a photocell for sensing.</p>
+</div>
+<div class="section" id="learning-objectives">
+<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this headline">¶</a></h2>
+<p>Students will be able to</p>
+<ul class="simple">
+<li>identify a light emitting diode (LED), understand its function, and connect
+it into a circuit</li>
+<li>use pulse-width modulation (PWM) to mimic analog output for actuation</li>
+<li>identify a photocell, understand its function, and connect it into a
+circuit</li>
+<li>use a voltage divider to sense change in resistance of a photocell</li>
+<li>implement and tune a proportional-integral controller on a
+microcontroller</li>
+<li>write a program to integrate all of this information</li>
+</ul>
+</div>
+<div class="section" id="introduction-to-the-arduino-ide">
+<h2>Introduction to the Arduino IDE<a class="headerlink" href="#introduction-to-the-arduino-ide" title="Permalink to this headline">¶</a></h2>
+<p>Interactive demo of main IDE features:</p>
+<ul class="simple">
+<li>Code editor</li>
+<li>Verify sketch (blank)</li>
+<li>Board selection</li>
+<li>Port selection</li>
+<li>Upload sketch (blank)</li>
+<li>Serial monitor/plotter</li>
+</ul>
+</div>
+<div class="section" id="the-circuit-components">
+<h2>The Circuit Components<a class="headerlink" href="#the-circuit-components" title="Permalink to this headline">¶</a></h2>
+<p>The circuit requires:</p>
+<ul class="simple">
+<li>an LED</li>
+<li>a photocell (photoresistor, light-dependent resistor)</li>
+<li>4-8 jumper wires</li>
+<li>a 4.7kΩ resistor (yellow, purple, red, [gold])</li>
+<li>a 330Ω resistor (orange, orange, brown, [gold])</li>
+</ul>
+<p>Once constructed, the circuit should look like the image below:</p>
+<p><img alt="complete-circuit" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/complete-circuit.jpg" style="width: 5in;" /></p>
+<p>The circuit consists of a light emitting diode (LED) circuit, driven by one of
+the Arduino’s digital I/O pins capable of producing a pulsewidth modulation
+(PWM) signal. This will allow the LED’s brightness to change. A photocell
+facing the LED senses the ambient lighting. The objective of the circuit is to
+demonstrate an automatic feedback control system that drives the LED to
+a desired brightness level near the sensor. You will be able to cast shadows on
+the photocell and watch as the LED brightness increases to compensate for the
+dimmed lighting.</p>
+<div class="section" id="basic-circuit-modules">
+<h3>Basic circuit modules<a class="headerlink" href="#basic-circuit-modules" title="Permalink to this headline">¶</a></h3>
+<p>Analog circuits are circuits dealing with signals free to vary from zero to
+full power supply voltage. This stands in contrast to digital circuits, which
+almost exclusively employ “all or nothing” signals: voltages restricted to
+values of zero and full supply voltage, with no valid state in between those
+extreme limits.</p>
+</div>
+<div class="section" id="light-emitting-diodes-led">
+<h3>Light Emitting Diodes (LED)<a class="headerlink" href="#light-emitting-diodes-led" title="Permalink to this headline">¶</a></h3>
+<p>Light emitting diodes (LEDs) are semiconductor devices that emit light
+when voltage is applied across them. LEDs typically have a fixed voltage
+drop of around 2V (depends on the LED), which is the voltage required to cause
+it to illuminate. The brightness can then be controlled directly by varying the
+current going through the device. In most applications (e.g. indicators),
+a current-limiting resistor is connected in series with the LED to provide
+a fixed brightness for a given control voltage.</p>
+<p><img alt="led" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/led.jpg" style="width: 4in;" /></p>
+<p>In our application, we will use a fixed current-limiting resistor of 330Ω and
+a 5V control voltage, but we will use a technique called pulsewidth modulation
+(PWM) to effectively vary the current passing through the circuit.</p>
+<p>PWM works by rapidly toggling a digital output between its high (e.g. 5V) and
+low (e.g. 0V) values, with varying durations of on and off time. The ratio of
+the on time to the total period of the PWM signal is referred to as duty cycle,
+and is expressed as a percentage. The logic behind this is: if you were to
+integrate the voltage over one period of the PWM signal, the effective voltage
+would be the duty cycle times the &quot;on&quot; voltage level. If the switching is fast
+enough, many sensors (including our own eyes) will not be able to detect that
+the actuator (e.g. an LED) is actually turning on and off, but instead it will
+detect an intermediate output roughly corresponding to the equivalent
+voltagelevel. For mechanical systems, such as DC motors, the mechanical
+dynamics are often slow enough with respect to the PWM signal that their output
+will actually smoothly vary.</p>
+<p>The Arduino Uno allows us to output a PWM signal on several of its pins. This
+is done by setting the pin as an output, and using the <a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogWrite">analogWrite</a> function. This function
+accepts any integer value between 0 (pin fully off, 0% duty cycle) and 255 (pin
+fully on, 100% duty cycle).</p>
+<p><object data="https://moorepants.github.io/eme185/images/microcontroller-tutorial/pwm.svg" style="width: 5in;" type="image/svg+xml">pwm</object></p>
+<div class="section" id="example">
+<h4>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h4>
+<p>Let’s practice using PWM by varying the brightness of an LED. Start by
+connecting the 5V and GND pins of the Arduino to the red and blue &quot;power rails&quot;
+of your breadboard, respectively. LEDs are directional components, so ensure
+that the lead on the flat side of the LED dome is connected to ground. Connect
+the 330Ω resistor to the other lead, and connect the resistor to pin
+5 of the Arduino using a jumper wire. This is shown in the diagram below. Leave
+this circuit constructed throughout the session.</p>
+<p><object data="https://moorepants.github.io/eme185/images/microcontroller-tutorial/circuit-sketch-led.svg" style="width: 5in;" type="image/svg+xml">circuit-sketch-led</object></p>
+<p>With this circuit hooked up, you can test its operation with the following
+code, which should gradually increase the brightness of the LED up to full
+brightness over a period of about 2.5 seconds.</p>
+<pre class="code c++ literal-block">
+<span class="kt">int</span> <span class="n">LED_PIN</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">pinMode</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// iterate over the range of output values
+</span>    <span class="c1">// using steps of 10
+</span>    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">255</span><span class="p">;</span> <span class="n">i</span> <span class="o">+=</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span>
+        <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre>
+</div>
+</div>
+<div class="section" id="photocells">
+<h3>Photocells<a class="headerlink" href="#photocells" title="Permalink to this headline">¶</a></h3>
+<p>Photocells are passive circuit elements which change their resistance in
+response to a change in brightness. Their resistance <em>decreases</em> when the
+ambient environment becomes <em>brighter</em>.</p>
+<p><img alt="photocell" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/photocell.jpg" style="width: 4in;" /></p>
+<p>An Arduino can sense voltages from 0V to 5V through the analog input pins, but
+it has no direct way of sensing resistance. Since our sensor operates by
+changing resistance, we need to convert this to a change in voltage. This is
+achieved through a voltage divider circuit.</p>
+<p><object data="https://moorepants.github.io/eme185/images/microcontroller-tutorial/voltage-divider.svg" style="width: 2in;" type="image/svg+xml">voltage-divider</object></p>
+<p>In this circuit, we supply 5V from the Arduino as <span class="math">\(V_{\text{in}}\)</span> and
+measure <span class="math">\(V_{\text{out}}\)</span> with one of the Arduino’s analog input pins. The
+output voltage for this voltage divider is given by</p>
+<div class="math">
+\begin{equation*}
+V_{\text{out}} = \frac{R}{R + \ R_{s}}V_{\text{in}}
+\end{equation*}
+</div>
+<p>We know <span class="math">\(R\)</span>, <span class="math">\(V_{\text{in}}\)</span>, and we can measure
+<span class="math">\(V_{\text{out}}\)</span>, so we can calculate the photocell resistance
+<span class="math">\(R_{s}\)</span>. The <a class="reference external" href="https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P7002.pdf">datasheet</a>
+for our photocell provides an approximate relationship between resistance and
+the illuminance hitting the sensor:</p>
+<p><img alt="photocell-resistance" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/photocell-resistance.png" style="width: 4in;" /></p>
+<p>In our example, however, we will simply convert the value read in by
+<a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogRead">analogRead</a> to a voltage.
+The input comes in the form of a <strong>10-bit unsigned integer</strong>, so it has the
+range of 0 to 1023 (<span class="math">\(2^{10} - 1 = 1023\)</span>), corresponding to 0V up to 5V,
+respectively. If we read a value of <span class="math">\(x\)</span>, we can map this value to
+a voltage as follows:</p>
+<div class="math">
+\begin{equation*}
+V = \frac{5}{1023}x
+\end{equation*}
+</div>
+<div class="section" id="id1">
+<h4>Example<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<p>In this example, we’ll connect up the photocell to the Arduino using the
+voltage divider circuit shown above. To connect the photocell to the Arduino,
+leave the 5V and GND connections from the LED example intact, then place one of
+the photocell leads on the 5V rail. A photocell is essentially a resistor, so
+its orientation in the circuit doesn't matter. Connect the other lead to the
+4.7kΩ resistor which goes to GND. At the connection point between the photocell
+and the resistor, use a jumper wire to connect pin A0 of the Arduino. A diagram
+is shown below.</p>
+<p><object data="https://moorepants.github.io/eme185/images/microcontroller-tutorial/circuit-sketch-photocell.svg" style="width: 5in;" type="image/svg+xml">circuit-sketch-photocell</object></p>
+<p>The code below continuously reads the output of the voltage divider via pin A0,
+computes the voltage, and prints the value to the serial port. You can use the
+Arduino IDE’s <strong>serial monitor</strong> or <strong>serial plotter</strong> to view the values being
+read.</p>
+<p><em>What happens if you cast shadows over the circuit?</em></p>
+<pre class="code c++ literal-block">
+<span class="kt">int</span> <span class="n">SENSOR_PIN</span> <span class="o">=</span> <span class="n">A0</span><span class="p">;</span>
+
+<span class="c1">// variable to store the input reading
+</span><span class="kt">int</span> <span class="n">reading</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="c1">// variable to store the voltage corresponding to the reading
+</span><span class="kt">float</span> <span class="n">voltage</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+    <span class="n">pinMode</span><span class="p">(</span><span class="n">SENSOR_PIN</span><span class="p">,</span> <span class="n">INPUT</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">reading</span> <span class="o">=</span> <span class="n">analogRead</span><span class="p">(</span><span class="n">SENSOR_PIN</span><span class="p">);</span>
+    <span class="n">voltage</span> <span class="o">=</span> <span class="n">reading</span> <span class="o">*</span> <span class="mf">5.0</span> <span class="o">/</span> <span class="mf">1023.0</span><span class="p">;</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">reading</span><span class="p">);</span>
+    <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+<span class="p">}</span>
+</pre>
+</div>
+</div>
+</div>
+<div class="section" id="control-system">
+<h2>Control System<a class="headerlink" href="#control-system" title="Permalink to this headline">¶</a></h2>
+<p>Now we’ll put the LED and photocell together in order to obtain a desired
+brightness level. Here is a block diagram of the control system we will
+implement to achieve this:</p>
+<p><object data="https://moorepants.github.io/eme185/images/microcontroller-tutorial/controller.svg" style="width: 7in;" type="image/svg+xml">controller</object></p>
+<p>In this controller example, we will use voltage as a representation of
+brightness. Because of the voltage divider configuration, the voltage read by
+the Arduino's input pin will vary proportionally to the brightness sensed by
+the photocell.</p>
+<p>The measured voltage is compared to a voltage representing the desired
+brightness, resulting in some error. This error is then fed into a controller,
+which transforms the error into a PWM signal to change the LED brightness. For
+example, if the measured brightness is lower than desired, the error will be
+positive, and the controller coefficients will produce a positive PWM signal to
+drive the LED to become brighter. This has the effect of increasing the
+measured voltage, hence decreasing the error. This kind of controller
+configuration is called a regulator, and its job is to achieve and maintain
+zero error between the measured output and the desired output.</p>
+<div class="section" id="circuit-construction">
+<h3>Circuit Construction<a class="headerlink" href="#circuit-construction" title="Permalink to this headline">¶</a></h3>
+<p>Below is a diagram of the complete circuit and the photo from before. Both
+components (the LED and the photocell) should be connected from the previous
+two sections. The most important part of the control circuit construction
+(aside from making the correct electrical connections) is that the LED and
+photocell are close to and facing one another. This will ensure that the LED is
+able to influence the reading of the sensor as much as possible.</p>
+<p><object data="https://moorepants.github.io/eme185/images/microcontroller-tutorial/circuit-sketch-full.svg" style="width: 5in;" type="image/svg+xml">circuit-sketch-full</object></p>
+<p><img alt="complete-circuit" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/complete-circuit.jpg" style="width: 5in;" /></p>
+</div>
+<div class="section" id="implementing-the-controller">
+<h3>Implementing the Controller<a class="headerlink" href="#implementing-the-controller" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="finding-a-setpoint">
+<h4>Finding a Setpoint<a class="headerlink" href="#finding-a-setpoint" title="Permalink to this headline">¶</a></h4>
+<p>Using the code above for reading the photocell, determine the &quot;baseline&quot;, or
+setpoint, brightness of the environment by taking note of the steady reading
+produced without perturbing the system by casting shadows on it. Take note of
+this value.</p>
+<p>Now, use the analogWrite function to produce a PWM signal with <strong>30%</strong> duty
+cycle at the end of the setup function.</p>
+<p><em>Now what does the photocell read?</em></p>
+<p>Let's say this is the brightness we want to achieve. What happens if you cast
+a shadow over the circuit now? This is a demonstration of perturbations
+affecting an open-loop control system. Since we aren’t yet using the sensor’s
+reading to influence the brightness of the LED, we can’t expect to maintain
+a steady brightness level. Let's fix that.</p>
+</div>
+<div class="section" id="proportional-control">
+<h4>Proportional Control<a class="headerlink" href="#proportional-control" title="Permalink to this headline">¶</a></h4>
+<p>Use the serial monitor (not the plotter) to determine the numerical value
+corresponding to the setpoint found above. Use this value for <span class="math">\(r(t)\)</span> in
+the sketch below, then implement a controller which computes the error and
+outputs a PWM signal that is proportional to this error through a coefficient
+<span class="math">\(K_{p}\)</span>. For now, leave <span class="math">\(K_{p} = 0\)</span>.</p>
+<pre class="code c++ literal-block">
+<span class="kt">int</span> <span class="n">SENSOR_PIN</span> <span class="o">=</span> <span class="n">A0</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">LED_PIN</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+
+<span class="c1">// desired voltage (change this to the value you found)
+</span><span class="kt">float</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+
+<span class="c1">// proportional controller coefficient
+</span><span class="kt">float</span> <span class="n">Kp</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="c1">// reading from the photocell
+</span><span class="kt">float</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="c1">// error between the desired output and the reading
+</span><span class="kt">float</span> <span class="n">e</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="c1">// output to send to the LED
+</span><span class="kt">float</span> <span class="n">u</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+    <span class="n">pinMode</span><span class="p">(</span><span class="n">SENSOR_PIN</span><span class="p">,</span> <span class="n">INPUT</span><span class="p">);</span>
+    <span class="n">pinMode</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// update the photocell reading
+</span>    <span class="n">y</span> <span class="o">=</span>
+
+    <span class="c1">// compute the error between the reading and the desired value
+</span>    <span class="n">e</span> <span class="o">=</span>
+
+    <span class="c1">// compute the output value by multiplying the error by Kp
+</span>    <span class="n">u</span> <span class="o">=</span>
+
+    <span class="c1">// make sure the output value is bounded to 0 to 255
+</span>    <span class="c1">// then write it to the LED pin
+</span>    <span class="n">u</span> <span class="o">=</span> <span class="n">bound</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">);</span>
+    <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span> <span class="n">u</span><span class="p">);</span>
+
+    <span class="c1">// plot the measurement (blue)
+</span>    <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">y</span><span class="p">);</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="sc">'\t'</span><span class="p">);</span>
+    <span class="c1">// plot the desired output (yellow)
+</span>    <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">r</span><span class="p">);</span>
+    <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="sc">'\t'</span><span class="p">);</span>
+    <span class="c1">// plot the error (red)
+</span>    <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">e</span><span class="p">);</span>
+
+    <span class="n">delay</span><span class="p">(</span><span class="mi">50</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c1">// Bound the input value between x_min and x_max.
+</span><span class="kt">float</span> <span class="nf">bound</span><span class="p">(</span><span class="kt">float</span> <span class="n">x</span><span class="p">,</span> <span class="kt">float</span> <span class="n">x_min</span><span class="p">,</span> <span class="kt">float</span> <span class="n">x_max</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&lt;</span> <span class="n">x_min</span><span class="p">)</span> <span class="p">{</span> <span class="n">x</span> <span class="o">=</span> <span class="n">x_min</span><span class="p">;</span> <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">x</span> <span class="o">&gt;</span> <span class="n">x_max</span><span class="p">)</span> <span class="p">{</span> <span class="n">x</span> <span class="o">=</span> <span class="n">x_max</span><span class="p">;</span> <span class="p">}</span>
+    <span class="k">return</span> <span class="n">x</span><span class="p">;</span>
+<span class="p">}</span>
+</pre>
+<p>The code above plots the measurement signal <span class="math">\(y(t)\)</span> in blue, the reference
+signal <span class="math">\(r(t)\)</span> (constant) in yellow, and the error signal <span class="math">\(e(t)\)</span>
+in red. Starting out with <span class="math">\(K_{p} = 0\)</span>, use the error measurement to make
+an estimate of what <span class="math">\(K_{p}\)</span> should be to drive the error to zero. Recall
+that the reference value was found by producing a PWM signal at 30% duty cycle,
+so the term <span class="math">\(u(t) = K_{p}e(t)\)</span> should be approximately <span class="math">\(0.3 \times
+255 = 76.5\)</span>. This initial guess will likely produce a proportional constant
+that is too high and causes instability. Divide it by 2 to start.</p>
+<p><em>Now try casting shadows over the circuit. Looking at the LED itself, does it
+seem to compensate when less light from the ambient environment hits the
+photocell? What do you observe when looking at the error signal in the serial
+plotter?</em></p>
+</div>
+<div class="section" id="adding-integral-control">
+<h4>Adding Integral Control<a class="headerlink" href="#adding-integral-control" title="Permalink to this headline">¶</a></h4>
+<p>As you probably have noticed, proportional controllers may suffer from non-zero
+<em>steady state error</em>. That is, there is a consistent mismatch between the
+desired and measured outputs, but the controller does not compensate for it
+exactly. To fix this problem, we can implement an integral control component,
+which adds to the controller output a multiple of the total integral of the
+error over all time. If a small but steady error is present, the integral of
+this error over time will become large, and the integral component of the
+controller will increase the total controller output to drive the error down to
+zero.</p>
+<p>Add to the proportional control code above to implement a proportional-integral
+controller. To do this, introduce an integral coefficient <span class="math">\(K_{i}\)</span> and set
+it to an order of magnitude smaller than <span class="math">\(K_{p}\)</span>. Introduce a variable to
+keep track of the total accumulation of error, and use the full control
+equation:</p>
+<div class="math">
+\begin{equation*}
+u(t) = K_{p}e(t) + K_{i}\sum_{\tau=0}^{t}e(\tau)
+\end{equation*}
+</div>
+<p><em>What happens if you cast shadows on the circuit now? What happens if
+you increase the integral coefficient?</em></p>
+</div>
+</div>
+</div>
+
+</section>
+  <section id="extras" class="body">
+  </section><!-- /#extras -->
+  <footer id="contentinfo" class="body">
+    <address id="about" class="vcard body">
+      <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+        <a rel="license"
+          href="http://creativecommons.org/publicdomain/zero/1.0/">
+          <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+        </a>
+        <br />
+        To the extent possible under law,
+        <a rel="dct:publisher"
+          href="http://moorepants.info">
+          <span property="dct:title">Jason K. Moore</span>
+        </a>
+        has waived all copyright and related or neighboring rights to
+        <span property="dct:title">EME150A Mechanical Design Course Website</span>.
+        This work is published from:
+        <span property="vcard:Country" datatype="dct:ISO3166"
+          content="US" about="http://moorepants.info">
+        United States</span>.
+      </p>
+      Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+      <p>The source for the website is <a
+        href="https://github.com/moorepants/eme185">hosted on
+        Github</a>. Report issues
+      and make contributions there.</p>
+    </address><!-- /#about -->
+  </footer><!-- /#contentinfo -->
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-15966419-8', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
