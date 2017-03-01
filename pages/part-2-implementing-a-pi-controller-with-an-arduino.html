@@ -137,7 +137,11 @@ throughout the session.</li>
 <li>With this circuit hooked up, you can test its operation. Add to the code
 below to repeatedly ramp up the brightness of LED from off to fully on over
 a few seconds each time. You'll need the <code>analogWrite</code> function as
-well as the <code>delay</code> function.</li>
+well as the <code>delay</code> function. Note that the pin number for the LED has
+been specified via a <a class="reference external" href="https://en.wikipedia.org/wiki/C_preprocessor#Macro_definition_and_expansion">preprocessor macro</a>.
+This is a special statement that literally substitutes each occurence of
+<code>LED_PIN</code> with the value 5, saving some of the limited memory in the
+microcontroller.</li>
 </ol>
 <pre class="code c++ literal-block">
 <span class="cp">#define LED_PIN 5
@@ -156,8 +160,11 @@ well as the <code>delay</code> function.</li>
 <h3>Photocells<a class="headerlink" href="#photocells" title="Permalink to this headline">¶</a></h3>
 <p>Photocells are passive circuit elements which change their resistance in
 response to a change in brightness. Their resistance <em>decreases</em> when the
-ambient environment becomes <em>brighter</em>.</p>
+ambient environment becomes <em>brighter</em>. The <a class="reference external" href="https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P7002.pdf">datasheet</a>
+for our photocell provides an approximate relationship between resistance and
+the illuminance hitting the sensor:</p>
 <p><img alt="photocell" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/photocell.jpg" style="width: 3in;" /></p>
+<p><img alt="photocell-resistance" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/photocell-resistance.png" style="width: 4in;" /></p>
 <p>An Arduino can sense voltages from 0V to 5V through the analog input pins, but
 it has no direct way of sensing resistance. Since our sensor operates by
 changing resistance, we need to convert this to a change in voltage. This is
@@ -171,18 +178,13 @@ A0). The output voltage for this voltage divider is given by</p>
 V_{\text{out}} = \frac{R}{R + \ R_{s}}V_{\text{in}}
 \end{equation*}
 </div>
-<p>We know <span class="math">\(R\)</span>, <span class="math">\(V_{\text{in}}\)</span>, and we can measure
-<span class="math">\(V_{\text{out}}\)</span>, so we can calculate the photocell resistance
-<span class="math">\(R_{s}\)</span>. The <a class="reference external" href="https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P7002.pdf">datasheet</a>
-for our photocell provides an approximate relationship between resistance and
-the illuminance hitting the sensor:</p>
-<p><img alt="photocell-resistance" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/photocell-resistance.png" style="width: 4in;" /></p>
-<p>In our example, however, we will simply convert the value read in by
-<a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogRead">analogRead</a> to a voltage.
-The input comes in the form of a <strong>10-bit unsigned integer</strong>, so it has the
-range of 0 to 1023 (<span class="math">\(2^{10} - 1 = 1023\)</span>), corresponding to 0V up to 5V,
-respectively. If we read a value of <span class="math">\(x\)</span>, we can map this value to
-a voltage as follows:</p>
+<p>When the brightness increases, the photocell resistance <span class="math">\(R_s\)</span> decreases,
+so the output voltage <span class="math">\(V_{\text{out}}\)</span> increases. In our example, we will
+simply convert the value read in by <a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogRead">analogRead</a> to a voltage and use it as
+a substitute for &quot;brightness&quot;. The input comes in the form of a <strong>10-bit
+unsigned integer</strong>, so it has the range of 0 to 1023 (<span class="math">\(2^{10}
+- 1 = 1023\)</span>), corresponding to 0V up to 5V, respectively. If we read a value of
+<span class="math">\(x\)</span>, we can map this value to a voltage as follows:</p>
 <div class="math">
 \begin{equation*}
 V = \frac{5}{1023}x
@@ -350,10 +352,10 @@ find <code>y</code>, <code>e</code>, and <code>u</code>. For now, leave <span cl
 </pre>
 <ol class="arabic simple" start="2">
 <li>Once the code is uploaded and running, open up the serial plotter. The
-series of <code>Serial.print</code> statements plots the measurement signal
-<span class="math">\(y(t)\)</span>, the reference signal <span class="math">\(r(t)\)</span> (constant), and the error
-signal <span class="math">\(e(t)\)</span>. Perturb the brightness reading of the photocell by
-casting shadows on it and figure out which line is which.</li>
+series of <code>Serial.print</code> statements in the code plots the measurement
+signal <span class="math">\(y(t)\)</span>, the reference signal <span class="math">\(r(t)\)</span> (constant), and the
+error signal <span class="math">\(e(t)\)</span>. Perturb the brightness reading of the photocell
+by casting shadows on it and figure out which line is which.</li>
 <li>Let the signals become steady, then use the error measurement to make an
 estimate of what <span class="math">\(K_{p}\)</span> should be to drive the error to zero. Recall
 that the reference value was found by producing a PWM signal at 30% duty
