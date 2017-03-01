@@ -140,8 +140,8 @@ a few seconds each time. You'll need the <code>analogWrite</code> function as
 well as the <code>delay</code> function.</li>
 </ol>
 <pre class="code c++ literal-block">
-<span class="kt">int</span> <span class="n">LED_PIN</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
-
+<span class="cp">#define LED_PIN 5
+</span>
 <span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
     <span class="n">pinMode</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
 <span class="p">}</span>
@@ -206,8 +206,8 @@ code. You will need to fill in some code beneath the commented lines in the
 function.</li>
 </ol>
 <pre class="code c++ literal-block">
-<span class="kt">int</span> <span class="n">SENSOR_PIN</span> <span class="o">=</span> <span class="n">A0</span><span class="p">;</span>
-
+<span class="cp">#define SENSOR_PIN A0
+</span>
 <span class="c1">// variable to store the input reading
 </span><span class="kt">int</span> <span class="n">reading</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
@@ -292,9 +292,9 @@ you will have to implement the controller equations inside <code>loop</code> to
 find <code>y</code>, <code>e</code>, and <code>u</code>. For now, leave <span class="math">\(K_{p} = 0\)</span>.</li>
 </ol>
 <pre class="code c++ literal-block">
-<span class="kt">int</span> <span class="n">SENSOR_PIN</span> <span class="o">=</span> <span class="n">A0</span><span class="p">;</span>
-<span class="kt">int</span> <span class="n">LED_PIN</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
-
+<span class="cp">#define SENSOR_PIN A0
+#define LED_PIN 5
+</span>
 <span class="c1">// desired voltage (change this to the value you found)
 </span><span class="kt">float</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
 
