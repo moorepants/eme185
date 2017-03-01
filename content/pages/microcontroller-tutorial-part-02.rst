@@ -36,6 +36,9 @@ Interactive demo of main IDE features:
 -  Upload sketch (blank)
 -  Serial monitor/plotter
 
+For more in-depth descriptions of the IDE, see the `official guide
+<https://www.arduino.cc/en/Guide/Environment>`_
+
 
 The Circuit Components
 ======================
@@ -53,7 +56,7 @@ Once constructed, the circuit should look like the image below:
 |complete-circuit|
 
 The circuit consists of a light emitting diode (LED) circuit, driven by one of
-the Arduino’s digital I/O pins capable of producing a pulsewidth modulation
+the Arduino's digital I/O pins capable of producing a pulsewidth modulation
 (PWM) signal. This will allow the LED’s brightness to change. A photocell
 facing the LED senses the ambient lighting. The objective of the circuit is to
 demonstrate an automatic feedback control system that drives the LED to
@@ -83,6 +86,8 @@ a fixed brightness for a given control voltage.
 
 |led|
 
+|led-diagram|
+
 In our application, we will use a fixed current-limiting resistor of 330Ω and
 a 5V control voltage, but we will use a technique called pulsewidth modulation
 (PWM) to effectively vary the current passing through the circuit.
@@ -96,7 +101,7 @@ would be the duty cycle times the "on" voltage level. If the switching is fast
 enough, many sensors (including our own eyes) will not be able to detect that
 the actuator (e.g. an LED) is actually turning on and off, but instead it will
 detect an intermediate output roughly corresponding to the equivalent
-voltagelevel. For mechanical systems, such as DC motors, the mechanical
+voltage level. For mechanical systems, such as DC motors, the mechanical
 dynamics are often slow enough with respect to the PWM signal that their output
 will actually smoothly vary.
 
@@ -108,22 +113,23 @@ fully on, 100% duty cycle).
 
 |pwm|
 
-Example
-~~~~~~~
+Exercise 1: Vary the LED Brigtness
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let’s practice using PWM by varying the brightness of an LED. Start by
-connecting the 5V and GND pins of the Arduino to the red and blue "power rails"
-of your breadboard, respectively. LEDs are directional components, so ensure
-that the lead on the flat side of the LED dome is connected to ground. Connect
-the 330Ω resistor to the other lead, and connect the resistor to pin
-5 of the Arduino using a jumper wire. This is shown in the diagram below. Leave
-this circuit constructed throughout the session.
+1. Start by connecting the 5V and GND pins of the Arduino to the red and blue
+   "power rails" of your breadboard, respectively.
+2. LEDs are directional components, so ensure that the cathode is connected to
+   ground (see diagram above). Connect the 330Ω resistor to the other lead, and
+   connect the resistor to pin 5 of the Arduino using a jumper wire.
+3. Check your circuit against the diagram below. Leave the circuit constructed
+   throughout the session.
 
-|circuit-sketch-led|
+|led-circuit|
 
-With this circuit hooked up, you can test its operation with the following
-code, which should gradually increase the brightness of the LED up to full
-brightness over a period of about 2.5 seconds.
+4. With this circuit hooked up, you can test its operation. Add to the code
+   below to repeatedly ramp up the brightness of LED from off to fully on over
+   a few seconds each time. You'll need the :code:`analogWrite` function as
+   well as the :code:`delay` function.
 
 .. code:: c++
 
@@ -134,12 +140,7 @@ brightness over a period of about 2.5 seconds.
    }
 
    void loop() {
-       // iterate over the range of output values
-       // using steps of 10
-       for (int i = 0; i < 255; i += 10) {
-           analogWrite(LED_PIN, i);
-           delay(100);
-       }
+       // add code here
    }
 
 Photocells
@@ -156,11 +157,11 @@ it has no direct way of sensing resistance. Since our sensor operates by
 changing resistance, we need to convert this to a change in voltage. This is
 achieved through a voltage divider circuit.
 
-|voltage-divider|
+|photocell-circuit|
 
 In this circuit, we supply 5V from the Arduino as :math:`V_{\text{in}}` and
-measure :math:`V_{\text{out}}` with one of the Arduino’s analog input pins. The
-output voltage for this voltage divider is given by
+measure :math:`V_{\text{out}}` with one of the Arduino's analog input pins (pin
+A0). The output voltage for this voltage divider is given by
 
 .. math::
 
@@ -186,26 +187,23 @@ a voltage as follows:
 
    V = \frac{5}{1023}x
 
-Example
-~~~~~~~
 
-In this example, we’ll connect up the photocell to the Arduino using the
-voltage divider circuit shown above. To connect the photocell to the Arduino,
-leave the 5V and GND connections from the LED example intact, then place one of
-the photocell leads on the 5V rail. A photocell is essentially a resistor, so
-its orientation in the circuit doesn't matter. Connect the other lead to the
-4.7kΩ resistor which goes to GND. At the connection point between the photocell
-and the resistor, use a jumper wire to connect pin A0 of the Arduino. A diagram
-is shown below.
+Exercise 2: Read from the Photocell
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|circuit-sketch-photocell|
-
-The code below continuously reads the output of the voltage divider via pin A0,
-computes the voltage, and prints the value to the serial port. You can use the
-Arduino IDE’s **serial monitor** or **serial plotter** to view the values being
-read.
-
-*What happens if you cast shadows over the circuit?*
+1. Leave the 5V and GND connections from the LED example intact, then place one
+   of the photocell leads on the 5V rail. A photocell is essentially
+   a resistor, so its orientation in the circuit doesn't matter.
+2. Bend the photocell's leads to 90° so that it faces the LED.
+3. Connect the other lead of the photocell to the 4.7kΩ resistor which goes to
+   GND.
+4. Use a jumper wire to connect the junction between the photocell and the
+   4.7kΩ resistor to the Arduino's A0 pin.
+5. Check your circuit against the diagram above.
+6. Create a new sketch using the Arduino IDE and replace it with the following
+   code. You will need to fill in some code beneath the commented lines in the
+   :code:`setup` function. You will need to make use of the :code:`analogRead`
+   function.
 
 .. code:: c++
 
@@ -223,16 +221,26 @@ read.
    }
 
    void loop() {
-       reading = analogRead(SENSOR_PIN);
-       voltage = reading * 5.0 / 1023.0;
-       Serial.println(reading);
+       // read in the input value (10-bit unsigned int)
+
+       // convert the reading to a voltage
+
+       // the following prints the reading and then waits a bit to loop again
+       Serial.println(voltage);
        delay(100);
    }
+
+7. Once the code is uploaded and running, use the Arduino IDE's **serial
+   monitor** or **serial plotter** to view the values being read. *What happens
+   to the voltage if you cast shadows over the circuit?*
+8. Allow the voltage to settle to a steady value. Use the serial monitor to
+   record the numerical value.
+
 
 Control System
 ==============
 
-Now we’ll put the LED and photocell together in order to obtain a desired
+Now we'll put the LED and photocell together in order to obtain a desired
 brightness level. Here is a block diagram of the control system we will
 implement to achieve this:
 
@@ -261,42 +269,32 @@ components (the LED and the photocell) should be connected from the previous
 two sections. The most important part of the control circuit construction
 (aside from making the correct electrical connections) is that the LED and
 photocell are close to and facing one another. This will ensure that the LED is
-able to influence the reading of the sensor as much as possible.
-
-|circuit-sketch-full|
+able to influence the reading of the sensor as much as possible. The photo of
+the completed circuit is repeated below:
 
 |complete-circuit|
 
 Implementing the Controller
 ---------------------------
 
-Finding a Setpoint
-~~~~~~~~~~~~~~~~~~
+Excercise 3: Finding a Setpoint
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Using the code above for reading the photocell, determine the "baseline", or
-setpoint, brightness of the environment by taking note of the steady reading
-produced without perturbing the system by casting shadows on it. Take note of
-this value.
+1. Start with the photocell reading code you finished.
+2. Add to that sketch the code for setting up the LED (refer to the first code
+   listing for help), then use the :code:`analogWrite` function inside
+   :code:`setup` to turn the LED on at **30% duty cycle**.
+3. Run the sketch and observe the voltage output by the photocell circuit.
+   **Write this value down** as this will be the desired brightness level we
+   will seek to achieve with an automatic control system.
 
-Now, use the analogWrite function to produce a PWM signal with **30%** duty
-cycle at the end of the setup function.
+Exercise 4: Implement a Proportional Controller
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Now what does the photocell read?*
-
-Let's say this is the brightness we want to achieve. What happens if you cast
-a shadow over the circuit now? This is a demonstration of perturbations
-affecting an open-loop control system. Since we aren’t yet using the sensor’s
-reading to influence the brightness of the LED, we can’t expect to maintain
-a steady brightness level. Let's fix that.
-
-Proportional Control
-~~~~~~~~~~~~~~~~~~~~
-
-Use the serial monitor (not the plotter) to determine the numerical value
-corresponding to the setpoint found above. Use this value for :math:`r(t)` in
-the sketch below, then implement a controller which computes the error and
-outputs a PWM signal that is proportional to this error through a coefficient
-:math:`K_{p}`. For now, leave :math:`K_{p} = 0`.
+1. Create a new sketch based on the code below. You will need to replace the
+   value of :code:`r` with the setpoint you found in the previous exercise, and
+   you will have to implement the controller equations inside :code:`loop` to
+   find :code:`y`, :code:`e`, and :code:`u`. For now, leave :math:`K_{p} = 0`.
 
 .. code:: c++
 
@@ -323,7 +321,7 @@ outputs a PWM signal that is proportional to this error through a coefficient
    }
 
    void loop() {
-       // update the photocell reading
+       // update the photocell reading (voltage)
        y =
 
        // compute the error between the reading and the desired value
@@ -337,13 +335,13 @@ outputs a PWM signal that is proportional to this error through a coefficient
        u = bound(u, 0, 255);
        analogWrite(LED_PIN, u);
 
-       // plot the measurement (blue)
+       // plot the measurement
        Serial.print(y);
        Serial.print('\t');
-       // plot the desired output (yellow)
+       // plot the desired output
        Serial.print(r);
        Serial.print('\t');
-       // plot the error (red)
+       // plot the error
        Serial.println(e);
 
        delay(50);
@@ -356,22 +354,25 @@ outputs a PWM signal that is proportional to this error through a coefficient
        return x;
    }
 
-The code above plots the measurement signal :math:`y(t)` in blue, the reference
-signal :math:`r(t)` (constant) in yellow, and the error signal :math:`e(t)`
-in red. Starting out with :math:`K_{p} = 0`, use the error measurement to make
-an estimate of what :math:`K_{p}` should be to drive the error to zero. Recall
-that the reference value was found by producing a PWM signal at 30% duty cycle,
-so the term :math:`u(t) = K_{p}e(t)` should be approximately :math:`0.3 \times
-255 = 76.5`. This initial guess will likely produce a proportional constant
-that is too high and causes instability. Divide it by 2 to start.
+2. Once the code is uploaded and running, open up the serial plotter. The
+   series of :code:`Serial.print` statements plots the measurement signal
+   :math:`y(t)`, the reference signal :math:`r(t)` (constant), and the error
+   signal :math:`e(t)`. Perturb the brightness reading of the photocell by
+   casting shadows on it and figure out which line is which.
+3. Let the signals become steady, then use the error measurement to make an
+   estimate of what :math:`K_{p}` should be to drive the error to zero. Recall
+   that the reference value was found by producing a PWM signal at 30% duty
+   cycle, so the term :math:`u(t) = K_{p}e(t)` should be approximately
+   :math:`0.3 \times 255 = 76.5`. This initial guess will likely produce
+   a proportional constant that is too high and causes instability. Divide it
+   by 2 to start.
+4. Now try casting shadows over the circuit. Looking at the LED itself, does it
+   seem to compensate when less light from the ambient environment hits the
+   photocell? What do you observe when looking at the error signal in the
+   serial plotter?
 
-*Now try casting shadows over the circuit. Looking at the LED itself, does it
-seem to compensate when less light from the ambient environment hits the
-photocell? What do you observe when looking at the error signal in the serial
-plotter?*
-
-Adding Integral Control
-~~~~~~~~~~~~~~~~~~~~~~~
+Exercise 5: Adding Integral Control
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As you probably have noticed, proportional controllers may suffer from non-zero
 *steady state error*. That is, there is a consistent mismatch between the
@@ -383,18 +384,25 @@ this error over time will become large, and the integral component of the
 controller will increase the total controller output to drive the error down to
 zero.
 
-Add to the proportional control code above to implement a proportional-integral
-controller. To do this, introduce an integral coefficient :math:`K_{i}` and set
-it to an order of magnitude smaller than :math:`K_{p}`. Introduce a variable to
-keep track of the total accumulation of error, and use the full control
-equation:
+1. Starting with the code you wrote to implement the proportional controller,
+   introduce a global variable :math:`K_{i}` and set it to an order of
+   magnitude smaller than :math:`K_{p}`.
+2. Introduce a variable to keep track of the total accumulation of error. Each
+   time the error is calculated, add it to the current value of the error
+   accumulator variable.
+3. Modify the line that computes the PWM control value to use the full control
+   equation:
 
 .. math::
 
    u(t) = K_{p}e(t) + K_{i}\sum_{\tau=0}^{t}e(\tau)
 
-*What happens if you cast shadows on the circuit now? What happens if
-you increase the integral coefficient?*
+4. Upload the sketch and open the serial plotter. *What happens if you cast
+   shadows on the circuit now?*
+5. Play around with :math:`K_p` and :math:`K_i`. What does increasing or
+   decreasing these coefficients do? Compare your observations to some of the
+   information on Wikipedia's extensive article on `PID control
+   <https://en.wikipedia.org/wiki/PID_controller>`_
 
 
 .. |complete-circuit| image:: {filename}/images/microcontroller-tutorial/complete-circuit.jpg
@@ -402,11 +410,15 @@ you increase the integral coefficient?*
 .. |pwm| image:: {filename}/images/microcontroller-tutorial/pwm.svg
    :width: 5in
 .. |led| image:: {filename}/images/microcontroller-tutorial/led.jpg
-   :width: 4in
+   :width: 3in
+.. |led-diagram| image:: {filename}/images/microcontroller-tutorial/led-diagram.svg
+   :width: 3in
+.. |led-circuit| image:: {filename}/images/microcontroller-tutorial/led-circuit.svg
+   :width: 3in
 .. |photocell| image:: {filename}/images/microcontroller-tutorial/photocell.jpg
    :width: 4in
-.. |voltage-divider| image:: {filename}/images/microcontroller-tutorial/voltage-divider.svg
-   :width: 2in
+.. |photocell-circuit| image:: {filename}/images/microcontroller-tutorial/photocell-circuit.svg
+   :width: 3in
 .. |photocell-resistance| image:: {filename}/images/microcontroller-tutorial/photocell-resistance.png
    :width: 4in
 .. |controller| image:: {filename}/images/microcontroller-tutorial/controller.svg
@@ -416,4 +428,4 @@ you increase the integral coefficient?*
 .. |circuit-sketch-photocell| image:: {filename}/images/microcontroller-tutorial/circuit-sketch-photocell.svg
    :width: 5in
 .. |circuit-sketch-full| image:: {filename}/images/microcontroller-tutorial/circuit-sketch-full.svg
-   :width: 5in
+   width: 5in
