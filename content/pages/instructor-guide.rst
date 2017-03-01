@@ -31,7 +31,7 @@ General
   slot and send me a request via email.
 - I strictly use the Linux operating system and strive to use open source tools
   for most of my work. I prefer not to have to deal with any Microsoft Office
-  suite file types. Please avoid these and choose LibreOffice for Google
+  Suite file types. Please avoid these and choose LibreOffice for Google
   equivalents so that we can easily collaborate and share.
 
 .. _work calendar:  http://www.moorepants.info/work-calendar.html
@@ -40,11 +40,12 @@ Lectures
 ========
 
 You are not required to attend any of the lecture periods. You are welcome to
-sit in on lectures or even give some yourself. If you sit in on the lectures I
-will ask you to note down feedback for me. If you would like to give a lecture,
-just let me know well beforehand and we will make arrangements. Past TAs have
-given a lecture to introduce students to useful things (e.g. 3D printing) for
-their projects. I'm happy to give feedback on your lectures too.
+sit in on lectures or even give one or more yourself. If you sit in on the
+lectures I will ask you to note down feedback for me. If you would like to give
+a lecture, just let me know well beforehand and we will make arrangements. Past
+TAs have given a lecture to introduce students to useful things (e.g. 3D
+printing, microcontrollers) for their projects. I'm happy to give feedback on
+your lectures too.
 
 Studios
 =======
@@ -67,11 +68,13 @@ Websites
 Course Website
 --------------
 
-All of the public information about the course should go on this website
-(http://moorepants.github.io/eme185/). The website source is at
-https://github.com/moorepants/eme185. You'll need to make a Github account and
-share your user name with Jason to get access to modify the website. See the
+All of the public information about the course should go on the `course
+website`_.  The website source is at https://github.com/moorepants/eme185.
+You'll need to make a Github account and share your user name with Jason to get
+access to modify the website and permission to edit the Github issues. See the
 README for instructions on editing and viewing the site locally.
+
+.. _course website: http://moorepants.github.io/eme185/
 
 Canvas
 ------
@@ -96,7 +99,8 @@ Google Drive
 
 We will use a Google Drive for collaborative grading and sharing information
 among the instructors. This should not be shared outside of the instructors as
-it will have FERPA protected information.
+it will have FERPA protected information. **You must be extremely careful that
+you do not share any document in this drive with any student.**
 
 CATME
 -----
@@ -117,18 +121,20 @@ the students pace out the draft writing and that we provide feedback on the
 material before it is put in the final report. Jason will provide grading
 rubrics.
 
-We will co-grade the final reports. There is a grading rubric, each of us will
-take a section of the report, and can grade it at our leisure. We will either
-use Google Drive to collaboratively annotate the PDFs or use the Canvas
+We will co-grade the reports. There is a grading rubric, each of us will take a
+section of the report, and can grade it at our leisure. We will either use
+Google Drive to collaboratively annotate the PDFs or use the Canvas
 functionality.
 
 Instructor Feedback
 ===================
 
-I collect feedback on the Github issues page
-https://github.com/moorepants/eme185/issues for anything that we need
-to note for the future. These can be things that need to fixed on the website,
-ideas for improving the course, things that suck about the course, etc.
+I collect feedback on the Github issues page for anything that we need to note
+for the future. **This is publicly veiwable so no private information should be
+shared here.** These can be things that need to fixed on the website, ideas for
+improving the course, things that suck about the course, etc.
+
+.. _Github issues page: https://github.com/moorepants/eme185/issues
 
 Grading
 =======
@@ -206,26 +212,30 @@ Meijo University Visit
 Weekly Tasks
 ============
 
+We will consider weeks starting on Mondays for this section.
+
 Week 0
 ------
 
 The instructors should meeting the week before class starts for an
 introduction.
 
+- [All] First instructor meeting.
 - Setup a weekly instructor meeting time.
+- [Instructor] Invite EFL staff to present during one of the lectures.
 
 Week 1
 ------
 
-- TAs should come to the first 15 minutes of the first lecture to be introduced
-  to the whole class.
+- [All TAs] Come to the first 15 minutes of the first lecture to be introduced
+  to the entire class.
 - TAs should prepare a 5 to 7 minute introduction. I would like you to have a 5
   to 10 minute "show and tell" and introduction for the lab on Wednesday and
   Thursday. The idea would be to introduce your self and show a few things,
   slides, or just talk about a project or projects you have done that is
   relevant to them in the class. It should also give the students and idea what
   technical advice you can offer them.
-- Send a list of project preferences by the same due date as the CATME survey.
+- [All TAs] Send the instructor a list of project preferences by the same due date as the CATME survey.
 - Get design supplies for the needs and specifications studio activity.
 
 Week 2
@@ -244,11 +254,13 @@ Week 2
 - [All TAs] Read chapters 5 and 6, needs/specs slides, and needs/specs activity
   handout.
 - [All TAs] Grade week 2 participation.
+- [All TAs] Review the needs/specs chapters and slides.
 
 Week 3
 ------
 
-- [All TAs] Grade team charters.
+- [All TAs] Grade team charters. This can be very course: 0 (didn't do it), 5
+  (did it poorly), 10 (did it average or better). Make comments on improving.
 - [All TAs] Read chapter 7, concept generation slides, and concept generation
   activity.
 - [All TAs] Review AIOs before studio sessions.
@@ -263,6 +275,8 @@ Week 4
 - [All TAs] Grade week 4 AIO + participation.
 - [Lead TA] Create a 185B scheduling spreadsheet for teams to sign up for
   meeting times.
+- [Lead TA] Book rooms for prelimnary design review.
+- [Instructor] Post the CATME peer evaluation on Friday.
 
 Week 5
 ------
@@ -271,13 +285,33 @@ Week 5
 - [All TAs] Grade Memo 4
 - [All TAs] Grade week 5 AIO + participation.
 - [Lead TA] Prototype a control system for the microcontroller studio session
-- [Lead TA] Create a preliminary schedule for Meijo visit
+- [Lead TA] Create a preliminary schedule for Meijo visit and have Petros
+  approve it.
 
 Week 6
 ------
 
 - [Instructor] Send out microcontroller preparation instructions after lecture.
 - [Instructor] Update microcontroller lesson and prepare for giving it.
+- [Instructor] Develop prelimnary budget sheet.
 - [Instructor + all TAs] Co-grade a report in person.
 - [Instructor + all TAs] Grade report 1 by Friday 5pm.
 - [All TAs] Grade week 6 AIO + participation.
+- [Lead TA] Prepare the preliminary design review signup and send out by
+  Wednesday (announcement and assignment on canvas).
+- [TA] Prepare a fabrication and space needs document to provide to the Chair
+  and the EFL staff.
+
+Week 7
+------
+
+- [Instructor] Meet with Chair to request additional course funding if needed.
+- [] Practice the microcontroller studio lesson.
+- [TA] Invite the sponsors and the EFL staff to the design reviews.
+
+Week 8
+------
+
+- [All] Review grading rubric for preliminary design reviews.
+- [TA] Setup the design review room(s) with a projector and screen. Inform the
+- [All] Attend the prelminary design reviews and grade.

@@ -262,7 +262,8 @@ Final Design Review        15%
 Presentation               5%
 Poster Presentation        5%
 In class                   5%
-Peer Evaluation            May modify individual grade up or down
+Project Success            Will modify the team grade up or down
+Peer Evaluations           Will modify individual grade up or down
 =========================  ===
 
 Memos_
@@ -292,6 +293,10 @@ Poster Presentation_
 In class
    There will be a variety of in class activities that will count towards your
    grade and you will be expected to attend the sessions and meetings.
+Project Success
+   The instructor reserves the right to adjust the team's grade based on
+   whether the project was successful at meeting the clients needs and whether
+   the group completes their goals.
 Peer Evaluation
    You will evaluate your teammates' work on the project multiple times in the
    coure and this evaluation may modify your grade up or down relative to the
@@ -308,7 +313,7 @@ Canvas
 We will make use of Canvas for the course. Log in to canvas.ucdavis.edu_ with
 your Kerberos ID and passphrase then select **EME 185A A02 WQ 2017**.
 
-We will be using several features in canvas:
+We will be using several features in Canvas:
 
 Announcements
    This will be my primary communication avenue to you. These announcements

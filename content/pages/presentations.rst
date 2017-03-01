@@ -11,9 +11,9 @@ the eighth week of the winter quarter. The first 5 minutes will be for setup
 followed by your 25 minute presentation. This will be followed by 20 minutes
 for the review questions and discussion. The primary purpose of this review is
 for your team to justify your concept selection and design decisions through
-technical details and analysis.  We are not concerned with the path to the
+technical details and analysis. We are not concerned with the path to the
 final design (i.e., initial concepts, etc.) but what the final concept is and
-why you feel confident it will work.  The intent of critical design reviews is
+why you feel confident it will work. The intent of critical design reviews is
 to insure that the proper methods are being used in analyses and that the
 design is valid and valuable, i.e. it meets specifications, it can be
 manufactured, etc. Both your teaching assistant and the primary instructor will
