@@ -407,28 +407,19 @@ zero.
 
 .. |complete-circuit| image:: {filename}/images/microcontroller-tutorial/complete-circuit.jpg
    :width: 5in
-   :align: center
 .. |pwm| image:: {filename}/images/microcontroller-tutorial/pwm.svg
    :width: 5in
-   :align: center
 .. |led| image:: {filename}/images/microcontroller-tutorial/led.jpg
    :width: 3in
-   :align: center
 .. |led-diagram| image:: {filename}/images/microcontroller-tutorial/led-diagram.svg
    :width: 3in
-   :align: center
 .. |led-circuit| image:: {filename}/images/microcontroller-tutorial/led-circuit.svg
    :width: 3in
-   :align: center
 .. |photocell| image:: {filename}/images/microcontroller-tutorial/photocell.jpg
    :width: 3in
-   :align: center
 .. |photocell-circuit| image:: {filename}/images/microcontroller-tutorial/photocell-circuit.svg
    :width: 3in
-   :align: center
 .. |photocell-resistance| image:: {filename}/images/microcontroller-tutorial/photocell-resistance.png
    :width: 4in
-   :align: center
 .. |controller| image:: {filename}/images/microcontroller-tutorial/controller.svg
    :width: 7in
-   :align: center
