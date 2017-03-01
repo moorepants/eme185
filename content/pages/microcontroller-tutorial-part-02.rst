@@ -133,7 +133,7 @@ Exercise 1: Vary the LED Brigtness
 
 .. code:: c++
 
-   int LED_PIN = 5;
+   #define LED_PIN 5
 
    void setup() {
        pinMode(LED_PIN, OUTPUT);
@@ -207,7 +207,7 @@ Exercise 2: Read from the Photocell
 
 .. code:: c++
 
-   int SENSOR_PIN = A0;
+   #define SENSOR_PIN A0
 
    // variable to store the input reading
    int reading = 0;
@@ -298,8 +298,8 @@ Exercise 4: Implement a Proportional Controller
 
 .. code:: c++
 
-   int SENSOR_PIN = A0;
-   int LED_PIN = 5;
+   #define SENSOR_PIN A0
+   #define LED_PIN 5
 
    // desired voltage (change this to the value you found)
    float r = 2;
