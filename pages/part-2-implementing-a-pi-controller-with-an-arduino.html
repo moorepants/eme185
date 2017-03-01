@@ -117,9 +117,9 @@ voltage level. For mechanical systems, such as DC motors, the mechanical
 dynamics are often slow enough with respect to the PWM signal that their output
 will actually smoothly vary.</p>
 <p>The Arduino Uno allows us to output a PWM signal on several of its pins. This
-is done by setting the pin as an output, and using the <a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogWrite">analogWrite</a> function. This function
-accepts any integer value between 0 (pin fully off, 0% duty cycle) and 255 (pin
-fully on, 100% duty cycle).</p>
+is done by setting the pin as an output, and using the <a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogWrite">analogWrite</a> function.
+This function accepts any integer value between 0 (pin fully off, 0% duty
+cycle) and 255 (pin fully on, 100% duty cycle).</p>
 <p><object data="https://moorepants.github.io/eme185/images/microcontroller-tutorial/pwm.svg" style="width: 5in;" type="image/svg+xml">pwm</object></p>
 <div class="section" id="exercise-1-vary-the-led-brigtness">
 <h4>Exercise 1: Vary the LED Brigtness<a class="headerlink" href="#exercise-1-vary-the-led-brigtness" title="Permalink to this headline">¶</a></h4>
@@ -136,9 +136,9 @@ throughout the session.</li>
 <ol class="arabic simple" start="4">
 <li>With this circuit hooked up, you can test its operation. Add to the code
 below to repeatedly ramp up the brightness of LED from off to fully on over
-a few seconds each time. You'll need the <code>analogWrite</code> function as
-well as the <code>delay</code> function. Note that the pin number for the LED has
-been specified via a <a class="reference external" href="https://en.wikipedia.org/wiki/C_preprocessor#Macro_definition_and_expansion">preprocessor macro</a>.
+a few seconds each time. You'll need the <a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogWrite">analogWrite</a> function as well as
+the <a class="reference external" href="https://www.arduino.cc/en/Reference/Delay">delay</a> function. Note that the pin number for the LED has been specified
+via a <a class="reference external" href="https://en.wikipedia.org/wiki/C_preprocessor">preprocessor macro</a>.
 This is a special statement that literally substitutes each occurence of
 <code>LED_PIN</code> with the value 5, saving some of the limited memory in the
 microcontroller.</li>
@@ -203,32 +203,23 @@ GND.</li>
 4.7kΩ resistor to the Arduino's A0 pin.</li>
 <li>Check your circuit against the diagram above.</li>
 <li>Create a new sketch using the Arduino IDE and replace it with the following
-code. You will need to fill in some code beneath the commented lines in the
-<code>setup</code> function. You will need to make use of the <code>analogRead</code>
-function.</li>
+code. Write your own statements to read in the input value (10-bit unsigned
+int), convert that reading to a floating point voltage, then print the
+voltage to the serial port. You will need to make use of the
+<a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogRead">analogRead</a> and <a class="reference external" href="https://www.arduino.cc/en/Serial/Println">Serial.println</a> functions.</li>
 </ol>
 <pre class="code c++ literal-block">
 <span class="cp">#define SENSOR_PIN A0
 </span>
-<span class="c1">// variable to store the input reading
-</span><span class="kt">int</span> <span class="n">reading</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-
-<span class="c1">// variable to store the voltage corresponding to the reading
-</span><span class="kt">float</span> <span class="n">voltage</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-
 <span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
     <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
     <span class="n">pinMode</span><span class="p">(</span><span class="n">SENSOR_PIN</span><span class="p">,</span> <span class="n">INPUT</span><span class="p">);</span>
 <span class="p">}</span>
 
 <span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">// read in the input value (10-bit unsigned int)
+    <span class="c1">// add code here
 </span>
-    <span class="c1">// convert the reading to a voltage
-</span>
-    <span class="c1">// the following prints the reading and then waits a bit to loop again
-</span>    <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">voltage</span><span class="p">);</span>
-    <span class="n">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="n">delay</span><span class="p">(</span><span class="mi">50</span><span class="p">);</span>
 <span class="p">}</span>
 </pre>
 <ol class="arabic simple" start="7">
@@ -278,8 +269,8 @@ the completed circuit is repeated below:</p>
 <ol class="arabic simple">
 <li>Start with the photocell reading code you finished.</li>
 <li>Add to that sketch the code for setting up the LED (refer to the first code
-listing for help), then use the <code>analogWrite</code> function inside
-<code>setup</code> to turn the LED on at <strong>30% duty cycle</strong>.</li>
+listing for help), then use the <a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogWrite">analogWrite</a> function inside <code>setup</code>
+to turn the LED on at <strong>30% duty cycle</strong>.</li>
 <li>Run the sketch and observe the voltage output by the photocell circuit.
 <strong>Write this value down</strong> as this will be the desired brightness level we
 will seek to achieve with an automatic control system.</li>
@@ -352,10 +343,10 @@ find <code>y</code>, <code>e</code>, and <code>u</code>. For now, leave <span cl
 </pre>
 <ol class="arabic simple" start="2">
 <li>Once the code is uploaded and running, open up the serial plotter. The
-series of <code>Serial.print</code> statements in the code plots the measurement
-signal <span class="math">\(y(t)\)</span>, the reference signal <span class="math">\(r(t)\)</span> (constant), and the
-error signal <span class="math">\(e(t)\)</span>. Perturb the brightness reading of the photocell
-by casting shadows on it and figure out which line is which.</li>
+series of <a class="reference external" href="https://www.arduino.cc/en/Serial/Print">Serial.print</a> statements in the code plots the measurement signal
+<span class="math">\(y(t)\)</span>, the reference signal <span class="math">\(r(t)\)</span> (constant), and the error
+signal <span class="math">\(e(t)\)</span>. Perturb the brightness reading of the photocell by
+casting shadows on it and figure out which line is which.</li>
 <li>Let the signals become steady, then use the error measurement to make an
 estimate of what <span class="math">\(K_{p}\)</span> should be to drive the error to zero. Recall
 that the reference value was found by producing a PWM signal at 30% duty
