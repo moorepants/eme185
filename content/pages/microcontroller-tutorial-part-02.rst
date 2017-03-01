@@ -129,7 +129,12 @@ Exercise 1: Vary the LED Brigtness
 4. With this circuit hooked up, you can test its operation. Add to the code
    below to repeatedly ramp up the brightness of LED from off to fully on over
    a few seconds each time. You'll need the :code:`analogWrite` function as
-   well as the :code:`delay` function.
+   well as the :code:`delay` function. Note that the pin number for the LED has
+   been specified via a `preprocessor macro
+   <https://en.wikipedia.org/wiki/C_preprocessor#Macro_definition_and_expansion>`_.
+   This is a special statement that literally substitutes each occurence of
+   :code:`LED_PIN` with the value 5, saving some of the limited memory in the
+   microcontroller.
 
 .. code:: c++
 
@@ -148,9 +153,14 @@ Photocells
 
 Photocells are passive circuit elements which change their resistance in
 response to a change in brightness. Their resistance *decreases* when the
-ambient environment becomes *brighter*.
+ambient environment becomes *brighter*. The `datasheet
+<https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P7002.pdf>`_
+for our photocell provides an approximate relationship between resistance and
+the illuminance hitting the sensor:
 
 |photocell|
+
+|photocell-resistance|
 
 An Arduino can sense voltages from 0V to 5V through the analog input pins, but
 it has no direct way of sensing resistance. Since our sensor operates by
@@ -167,21 +177,14 @@ A0). The output voltage for this voltage divider is given by
 
    V_{\text{out}} = \frac{R}{R + \ R_{s}}V_{\text{in}}
 
-We know :math:`R`, :math:`V_{\text{in}}`, and we can measure
-:math:`V_{\text{out}}`, so we can calculate the photocell resistance
-:math:`R_{s}`. The `datasheet
-<https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P7002.pdf>`_
-for our photocell provides an approximate relationship between resistance and
-the illuminance hitting the sensor:
-
-|photocell-resistance|
-
-In our example, however, we will simply convert the value read in by
-`analogRead <https://www.arduino.cc/en/Reference/AnalogRead>`_ to a voltage.
-The input comes in the form of a **10-bit unsigned integer**, so it has the
-range of 0 to 1023 (:math:`2^{10} - 1 = 1023`), corresponding to 0V up to 5V,
-respectively. If we read a value of :math:`x`, we can map this value to
-a voltage as follows:
+When the brightness increases, the photocell resistance :math:`R_s` decreases,
+so the output voltage :math:`V_{\text{out}}` increases. In our example, we will
+simply convert the value read in by `analogRead
+<https://www.arduino.cc/en/Reference/AnalogRead>`_ to a voltage and use it as
+a substitute for "brightness". The input comes in the form of a **10-bit
+unsigned integer**, so it has the range of 0 to 1023 (:math:`2^{10}
+- 1 = 1023`), corresponding to 0V up to 5V, respectively. If we read a value of
+:math:`x`, we can map this value to a voltage as follows:
 
 .. math::
 
@@ -355,10 +358,10 @@ Exercise 4: Implement a Proportional Controller
    }
 
 2. Once the code is uploaded and running, open up the serial plotter. The
-   series of :code:`Serial.print` statements plots the measurement signal
-   :math:`y(t)`, the reference signal :math:`r(t)` (constant), and the error
-   signal :math:`e(t)`. Perturb the brightness reading of the photocell by
-   casting shadows on it and figure out which line is which.
+   series of :code:`Serial.print` statements in the code plots the measurement
+   signal :math:`y(t)`, the reference signal :math:`r(t)` (constant), and the
+   error signal :math:`e(t)`. Perturb the brightness reading of the photocell
+   by casting shadows on it and figure out which line is which.
 3. Let the signals become steady, then use the error measurement to make an
    estimate of what :math:`K_{p}` should be to drive the error to zero. Recall
    that the reference value was found by producing a PWM signal at 30% duty
