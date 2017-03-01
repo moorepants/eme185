@@ -106,10 +106,9 @@ dynamics are often slow enough with respect to the PWM signal that their output
 will actually smoothly vary.
 
 The Arduino Uno allows us to output a PWM signal on several of its pins. This
-is done by setting the pin as an output, and using the `analogWrite
-<https://www.arduino.cc/en/Reference/AnalogWrite>`_ function. This function
-accepts any integer value between 0 (pin fully off, 0% duty cycle) and 255 (pin
-fully on, 100% duty cycle).
+is done by setting the pin as an output, and using the analogWrite_ function.
+This function accepts any integer value between 0 (pin fully off, 0% duty
+cycle) and 255 (pin fully on, 100% duty cycle).
 
 |pwm|
 
@@ -128,10 +127,9 @@ Exercise 1: Vary the LED Brigtness
 
 4. With this circuit hooked up, you can test its operation. Add to the code
    below to repeatedly ramp up the brightness of LED from off to fully on over
-   a few seconds each time. You'll need the :code:`analogWrite` function as
-   well as the :code:`delay` function. Note that the pin number for the LED has
-   been specified via a `preprocessor macro
-   <https://en.wikipedia.org/wiki/C_preprocessor#Macro_definition_and_expansion>`_.
+   a few seconds each time. You'll need the analogWrite_ function as well as
+   the delay_ function. Note that the pin number for the LED has been specified
+   via a `preprocessor macro <https://en.wikipedia.org/wiki/C_preprocessor>`_.
    This is a special statement that literally substitutes each occurence of
    :code:`LED_PIN` with the value 5, saving some of the limited memory in the
    microcontroller.
@@ -204,19 +202,14 @@ Exercise 2: Read from the Photocell
    4.7kΩ resistor to the Arduino's A0 pin.
 5. Check your circuit against the diagram above.
 6. Create a new sketch using the Arduino IDE and replace it with the following
-   code. You will need to fill in some code beneath the commented lines in the
-   :code:`setup` function. You will need to make use of the :code:`analogRead`
-   function.
+   code. Write your own statements to read in the input value (10-bit unsigned
+   int), convert that reading to a floating point voltage, then print the
+   voltage to the serial port. You will need to make use of the
+   analogRead_ and Serial.println_ functions.
 
 .. code:: c++
 
    #define SENSOR_PIN A0
-
-   // variable to store the input reading
-   int reading = 0;
-
-   // variable to store the voltage corresponding to the reading
-   float voltage = 0;
 
    void setup() {
        Serial.begin(9600);
@@ -224,13 +217,9 @@ Exercise 2: Read from the Photocell
    }
 
    void loop() {
-       // read in the input value (10-bit unsigned int)
+       // add code here
 
-       // convert the reading to a voltage
-
-       // the following prints the reading and then waits a bit to loop again
-       Serial.println(voltage);
-       delay(100);
+       delay(50);
    }
 
 7. Once the code is uploaded and running, use the Arduino IDE's **serial
@@ -285,8 +274,8 @@ Excercise 3: Finding a Setpoint
 
 1. Start with the photocell reading code you finished.
 2. Add to that sketch the code for setting up the LED (refer to the first code
-   listing for help), then use the :code:`analogWrite` function inside
-   :code:`setup` to turn the LED on at **30% duty cycle**.
+   listing for help), then use the analogWrite_ function inside :code:`setup`
+   to turn the LED on at **30% duty cycle**.
 3. Run the sketch and observe the voltage output by the photocell circuit.
    **Write this value down** as this will be the desired brightness level we
    will seek to achieve with an automatic control system.
@@ -358,10 +347,10 @@ Exercise 4: Implement a Proportional Controller
    }
 
 2. Once the code is uploaded and running, open up the serial plotter. The
-   series of :code:`Serial.print` statements in the code plots the measurement
-   signal :math:`y(t)`, the reference signal :math:`r(t)` (constant), and the
-   error signal :math:`e(t)`. Perturb the brightness reading of the photocell
-   by casting shadows on it and figure out which line is which.
+   series of Serial.print_ statements in the code plots the measurement signal
+   :math:`y(t)`, the reference signal :math:`r(t)` (constant), and the error
+   signal :math:`e(t)`. Perturb the brightness reading of the photocell by
+   casting shadows on it and figure out which line is which.
 3. Let the signals become steady, then use the error measurement to make an
    estimate of what :math:`K_{p}` should be to drive the error to zero. Recall
    that the reference value was found by producing a PWM signal at 30% duty
@@ -426,3 +415,9 @@ zero.
    :width: 4in
 .. |controller| image:: {filename}/images/microcontroller-tutorial/controller.svg
    :width: 7in
+
+.. _analogWrite: https://www.arduino.cc/en/Reference/AnalogWrite
+.. _delay: https://www.arduino.cc/en/Reference/Delay
+.. _analogRead: https://www.arduino.cc/en/Reference/AnalogRead
+.. _Serial.println: https://www.arduino.cc/en/Serial/Println
+.. _Serial.print: https://www.arduino.cc/en/Serial/Print
