@@ -416,16 +416,10 @@ zero.
 .. |led-circuit| image:: {filename}/images/microcontroller-tutorial/led-circuit.svg
    :width: 3in
 .. |photocell| image:: {filename}/images/microcontroller-tutorial/photocell.jpg
-   :width: 4in
+   :width: 3in
 .. |photocell-circuit| image:: {filename}/images/microcontroller-tutorial/photocell-circuit.svg
    :width: 3in
 .. |photocell-resistance| image:: {filename}/images/microcontroller-tutorial/photocell-resistance.png
    :width: 4in
 .. |controller| image:: {filename}/images/microcontroller-tutorial/controller.svg
    :width: 7in
-.. |circuit-sketch-led| image:: {filename}/images/microcontroller-tutorial/circuit-sketch-led.svg
-   :width: 5in
-.. |circuit-sketch-photocell| image:: {filename}/images/microcontroller-tutorial/circuit-sketch-photocell.svg
-   :width: 5in
-.. |circuit-sketch-full| image:: {filename}/images/microcontroller-tutorial/circuit-sketch-full.svg
-   width: 5in
