@@ -163,8 +163,8 @@ response to a change in brightness. Their resistance <em>decreases</em> when the
 ambient environment becomes <em>brighter</em>. The <a class="reference external" href="https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P7002.pdf">datasheet</a>
 for our photocell provides an approximate relationship between resistance and
 the illuminance hitting the sensor:</p>
-<p><img alt="photocell" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/photocell.jpg" style="width: 3in;" /></p>
-<p><img alt="photocell-resistance" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/photocell-resistance.png" style="width: 4in;" /></p>
+<p><img alt="photocell" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/photocell.jpg" style="height: 2.5in;" />
+<img alt="photocell-resistance" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/photocell-resistance.png" style="height: 2.5in;" /></p>
 <p>An Arduino can sense voltages from 0V to 5V through the analog input pins, but
 it has no direct way of sensing resistance. Since our sensor operates by
 changing resistance, we need to convert this to a change in voltage. This is
@@ -282,7 +282,8 @@ will seek to achieve with an automatic control system.</li>
 <li>Create a new sketch based on the code below. You will need to replace the
 value of <code>r</code> with the setpoint you found in the previous exercise, and
 you will have to implement the controller equations inside <code>loop</code> to
-find <code>y</code>, <code>e</code>, and <code>u</code>. For now, leave <span class="math">\(K_{p} = 0\)</span>.</li>
+find <code>y</code>, <code>e</code>, and <code>u</code>. For now, leave <span class="math">\(K_{p} = 0\)</span>
+and use <span class="math">\(u(t) = K_p e(t)\)</span>.</li>
 </ol>
 <pre class="code c++ literal-block">
 <span class="cp">#define SENSOR_PIN A0
