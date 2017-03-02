@@ -157,7 +157,6 @@ for our photocell provides an approximate relationship between resistance and
 the illuminance hitting the sensor:
 
 |photocell|
-
 |photocell-resistance|
 
 An Arduino can sense voltages from 0V to 5V through the analog input pins, but
@@ -286,7 +285,8 @@ Exercise 4: Implement a Proportional Controller
 1. Create a new sketch based on the code below. You will need to replace the
    value of :code:`r` with the setpoint you found in the previous exercise, and
    you will have to implement the controller equations inside :code:`loop` to
-   find :code:`y`, :code:`e`, and :code:`u`. For now, leave :math:`K_{p} = 0`.
+   find :code:`y`, :code:`e`, and :code:`u`. For now, leave :math:`K_{p} = 0`
+   and use :math:`u(t) = K_p e(t)`.
 
 .. code:: c++
 
@@ -408,11 +408,11 @@ zero.
 .. |led-circuit| image:: {filename}/images/microcontroller-tutorial/led-circuit.svg
    :width: 3in
 .. |photocell| image:: {filename}/images/microcontroller-tutorial/photocell.jpg
-   :width: 3in
+   :height: 2.5in
+.. |photocell-resistance| image:: {filename}/images/microcontroller-tutorial/photocell-resistance.png
+   :height: 2.5in
 .. |photocell-circuit| image:: {filename}/images/microcontroller-tutorial/photocell-circuit.svg
    :width: 3in
-.. |photocell-resistance| image:: {filename}/images/microcontroller-tutorial/photocell-resistance.png
-   :width: 4in
 .. |controller| image:: {filename}/images/microcontroller-tutorial/controller.svg
    :width: 7in
 
