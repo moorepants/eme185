@@ -157,8 +157,8 @@ Suggestions of what to include:
 
 .. _back-of-the-envelope: https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation
 
-Memo 6: Concept Selection [Due: Friday, March 3, 2017]
-======================================================
+Memo 6: Concept Selection [Due: Friday, March 10, 2017]
+=======================================================
 
 The purpose of this memo is to show that you have narrowed down your concepts
 and have a solution that you want to move forward with. Ideally, you have one
