@@ -5,6 +5,10 @@ These are some recommendations for finding items you might need for your
 project. For instructions on how to make purchases, see the `MAE Purchasing
 Guidelines <{filename}/pages/purchasing.rst>`_.
 
+For additional resources, go to the Engineering Fabrication Laboratory (Bainer
+1220) and get a copy of their industrial contact list. It contains many
+suppliers and services not listed here.
+
 General Advice
 --------------
 
@@ -15,7 +19,13 @@ General Advice
 - Perform a realistic evaluation of the quality of materials required. You may
   or may not require high-speed tool steel, but you should know for sure before
   buying any.
+- The `Biological and Agricultural Engineering shop`_ can be hired for
+  machining, welding, and other fabrication services.
+- There are some online services like `makexyz`_ which let you upload CAD
+  models and get back a 3D-printed part.
 
+.. _Biological and Agricultural Engineering shop: http://bae.engineering.ucdavis.edu/bae-shop/
+.. _makexyz: https://www.makexyz.com/
 
 Mechanical
 ----------
@@ -24,6 +34,7 @@ Local
 ^^^^^
 
 - Davis Ace Hardware
+- Hibbert Lumber Co. (Davis)
 - Home Depot (Woodland, West Sacramento)
 - `Blue Collar Supply`_ (Sacramento) sells a variety of metals and other
   materials. They have a selection of small pieces.
@@ -39,11 +50,14 @@ Online
 - `Grainger`_ is another large supplier. They have several nearby warehouse
   locations, so parts can often be obtained relatively quickly.
 - `OnlineMetals.com`_ allows you to order small cuts of a variety of metals.
+- `SDP/SI`_ (Stock Drive Products/Sterling Instrument) drive systems and
+  components.
 
 
 .. _McMaster-Carr: https://www.mcmaster.com/
 .. _Grainger: https://www.grainger.com/
 .. _OnlineMetals.com: http://www.onlinemetals.com/
+.. _SDP/SI: http://www.sdp-si.com/
 
 
 Electrical
@@ -95,8 +109,16 @@ Online
   and offer tutorials for many of their products.
 - `Adafruit`_ is similar to Sparkfun with a somewhat different variety of
   products.
+- `Jameco`_ somewhat local (Bay Area) electronics and hobbyist supplier
+- `Parallax`_ (Rocklin) supplies a variety of sensors for robotics and
+  mechatronics projects
+- `Honeywell`_ has industrial-grade sensors and monitors for a variety of
+  physical phenomena
 
 .. _Digi-Key: https://www.digikey.com/
 .. _Mouser: http://www.mouser.com/
 .. _Sparkfun: https://www.sparkfun.com/
 .. _Adafruit: https://www.adafruit.com/
+.. _Jameco: https://jameco.com/
+.. _Parallax: https://www.parallax.com/
+.. _Honeywell: https://sensing.honeywell.com/
