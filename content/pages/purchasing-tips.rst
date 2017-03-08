@@ -52,12 +52,15 @@ Online
 - `OnlineMetals.com`_ allows you to order small cuts of a variety of metals.
 - `SDP/SI`_ (Stock Drive Products/Sterling Instrument) drive systems and
   components.
-
+- `TAP Plastics`_ supplies several types of plastics, including finished
+  products and stock material. They also carry tools and supplies for making
+  custom molds, etc. They can also fabricate custom parts.
 
 .. _McMaster-Carr: https://www.mcmaster.com/
 .. _Grainger: https://www.grainger.com/
 .. _OnlineMetals.com: http://www.onlinemetals.com/
 .. _SDP/SI: http://www.sdp-si.com/
+.. _TAP Plastics: http://www.tapplastics.com/
 
 
 Electrical
