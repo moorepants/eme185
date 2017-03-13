@@ -3,10 +3,11 @@
 
 In the course of making your project or product successful, you will have to draw on your team's combined knowledge, experience and talents as an engineer.
 But a good engineer also does not waste time 'reinventing the wheel' from scratch. There is a wealth of knowledge and resources available in the form of books,articles and videos on the internet.
-Here is a list of some of these resources that you may want to use: 
+Here is a list of some of these resources that you may want to use:
 
 Design Calculations and References
----------------------------------
+----------------------------------
+
 - `Engineering Toobox`_ - Engineering information- Formulas, constants, calculators etc.
 - `MIT Fundamentals of Design Spreadsheet`_ - Tools to facilitate rapid design and evaluation
 - `MatWeb`_ - Properties of various Materials
@@ -22,9 +23,10 @@ Design Calculations and References
 .. _MecMovie: http://web.mst.edu/~mecmovie/
 
 Mechanisms and Movements
-----------------------------------
+------------------------
+
 - `Animated Mechanisms`_ - A huge searchable youtube video list of thousands of mechanisms and movements.
-- `Kinematic mechanisms - CornellU`_ 
+- `Kinematic mechanisms - CornellU`_
 - `507 Mechanical Movements`_
 - `Mechanism collection -TU Delft`_
 
@@ -34,7 +36,8 @@ Mechanisms and Movements
 .. _Mechanism collection -TU Delft: http://www.mechanisms.antonkb.nl/
 
 Manufacturing
----------------
+-------------
+
 - `Mcmaster-Carr`_- Parts and Hardware
 - `GrabCAD`_- Free CAD model Library
 - `MIT Machining`_- Video lectures on using various machines in a machine shop
@@ -50,10 +53,11 @@ Manufacturing
 .. _OpenBOM: http://www.openbom.com/
 
 Electrical
-----------------
+----------
+
 - `Digikey`_- Electronic parts
 - `All About Circuits`_ Great resource for general information on building electric circuits
-- `DC Motor Selection guide`_- How to approach the problem of selecting DC motors 
+- `DC Motor Selection guide`_- How to approach the problem of selecting DC motors
 - `Small DC motors`_- Selecting small DC motors
 - `Battery University`_
 
@@ -62,6 +66,3 @@ Electrical
 .. _DC Motor Selection guide: http://www.micromo.com/technical-library/dc-motor-tutorials
 .. _Small DC motors: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-motor-selection-guide.pdf
 .. _Battery University: http://batteryuniversity.com/learn/
-
-
-
