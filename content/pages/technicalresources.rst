@@ -26,7 +26,7 @@ Mechanisms and Movements
 - `Animated Mechanisms`_ - A huge searchable youtube video list of thousands of mechanisms and movements.
 - `Kinematic mechanisms - CornellU`_ 
 - `507 Mechanical Movements`_
-- `echanism collection -TU Delft`_
+- `Mechanism collection -TU Delft`_
 
 .. _Animated Mechanisms: https://www.youtube.com/user/thang010146/videos
 .. _Kinematic mechanisms - CornellU: http://kmoddl.library.cornell.edu/model.php
