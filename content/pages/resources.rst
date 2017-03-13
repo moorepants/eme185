@@ -13,9 +13,15 @@ Purchasing Parts and Materials
 
 You may need to purchase parts and materials for your project with funds that
 are provided by (or by proxy through) the MAE department. Please review the
-`MAE Purchasing Guidelines`_ to learn how to do this.
+`MAE Purchasing Guidelines`_ to learn how to do this. Take special note that
+you will need an online purchasing system (OPS) account (more information on
+the page). Do this well in advance of needing to submit an order request.
+
+For some general advice on finding parts and materials, there is a `Purchasing
+Tips`_ page.
 
 .. _MAE Purchasing Guidelines: {filename}/pages/purchasing.rst
+.. _Purchasing Tips: {filename}/pages/purchasing-tips.rst
 
 Project Storage
 ===============
