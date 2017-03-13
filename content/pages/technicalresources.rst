@@ -14,7 +14,7 @@ Design Calculations and References
 - `Wolfram Alpha`_ - Math calculator and equation solver
 - `MecMovie`_ - A refresher on basic mechanics of materials
 
-.. _Engineering Toobox:http://www.engineeringtoolbox.com/
+.. _Engineering Toobox: http://www.engineeringtoolbox.com/
 .. _MIT Fundamentals of Design Spreadsheet:http://pergatory.mit.edu/resources/FUNdaMENTALS.html
 .. _MatWeb:http://www.matweb.com/
 .. _Machinery's Handbook:https://www.amazon.com/Machinerys-Handbook-Toolbox-Erik-Oberg/dp/0831130911/ref=dp_ob_title_bk
