@@ -39,11 +39,15 @@ Manufacturing
 - 'GrabCAD' - Free CAD model Library
 - 'MIT Machining' - Video lectures on using various machines in a machine shop
 - 'Grainger' - Tools and Hardware
+- 'Onshape' - Free CAD software
+- 'OpenBOM'- Bill of materials tracking
 
 .._Mcmaster-Carr:https://www.mcmaster.com/
 .._MIT Machining:http://techtv.mit.edu/videos/142-machine-shop-1
 .._GrabCAD:https://grabcad.com/library?utm_campaign=workbench&utm_content=library_button&utm_medium=cta&utm_source=index
 .._Grainger:https://www.grainger.com/
+.._Onshape: https://www.onshape.com/edu/students
+.._OpenBOM:http://www.openbom.com/
 
 Electrical
 ----------------
@@ -59,6 +63,5 @@ Electrical
 .._Small DC motors:https://cdn-learn.adafruit.com/downloads/pdf/adafruit-motor-selection-guide.pdf
 .._Battery University:http://batteryuniversity.com/learn/
 
-General Resources
-------------------
+
 
