@@ -1,9 +1,12 @@
-:title: Technical resources and Tips
+:title: Technical Resources and Tips
 :status: hidden
 
-In the course of making your project or product successful, you will have to draw on your team's combined knowledge, experience and talents as an engineer.
-But a good engineer also does not waste time 'reinventing the wheel' from scratch. There is a wealth of knowledge and resources available in the form of books,articles and videos on the internet.
-Here is a list of some of these resources that you may want to use:
+In the course of making your project or product successful, you will have to
+draw on your team's combined knowledge, experience and talents as an engineer.
+But a good engineer also does not waste time 'reinventing the wheel' from
+scratch. There is a wealth of knowledge and resources available in the form of
+books,articles and videos on the internet.  Here is a list of some of these
+resources that you may want to use:
 
 Design Calculations and References
 ----------------------------------
