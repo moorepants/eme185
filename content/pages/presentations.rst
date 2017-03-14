@@ -17,8 +17,9 @@ why you feel confident it will work. The intent of critical design reviews is
 to insure that the proper methods are being used in analyses and that the
 design is valid and valuable, i.e. it meets specifications, it can be
 manufactured, etc. Both your teaching assistant and the primary instructor will
-be present along with other potential reviewers.  The presentation should be
-geared toward and "engineering management" audience.
+be present along with other potential reviewers. The presentation should be
+geared toward and "engineering management" audience. Every team member should
+have a significant speaking role.
 
 Suggestions of what to include:
 
@@ -35,8 +36,8 @@ Suggestions of what to include:
 **You will need to submit your presentation materials as a PDF to Canvas by
 midnight Friday, March 3rd.**
 
-Preliminary Design Presentation
-===============================
+Preliminary Design Lightning Talk
+=================================
 
 During the last studio section your team will present their work and
 preliminary design to the entire class, the instructors, and any project
@@ -44,19 +45,15 @@ sponsors that can attend. Groups will present their design concepts and will
 justify their final selected concept.
 
 The presentations will be 5 minutes comprised of an overview of the project and
-selected design concept. There will 3 minutes for questions and changing
-groups. This presentation will be good practice for a high level presentation
-in industry (for example, to high level executives). All students are required
-to attend this session.
+selected design concept. This will be followed by 5 minutes for questions and
+changing groups. Only one team member will deliver the presentation, but all
+team members must prepare to speak. The team member will be selected randomly
+from the group at the time of presentation. This presentation will be good
+practice for a high level presentation in industry (for example, to high level
+executives). All students are required to attend this session.
 
-Spring Quarter Studio Meetings
-==============================
-
-Each team will meet with the instructor and their teaching assistant for 45
-minutes to discuss the weekly progress. You must prepare an agenda for these
-meetings and have it available during the meeting. **Your in-class grade will
-be affected if you don't have an agenda or if you don't show up to these
-meetings, i.e. don't waste the instructors' time.**
+**You will need to submit your presentation materials as a PDF to Canvas by
+midnight Friday, March 17th.**
 
 Engineering Design Showcase Poster Presentation
 ===============================================

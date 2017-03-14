@@ -6,7 +6,7 @@ for your project. During the winter studio sections, each team will meet with
 the teaching assistant for approximately 30 minutes each week to discuss the
 weekly progress and/or the current studio activity. Additionally, your team
 will meet with the main instructor for approximately 15 minutes. In the Spring
-quarter, you will meet with the TA and the instructor together for 30+ minutes
+quarter, you will meet with the TA and the instructor together for 50 minutes
 per week.
 
 To prepare for the meeting, you are required to send an update email to the
