@@ -94,17 +94,18 @@ A02/A03  W/R Mar 15/16  Moore       Class Presentations
 A02/A03  U Mar 19                                                                          - Report 2: Preliminary Design
                                                                                            - Peer Evaluations
 -------  -------------  ----------  ------------------------------------  ---------------  -----
+A02/A03  F April 28                                                                        `Design Showcase Registration`_
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F May 5                                                                           - Report 3: Midterm Progress
                                                                                            - Peer evaluations
                                                                                            - Showcase registration
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  TBA                                                                               - Sandia award intent [1]_
+A02/A03  F May 12                                                                          - Sandia award intent [1]_
                                                                                            - Showcase coordination
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  TBA                                                                               Poster submission
+A02/A03  R May 25                                                                          Poster submission
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  TBA                                                                               Sandia award report [1]_
+A02/A03  F Jun 2                                                                           Sandia award report [1]_
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  R Jun 8                    `Engineering Design Showcase`_
 -------  -------------  ----------  ------------------------------------  ---------------  -----
@@ -120,5 +121,6 @@ A02/A03  W Jun 14                   Critical Design Reviews                     
 
 .. _Microcontroller Tutorial: {filename}/pages/microcontrollers.rst
 .. _Engineering Design Showcase: http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase
+.. _Design Showcase Registration: https://goo.gl/forms/IVpYlkIAlfUYblw32
 
 .. [1] The Sandia Design Award submissions are optional.
