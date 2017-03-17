@@ -79,8 +79,10 @@ much as possible. **As soon as the projects are assigned you should initiate
 contact with your sponsor for an interview.**
 
 For the first part of the memo, the purpose will be to communicate the
-sponsor's needs in your own language as you understand them. We recommend using
-the techniques explained in Chapter 5 and in class to generate these needs.
+sponsor's needs in your own language as you understand them, including implicit
+needs you identify which the sponsor may not explicitly state. We recommend
+using the techniques explained in Chapter 5 and in class to generate these
+needs.
 
 Secondly, you should show preliminary target specifications based on the needs
 that you have found. Techniques for generating the specifications from the
