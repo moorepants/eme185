@@ -8,6 +8,13 @@ Lecture and Activity Materials
   "Files" tab of Canvas.
 - `Microcontroller Materials and Information <{filename}/pages/microcontrollers.rst>`_
 
+Technical Resources
+=============================
+
+Check out this webpage for a list of `technical resources`_ from the web that may help you with your project.
+
+.. _technical resources: {filename}/pages/technicalresources.rst
+
 Purchasing Parts and Materials
 ==============================
 
