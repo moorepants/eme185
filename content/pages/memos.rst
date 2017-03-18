@@ -69,6 +69,20 @@ in the survey.
 Memo 2: Team Charter [Due: Friday, January 20, 2017]
 ====================================================
 
+A team charter is a document that specifies your team's purpose and the
+organizational principles you will use to fulfill that purpose. Generating
+a team charter is an important process that will help to establish team goals,
+list strategies to achieve those goals, identify strengths of individual team
+members, and formalize team members' agreements and commitments to one another.
+
+Throughout the next two quarters, refer back to your charter to ensure that
+you're on the course you set for yourselves at the beginning. Your charter is
+a living document, however, so you should also revise it if member roles and
+responsibilities change throughout the project.
+
+With your group members, select a company name and write a 1-page charter
+following this `team charter template <{filename}/pages/team-charter.rst>`_.
+
 Memo 3: Needs and Specs [Due: Friday, January 27, 2017]
 =======================================================
 
