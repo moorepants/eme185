@@ -59,7 +59,7 @@ In the Spring quarter, this will be the standard meeting agenda:
    weeks, if you are behind be prepared to discuss strategies for getting back
    on target.
 10 minutes
-   Anything else that needs to be discussed.
+   Anything else that needs to be discussed, for example upcoming assignments.
 
 The instructors are here to help you succeed. You are guaranteed this hour with
 us and you have our full attention and help. But we also highly recommend
