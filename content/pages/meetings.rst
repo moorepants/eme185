@@ -21,9 +21,10 @@ where "<team name>" is replaced with your team's name.
 "AIO" stands for Accomplishments, Issues, and Objectives. This email should
 contain three bullet lists:
 
-1. what your team **A**ccomplished in the previous week,
-2. what **I**ssues you encountered during that week and would like help with, and finally
-3. what your **O**bjectives are for the coming week.
+1. what your team **A**\ ccomplished in the previous week,
+2. what **I**\ ssues you encountered during that week and would like help with,
+   and finally
+3. what your **O**\ bjectives are for the coming week.
 
 Both the accomplishments and objectives sections should indicate who worked on
 (or will work on) each item and how much time that person spent (or will spend)
