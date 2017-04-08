@@ -193,6 +193,9 @@ first week of class (emergencies will be the only exception).**
 Office Hours
 ============
 
+Instructor Office Hours
+-----------------------
+
 Jason's winter office hours are Tuesdays and Wednesdays from 10:00am-12:00pm in
 Bainer 2095. His spring office hours are Wednesdays and Thursdays from
 11:00am-1:00pm. **For Jason's office hours, book a time slot for your team at
@@ -203,9 +206,21 @@ request for a meeting.
 
 .. _work calendar: http://www.moorepants.info/work-calendar.html
 
-TA office hours: TBA
-
 .. [#] This is necessary to give teams exclusive time with the instructor.
+
+TA Office Hours
+---------------
+
+The TAs are holding office hours in the Spring quarter that also need to be
+booked via YouCanBook.me:
+
+=================== =================== ==============================
+TA                  Office              Link
+=================== =================== ==============================
+Kenneth Lyons       Academic Surge 2334 https://ixjlyons.youcanbook.me
+Naveen Gowrishankar Academic Surge 2328 https://nav-go.youcanbook.me
+Gang Chen           Academic Surge 2328 https://gang.youcanbook.me
+=================== =================== ==============================
 
 Academic Integrity
 ==================
