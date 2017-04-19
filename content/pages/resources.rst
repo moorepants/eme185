@@ -60,6 +60,8 @@ space.
 - Do not touch any equipment in the room that doesn't belong to you.
 - All items must be removed from the room by Friday, June 16th or you risk an
   incomplete grade.
+- Respect the EFL staff's wishes and help, as they have the final say on the
+  use of the space.
 - The keypad entry code will be changed at the end of quarter.
 
 College of Engineering Design Showcase
