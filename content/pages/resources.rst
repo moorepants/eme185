@@ -34,23 +34,31 @@ Tips`_ page.
 Project Storage
 ===============
 
-We have a small space that is available for temporary storage of your project
-while you are working on it during the spring quarter. You can get access to
-this room, Bainer 1071A, by asking your TA for the keypad entry code. The
-following list shows the rules for the use of the space. Any abuse of these
-will cause all teams to lose access to the space.
+We have a space that is available for temporary storage of your project while
+you are working on it during the spring quarter. You can get access to this
+room, Bainer 1231, by asking your TA for the keypad entry code. The following
+list shows the rules for the use of the space. Any abuse of these will cause
+all teams to lose access to the space. The EFL staff are monitoring and
+managing the space, so check in with them with any questions on the use of the
+space.
 
-- You should only request the key if you actually need storage space.
+- You should only request the key if you actually need space.
 - Do not share the keypad entry key code. If you do, then you jeopardize the
   security people's projects.
-- Do not work or hangout in the space. It is only for storage.
-- Group your items into as few boxes as possible.
+- Group your items into as few labeled boxes/shelves/tables as possible.
 - Label all boxes and any freestanding items with a contact name and phone
   number.
-- Keep the space tidy. In particular, there should be no tripping hazards in
-  the center walkway.
+- Keep the space tidy. In particular, there should be no tripping hazards.
 - No chemicals, paint, glue, or any things that require SDS.
-- All items must be removed from the room by Friday, June 10th or you risk an
+- All work with dangerous tools should happen in the EFL.
+- Do not go upstairs or disturb the office space up there.
+- The MAE groups can use the room closest to the hallway. The room closest to
+  the Bainer courtyard is for the BME groups.
+- Share the tables and space with your fellow classmates.
+- Make sure the doors to the hallway and courtyard are always left locked and
+  closed.
+- Do not touch any equipment in the room that doesn't belong to you.
+- All items must be removed from the room by Friday, June 16th or you risk an
   incomplete grade.
 - The keypad entry code will be changed at the end of quarter.
 
