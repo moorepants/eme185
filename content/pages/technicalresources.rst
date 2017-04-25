@@ -21,6 +21,9 @@ Design Calculations and References
 - `MIT Fundamentals of Design Spreadsheet`_ - Tools to facilitate rapid design and evaluation
 - `MatWeb`_ - Properties of various Materials
 - `Machinery's Handbook`_ - Reference text for Machinery design
+
+   - `Clearance Hole Calculator`_ (derived from the Machinery Handbook)
+
 - `Wolfram Alpha`_ - Math calculator and equation solver
 - `MecMovie`_ - A refresher on basic mechanics of materials
 
@@ -28,6 +31,7 @@ Design Calculations and References
 .. _MIT Fundamentals of Design Spreadsheet: http://pergatory.mit.edu/resources/FUNdaMENTALS.html
 .. _MatWeb: http://www.matweb.com/
 .. _Machinery's Handbook: https://www.amazon.com/Machinerys-Handbook-Toolbox-Erik-Oberg/dp/0831130911/ref=dp_ob_title_bk
+.. _Clearance Hole Calculator: http://www.amesweb.info/Screws/ClearanceHolesInchFasteners.aspx
 .. _Wolfram Alpha: https://www.wolframalpha.com/
 .. _MecMovie: http://web.mst.edu/~mecmovie/
 
