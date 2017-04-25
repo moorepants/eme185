@@ -159,6 +159,13 @@ Each memo has a rubric that is available in Canvas's speed grading tool.
   upwards through each so that you are consistent.
 - Calibrate with other graders.
 
+Presentations
+=============
+
+- Use the Google Drive rubrics for grading the presentations. When exporting
+  the completed rubric for the students, hide the scores from the instructors
+  and just show the average in the exported PDF (hide columns).
+
 Planning
 ========
 
