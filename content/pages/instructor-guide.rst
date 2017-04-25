@@ -204,8 +204,8 @@ lead to minimal issues:
 ---------------
 
 For the second quarter of senior design, each team will meet weekly with their
-TA and the instructor for 55 minutes. This requires a small room for about 10
-people with an AV system and preferably a whiteboard.
+TA and the instructor for 50 minutes. This requires a small room for about 10
+people with an AV system and a whiteboard.
 
 Scheduling for these weekly meetings is somewhat similar to scheduling the
 design reviews, but it may be useful to ask for room availability in large
