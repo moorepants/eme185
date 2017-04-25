@@ -185,9 +185,11 @@ lead to minimal issues:
 #. Find out from the MAE office when small rooms (~10-person capacity) are
    available.
 #. Generate a spreadsheet with the common availability from the steps above.
-#. Have the TAs fill in when they are available.
+#. Have the TAs fill in when they are available in blocks. Make sure that
+   blocks are overlapping to minimize issues.
 #. Send a refined version out to students, instructing them to select only
    a slot that their TA has available.
+#. Fix any issues as necessary.
 #. Get the schedule to the MAE office as soon as possible to reserve the rooms
    at the selected times.
 
