@@ -60,19 +60,20 @@ Engineering Design Showcase Poster Presentation
 
 Your team will be required to present your work at the Engineering Design
 Showcase at the ARC Pavilion on Thursday June 8th from 2-4 pm. You need to
-`register for the showcase`_ by **TBA**. Each team will develop a poster that
-showcases and explains your project which must be submitted to both Canvas and
-to Alin Wakefield for printing by **12 PM TBA**. You are also welcome and
-encouraged to bring any prototype that you have constructed or videos and other
-media that will explain your project. Any special accommodations for your
-prototype (size, power, etc) or presentation must be coordinated with Alin
-Wakefield with the initial contact happening by **TBA**. At least one member of
-the team must be present at the poster at all times from 2-4 pm and all team
+`register for the showcase`_ by {{ POSTER_DUE_DATE }}. Each team will develop a
+poster that showcases and explains your project which must be submitted to both
+Canvas and to Alin Wakefield for printing by {{ POSTER_DUE_DATE }}. You are
+also welcome and encouraged to bring any prototype that you have constructed or
+videos and other media that will explain your project. Any special
+accommodations for your prototype (size, power, etc) or presentation must be
+coordinated with Alin Wakefield at registration. At least one member of the
+team must be present at the poster at all times from 2-4 pm and all team
 members must attend the event. Your team's poster will be visited by one or
-more industry judges who will score your poster. These scores will be taken
-into account for your poster presentation grade.
+more industry judges who will score your poster. You should were business
+atire. These scores will be taken into account for your poster presentation
+grade.
 
-.. _register for the showcase: https://docs.google.com/forms/d/1TNeQLa5H-L7bvlZe-pwQ7gfwpL7Q62r3i_2lawmZb6g/viewform?c=0&w=1
+.. _register for the showcase: {{ SHOWCASE_REG_URL }}
 
 Content Suggestions
 -------------------
@@ -88,8 +89,8 @@ address:
 - Why your project is a great solution.
 - Any innovative things you've come up with.
 
-You can get ideas for posters by checking out the previous posters in the
-files section of Canvas or those that are hanging in Bainer Hall.
+You can get ideas for posters by checking out the previous posters in the files
+section of Canvas or those that are hanging in Bainer Hall.
 
 There are many websites offering tips on making posters. Here is a good one for
 scientific posters, but most of the advice is also applicable to your poster
@@ -105,8 +106,8 @@ Software
 
 Posters can be created with a variety of software packages, for example:
 
-- Slide decks software (MS
-  Powerpoint, LibreOffice Impress, Google Presentations, etc.)
+- Slide decks software (MS Powerpoint, LibreOffice Impress, Google
+  Presentations, etc.)
 - `Publishing software <https://en.wikipedia.org/wiki/Desktop_publishing>`_ (MS
   Publisher, Scribus, Adobe InDesign)
 - Word processors (MS Word, LaTeX, etc.)
@@ -129,9 +130,8 @@ and quality product.
    48" W x 36" H full-color poster per team. No other dimensions or sizes will
    be allowed. Only 1 poster per team will be printed (no reprints).
 2. The poster file must be emailed to amwakefield@ucdavis.edu no later than
-   noon (12:00 PM) on Wednesday, May 18th *and* submitted to Canvas
-   assignments at the same time. Alin will not accept nor print any file
-   received after this deadline.
+   {{ POSTER_DUE_DATE }} *and* submitted to Canvas assignments at the same
+   time. Alin will not accept nor print any file received after this deadline.
 3. Files must be submitted as a PDF (highest quality preferred).
 4. When designing your poster, please carefully check the page setup settings.
    You must ensure your poster is correctly sized at 48" W x 36" H.
@@ -144,6 +144,8 @@ and quality product.
    arrange for setup and display of all posters in the Pavilion on June 2.
    Posters will be mounted to foam/poster board for stability and easier
    viewing.
+8. If you do not want to keep your poster you should return it to the
+   instructor and it will be displayed in Bainer Hall the following year.
 
 Final Critical Design Review
 ============================

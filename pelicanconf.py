@@ -20,7 +20,7 @@ TEMPLATE_PAGES = {'projects.html': 'projects.html'}
 # NOTE: The order here is important. The last item is the first to be searched
 # it seems.
 PLUGIN_PATHS = [join(expanduser("~"), 'src', 'pelican-plugins'), "plugins"]
-PLUGINS = ['neighbors', 'render_math', 'headerid']
+PLUGINS = ['neighbors', 'render_math', 'headerid', 'jinja2content']
 
 # headerid options
 HEADERID_LINK_CHAR = "¶"
@@ -38,3 +38,6 @@ IGNORE_FILES = ['README*']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+POSTER_DUE_DATE = 'May 25, 2017 12 PM'
+SHOWCASE_REG_URL = 'https://goo.gl/forms/IVpYlkIAlfUYblw32'
