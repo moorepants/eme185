@@ -243,6 +243,16 @@ need to hit timing targets to refer to buildings at the correct time, etc.
 Go to the EFL and ask Mike or Shawn about giving the Meijo students and faculty
 a tour of the shop. Make sure it is not on a day scheduled for EME50.
 
+External Presentation Options
+=============================
+
+The students are required to present at the design showcase but there other
+things to keep them aware of:
+
+- BMES Research Symposisum (in May) for any biomed sponsored projects.
+- `Undergraduate Research Symposium <https://urc.ucdavis.edu/conference/>`_ in April
+- Sandia Design Award Due aournd first of June
+
 Weekly Tasks
 ============
 
