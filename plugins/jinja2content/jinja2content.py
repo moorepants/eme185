@@ -10,15 +10,13 @@ def execjinja2(instance):
     if type(instance) in (contents.Article, contents.Page):
         base_path = os.path.dirname(os.path.abspath(__file__))
         jinja2_env = Environment(
-            trim_blocks=True,
-            lstrip_blocks=True,
             loader=ChoiceLoader([
                 FileSystemLoader(
                     os.path.join(base_path, instance.settings['THEME'],
                                  'templates')
                 ),
             ]),
-            extensions=instance.settings['JINJA_EXTENSIONS'],
+            **instance.settings['JINJA_ENVIRONMENT']
         )
         jinja2_template = jinja2_env.from_string(instance._content)
 
