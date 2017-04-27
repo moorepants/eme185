@@ -84,8 +84,8 @@ points but provides the details that back them up should go in the appendices.
 Keep in mind that the content sections should stand on their own. Additionally,
 feel free to link to rich media: videos, websites, demos, etc.
 
-Typical Appendix Materials
-==========================
+Technical Documentation Explanation and Examples
+================================================
 
 Layout Drawings
 ---------------
