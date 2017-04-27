@@ -84,34 +84,87 @@ points but provides the details that back them up should go in the appendices.
 Keep in mind that the content sections should stand on their own. Additionally,
 feel free to link to rich media: videos, websites, demos, etc.
 
-Definitions
-===========
+Typical Appendix Materials
+==========================
 
 Layout Drawings
-   You should refer to a good engineering graphics text for examples of layout
-   drawings. We expect you to create layout drawings for your mechanical,
-   electrical, and architectural designs. A mechanical layout drawing is drawn
-   to scale and must show the shape, size, and position of all parts. It should
-   show how the parts fit together and if they will function properly. The
-   design details are worked out on this drawing. The designer additionally
-   uses the layout drawing to show and sell his design and ideas to his
-   management; it is used by drafts people to prepare detailed part drawings
-   and an assembly drawing; it is used by manufacturing engineers to determine
-   manufacturing processes and costs although this has been increasingly
-   incorporated into the design process.  How detailed should it be? It must be
-   adequately complete so that it can meet the above uses. If it is not
-   necessary to ask how the design works or what a particular part looks like,
-   etc., then the layout is adequate.
+---------------
+
+You should refer to a good engineering graphics text for examples of layout
+drawings. We expect you to create layout drawings for your mechanical,
+electrical, and architectural designs. A mechanical layout drawing is drawn to
+scale and must show the shape, size, and position of all parts. It should show
+how the parts fit together and if they will function properly. All parts should
+be fully dimensioned using standards for the drawing type. The design details
+are worked out on this drawing. The designer additionally uses the layout
+drawing to show and sell his design and ideas to his management; it is used by
+drafts people to prepare detailed part drawings and an assembly drawing; it is
+used by manufacturing engineers to determine manufacturing processes and costs
+although this has been increasingly incorporated into the design process. How
+detailed should it be? It must be adequately complete so that it can meet the
+above uses. If it is not necessary to ask how the design works or what a
+particular part looks like, etc., then the layout is adequate.  The ideal
+drawing package is one that can be passed to the fabricators and they can
+create your product without having to ask you any questions and it comes back
+as specified.
+
+Tips
+++++
+
+- All drawings should be scaled properly for the paper size. The scale should
+  be noted and if the drawing is printed on the specified paper size the
+  drawing should be to scale in the printed product.
+- Use standard symbols and styles appropriate for the type of drawing.
+- Have an informative title block and use the same template for all of our
+  drawings.
+- Always include default tolerances, surface finishes, etc.
+- Note all material types on the drawings.
+- More notes are better than less notes. Always explain anything that standard
+  drawing symbols can't communicate.
+- Use GD & T when basic tolerancing is not sufficient to describe the desired
+  outcome of the part.
+- Do not overdefined your part with too many dimensions. Use the bare miminum
+  needed to describe the size.
+- Choose dimensions that are most useful for the fabricator that will make your
+  part. You should think about how the part will be made and how the part will
+  be measured.
+
+Examples
+++++++++
+
+- `Assembly drawings for a machine <http://www.moorepants.info/media/docs/cell-shearer-assembly.pdf>`_
+- `Layout drawings for all the parts of the above machine <http://www.moorepants.info/media/docs/cell-shearer-08-11-12.pdf>`_
+- `Wiring schematic for a data aquisition system <{filename}/docs/instrumented-bicycle-wiring-schematic.pdf>`_
+
 Bill of Materials
-   The Bill of Materials or Parts List is a tabular list of all of the parts,
-   components, sub-assemblies, etc. that are needed to manufacture and/or test
-   your design. Both manufactured items and purchased items are included. The
-   list should include part numbers, part names, number required, material,
-   whether purchased or fabricated, and if purchased, the name and part number
-   of the supplier with associated costs. The Bill of Materials is used for
-   such aspects as: insuring that all parts are on hand when production begins,
-   to ensure that detailed drawings are prepared for all components, for
-   planning of the manufacturing process, etc.
+-----------------
+
+The Bill of Materials or Parts List is a tabular list of all of the parts,
+components, sub-assemblies, etc. that are needed to manufacture and/or test
+your design. Both manufactured items and purchased items are included. The list
+should include part numbers, part names, number required, material, whether
+purchased or fabricated, and if purchased, the name and part number of the
+supplier with associated costs. The Bill of Materials is used for such aspects
+as: insuring that all parts are on hand when production begins, to ensure that
+detailed drawings are prepared for all components, for planning of the
+manufacturing process, etc.
+
+Examples
+++++++++
+
+- `Trapeze Balance Bill of Materials <{filename}/docs/balance-bom-example.pdf>`_
+
+Manuals
+-------
+
+Common deliverables for machines are user manuals, maintenance manuals,
+assembly manuals, etc. These manuals are typically designed for a specific type
+of user with the jargon and style adjusted for that user.
+
+Examples
+++++++++
+
+- `DIY Wheelchair Fabrication and Assembly Manual <{filename}/docs/whim-manual.pdf>`_
 
 Report #1: Project Proposal [Due: February 10th, 2017]
 ======================================================

@@ -17,6 +17,8 @@ DEFAULT_LANG = u'en'
 
 TEMPLATE_PAGES = {'projects.html': 'projects.html'}
 
+STATIC_PATHS = ['images', 'docs']
+
 # NOTE: The order here is important. The last item is the first to be searched
 # it seems.
 PLUGIN_PATHS = [join(expanduser("~"), 'src', 'pelican-plugins'), "plugins"]
