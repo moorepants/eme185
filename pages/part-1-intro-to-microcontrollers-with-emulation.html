@@ -29,13 +29,51 @@
 <section id="content" class="body">
     <h1 class="entry-title">Part 1: Intro to Microcontrollers With Emulation</h1>
     
-    <div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+    <div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#introduction" id="id13">Introduction</a></li>
+<li><a class="reference internal" href="#objectives" id="id14">Objectives</a></li>
+<li><a class="reference internal" href="#microcontrollers" id="id15">Microcontrollers</a></li>
+<li><a class="reference internal" href="#emulation" id="id16">Emulation</a></li>
+<li><a class="reference internal" href="#processing-language" id="id17">Processing Language</a></li>
+<li><a class="reference internal" href="#variables" id="id18">Variables</a><ul>
+<li><a class="reference internal" href="#exercise" id="id19">Exercise</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#functions-setup-loop-and-custom" id="id20">Functions: setup(), loop(), and custom</a><ul>
+<li><a class="reference internal" href="#id2" id="id21">Exercise</a></li>
+<li><a class="reference internal" href="#id3" id="id22">Exercise</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#serial-communications" id="id23">Serial Communications</a><ul>
+<li><a class="reference internal" href="#id4" id="id24">Exercise</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#digital-i-o" id="id25">Digital I/O</a><ul>
+<li><a class="reference internal" href="#id7" id="id26">Exercise</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#conditionals" id="id27">Conditionals</a><ul>
+<li><a class="reference internal" href="#id10" id="id28">Exercise</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#loops" id="id29">Loops</a></li>
+<li><a class="reference internal" href="#analog-read" id="id30">Analog Read</a><ul>
+<li><a class="reference internal" href="#id11" id="id31">Exercise</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#arduino-ide" id="id32">Arduino IDE</a></li>
+<li><a class="reference internal" href="#homework-assignment" id="id33">Homework Assignment</a></li>
+</ul>
+</div>
+<div class="section" id="introduction">
+<h2>Introduction<a class="toc-backref headerlink" href="#id13">¶</a></h2>
 <p>This lesson will introduce you to programming the Arduino microcontroller board
 using an electronics emulator.</p>
 </div>
 <div class="section" id="objectives">
-<h2>Objectives<a class="headerlink" href="#objectives" title="Permalink to this headline">¶</a></h2>
+<h2>Objectives<a class="toc-backref headerlink" href="#id14">¶</a></h2>
 <ul class="simple">
 <li>To understand what a microcontroller is and what it may be used for.</li>
 <li>To introduce the basics of programming an Arduino microcontroller.</li>
@@ -43,7 +81,7 @@ using an electronics emulator.</p>
 </ul>
 </div>
 <div class="section" id="microcontrollers">
-<h2>Microcontrollers<a class="headerlink" href="#microcontrollers" title="Permalink to this headline">¶</a></h2>
+<h2>Microcontrollers<a class="toc-backref headerlink" href="#id15">¶</a></h2>
 <p>Microcontrollers are very simple computers that have a central processing unit
 (CPU), memory, and various electrical inputs and outputs. They allow us to
 enhance electrical circuits with logic and algorithms. They are particularly
@@ -72,7 +110,7 @@ real time, but are queued.</p>
 </ul>
 </div>
 <div class="section" id="emulation">
-<h2>Emulation<a class="headerlink" href="#emulation" title="Permalink to this headline">¶</a></h2>
+<h2>Emulation<a class="toc-backref headerlink" href="#id16">¶</a></h2>
 <p>In general, the code you write on your computer for the microcontroller must be
 compiled, i.e.  transformed into the language of the Arduino's CPU, and then
 uploaded onto the Arudino's memory. To try out code on the Arduino you must
@@ -119,7 +157,7 @@ excepts code, e.g. the Arduino UNO.</dd>
 </dl>
 </div>
 <div class="section" id="processing-language">
-<h2>Processing Language<a class="headerlink" href="#processing-language" title="Permalink to this headline">¶</a></h2>
+<h2>Processing Language<a class="toc-backref headerlink" href="#id17">¶</a></h2>
 <p>The Arduino can be programmed by writing code in the <a class="reference external" href="https://en.wikipedia.org/wiki/Processing_%28programming_language%29">Processing language</a>,
 which is derivative of the C programming language. C is a low level language
 that compiles directly to machine code for different CPU architectures and is
@@ -127,7 +165,7 @@ one of the most widely used programming languages. Most work with
 microcontrollers is done in C.</p>
 </div>
 <div class="section" id="variables">
-<h2>Variables<a class="headerlink" href="#variables" title="Permalink to this headline">¶</a></h2>
+<h2>Variables<a class="toc-backref headerlink" href="#id18">¶</a></h2>
 <p>Objectives:</p>
 <ul class="simple">
 <li>Explain how to declare and assign variables.</li>
@@ -137,7 +175,7 @@ microcontrollers is done in C.</p>
 <p>If you want to use a variable you have to specify the type of the variable when
 you declare it. In the following case, a variable that holds the number for the
 pin that is connected to the onboard LED is declared:</p>
-<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">led</span> <span class="o">=</span> <span class="mi">13</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">led</span> <span class="o">=</span> <span class="mi">13</span><span class="p">;</span>
 </pre></div>
 <p>Here the <tt class="docutils literal">int</tt> specifies this value to be a signed integer, i.e. any positive
 or negative whole number. <tt class="docutils literal">led</tt> is the name of the variable and <tt class="docutils literal">13</tt> is the
@@ -145,21 +183,21 @@ value assigned to it. Finally, a <tt class="docutils literal">;</tt> is required
 <p>There are a number of other variable types: <tt class="docutils literal">double</tt>, <tt class="docutils literal">float</tt>, <tt class="docutils literal">bool</tt>,
 <tt class="docutils literal">char</tt>, etc. For decimal values we will make use of a double precision
 variable in this lesson. For example:</p>
-<div class="highlight"><pre><span></span><span class="kt">double</span> <span class="n">measurement</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">double</span> <span class="n">measurement</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span>
 </pre></div>
 <p>Lastly, you may need to cast variables of one type to another type. For example
 you can convert an integer to a double with:</p>
-<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">int_val</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-<span class="kt">double</span> <span class="n">double_val</span> <span class="o">=</span> <span class="p">(</span><span class="kt">double</span><span class="p">)</span> <span class="n">int_val</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">int_val</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kr">double</span> <span class="n">double_val</span> <span class="o">=</span> <span class="p">(</span><span class="kr">double</span><span class="p">)</span> <span class="n">int_val</span><span class="p">;</span>
 </pre></div>
 <div class="section" id="exercise">
-<h3>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h3>
+<h3>Exercise<a class="toc-backref headerlink" href="#id19">¶</a></h3>
 <p>What will the value of the variable <tt class="docutils literal">result`</tt> be in the following code?</p>
-<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
-<span class="kt">int</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
-<span class="kt">double</span> <span class="n">c</span> <span class="o">=</span> <span class="mf">2.4</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="kr">int</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+<span class="kr">double</span> <span class="n">c</span> <span class="o">=</span> <span class="mf">2.4</span><span class="p">;</span>
 
-<span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span> <span class="n">c</span> <span class="o">*</span> <span class="n">b</span> <span class="o">+</span> <span class="n">a</span><span class="p">;</span>
+<span class="kr">int</span> <span class="n">result</span> <span class="o">=</span> <span class="p">(</span><span class="kr">int</span><span class="p">)</span> <span class="n">c</span> <span class="o">*</span> <span class="n">b</span> <span class="o">+</span> <span class="n">a</span><span class="p">;</span>
 </pre></div>
 <ol class="loweralpha simple">
 <li>22.00</li>
@@ -170,7 +208,7 @@ you can convert an integer to a double with:</p>
 </div>
 </div>
 <div class="section" id="functions-setup-loop-and-custom">
-<h2>Functions: setup(), loop(), and custom<a class="headerlink" href="#functions-setup-loop-and-custom" title="Permalink to this headline">¶</a></h2>
+<h2>Functions: setup(), loop(), and custom<a class="toc-backref headerlink" href="#id20">¶</a></h2>
 <p>Objectives:</p>
 <ul class="simple">
 <li>Understand what a function is, how to write one, and how to use one.</li>
@@ -180,7 +218,7 @@ you can convert an integer to a double with:</p>
 computer using the Universal Serial Bus (USB). Before we can do this we need to
 discuss the two main functions that are in every Arduino program. The first
 function is the <cite>setup()</cite> function and you specify it like so:</p>
-<div class="highlight"><pre><span></span><span class="kt">void</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
+<div class="highlight"><pre><span></span><span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
 
 <span class="p">};</span>
 </pre></div>
@@ -198,25 +236,25 @@ execute in that function.</p>
 This function executes once every clock cycle (at 16 MHz) or as fast as it can
 and contains the main code for your application. The function follows the style
 of <tt class="docutils literal">setup</tt> and looks like:</p>
-<div class="highlight"><pre><span></span><span class="kt">void</span> <span class="nx">loop</span><span class="p">()</span> <span class="p">{</span>
+<div class="highlight"><pre><span></span><span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
 
 <span class="p">};</span>
 </pre></div>
 <p>You can also create your own custom functions. These functions typically take a
 number of arguments (inputs) and return a single output. The following function
 computes the average of three values:</p>
-<div class="highlight"><pre><span></span> <span class="kt">double</span> <span class="nf">average</span><span class="p">(</span><span class="kt">double</span> <span class="n">first_val</span><span class="p">,</span> <span class="kt">double</span> <span class="n">second_val</span><span class="p">,</span> <span class="kt">double</span> <span class="n">third_val</span><span class="p">)</span> <span class="p">{</span>
+<div class="highlight"><pre><span></span> <span class="kr">double</span> <span class="nf">average</span><span class="p">(</span><span class="kr">double</span> <span class="n">first_val</span><span class="p">,</span> <span class="kr">double</span> <span class="n">second_val</span><span class="p">,</span> <span class="kr">double</span> <span class="n">third_val</span><span class="p">)</span> <span class="p">{</span>
 
-   <span class="kt">double</span> <span class="n">result</span> <span class="o">=</span> <span class="p">(</span><span class="n">first_val</span> <span class="o">+</span> <span class="n">second_val</span> <span class="o">+</span> <span class="n">third_val</span><span class="p">)</span> <span class="o">/</span> <span class="mi">3</span><span class="p">;</span>
+   <span class="kr">double</span> <span class="n">result</span> <span class="o">=</span> <span class="p">(</span><span class="n">first_val</span> <span class="o">+</span> <span class="n">second_val</span> <span class="o">+</span> <span class="n">third_val</span><span class="p">)</span> <span class="o">/</span> <span class="mi">3</span><span class="p">;</span>
 
    <span class="k">return</span> <span class="n">result</span><span class="p">;</span>
 <span class="p">};</span>
 </pre></div>
 <p>Note that the type of the arguments must be declared in the call signature. The
 function can be used as such:</p>
-<div class="highlight"><pre><span></span><span class="kt">double</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-<span class="kt">double</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
-<span class="kt">double</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">double</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kr">double</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+<span class="kr">double</span> <span class="n">c</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
 
 <span class="n">average</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">);</span>
 </pre></div>
@@ -224,35 +262,35 @@ function can be used as such:</p>
 <p>Note that variables declared inside functions will not be available to other
 functions.</p>
 <div class="section" id="id2">
-<h3>Exercise<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<h3>Exercise<a class="toc-backref headerlink" href="#id21">¶</a></h3>
 <p>What will the result of the following code be if the values returned by the
 <tt class="docutils literal">square()</tt> function were displayed to the screen?</p>
-<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
-<span class="kt">int</span> <span class="nf">square</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
+<span class="kr">int</span> <span class="nf">square</span><span class="p">(</span><span class="kr">int</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">a</span><span class="p">;</span>
 <span class="p">};</span>
 
-<span class="kt">void</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kr">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
   <span class="n">square</span><span class="p">(</span><span class="n">a</span><span class="p">);</span>
 <span class="p">};</span>
 
-<span class="kt">void</span> <span class="nx">loop</span><span class="p">()</span> <span class="p">{</span>
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
   <span class="n">square</span><span class="p">(</span><span class="n">counter</span><span class="p">);</span>
   <span class="n">counter</span> <span class="o">=</span> <span class="n">counter</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
 <span class="p">};</span>
 </pre></div>
 </div>
 <div class="section" id="id3">
-<h3>Exercise<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<h3>Exercise<a class="toc-backref headerlink" href="#id22">¶</a></h3>
 <p>What is wrong with the following code?</p>
-<div class="highlight"><pre><span></span><span class="kt">void</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kr">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
 <span class="p">};</span>
 
-<span class="kt">void</span> <span class="nx">loop</span><span class="p">()</span> <span class="p">{</span>
-  <span class="kt">int</span> <span class="n">result</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">a</span><span class="p">;</span>
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kr">int</span> <span class="n">result</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">a</span><span class="p">;</span>
 <span class="p">};</span>
 </pre></div>
 <p>Since <tt class="docutils literal">a</tt> is declared inside the <tt class="docutils literal">setup()</tt> function it will not be
@@ -262,7 +300,7 @@ functions by declaring it globally, i.e. outside and above each function.</p>
 </div>
 </div>
 <div class="section" id="serial-communications">
-<h2>Serial Communications<a class="headerlink" href="#serial-communications" title="Permalink to this headline">¶</a></h2>
+<h2>Serial Communications<a class="toc-backref headerlink" href="#id23">¶</a></h2>
 <p>Objectives:</p>
 <ul class="simple">
 <li>To understand the serial communications available on an Arduino.</li>
@@ -281,7 +319,7 @@ of 9600 symbols per second you can call:</p>
 former doesn't print a newline character (<tt class="docutils literal">\n</tt>), and the latter appends the
 newline character automatically. The following code will print the integer
 values to the serial port:</p>
-<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">15</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">15</span><span class="p">;</span>
 <span class="nf">Serial</span><span class="p">.</span><span class="nf">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
 <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
@@ -295,23 +333,23 @@ values to the serial port:</p>
 result of the code is correct. You will need to open the serial monitor while
 this code simulates to see the results.</p>
 <div class="section" id="id4">
-<h3>Exercise<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<h3>Exercise<a class="toc-backref headerlink" href="#id24">¶</a></h3>
 <p>Add some print statements to your code so that you can see the results of the
 <tt class="docutils literal">square()</tt> function calls on the serial monitor.</p>
 <p>Solution:</p>
-<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
-<span class="kt">int</span> <span class="nf">square</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
+<span class="kr">int</span> <span class="nf">square</span><span class="p">(</span><span class="kr">int</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">a</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="kt">void</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
   <span class="nf">Serial</span><span class="p">.</span><span class="nf">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
-  <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+  <span class="kr">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">square</span><span class="p">(</span><span class="n">a</span><span class="p">));</span>
 <span class="p">};</span>
 
-<span class="kt">void</span> <span class="nx">loop</span><span class="p">()</span> <span class="p">{</span>
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
   <span class="nf">Serial</span><span class="p">.</span><span class="nf">println</span><span class="p">(</span><span class="n">square</span><span class="p">(</span><span class="n">counter</span><span class="p">));</span>
   <span class="n">counter</span> <span class="o">=</span> <span class="n">counter</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
 <span class="p">}</span>
@@ -319,15 +357,15 @@ this code simulates to see the results.</p>
 </div>
 </div>
 <div class="section" id="digital-i-o">
-<h2>Digital I/O<a class="headerlink" href="#digital-i-o" title="Permalink to this headline">¶</a></h2>
+<h2>Digital I/O<a class="toc-backref headerlink" href="#id25">¶</a></h2>
 <p>The digital I/O pins on the board can be set to either input or output mode and
 can be activated or deactivated as you see fit for your particular application.</p>
 <p>Typically in <tt class="docutils literal">setup()</tt> you will set the mode of the particular pin to input
 or output, for example:</p>
-<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">led_pin_num</span> <span class="o">=</span> <span class="mi">13</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">led_pin_num</span> <span class="o">=</span> <span class="mi">13</span><span class="p">;</span>
 
-<span class="kt">void</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
-  <span class="nf">pinMode</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">OUTPUT</span><span class="p">);</span>
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nf">pinMode</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kr">OUTPUT</span><span class="p">);</span>
 <span class="p">};</span>
 </pre></div>
 <p>In the above code, the builtin function <tt class="docutils literal">pinMode()</tt> is used to set mode of
@@ -336,10 +374,10 @@ pin number 13 to <tt class="docutils literal">OUTPUT</tt> which is a builtin pre
 the board. So we can make this LED blink by utilizing the builtin
 <tt class="docutils literal">digitalWrite()</tt> function. In addition, the builtin <tt class="docutils literal">delay()</tt> function can
 be used to control the duration of the cycle.</p>
-<div class="highlight"><pre><span></span><span class="kt">void</span> <span class="nx">loop</span><span class="p">()</span> <span class="p">{</span>
-  <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
   <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
-  <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
+  <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
   <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
 <span class="p">};</span>
 </pre></div>
@@ -352,7 +390,7 @@ maximum and minimum voltage, respectively.</p>
 </tbody>
 </table>
 <div class="section" id="id7">
-<h3>Exercise<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<h3>Exercise<a class="toc-backref headerlink" href="#id26">¶</a></h3>
 <p>Plug in an LED to the breadboard and connect its anode (+, long side) to a 150
 ohm resistor <a class="footnote-reference" href="#id9" id="id8">[2]</a>.  Then connect the other end of the resistor to the number 13 pin.
 Finally, connect the LED's cathode (-, short side) to the ground pin and
@@ -368,26 +406,26 @@ Arduino board and the LED can handle.</td></tr>
 </div>
 </div>
 <div class="section" id="conditionals">
-<h2>Conditionals<a class="headerlink" href="#conditionals" title="Permalink to this headline">¶</a></h2>
+<h2>Conditionals<a class="toc-backref headerlink" href="#id27">¶</a></h2>
 <p>Processing supports flow control with <tt class="docutils literal">if</tt> statements. For example, if you'd
 like to activate the on-board LED every 100 milliseconds except on every 5th
 cycle wait for 1000 milliseconds. You could use:</p>
-<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
-<span class="kt">void</span> <span class="nx">setup</span><span class="p">()</span> <span class="p">{</span>
-  <span class="nf">pinMode</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">OUTPUT</span><span class="p">);</span>
+<span class="kr">void</span> <span class="nb">setup</span><span class="p">()</span> <span class="p">{</span>
+  <span class="nf">pinMode</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kr">OUTPUT</span><span class="p">);</span>
 <span class="p">}</span>
 
-<span class="kt">void</span> <span class="nx">loop</span><span class="p">()</span> <span class="p">{</span>
+<span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
   <span class="k">if</span> <span class="p">(</span><span class="n">count</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
-      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
+      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
-      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
+      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
   <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
+      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
-      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
+      <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
       <span class="nf">delay</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
   <span class="p">};</span>
   <span class="n">count</span> <span class="o">=</span> <span class="n">count</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
@@ -395,27 +433,27 @@ cycle wait for 1000 milliseconds. You could use:</p>
 </pre></div>
 <p>The <tt class="docutils literal">%</tt> operator computes the modulus (remainder after division).</p>
 <div class="section" id="id10">
-<h3>Exercise<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<h3>Exercise<a class="toc-backref headerlink" href="#id28">¶</a></h3>
 <p>What does the following code do?</p>
-<div class="highlight"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="nf">digitalRead</span><span class="p">(</span><span class="mi">13</span><span class="p">)</span> <span class="o">==</span> <span class="kc">HIGH</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="p">(</span><span class="nf">digitalRead</span><span class="p">(</span><span class="mi">13</span><span class="p">)</span> <span class="o">==</span> <span class="kr">HIGH</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
 <span class="k">else</span> <span class="p">{</span>
-  <span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
+  <span class="nf">digitalWrite</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="loops">
-<h2>Loops<a class="headerlink" href="#loops" title="Permalink to this headline">¶</a></h2>
+<h2>Loops<a class="toc-backref headerlink" href="#id29">¶</a></h2>
 <p>There are two types of loops available for use <tt class="docutils literal">for</tt> and <tt class="docutils literal">while</tt> loops. To
 do something a specific number of times you can use a for loop. For example,
 this loop will execute ten times, i.e. i = 0, 1, 2, ..., 9.</p>
-<div class="highlight"><pre><span></span><span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+<div class="highlight"><pre><span></span><span class="k">for</span> <span class="p">(</span><span class="kr">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
 
-  <span class="kt">int</span> <span class="n">milliseconds</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="mi">100</span><span class="p">;</span>
-  <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">HIGH</span><span class="p">);</span>
+  <span class="kr">int</span> <span class="n">milliseconds</span> <span class="o">=</span> <span class="n">i</span> <span class="o">*</span> <span class="mi">100</span><span class="p">;</span>
+  <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kr">HIGH</span><span class="p">);</span>
   <span class="nf">delay</span><span class="p">(</span><span class="n">milliseconds</span><span class="p">);</span>
-  <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kc">LOW</span><span class="p">);</span>
+  <span class="nf">digitalWrite</span><span class="p">(</span><span class="n">led_pin_num</span><span class="p">,</span> <span class="kr">LOW</span><span class="p">);</span>
   <span class="nf">delay</span><span class="p">(</span><span class="n">milliseconds</span><span class="p">);</span>
 
 <span class="p">}</span>
@@ -424,14 +462,14 @@ this loop will execute ten times, i.e. i = 0, 1, 2, ..., 9.</p>
 </pre></div>
 </div>
 <div class="section" id="analog-read">
-<h2>Analog Read<a class="headerlink" href="#analog-read" title="Permalink to this headline">¶</a></h2>
+<h2>Analog Read<a class="toc-backref headerlink" href="#id30">¶</a></h2>
 <p>There are six analog input pins on the Arduino Uno. Sources that supply
 continuous voltage from 0 to 5 volts can be read using these pins. For example,
 it is useful for reading the voltage from a potentiometer. To read the voltage
 from pin <tt class="docutils literal">A0</tt> you call:</p>
-<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">pin_num</span> <span class="o">=</span> <span class="n">A0</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">pin_num</span> <span class="o">=</span> <span class="n">A0</span><span class="p">;</span>
 
-<span class="kt">int</span> <span class="n">val</span> <span class="o">=</span> <span class="nf">analogRead</span><span class="p">(</span><span class="n">pin_num</span><span class="p">);</span>
+<span class="kr">int</span> <span class="n">val</span> <span class="o">=</span> <span class="nf">analogRead</span><span class="p">(</span><span class="n">pin_num</span><span class="p">);</span>
 </pre></div>
 <p>Note that this returns an integer. The on-board analog to digital converter has
 10 bit resolution, i.e. 2^10 = 1024 possible readings. The values 0 to 1023 are
@@ -439,7 +477,7 @@ mapped to 0 to 5 volts, i.e. .0049 volts per step. You will need a conversion
 factor to convert the value from an integer to a voltage value of double
 precision.</p>
 <div class="section" id="id11">
-<h3>Exercise<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<h3>Exercise<a class="toc-backref headerlink" href="#id31">¶</a></h3>
 <p>Drop in a power supply component and connect the black pin to the Arduino's
 ground and the red pin to the <tt class="docutils literal">A0</tt> pin. Write some code that causes the
 voltage to display to the serial monitor and ensure that it matches the voltage
@@ -448,7 +486,7 @@ supplied by the power supply.</p>
 </div>
 </div>
 <div class="section" id="arduino-ide">
-<h2>Arduino IDE<a class="headerlink" href="#arduino-ide" title="Permalink to this headline">¶</a></h2>
+<h2>Arduino IDE<a class="toc-backref headerlink" href="#id32">¶</a></h2>
 <p>To work with the real Arduino hardware you will use the Arduino integrated
 development environment (IDE). The &quot;verify&quot; button compiles your code and
 reports any errors you may have. The &quot;upload&quot; button will send the program to
@@ -456,7 +494,7 @@ the Arudino for execution.</p>
 <p><a class="reference external" href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a></p>
 </div>
 <div class="section" id="homework-assignment">
-<h2>Homework Assignment<a class="headerlink" href="#homework-assignment" title="Permalink to this headline">¶</a></h2>
+<h2>Homework Assignment<a class="toc-backref headerlink" href="#id33">¶</a></h2>
 <p>The goal of the homework assignment is to create a fuel level indicator using a
 row of 10 LEDS. The sensor for the fuel level should be a simple potentiometer.
 It is connected to a floating bob in the fuel tank and the potentiometer
