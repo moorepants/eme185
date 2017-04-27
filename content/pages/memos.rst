@@ -1,6 +1,8 @@
 :title: Memos
 :status: hidden
 
+.. contents:: Table of Contents
+
 In general, you will create a number of memos that document your team's
 accomplishments and progress. The memos should all be turned in to Canvas
 Assignments by midnight on the respective due date (typically Fridays).

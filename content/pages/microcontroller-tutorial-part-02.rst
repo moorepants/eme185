@@ -1,6 +1,8 @@
 :title: Part 2: Implementing a PI Controller with an Arduino
 :status: hidden
 
+.. contents:: Table of Contents
+
 Introduction
 ============
 

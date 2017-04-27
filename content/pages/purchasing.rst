@@ -3,6 +3,8 @@
 
 EME 185 A/B Capstone MAE Purchasing And Out-Of-Pocket Reimbursement Guidelines
 
+.. contents:: Table of Contents
+
 Resources
 =========
 

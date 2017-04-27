@@ -14,6 +14,12 @@ The `Physical Sciences and Engineering (PSE) Library webpage`_ provides you acce
 
 .. _Physical Sciences and Engineering (PSE) Library webpage: https://www.library.ucdavis.edu/guide/mechanical-aerospace-engineering/
 
+General
+-------
+
+- `Engineering Subreddit <https://www.reddit.com/r/engineering>`_ - Great place to ask questions.
+- `EngineeringPorn Subreddit <https://www.reddit.com/r/EngineeringPorn/>`_ - Great place to get design ideas.
+
 Design Calculations and References
 ----------------------------------
 
@@ -51,14 +57,14 @@ Mechanisms and Movements
 Manufacturing
 -------------
 
-- `Mcmaster-Carr`_- Parts and Hardware
+- `McMaster-Carr`_- Parts and Hardware
 - `GrabCAD`_- Free CAD model Library
 - `MIT Machining`_- Video lectures on using various machines in a machine shop
 - `Grainger`_- Tools and Hardware
 - `Onshape`_- Free CAD software
 - `OpenBOM`_ Bill of materials tracking
 
-.. _Mcmaster-Carr: https://www.mcmaster.com/
+.. _McMaster-Carr: https://www.mcmaster.com/
 .. _MIT Machining: http://techtv.mit.edu/videos/142-machine-shop-1
 .. _GrabCAD: https://grabcad.com/library?utm_campaign=workbench&utm_content=library_button&utm_medium=cta&utm_source=index
 .. _Grainger: https://www.grainger.com/

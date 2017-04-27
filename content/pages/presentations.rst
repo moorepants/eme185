@@ -1,6 +1,8 @@
 :title: Presentations
 :status: hidden
 
+.. contents:: Table of Contents
+
 Preliminary Design Review
 =========================
 

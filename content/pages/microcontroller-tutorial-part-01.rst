@@ -1,6 +1,8 @@
 :title: Part 1: Intro to Microcontrollers With Emulation
 :status: hidden
 
+.. contents:: Table of Contents
+
 Introduction
 ============
 

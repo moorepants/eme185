@@ -1,6 +1,11 @@
 :title: Reports
 :status: hidden
 
+.. contents:: Table of Contents
+
+Introduction
+============
+
 Two reports will be due during the winter quarter and two reports will be due
 during the spring quarter:
 
