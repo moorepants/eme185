@@ -104,26 +104,26 @@ although this has been increasingly incorporated into the design process. How
 detailed should it be? It must be adequately complete so that it can meet the
 above uses. If it is not necessary to ask how the design works or what a
 particular part looks like, etc., then the layout is adequate.  The ideal
-drawing package is one that can be passed to the fabricators and they can
-create your product without having to ask you any questions and it comes back
-as specified.
+drawing package is one that can be passed to the fabricators so they can create
+your product without having to ask you any questions and it comes back as
+specified.
 
 Tips
 ++++
 
 - All drawings should be scaled properly for the paper size. The scale should
-  be noted and if the drawing is printed on the specified paper size the
+  be noted and if the drawing is printed on the specified paper size, the
   drawing should be to scale in the printed product.
 - Use standard symbols and styles appropriate for the type of drawing.
 - Have an informative title block and use the same template for all of our
   drawings.
 - Always include default tolerances, surface finishes, etc.
 - Note all material types on the drawings.
-- More notes are better than less notes. Always explain anything that standard
-  drawing symbols can't communicate.
-- Use GD & T when basic tolerancing is not sufficient to describe the desired
+- Providing more notes is better than providing fewer notes. Always explain
+  anything that standard drawing symbols can't communicate.
+- Use GD&T when basic tolerancing is not sufficient to describe the desired
   outcome of the part.
-- Do not overdefined your part with too many dimensions. Use the bare miminum
+- Do not overdefine your part with too many dimensions. Use the bare minimum
   needed to describe the size.
 - Choose dimensions that are most useful for the fabricator that will make your
   part. You should think about how the part will be made and how the part will
