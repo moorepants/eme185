@@ -1,6 +1,9 @@
 :title: Instructor Guide
 :status: hidden
 
+.. contents:: Table of Contents
+   :depth: 1
+
 Primary Duties
 ==============
 
@@ -15,8 +18,10 @@ Primary Duties
 
 37.5% TA
 
+- All 25% TA duties
 - Organize the team meetings and presentations.
 - Organize the Meijo University visit.
+
 
 General
 =======
@@ -36,6 +41,7 @@ General
 
 .. _work calendar:  http://www.moorepants.info/work-calendar.html
 
+
 Lectures
 ========
 
@@ -47,6 +53,7 @@ TAs have given a lecture to introduce students to useful things (e.g. 3D
 printing, microcontrollers) for their projects. I'm happy to give feedback on
 your lectures too.
 
+
 Studios
 =======
 
@@ -54,13 +61,19 @@ You will be required to attend all of the studio sessions in the winter
 quarter. During these sessions you will meet with your teams, go over their
 progress, and help them succeed.
 
+
 Office Hours
 ============
 
 You will be expected to hold office hours each week. These should be convenient
 for the homework due dates and not conflict with Jason's office hours. Past TAs
-have used Bainer 2071 for the office hours. Provide feedback to Jason about how
-well these are attended so that we can adjust if needed.
+have used Bainer 2071 or their own lab for the office hours. Provide feedback
+to Jason about how well these are attended so that we can adjust if needed. You
+may want to set up a `YouCanBook.me`_ page so that you know ahead of time
+whether or not students are coming to your office hours.
+
+.. _YouCanBook.me: https://youcanbook.me/
+
 
 Websites
 ========
@@ -70,8 +83,8 @@ Course Website
 
 All of the public information about the course should go on the `course
 website`_.  The website source is at https://github.com/moorepants/eme185.
-You'll need to make a Github account and share your user name with Jason to get
-access to modify the website and permission to edit the Github issues. See the
+You'll need to make a GitHub account and share your user name with Jason to get
+access to modify the website and permission to edit the GitHub issues. See the
 README for instructions on editing and viewing the site locally.
 
 .. _course website: http://moorepants.github.io/eme185/
@@ -113,70 +126,91 @@ params" to see summary.
 
 .. _CATME: http://info.catme.org/
 
-Reports and Memos
-=================
-
-You will be responsible for grading the memos. The purpose of the memos is so
-the students pace out the draft writing and that we provide feedback on the
-material before it is put in the final report. Jason will provide grading
-rubrics.
-
-We will co-grade the reports. There is a grading rubric, each of us will take a
-section of the report, and can grade it at our leisure. We will either use
-Google Drive to collaboratively annotate the PDFs or use the Canvas
-functionality.
 
 Instructor Feedback
 ===================
 
-I collect feedback on the Github issues page for anything that we need to note
-for the future. **This is publicly veiwable so no private information should be
-shared here.** These can be things that need to fixed on the website, ideas for
-improving the course, things that suck about the course, etc.
+I collect feedback on the `GitHub issues page`_ for anything that we need to
+note for the future. **This is publicly veiwable so no private information
+should be shared here.** These can be things that need to fixed on the website,
+ideas for improving the course, things that suck about the course, etc. Where
+appropriate, use the assignee and labels features to help keep issues
+organized and easy to filter.
+
+You're also encouraged to add to this guide to help improve the operation of
+the course in the future.
 
 .. _Github issues page: https://github.com/moorepants/eme185/issues
+
 
 Grading
 =======
 
 - You will be expected to return the graded assignments within 1 week of them
   turning it in.
-- Calibration
+- For assignments not co-graded with the instructor (e.g. memos), the TAs
+  should calibrate by grading one submission together. For group-submitted
+  assignments, choose a team from one of the 25% TAs.
 
 Memos
 -----
 
+TAs will be responsible for grading the memos alone.
+
 The purpose of the memos is two fold:
 
-- to improve the student's ability to communicate clearly through professional technical writing
+- to improve the student's ability to communicate clearly through professional
+  technical writing and pace out writing of content for the final report
 - to provide quality instructor feedback on their work and progress
 
 Each memo has a rubric that is available in Canvas's speed grading tool.
 
 - Grade relatively "hard" on memos so that the students take the feedback
   seriously.
-- When completely the rubric always start at the lowest category and work
-  upwards through each so that you are consistent.
+- For each of the grading criteria in the rubric, start with the middle
+  category and adjust up or down. Students are accustomed to being penalized
+  for specific things, so be prepared to justify your decision and/or provide
+  detailed comments in the speed grader.
 - Calibrate with other graders.
 
-Presentations
-=============
+Reports
+-------
 
-- Use the Google Drive rubrics for grading the presentations. When exporting
-  the completed rubric for the students, hide the scores from the instructors
-  and just show the average in the exported PDF (hide columns).
+We will co-grade the reports. We will set up a time to completely grade
+a single report together, then each of us will take a section of the rubric and
+can grade it at our leisure. We will either use Google Drive to collaboratively
+annotate the PDFs or use the Canvas functionality.
+
+Presentations
+-------------
+
+Use the Google Drive rubrics for grading the presentations. When exporting the
+completed rubric for the students, hide the scores from the instructors and
+just show the average in the exported PDF (hide columns).
+
+*Note: There is a Google Sheets script `convertToPDF.gs` in the `bin` folder of
+the website repository which loops over the separate sheets (one per team),
+hides the individual instructor grade columns, and generates a PDF. It has some
+issues with making too many requests too quickly, so you may need to run it
+a few times with different loop indices (corresponding to the sheets) to
+generate all of the PDFs successfully*.
+
 
 Planning
 ========
 
-The lead TA will be responsible for several scheduling tasks.
+The lead TA will be responsible for several scheduling tasks. Details and tips
+for each are given below.
 
-Preliminary Design Reviews
---------------------------
+Design Reviews
+--------------
 
-Preliminary design reviews take place during week 8 of EME 185A. The design
-reviews are 50-minute sessions for teams to present their selected concept to
-the instructor and their TA. The timing is as follows:
+There are two rounds of design reviews: **Preliminary Design Reviews** and
+**Critical Design Reviews**. Preliminary design reviews take place during week
+8 of EME 185A, and critical design reviews take place during finals week of EME
+185B. The design reviews are 50-minute sessions for teams to present their
+selected concept (PDR) or final results (CDR) to the instructor and their TA.
+The timing is as follows:
 
 - 5 minutes of setup
 - 25 minutes of presentation by the team
@@ -188,6 +222,7 @@ the class schedule (e.g. 9:00 AM - 9:50 AM, 2:10 PM - 3:00 PM, etc.). Getting
 the schedule together is difficult logistically, but the following steps should
 lead to minimal issues:
 
+#. Check the `schedule <{filename}/pages/schedule.rst>`_ for the dates
 #. Get the instructor's availability.
 #. Find out from the MAE office when small rooms (~10-person capacity) are
    available.
@@ -205,32 +240,35 @@ lead to minimal issues:
 
 For the second quarter of senior design, each team will meet weekly with their
 TA and the instructor for 50 minutes. This requires a small room for about 10
-people with an AV system and a whiteboard.
+people with an AV system and a whiteboard. In the past, the design studio
+(Bainer 2071) has been used.
 
 Scheduling for these weekly meetings is somewhat similar to scheduling the
 design reviews, but it may be useful to ask for room availability in large
 blocks so back-to-back meetings don't require the instructors to move around.
+If you plan to use the design studio, get in touch with Jacob Kitada to check
+when classes are scheduled to be there.
 
-One extra concern for Spring quarter scheduling is Memorial Day. One solution
-is to make it clear to students when they sign up for a meeting time that they
+One extra concern for Spring quarter scheduling is Memorial Day. A solution is
+to make it clear to students when they sign up for a meeting time that they
 will have to move that week's meeting to Friday that week. This will need to be
 taken into consideration when booking rooms as well.
-
-The design studio (CAE lab) may be a fallback if no rooms are available, but
-it's not ideal to take over the whole room for one group meeting. You'll have
-to check the lab schedule to make sure no other classes are using it.
 
 Meijo University Visit
 ----------------------
 
+Students from Meijo University in Japan will be concurrently designing and
+building the same project as two UCD teams. They will visit and sit in on
+design reviews as well as compete during the design showcase.
+
 On one of the visit days, the Meijo students and faculty, some (~10) of the
-EME185 students, the instructors, and some UCD professors will have a catered
-lunch. Make sure to schedule a room for about 50 people that is suitable for
-this. For catering, we have used Panera Bread in the past. You can go in to set
-up an order and let them know that the Meijo professor will come in or call at
-some point to provide payment information. Follow up a day or two before the
-lunch to make sure payment info has been provided, or they won't start making
-the order on the morning of.
+EME 185 students, the instructors, and some UCD professors will have a catered
+lunch. You can also invite EFL staff to the lunch. Make sure to schedule a room
+for about 50 people that is suitable for this. For catering, we have used
+Panera Bread in the past. You can go in to set up an order and let them know
+that the Meijo professor will come in or call at some point to provide payment
+information. Follow up a day or two before the lunch to make sure payment info
+has been provided, or they won't start making the order on the morning of.
 
 Set up a campus tour for the Meijo students and faculty. Use the `"other" large
 group tour <http://visit.ucdavis.edu/tourreg/groupTours/tourForm.cfm?gid=7>`_
@@ -241,7 +279,8 @@ the guides tend to talk quickly anyway because they're following a script and
 need to hit timing targets to refer to buildings at the correct time, etc.
 
 Go to the EFL and ask Mike or Shawn about giving the Meijo students and faculty
-a tour of the shop. Make sure it is not on a day scheduled for EME50.
+a tour of the shop. Make sure it is not on a day scheduled for EME 50.
+
 
 External Presentation Options
 =============================
@@ -250,8 +289,32 @@ The students are required to present at the design showcase but there other
 things to keep them aware of:
 
 - BMES Research Symposisum (in May) for any biomed sponsored projects.
-- `Undergraduate Research Symposium <https://urc.ucdavis.edu/conference/>`_ in April
-- Sandia Design Award Due aournd first of June
+- `Undergraduate Research Symposium <https://urc.ucdavis.edu/conference/>`_ in
+  April
+- Sandia Design Award, due around first of June
+- It may be possible for some teams to exhibit at the `Bay Area Maker Faire
+  <http://makerfaire.com/bay-area/call-for-makers/>`_ in May.
+
+
+Handling Parts Orders
+=====================
+
+Some teams will order parts for their project through the department's
+procedures. The `purchasing <{filename}/pages/purchasing.rst>`_ page lists
+instructions for them to follow. Keeping track of and approving these purchase
+requests is tedious, so some policies should be enforced to minimize issues.
+
+- Students generate a bill of materials for their report at the end of EME
+  185A. The TAs should extract the BoM from each report and put it in a folder
+  on Google Drive. When a request comes in, the instructor can quickly verify
+  that each item requested is in the most recently approved BoM.
+- It needs to be made clear to the teams that purchase requests containing
+  items not found in the BoM will not be approved. If they need to update the
+  BoM, they can email it to their TA, who will then review it and, if
+  satisfactory, replace the version on Google Drive. It should also be made
+  clear that students should not make their BoM a "living document" so that
+  this doesn't happen frequently.
+
 
 Weekly Tasks
 ============
