@@ -1,6 +1,8 @@
 :title: Instructor Guide
 :status: hidden
 
+.. contents:: Table of Contents
+
 Primary Duties
 ==============
 
