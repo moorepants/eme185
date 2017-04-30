@@ -344,6 +344,13 @@ Progress Update
    schedule and any modifications you have now made to the schedule to meet
    your goal given delays or saved time. Additionally, give an estimate of the
    likelihood of providing the deliverables.
+Engineering Standards
+   Tell us about any engineering standards that are relevant to your design.
+   For example, if you are designing a car for public roads it should meet SAE
+   standards. Or if you are designing an elevator it should meet ASME elevator
+   standards. See the `technical resources
+   <{filename}/pages/technical-resources.rst>`_ page for information
+   (especially the UCD Mechanical Engineering page).
 Technical Documentation
    This section should provide us with a description and drafts of any of the
    technical documentation that you plan to create. Examples are:
@@ -352,9 +359,6 @@ Technical Documentation
      include all information needed to manufacture your designs including
      dimensions, material specifications, assembly diagrams, circuit diagrams,
      wiring layouts, complete bill of materials, etc.
-   - Engineering standards that are relevant to your design. For example, if
-     you are designing a car for public roads it should meet SAE standards. Or
-     if you are designing an elevator it should meet ASME elevator standards.
    - User documentation: This could be a user manual that describes how to use
      and maintain the product or documentation on how to use software, etc.
    - Test results: The experimental/testing methodology and any results you
