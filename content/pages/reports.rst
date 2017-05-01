@@ -349,8 +349,8 @@ Engineering Standards
    For example, if you are designing a car for public roads it should meet SAE
    standards. Or if you are designing an elevator it should meet ASME elevator
    standards. See the `technical resources
-   <{filename}/pages/technical-resources.rst>`_ page for information
-   (especially the UCD Mechanical Engineering page).
+   <{filename}/pages/technicalresources.rst>`_ page for information (especially
+   the UCD Mechanical Engineering page).
 Technical Documentation
    This section should provide us with a description and drafts of any of the
    technical documentation that you plan to create. Examples are:
