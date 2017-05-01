@@ -3,7 +3,7 @@
 
 Each team will be assigned a teaching assistant that will act as a consultant
 for your project. During the winter studio sections, each team will meet with
-the teaching assistant for approximately 20 minutes each week to discuss the
+the teaching assistant for approximately 30 minutes each week to discuss the
 weekly progress and/or the current studio activity. Additionally, your team
 will meet with the main instructor for approximately 10 minutes. In the Spring
 quarter, you will meet with the TA and the instructor together for 50 minutes
@@ -39,7 +39,42 @@ this out and bring it to your meeting.
 **Your in-class grade will be affected if you don't send an AIO or if you don't
 show up to these meetings.**
 
-In the Spring quarter, this will be the standard meeting agenda:
+Meeting Agendas
+---------------
+
+Below are loose agendas for the meetings that occur in each quarter.
+
+Winter Quarter
+^^^^^^^^^^^^^^
+
+If there is a specific studio activity, the following items should be addressed
+during the 30-minute meeting with your TA:
+
+5 minutes
+    Each team member takes turns describing their accomplishments.
+5 minutes
+    Bring up and work through any issues that arose.
+5 minutes
+    Make sure every team member has explicit objectives for the next week and
+    update the Gantt chart to reflect this.
+5 minutes
+    Discuss grading, logistics, upcoming assignments, etc.
+10 minutes
+    Collaborate on the activity.
+
+If there *is not* a studio activity:
+
+15 minutes
+    Each team member takes turns describing their accomplishments and going
+    through any issues that arose.
+10 minutes
+    Make sure every team member has explicit objectives for the next week and
+    update the Gantt chart to reflect this.
+5 minutes
+    Discuss grading, logistics, upcoming assignments, etc.
+
+Spring Quarter
+^^^^^^^^^^^^^^
 
 10 minutes
    Go over your accomplishments from the week with the instructors. Be sure to
