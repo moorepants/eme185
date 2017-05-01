@@ -165,6 +165,10 @@ Examples
 ++++++++
 
 - `DIY Wheelchair Fabrication and Assembly Manual <{filename}/docs/whim-manual.pdf>`_
+- `IKEA Assembly Instructions
+  <http://www.ikea.com/ms/en_US/customer_service/assembly_instructions.html>`_
+  -- note the creativity needed to convey somewhat complex instructions with
+  almost no text at all.
 
 Report #1: Project Proposal [Due: February 10th, 2017]
 ======================================================
