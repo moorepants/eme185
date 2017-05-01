@@ -62,14 +62,14 @@ Engineering Design Showcase Poster Presentation
 
 Your team will be required to present your work at the Engineering Design
 Showcase at the ARC Pavilion on Thursday June 8th from 2-4 pm. You need to
-`register for the showcase`_ by {{ POSTER_DUE_DATE }}. Each team will develop a
-poster that showcases and explains your project which must be submitted to both
-Canvas and to Alin Wakefield for printing by {{ POSTER_DUE_DATE }}. You are
-also welcome and encouraged to bring any prototype that you have constructed or
-videos and other media that will explain your project. Any special
-accommodations for your prototype (size, power, etc) or presentation must be
-coordinated with Alin Wakefield at registration. At least one member of the
-team must be present at the poster at all times from 2-4 pm and all team
+`register for the showcase`_ by {{ SHOWCASE_REG_DATE }}. Each team will develop
+a poster that showcases and explains your project which must be submitted to
+both Canvas and to Alin Wakefield for printing by {{ POSTER_DUE_DATE }}. You
+are also welcome and encouraged to bring any prototype that you have
+constructed or videos and other media that will explain your project. Any
+special accommodations for your prototype (size, power, etc) or presentation
+must be coordinated with Alin Wakefield at registration. At least one member of
+the team must be present at the poster at all times from 2-4 pm and all team
 members must attend the event. Your team's poster will be visited by one or
 more industry judges who will score your poster. You should were business
 atire. These scores will be taken into account for your poster presentation
