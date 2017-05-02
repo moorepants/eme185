@@ -165,6 +165,10 @@ Examples
 ++++++++
 
 - `DIY Wheelchair Fabrication and Assembly Manual <{filename}/docs/whim-manual.pdf>`_
+- `IKEA Assembly Instructions
+  <http://www.ikea.com/ms/en_US/customer_service/assembly_instructions.html>`_
+  -- note the creativity needed to convey somewhat complex instructions with
+  almost no text at all.
 
 Report #1: Project Proposal [Due: February 10th, 2017]
 ======================================================
@@ -349,8 +353,8 @@ Engineering Standards
    For example, if you are designing a car for public roads it should meet SAE
    standards. Or if you are designing an elevator it should meet ASME elevator
    standards. See the `technical resources
-   <{filename}/pages/technical-resources.rst>`_ page for information
-   (especially the UCD Mechanical Engineering page).
+   <{filename}/pages/technicalresources.rst>`_ page for information (especially
+   the UCD Mechanical Engineering page).
 Technical Documentation
    This section should provide us with a description and drafts of any of the
    technical documentation that you plan to create. Examples are:

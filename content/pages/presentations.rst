@@ -62,14 +62,14 @@ Engineering Design Showcase Poster Presentation
 
 Your team will be required to present your work at the Engineering Design
 Showcase at the ARC Pavilion on Thursday June 8th from 2-4 pm. You need to
-`register for the showcase`_ by {{ POSTER_DUE_DATE }}. Each team will develop a
-poster that showcases and explains your project which must be submitted to both
-Canvas and to Alin Wakefield for printing by {{ POSTER_DUE_DATE }}. You are
-also welcome and encouraged to bring any prototype that you have constructed or
-videos and other media that will explain your project. Any special
-accommodations for your prototype (size, power, etc) or presentation must be
-coordinated with Alin Wakefield at registration. At least one member of the
-team must be present at the poster at all times from 2-4 pm and all team
+`register for the showcase`_ by {{ SHOWCASE_REG_DATE }}. Each team will develop
+a poster that showcases and explains your project which must be submitted to
+both Canvas and to Alin Wakefield for printing by {{ POSTER_DUE_DATE }}. You
+are also welcome and encouraged to bring any prototype that you have
+constructed or videos and other media that will explain your project. Any
+special accommodations for your prototype (size, power, etc) or presentation
+must be coordinated with Alin Wakefield at registration. At least one member of
+the team must be present at the poster at all times from 2-4 pm and all team
 members must attend the event. Your team's poster will be visited by one or
 more industry judges who will score your poster. You should were business
 atire. These scores will be taken into account for your poster presentation
@@ -120,6 +120,41 @@ UCD Logos
 
 If you'd like to use UCD logos in your poster you can find information about
 them at http://marketingtoolbox.ucdavis.edu/identity/logos/index.html.
+
+Template
+--------
+
+Below is a link to a poster template for you to use as a basis for your poster.
+Feel free to modify the colors, fonts, layout, etc. There is no obligation to
+use the template.
+
+https://drive.google.com/open?id=1DhddKWEk8GZJZDMotgJ7H-AxJdSh_fJkB5Cm2gQve-E
+
+Instructions:
+
+- **Google Slides**: open the link, then go to ``File -> Add to My Drive``.
+  This will copy the template to your personal Google Drive account so you can
+  collaboratively edit it with your team members via Google Slides.
+- **PowerPoint**: open the link, then go to ``File -> Download as -> Microsoft
+  PowerPoint (.pptx)``. Save the file where you want and you should then be
+  able to open it with PowerPoint.
+- **LibreOffice**: either use the above instructions for PowerPoint, or use
+  ``File -> Download as -> ODP Document (.odp)``. A reasonably up-to-date
+  version of LibreOffice should be able to open both file types.
+
+If you have issues opening the file or if the template doesn't look right when
+you open it, let your TA know.
+
+Examples
+--------
+
+Here are a few example posters for inspiration. These examples are
+research-oriented, but they may provide some ideas for structuring, laying out,
+and designing your poster:
+
+- https://doi.org/10.5281/zenodo.168068
+- https://doi.org/10.5281/zenodo.265504
+- https://doi.org/10.5281/zenodo.495887
 
 Printing Instructions
 ---------------------
