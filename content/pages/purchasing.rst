@@ -80,6 +80,7 @@ they arrive:
 
 | <your name>
 | Mechanical and Aerospace Engineering Department
+| Bainer Hall, Room 2132
 | University of California, Davis
 | One Shields Avenue
 | Davis, CA 95616
