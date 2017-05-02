@@ -51,7 +51,7 @@ space.
 - Label all boxes and any freestanding items with a contact name and phone
   number.
 - Keep the space tidy. In particular, there should be no tripping hazards.
-- No chemicals, paint, glue, or any things that require SDS.
+- No hazardous chemicals, paint, glue, or any things that require SDS.
 - All work with dangerous tools should happen in the EFL.
 - Do not go upstairs or disturb the office space up there.
 - The MAE groups can use the room closest to the hallway. The room closest to
