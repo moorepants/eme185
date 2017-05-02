@@ -52,7 +52,7 @@ space.
   number.
 - Keep the space tidy. In particular, there should be no tripping hazards.
 - No hazardous chemicals, paint, glue, or any things that require SDS.
-- All work with dangerous tools should happen in the EFL.
+- All work with power tools should happen in the EFL.
 - Do not go upstairs or disturb the office space up there.
 - The MAE groups can use the room closest to the hallway. The room closest to
   the Bainer courtyard is for the BME groups.
@@ -65,6 +65,8 @@ space.
 - Respect the EFL staff's wishes and help, as they have the final say on the
   use of the space.
 - The keypad entry code will be changed at the end of quarter.
+- Long pants, closed to shoes, and safety glass are required while in the
+  space.
 
 College of Engineering Design Showcase
 ======================================
