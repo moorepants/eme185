@@ -1,3 +1,18 @@
+"""The CATME Peer evaluation results are provided in a non-standard CSV file.
+There are multiple tables in the single file. The tables are separated by
+double line returns and are as follows:
+
+1. Extraneous metadata
+2. Table of answers to the per team member rating questions (it has two header lines)
+3. An aggregation table of the daa in part 2
+
+The next optional sections are a list of a set of question answers followed by
+a table of the responses to those questions.
+
+The final section are the private comments that the students provide.
+
+"""
+
 import os
 import argparse
 from io import StringIO
