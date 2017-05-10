@@ -28,8 +28,8 @@ Design Calculations and References
 - Shaft and Bearing Design Resources:
    - `_Design, Layout and Assembly <http://eng.sut.ac.th/me/2014/document/MachineDesign1/document/Ch_7.pdf>`_  - An excerpt from Shigley's Machine Design textbook with guidelines on good shaft design 
    - `_Shafts,Keys and Bearings <http://www.ncedaust.org/pdf/ENGG1000_PROJ5_Shafts-Bearings.pdf>`_ Drawings and info on ways to put shafts,keys and bearings together
-   - `_MIT Power transmission` <http://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%205.PDF> _ - Page 44-57 has info on shafts
-   - `How to choose a Bearing <http://www.robot-and-machines-design.com/en/Articles/Mechanics/Tips-Guides/266-Bearing-Selection-How-To-Choose-A-Bearing.html>` _ - Good resource on the steps required before selecting a bearing
+   - `_MIT Power transmission <http://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%205.PDF>`_ - Page 44-57 has info on shafts
+   - `_How to choose a Bearing <http://www.robot-and-machines-design.com/en/Articles/Mechanics/Tips-Guides/266-Bearing-Selection-How-To-Choose-A-Bearing.html>`_ - Good resource on the steps required before selecting a bearing
    
 - `MatWeb`_ - Properties of various Materials
 - `Machinery's Handbook`_ - Reference text for Machinery design
