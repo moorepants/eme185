@@ -24,7 +24,13 @@ Design Calculations and References
 ----------------------------------
 
 - `Engineering Toobox`_ - Engineering information- Formulas, constants, calculators etc.
-- `MIT Fundamentals of Design Spreadsheet`_ - Tools to facilitate rapid design and evaluation
+- `MIT Fundamentals of Design Spreadsheet`_ - An extremely useful wealth of information and design spreadsheets on every design element
+- Shaft and Bearing Design Resources:
+   - `_Design, Layout and Assembly <http://eng.sut.ac.th/me/2014/document/MachineDesign1/document/Ch_7.pdf>`_  - An excerpt from Shigley's Machine Design textbook with guidelines on good shaft design 
+   - `_Shafts,Keys and Bearings <http://www.ncedaust.org/pdf/ENGG1000_PROJ5_Shafts-Bearings.pdf>`_ Drawings and info on ways to put shafts,keys and bearings together
+   - `_MIT Power transmission` <http://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%205.PDF> _ - Page 44-57 has info on shafts
+   - `How to choose a Bearing <http://www.robot-and-machines-design.com/en/Articles/Mechanics/Tips-Guides/266-Bearing-Selection-How-To-Choose-A-Bearing.html>` _ - Good resource on the steps required before selecting a bearing
+   
 - `MatWeb`_ - Properties of various Materials
 - `Machinery's Handbook`_ - Reference text for Machinery design
 
@@ -32,6 +38,7 @@ Design Calculations and References
 
 - `Wolfram Alpha`_ - Math calculator and equation solver
 - `MecMovie`_ - A refresher on basic mechanics of materials
+
 
 .. _Engineering Toobox: http://www.engineeringtoolbox.com/
 .. _MIT Fundamentals of Design Spreadsheet: http://pergatory.mit.edu/resources/FUNdaMENTALS.html
