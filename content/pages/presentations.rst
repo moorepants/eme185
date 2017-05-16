@@ -72,8 +72,8 @@ must be coordinated with Alin Wakefield at registration. At least one member of
 the team must be present at the poster at all times from 2-4 pm and all team
 members must attend the event. Your team's poster will be visited by one or
 more industry judges who will score your poster. You should were business
-atire. These scores will be taken into account for your poster presentation
-grade.
+attire. Your TA will visit your poster for approximately 10 minutes, interact
+with you,and will grade your poster presentation for the class.
 
 .. _register for the showcase: {{ SHOWCASE_REG_URL }}
 
@@ -166,23 +166,22 @@ and quality product.
 1. The Engineering Dean's Office will cover the cost of printing one landscape
    48" W x 36" H full-color poster per team. No other dimensions or sizes will
    be allowed. Only 1 poster per team will be printed (no reprints).
-2. The poster file must be emailed to amwakefield@ucdavis.edu no later than
+2. The poster PDF file must be emailed to amwakefield@ucdavis.edu no later than
    {{ POSTER_DUE_DATE }} *and* submitted to Canvas assignments at the same
    time. Alin will not accept nor print any file received after this deadline.
 3. Files must be submitted as a PDF (highest quality preferred).
 4. When designing your poster, please carefully check the page setup settings.
    You must ensure your poster is correctly sized at 48" W x 36" H.
-5. A PowerPoint poster template is available on our Canvas under the
-   Files tab for optional use.
-6. The CoE cannot be responsible for verifying the accuracy of technical
+5. The CoE cannot be responsible for verifying the accuracy of technical
    content, so you are strongly advised to have your instructor review your
    poster prior to submission.
-7. Once printed, the posters will be stored in 1050 Kemper Hall. Alin will
-   arrange for setup and display of all posters in the Pavilion on June 2.
+6. Once printed, the posters will be stored in 1050 Kemper Hall. Alin will
+   arrange for setup and display of all posters in the Pavilion on June 8th.
    Posters will be mounted to foam/poster board for stability and easier
    viewing.
-8. If you do not want to keep your poster you should return it to the
-   instructor and it will be displayed in Bainer Hall the following year.
+7. If you do not want to keep your poster you should return it to the
+   instructors after the showcase and it will be displayed in Bainer Hall the
+   following year.
 
 Final Critical Design Review
 ============================
