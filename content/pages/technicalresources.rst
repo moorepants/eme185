@@ -19,6 +19,8 @@ General
 
 - `Engineering Subreddit <https://www.reddit.com/r/engineering>`_ - Great place to ask questions.
 - `EngineeringPorn Subreddit <https://www.reddit.com/r/EngineeringPorn/>`_ - Great place to get design ideas.
+- `Mechanical Gifs Subreddit <https://www.reddit.com/r/mechanical_gifs/>`_ -
+  Animations of a variety of interesting machines.
 
 Design Calculations and References
 ----------------------------------
