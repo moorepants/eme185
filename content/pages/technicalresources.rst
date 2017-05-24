@@ -65,8 +65,7 @@ Other ASME Y14 standards that define Lines and Lettering, sheet size and formats
 
 Other references:
 
-- `Standard Dimensioning and Tolerancing practices  <https://engineering.pages.tcnj.edu/files/2012/02/dimensioning_and_tolerancing.pdf
->`_
+- `Standard Dimensioning and Tolerancing practices  <https://engineering.pages.tcnj.edu/files/2012/02/dimensioning_and_tolerancing.pdf>`_
 
 - `Dimensioning guidelines <www.ohio.edu/people/gb885811/531%20Final%20Site/.../Chapter7.DEMTOL1.pptx>`_
 
