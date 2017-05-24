@@ -55,7 +55,7 @@ Making Technical Drawings
 
 Here are a few resources and references for making your technical drawings package (your major deliverable) look professional and informative.
 
-- `ASME/ANSI Y14.5 Standards <http://www.dgpengshun.com/uploadfile/2015/0402/20150402103816482.pdf>`_ This is a copy of the 1994 version of the standards for Dimensioning and Tolerancing(There are more recent revisions to this standard, but overall principls still apply). Please go through section 1 of the document to see if you are following the right dimensioning conventions defined in the standard. 
+- `ASME/ANSI Y14.5 Standards <http://www.dgpengshun.com/uploadfile/2015/0402/20150402103816482.pdf>`_ This is a copy of the 1994 version of the standards for Dimensioning and Tolerancing(There are more recent revisions to this standard, but overall principles still apply). Please go through section 1 of the document to see if you are following the right dimensioning conventions defined in the standard. 
 
 Other ASME Y14 standards that define Lines and Lettering, sheet size and formats and Drawing Views are linked to below:
 
