@@ -50,6 +50,32 @@ Design Calculations and References
 .. _Wolfram Alpha: https://www.wolframalpha.com/
 .. _MecMovie: http://web.mst.edu/~mecmovie/
 
+Making Technical Drawings 
+-----------------------
+
+Here are a few resources and references for making your technical drawings package,which is most likely one of your major deliverables look professional and informative.
+
+- `ASME/ANSI Y14.5 Standards <http://www.dgpengshun.com/uploadfile/2015/0402/20150402103816482.pdf>`_ This is a copy of the 1994 version of the standards for Dimensioning and Tolerancing(There are more recent revisions but with no major changes). Please go through section 1 of the document to see if you are following the right dimensioning conventions defined in the standard. 
+
+Other ASME Y14 standards that define Lines and Lettering, sheet size and formats and Drawing Views are linked to below:
+
+- `ASME/ANSI Y14.1 Standards <http://gost-snip.su/download/asme_y14_12005_decimal_inch_drawing_sheet_size_and_format_re>`_
+- `ASME/ANSI Y14.2 Standards <http://gost-snip.su/download/asme_y14_22008_line_conventions_and_lettering>`_
+- `ASME/ANSI Y14.3 Standards <http://gost-snip.su/download/asme_y14_32003_multiview_and_sectional_view_drawings>`_
+
+Other references:
+
+- `Standard Dimensioning and Tolerancing practices  <https://engineering.pages.tcnj.edu/files/2012/02/dimensioning_and_tolerancing.pdf
+>`_
+
+- `Dimensioning guidelines <www.ohio.edu/people/gb885811/531%20Final%20Site/.../Chapter7.DEMTOL1.pptx>`_
+
+- `Making Drawing packages <www.ohio.edu/people/gb885811/531%20Final%20Site/.../Chapter7.DEMTOL1.pptx>`_
+
+- `Drawing package example <https://www.csuchico.edu/mmem/documents/Department_Drawing_Standard.pdf>`_
+
+
+
 Mechanisms and Movements
 ------------------------
 
