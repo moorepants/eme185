@@ -9,7 +9,8 @@ books,articles and videos on the internet and the UCDavis' Physical Sciences and
 resources that you may want to use:
 
 UCDavis Library Resources
----------------------------------
+-------------------------
+
 The `Physical Sciences and Engineering (PSE) Library webpage`_ provides you access to a vast collection of resources that may not be readily available on the internet ranging from full Books, eBooks, Journals, Databooks, Patents and Industry Standards. Many of these are available in digital form. Some may require you to use the Library VPN to sign in. We encourage you to make use of these university resources in your projects. Remember to cite your references in your reports. The above webpage also contains a citation guide.
 
 .. _Physical Sciences and Engineering (PSE) Library webpage: https://www.library.ucdavis.edu/guide/mechanical-aerospace-engineering/
@@ -50,8 +51,8 @@ Design Calculations and References
 .. _Wolfram Alpha: https://www.wolframalpha.com/
 .. _MecMovie: http://web.mst.edu/~mecmovie/
 
-Making Technical Drawings 
------------------------
+Making Technical Drawings
+-------------------------
 
 Here are a few resources and references for making your technical drawings package (your major deliverable) look professional and informative.
 
