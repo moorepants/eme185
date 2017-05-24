@@ -53,7 +53,7 @@ Design Calculations and References
 Making Technical Drawings 
 -----------------------
 
-Here are a few resources and references for making your technical drawings package,which is most likely one of your major deliverables look professional and informative.
+Here are a few resources and references for making your technical drawings package (your major deliverable) look professional and informative.
 
 - `ASME/ANSI Y14.5 Standards <http://www.dgpengshun.com/uploadfile/2015/0402/20150402103816482.pdf>`_ This is a copy of the 1994 version of the standards for Dimensioning and Tolerancing(There are more recent revisions but with no major changes). Please go through section 1 of the document to see if you are following the right dimensioning conventions defined in the standard. 
 
