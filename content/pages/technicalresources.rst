@@ -68,7 +68,7 @@ Other references:
 
 - `Standard Dimensioning and Tolerancing practices  <https://engineering.pages.tcnj.edu/files/2012/02/dimensioning_and_tolerancing.pdf>`_
 
-- `Dimensioning guidelines <http://www.ohio.edu/people/gb885811/531%20Final%20Site/.../Chapter7.DEMTOL1.pptx>`_ (Right click and save link)
+- `Dimensioning guidelines <https://www.google.com/search?q=chapter7.demtol>`_ (Click on first search result 'Dimensioning Guidelines')
 
 - `Making Drawing packages <http://www.me.udel.edu/meeg304/08/ddp.pdf>`_
 
