@@ -371,8 +371,8 @@ Technical Documentation
    We will provide feedback on this material so that your documentation can be
    improved for the final report.
 
-Report #4: Final Design [Due: June 9, 2017]
-===========================================
+Report #4: Final Design [Due: June 10, 2017]
+============================================
 
 The final design report should be a comprehensive report detailing the final
 version of your project. It is not necessary to provide information about the
@@ -387,19 +387,20 @@ this final written presentation of your design.
 Main Content
 ------------
 
-**The main content should be no longer than 15 pages.**
+**The main content should be no longer than 20 pages.**
 
 Introduction
    Here, you should introduce your problem in context with respect to your
-   sponsors work and their broader goals. Your mission statement should be
-   clearly defined with respect to these. The sub-problems you have solved
-   should be described and how they relate to the main problem. This should
-   also include any relevant existing solutions and literature that helps put
-   your problem and solution into context.
+   sponsor's work, their broader goals, society, and contemporary issues. Your
+   mission statement should be clearly defined with respect to these. The
+   sub-problems you have solved should be described and how they relate to the
+   main problem. This should also include any relevant existing solutions and
+   literature that helps put your problem and solution into context.
 Needs, Specifications, and Standards
    The sponsor's needs should be explained along with the target specifications
-   that you've developed from the needs. Note any engineering standards that
-   are relevant to your project.
+   that you've developed from the needs. Be sure to note any engineering
+   standards that were used to set your specifications or were relevant to your
+   project.
 Design Description
    You should fully describe your design and explain how it functions. The goal
    is to provide sufficient technical details to communicate the conceptual
@@ -411,15 +412,16 @@ Design Description
 Design Justification
    This section should present sufficient justification to prove that your
    final design works, that the needs are satisfied, and that the target
-   specifications have been met. You can justify your design in two main ways:
-   (1) engineering theoretical and computational analysis and (2) demonstration
-   that the design works through experimental testing. You must provide (1) and
-   can optionally provide (2) if your project included a prototype and/or
-   experiments.
+   specifications and standards have been met. You can justify your design in
+   two main ways: (1) engineering theoretical and computational analysis and
+   (2) demonstration that the design works through experimental testing. You
+   must provide (1) and can optionally provide (2) if your project included a
+   prototype and/or experiments.
 Manufacturing
    In this section, describe how you would or did manufacture your design.
    Discuss how the design will be assembled and your choice of materials and
-   manufacturing processes. Include any ideas about potential mass production.
+   manufacturing processes. Include any ideas and projections about potential
+   mass production.
 Deliverables
    This section should list and describe the final, actual deliverables of your
    project. This should include everything that you are providing your sponsor.
