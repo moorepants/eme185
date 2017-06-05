@@ -4,8 +4,8 @@
 .. contents:: Table of Contents
    :depth: 1
 
-Primary Duties
-==============
+Primary TA Duties
+=================
 
 25% TA
 
@@ -23,15 +23,16 @@ Primary Duties
 - Organize the Meijo University visit.
 
 
-General
-=======
+General TA Requirements
+-----------------------
 
-- Please log your weekly hours in a spreadsheet in the Google Drive directory.
-  I use this information to gauge if I'm giving too much or too little work for
-  the TA appointment. I also use it to justify request for more TA help for
-  future courses.
-- We will have a 1 hour weekly instructor meeting to go over the upcoming
-  week's activities. Please arrange this to fit our schedules.
+- Please log weekly hours in a spreadsheet in the Google Drive directory. This
+  information will be used to gauge if too much or too little work is being
+  given for the TA appointments. It will also be used to justify request for
+  more TA help for future courses.
+- The instructors and TAs will have a 1 hour weekly instructor meeting to go
+  over the upcoming week's activities. This should be arranged to fit
+  everyone's schedule in the first week of both EME 185A and 185B.
 - If you want to meet with me, check my `work calendar`_ for an open weekday
   slot and send me a request via email.
 - I strictly use the Linux operating system and strive to use open source tools
@@ -42,35 +43,71 @@ General
 .. _work calendar:  http://www.moorepants.info/work-calendar.html
 
 
+Class Attendance
+================
+
 Lectures
-========
+--------
 
-You are not required to attend any of the lecture periods. You are welcome to
-sit in on lectures or even give one or more yourself. If you sit in on the
-lectures I will ask you to note down feedback for me. If you would like to give
-a lecture, just let me know well beforehand and we will make arrangements. Past
-TAs have given a lecture to introduce students to useful things (e.g. 3D
-printing, microcontrollers) for their projects. I'm happy to give feedback on
-your lectures too.
+In EME 185A, students attend one-hour lectures on topics related to product
+development and project management. The instructor is responsible for creating
+these lecture materials. See the `schedule <{filename}/pages/schedule.rst>`_
+for information on the topics covered in lectures.
 
+TAs are not required to attend any of the lecture periods, but they are welcome
+to sit in on lectures or even give one or more. If you sit in on the lectures
+I will ask you to note down feedback for me. If a TA would like to give
+a lecture, just let the instructor know well beforehand and we will make
+arrangements. Past TAs have given a lecture to introduce students to useful
+things (e.g. 3D printing, microcontrollers) for their projects.
 
 Studios
-=======
+-------
 
-You will be required to attend all of the studio sessions in the winter
-quarter. During these sessions you will meet with your teams, go over their
-progress, and help them succeed.
+In EME 185A, alongisde lectures, students will meet in their project groups for
+a 3-hour `studio session <{filename}/pages/meetings.rst>`_. TAs are required to
+attend all of the studio sessions in the winter quarter. During these sessions,
+TAs will meet with each of their assigned teams, go over their progress, and
+help them succeed.
+
+Teams vary significantly, so a `185A meeting agenda`_ should be used early in
+the quarter to encourage quieter teams to engage the TA in the activity and
+their project.
+
+One of the 25% TAs should create a meeting schedule for the studio sessions.
+Each TA's meeting order should be randomized from week to week so that teams
+will meet with their TA at various stages of the studio sessions throughout the
+quarter. Effort should also be made to avoid overlap between the instructor and
+the TA meeting with a team.
+
+**TODO**: talk about which portion of the studio sessions TAs should attend
+(i.e. first two hours, last two hours, etc.).
+
+.. _185A meeting agenda: {filename}/pages/meetings.rst#winter-quarter
+
+Spring Meetings
+---------------
+
+In EME 185B, each team will meet weekly with their TA and the instructor for 50
+minutes. These meetings should roughly follow the `185B meeting agenda`_,
+however teams operate differently and the issues that arise throughout the
+quarter will change along with team progress (e.g. from design and analysis to
+building to testing, etc.). It is worthwhile to establish this format for the
+meetings early in the quarter and adjust to fit each team's style.
+
+.. _185B meeting agenda: {filename}/pages/meetings.rst#spring-quarter
 
 
 Office Hours
 ============
 
-You will be expected to hold office hours each week. These should be convenient
-for the homework due dates and not conflict with Jason's office hours. Past TAs
-have used Bainer 2071 or their own lab for the office hours. Provide feedback
-to Jason about how well these are attended so that we can adjust if needed. You
-may want to set up a `YouCanBook.me`_ page so that you know ahead of time
-whether or not students are coming to your office hours.
+Both the instructor and the TAs are expected to hold office hours each week.
+These should be convenient for the homework due dates, and TA and instructor
+office hours should not conflict. Past TAs have used Bainer 2071 or their own
+lab for the office hours. Provide feedback to the instructor about how well
+these are attended so that adjustments can be made if needed. You may want to
+set up a `YouCanBook.me`_ page so that you know ahead of time whether or not
+students are coming to your office hours.
 
 .. _YouCanBook.me: https://youcanbook.me/
 
@@ -130,15 +167,19 @@ params" to see summary.
 Instructor Feedback
 ===================
 
-I collect feedback on the `GitHub issues page`_ for anything that we need to
-note for the future. **This is publicly veiwable so no private information
-should be shared here.** These can be things that need to fixed on the website,
-ideas for improving the course, things that suck about the course, etc. Where
-appropriate, use the assignee and labels features to help keep issues
-organized and easy to filter.
+Course feedback, issues, and enhancements are tracked on the `GitHub issues
+page`_ for anything that we need to note for the future. **This is publicly
+veiwable so no private information should be shared here.** These can be things
+that need to fixed on the website, ideas for improving the course, things that
+suck about the course, etc. Where appropriate, use the assignee and labels
+features to help keep issues organized and easy to filter.
 
 You're also encouraged to add to this guide to help improve the operation of
 the course in the future.
+
+At the end of each quarter, all instructors should meet to reflect on how the
+course/quarter went. Notes from this meeting should be added to the `Github
+issues page`_ to benefit future instantiations of the course.
 
 .. _Github issues page: https://github.com/moorepants/eme185/issues
 
@@ -146,8 +187,7 @@ the course in the future.
 Grading
 =======
 
-- You will be expected to return the graded assignments within 1 week of them
-  turning it in.
+- Assignments should be graded and returned within 1 week of their due date.
 - For assignments not co-graded with the instructor (e.g. memos), the TAs
   should calibrate by grading one submission together. For group-submitted
   assignments, choose a team from one of the 25% TAs.
@@ -155,7 +195,8 @@ Grading
 Memos
 -----
 
-TAs will be responsible for grading the memos alone.
+TAs will be responsible for grading the memos alone. Each TA will only grade
+the memos submitted by their own teams.
 
 The purpose of the memos is two fold:
 
@@ -176,13 +217,23 @@ Each memo has a rubric that is available in Canvas's speed grading tool.
 Reports
 -------
 
-We will co-grade the reports. We will set up a time to completely grade
-a single report together, then each of us will take a section of the rubric and
-can grade it at our leisure. We will either use Google Drive to collaboratively
-annotate the PDFs or use the Canvas functionality.
+Reports are co-graded. All instructors will set up a time to completely grade
+a single report together, then portions of the rubric will be split for main
+instructor grading or TA grading, and the reports can be graded our leisure.
+Like with memos, TAs grade only for their own teams (aside from the fully
+collaboratively graded report). We will either use Google Drive to
+collaboratively annotate the PDFs or use the Canvas functionality.
 
 Presentations
 -------------
+
+There are several presentations that students will give throughout the course.
+
+**TODO** list and briefly describe each presentation
+
+All instructors will collaboratively grade all of the preliminary design
+lightning talk. For all other presentations, TAs will only grade presentations
+from their own teams.
 
 Use the Google Drive rubrics for grading the presentations. When exporting the
 completed rubric for the students, hide the scores from the instructors and
@@ -194,6 +245,13 @@ hides the individual instructor grade columns, and generates a PDF. It has some
 issues with making too many requests too quickly, so you may need to run it
 a few times with different loop indices (corresponding to the sheets) to
 generate all of the PDFs successfully*.
+
+Design Showcase
+---------------
+
+Each TA will spend about 10 minutes with each of their teams during the design
+showcase. While interacting with the team, a paper rubric tailored for "live"
+grading will be filled out.
 
 
 Planning
@@ -235,6 +293,10 @@ lead to minimal issues:
 #. Get the schedule to the MAE office as soon as possible to reserve the rooms
    at the selected times.
 
+It is recommended to get the room(s) booked as soon as possible. This
+corresponds to sending out the form to the students right after the 12th day of
+instruction (last day to add classes).
+
 185B Scheduling
 ---------------
 
@@ -273,10 +335,14 @@ has been provided, or they won't start making the order on the morning of.
 Set up a campus tour for the Meijo students and faculty. Use the `"other" large
 group tour <http://visit.ucdavis.edu/tourreg/groupTours/tourForm.cfm?gid=7>`_
 signup, and just make a comment explaining the nature of the tour. One of the
-TAs or the instructor should chaperone them on the tour. The chaperone may want
-to let the tour guide know that the students have variable English fluency, but
-the guides tend to talk quickly anyway because they're following a script and
-need to hit timing targets to refer to buildings at the correct time, etc.
+TAs or the instructor can chaperone them on the tour, but Professor Abraha
+should be ok assuming that role. The chaperone may want to let the tour guide
+know that the students have variable English fluency, but the guides tend to
+talk quickly anyway because they're following a script and need to hit timing
+targets to refer to buildings at the correct time, etc. If the total number of
+people going on the tour is less than 15, they might ask that you schedule
+a private tour instead of the large group tour. This costs $39, so check with
+Professor Abraha ahead of time.
 
 Go to the EFL and ask Mike or Shawn about giving the Meijo students and faculty
 a tour of the shop. Make sure it is not on a day scheduled for EME 50.
@@ -321,8 +387,11 @@ Weekly Tasks
 
 We will consider weeks starting on Mondays for this section.
 
+EME 185A
+--------
+
 Week 0
-------
+^^^^^^
 
 The instructors should meeting the week before class starts for an
 introduction.
@@ -332,7 +401,7 @@ introduction.
 - [Instructor] Invite EFL staff to present during one of the lectures.
 
 Week 1
-------
+^^^^^^
 
 - [All TAs] Come to the first 15 minutes of the first lecture to be introduced
   to the entire class.
@@ -346,7 +415,7 @@ Week 1
 - Get design supplies for the needs and specifications studio activity.
 
 Week 2
-------
+^^^^^^
 
 - Choose teams.
 - Send out team assignment emails.
@@ -364,7 +433,7 @@ Week 2
 - [All TAs] Review the needs/specs chapters and slides.
 
 Week 3
-------
+^^^^^^
 
 - [All TAs] Grade team charters. This can be very course: 0 (didn't do it), 5
   (did it poorly), 10 (did it average or better). Make comments on improving.
@@ -374,7 +443,7 @@ Week 3
 - [All TAs] Grade week 3 AIO + participation.
 
 Week 4
-------
+^^^^^^
 
 - Create Memo 4 assignment (concept generation)
 - [All TAs] Grade Memo 3 (needs and specs)
@@ -386,7 +455,7 @@ Week 4
 - [Instructor] Post the CATME peer evaluation on Friday.
 
 Week 5
-------
+^^^^^^
 
 - Create Report 1 assignment (project proposal)
 - [All TAs] Grade Memo 4
@@ -396,7 +465,7 @@ Week 5
   approve it.
 
 Week 6
-------
+^^^^^^
 
 - [Instructor] Send out microcontroller preparation instructions after lecture.
 - [Instructor] Update microcontroller lesson and prepare for giving it.
@@ -410,15 +479,65 @@ Week 6
   and the EFL staff.
 
 Week 7
-------
+^^^^^^
 
 - [Instructor] Meet with Chair to request additional course funding if needed.
 - [] Practice the microcontroller studio lesson.
 - [TA] Invite the sponsors and the EFL staff to the design reviews.
 
 Week 8
-------
+^^^^^^
 
 - [All] Review grading rubric for preliminary design reviews.
 - [TA] Setup the design review room(s) with a projector and screen. Inform the
 - [All] Attend the prelminary design reviews and grade.
+
+Week 9
+^^^^^^
+
+Week 10
+^^^^^^^
+
+Week 11 (finals week)
+^^^^^^^^^^^^^^^^^^^^^
+
+
+EME 185B
+--------
+
+Week 0 (spring break)
+^^^^^^^^^^^^^^^^^^^^^
+
+Week 1
+^^^^^^
+
+Week 2
+^^^^^^
+
+Week 3
+^^^^^^
+
+Week 4
+^^^^^^
+
+Week 5
+^^^^^^
+
+Week 6
+^^^^^^
+
+Week 7
+^^^^^^
+
+Week 8
+^^^^^^
+
+Week 9
+^^^^^^
+
+Week 10
+^^^^^^^
+
+Week 11 (finals week)
+^^^^^^^^^^^^^^^^^^^^^
+
