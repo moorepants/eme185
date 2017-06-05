@@ -188,11 +188,10 @@ Final Critical Design Review
 ============================
 
 Critical Design Reviews will be held on Monday, Tuesday, and Wednesday June
-12th, 13th, and 14th. Your team will be scheduled for a 30 minute critical
+12th, 13th, and 14th. Your team will be scheduled for a 50 minute critical
 design review during finals week of spring quarter. The first 5 minutes will be
-to setup for the presentation while the reviewers grade. Then the next 15
-minutes will be for your presentation. This will be followed by 10 minutes for
-the review questions and discussion.
+for setup followed by your 25 minute presentation. This will be followed by 20
+minutes for the review questions and discussion.
 
 The primary purpose of this review is for your team to justify that your design
 solves your sponsors needs through technical details, analysis, and testing. We
