@@ -184,8 +184,8 @@ and quality product.
    instructors after the showcase and it will be displayed in Bainer Hall the
    following year.
 
-Final Critical Design Review
-============================
+Critical Design Review
+======================
 
 Critical Design Reviews will be held on Monday, Tuesday, and Wednesday June
 12th, 13th, and 14th. Your team will be scheduled for a 50 minute critical
@@ -203,9 +203,9 @@ design is valid and valuable, i.e. it meets specifications, it can be
 manufactured, etc. The content should mirror the main content of the final
 design report.
 
-Your teaching assistant, the primary instructor, your sponsor, and other
-potential guests will be present. The presentation should be geared toward and
-"engineering management" audience.
+Your teaching assistant, the primary instructor and potentially your sponsor
+and other potential guests will be present. The presentation should be geared
+toward and "engineering management" audience.
 
 **You will need to submit your presentation materials as a PDF to Canvas by
 midnight Wednesday, June 14th.**
