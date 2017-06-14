@@ -142,6 +142,11 @@ instructors' responsibility to answer these questions in a timely manner.
 Consider enabling email notifications for discussion posts in your Canvas
 account preferences.
 
+Canvas's SpeedGrader system will be used to grade submitted assignments like
+reports and memos. Rubrics will be added to each assignment and SpeedGrader
+allows you to fill out the rubric for each group's submission and add comments
+to the document for the students to see.
+
 .. _Canvas: http://canvas.ucdavis.edu
 
 Google Drive
@@ -190,7 +195,7 @@ Grading
 - Assignments should be graded and returned within 1 week of their due date.
 - For assignments not co-graded with the instructor (e.g. memos), the TAs
   should calibrate by grading one submission together. For group-submitted
-  assignments, choose a team from one of the 25% TAs.
+  assignments, choose a team from one of the 25% TAs to co-grade.
 
 Memos
 -----
@@ -249,9 +254,12 @@ generate all of the PDFs successfully*.
 Design Showcase
 ---------------
 
-Each TA will spend about 10 minutes with each of their teams during the design
-showcase. While interacting with the team, a paper rubric tailored for "live"
-grading will be filled out.
+Each TA will be assigned a number of teams to visit with for about 10 minutes
+during the design showcase. While interacting with the team, a paper rubric
+tailored for "live" grading will be filled out. Students should be given
+a rough schedule of when to expect the TA to visit so they can all be present
+during that time. The TA should respect other guests' time with the students
+and not cause the students to disengage with them.
 
 
 Planning
@@ -295,7 +303,8 @@ lead to minimal issues:
 
 It is recommended to get the room(s) booked as soon as possible. This
 corresponds to sending out the form to the students right after the 12th day of
-instruction (last day to add classes).
+instruction (last day to add classes). The earlier this process is started, the
+more likely a nice room will be available.
 
 185B Scheduling
 ---------------
@@ -313,24 +322,27 @@ when classes are scheduled to be there.
 
 One extra concern for Spring quarter scheduling is Memorial Day. A solution is
 to make it clear to students when they sign up for a meeting time that they
-will have to move that week's meeting to Friday that week. This will need to be
-taken into consideration when booking rooms as well.
+will have to move that week's meeting to Friday of the previous week. This will
+need to be taken into consideration when booking rooms as well.
 
 Meijo University Visit
 ----------------------
 
 Students from Meijo University in Japan will be concurrently designing and
 building the same project as two UCD teams. They will visit and sit in on
-design reviews as well as compete during the design showcase.
+design reviews, demonstrate next to the corresponding UCD teams at the design
+showcase, and compete against the UCD teams at some point.
 
 On one of the visit days, the Meijo students and faculty, some (~10) of the
 EME 185 students, the instructors, and some UCD professors will have a catered
-lunch. You can also invite EFL staff to the lunch. Make sure to schedule a room
-for about 50 people that is suitable for this. For catering, we have used
-Panera Bread in the past. You can go in to set up an order and let them know
-that the Meijo professor will come in or call at some point to provide payment
-information. Follow up a day or two before the lunch to make sure payment info
-has been provided, or they won't start making the order on the morning of.
+lunch or dinner. You can also invite EFL staff to the lunch. Make sure to
+schedule a room for about 50 people that is suitable for this. For catering, we
+have used Panera Bread and Village Bakery in the past. You can go in to set up
+an order and let them know that the Meijo professor will come in or call at
+some point to provide payment information. Follow up a day or two beforehand to
+make sure payment info has been provided, or they won't start making the order
+on the morning of. If the visit is during the end of 185B, this event will
+serve as the design competition.
 
 Set up a campus tour for the Meijo students and faculty. Use the `"other" large
 group tour <http://visit.ucdavis.edu/tourreg/groupTours/tourForm.cfm?gid=7>`_
@@ -346,6 +358,23 @@ Professor Abraha ahead of time.
 
 Go to the EFL and ask Mike or Shawn about giving the Meijo students and faculty
 a tour of the shop. Make sure it is not on a day scheduled for EME 50.
+
+Showcase Transportation
+-----------------------
+
+Some teams, especially those with very large projects, will probably need some
+help transporting their physical project to the showcase. Depending on the size
+and number of these projects, you can rent a vehicle to assist the teams in
+getting the projects to and from the design showcase. You should send out an
+announcement asking interested teams to get in touch with you to start
+coordinating how the day will go. In the past, we have reserved a 3/4-ton truck
+from `Fleet Services <http://fleet.ucdavis.edu/>`_. This is a relatively
+painless solution as pick-up and drop-off are on campus, and the attendant at
+the vehicle gate on Hutchison will let through a car with a UC Davis sticker on
+the side -- this allows you to drive directly up to wherever the projects are
+stored. It sounds like this is possible even with a non-UCD vehicle, but you
+should make sure beforehand. Also, note that the little kiosk at this gate
+closes at 5pm, so you may not be able to drive onto campus after that.
 
 
 External Presentation Options
@@ -453,6 +482,8 @@ Week 4
   meeting times.
 - [Lead TA] Book rooms for prelimnary design review.
 - [Instructor] Post the CATME peer evaluation on Friday.
+- [Lead TA] Create a preliminary Meijo visit schedule and send out for
+  feedback.
 
 Week 5
 ^^^^^^
@@ -482,24 +513,38 @@ Week 7
 ^^^^^^
 
 - [Instructor] Meet with Chair to request additional course funding if needed.
-- [] Practice the microcontroller studio lesson.
+- [Instructor or TA] Practice the microcontroller studio lesson.
 - [TA] Invite the sponsors and the EFL staff to the design reviews.
+- [Lead TA] Organize Meijo visit lunch and campus activities.
+- [TA] Organize microcontroller studio tutorial kits.
+- [Lead TA] Invite students to Meijo lunch and cultural activities.
 
 Week 8
 ^^^^^^
 
 - [All] Review grading rubric for preliminary design reviews.
-- [TA] Setup the design review room(s) with a projector and screen. Inform the
+- [TA] Setup the design review room(s) with a projector and screen.
 - [All] Attend the prelminary design reviews and grade.
+- [Instructor or TA] Give microcontroller studio tutorial.
+- [All] Participate in Meijo visit activities.
 
 Week 9
 ^^^^^^
 
+- [Instructor] Announce purchasing tips pages.
+
 Week 10
 ^^^^^^^
 
+- [All TAs] Grade memo 5
+- [All] Hold (and grade) lightning talks in studio session.
+- [Instructor] Hold industry panel at 185A lecture.
+
 Week 11 (finals week)
 ^^^^^^^^^^^^^^^^^^^^^
+
+- [All] Have co-grading meeting for report 2
+- [All] Grade report 2
 
 
 EME 185B
@@ -511,33 +556,73 @@ Week 0 (spring break)
 Week 1
 ^^^^^^
 
+- [Lead TA] Generate lightning talk grade sheets.
+- [Instructor] Distribute lightning talk grade sheets.
+- [All TAs] Create youcanbookme pages.
+- [Lead TA] Create a sign for reserving a table in 2071
+
 Week 2
 ^^^^^^
+
+- [All TAs] Grab bills of materials from report 2 and put on Drive
+- [All TAs] Review Sandia award documents and think about teams that could
+  apply
 
 Week 3
 ^^^^^^
 
+- [Lead TA] Create a poster template
+
 Week 4
 ^^^^^^
+
+- [Lead TA] Start planning Meijo visit activities and send out for feedback.
+- [Lead TA] Start critical design review scheduling.
 
 Week 5
 ^^^^^^
 
+- [Lead TA] Announce poster template along with website info on poster design.
+- [Lead TA] Send out design review scheduling form.
+- [Lead TA] Remind students to sign up for showcase.
+- [Instructor] Remind students of Sandia Design Award
+
 Week 6
 ^^^^^^
+
+- [Lead TA] Finalize design review scheduling.
+- [All] Review CATME results.
 
 Week 7
 ^^^^^^
 
+- [Lead TA] Work on Meijo visit scheduling.
+
 Week 8
 ^^^^^^
+
+- [Instructor] Remind students of showcase poster submission deadline.
+- [Lead TA] Ask students about needing help transporting projects.
 
 Week 9
 ^^^^^^
 
+- [Lead TA] Finalize Meijo visit scheduling.
+- [Lead TA] Reserve appropriate vehicle for showcase transport.
+
 Week 10
 ^^^^^^^
+
+- [All] Participate in Meijo visit activities.
+- [Lead TA] Coordinate competition rules, scoring, etc.
+- [All TAs] Help students get projects to showcase.
+- [All] Showcase!
+- [All] Design competition with Meijo students.
 
 Week 11 (finals week)
 ^^^^^^^^^^^^^^^^^^^^^
 
+- [All TAs] Enter showcase presentation grades.
+- [All] Co-grade a final report.
+- [All] Grade final reports.
+- [All] Hold end-of-course meeting to discuss how the course went.
