@@ -268,6 +268,21 @@ There are several presentations that students will give throughout the course.
 
 **TODO** list and briefly describe each presentation
 
+#. Preliminary design review: Each team presents in front of the instructor and
+   the team TA. Students should share speaking responsibilities approximately
+   equally.
+#. Preliminary design lightning talk: One student from the team gives a quick
+   overview of their project to the students in their studio section. The
+   student should be randomly selected on the spot to make each team member
+   come prepared.
+#. Design showcase poster presentation: TAs circulate to a randomly assigned
+   set of teams and the teams present their project and poster. All team
+   members should be present but it's not completely necessary for them all to
+   present (if, for example, they are talking to a judge or other showcase
+   guest).
+#. Critical design review: Same as the preliminary design review, though now
+   the project is complete (hopefully!).
+
 All instructors will collaboratively grade all of the preliminary design
 lightning talk. For all other presentations, TAs will only grade presentations
 from their own teams.
@@ -661,3 +676,4 @@ Week 11 (finals week)
 - [All] Co-grade a final report.
 - [All] Grade final reports.
 - [All] Hold end-of-course meeting to discuss how the course went.
+- [All] Hold critical design reviews.
