@@ -421,7 +421,8 @@ the vehicle gate on Hutchison will let through a car with a UC Davis sticker on
 the side -- this allows you to drive directly up to wherever the projects are
 stored. It sounds like this is possible even with a non-UCD vehicle, but you
 should make sure beforehand. Also, note that the little kiosk at this gate
-closes at 5pm, so you may not be able to drive onto campus after that.
+closes at 5pm, so you may not be able to drive onto campus after that. The EFL
+has a number of ratcheting tie-down straps you can check out.
 
 
 External Presentation Options
