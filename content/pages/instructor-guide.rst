@@ -189,6 +189,38 @@ issues page`_ to benefit future instantiations of the course.
 .. _Github issues page: https://github.com/moorepants/eme185/issues
 
 
+Instruction
+===========
+
+Aside from the project design and development material, a number of special
+lectures will be interspersed to provide students with material and experiences
+they might not otherwise be exposed to. These are listed below.
+
+Microcontroller Lesson
+----------------------
+
+This is a 2-part lesson, where part 1 takes place around week 7 during the
+lecture section and part 2 is a 2-hour interactive tutorial that takes place
+during studio session either that same week or the next week. Part 1 is meant
+to give the students an overview of what microcontrollers are and provide them
+with some programming practice. It is only a 50-minute session, so it is
+difficult in practice to get through everything necessary to complete
+a reasonable project (like the one walked through in part 2). In part 2,
+a simple circuit implementing a somewhat easily-tuned control loop is walked
+through interactively, with pairs of students sharing microcontroller kit. All
+TAs should attend all of the studio sessions during this week to help out with
+the tutorial, with one TA leading the tutorial.
+
+Industry Panel
+--------------
+
+3D Printing Lesson
+------------------
+
+Human Factors Lecture
+---------------------
+
+
 Grading
 =======
 
