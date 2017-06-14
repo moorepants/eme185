@@ -464,6 +464,9 @@ Week 2
 Week 3
 ^^^^^^
 
+- Show students how to view grading comments on Canvas submitted documents.
+  Canvas provides a walkthrough of this `here
+  <https://community.canvaslms.com/docs/DOC-10542-4212352349>`_.
 - [All TAs] Grade team charters. This can be very course: 0 (didn't do it), 5
   (did it poorly), 10 (did it average or better). Make comments on improving.
 - [All TAs] Read chapter 7, concept generation slides, and concept generation
