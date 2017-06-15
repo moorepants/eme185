@@ -266,8 +266,6 @@ Presentations
 
 There are several presentations that students will give throughout the course.
 
-**TODO** list and briefly describe each presentation
-
 #. Preliminary design review: Each team presents in front of the instructor and
    the team TA. Students should share speaking responsibilities approximately
    equally.
