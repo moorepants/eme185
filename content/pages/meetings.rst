@@ -80,7 +80,7 @@ Spring Quarter
    Go over your accomplishments from the week with the instructors. Be sure to
    bring things to show us, for example photos and videos of the parts you've
    created or the experiments you run and the results of calculations,
-   simulations, and experiments. You job is to teach us about what you've done.
+   simulations, and experiments. You job is to teach us about what you've done. A mini presentation with clear accomplishments, issues and objectives would be ideal.
    These accomplishments should reflect the goals and tasks in your Gantt
    Chart.
 20 minutes
