@@ -529,7 +529,7 @@ Week 4
 - [All TAs] Grade week 4 AIO + participation.
 - [Lead TA] Create a 185B scheduling spreadsheet for teams to sign up for
   meeting times.
-- [Lead TA] Book rooms for prelimnary design review.
+- [Lead TA] Book rooms for preliminary design review.
 - [Instructor] Post the CATME peer evaluation on Friday.
 - [Lead TA] Create a preliminary Meijo visit schedule and send out for
   feedback.
@@ -537,7 +537,7 @@ Week 4
 Week 5
 ^^^^^^
 
-- Create Report 1 assignment (project proposal)
+- Create Report 1 assignment (project proposal) *include a rubric section for standards
 - [All TAs] Grade Memo 4
 - [All TAs] Grade week 5 AIO + participation.
 - [Lead TA] Prototype a control system for the microcontroller studio session
@@ -573,14 +573,15 @@ Week 8
 
 - [All] Review grading rubric for preliminary design reviews.
 - [TA] Setup the design review room(s) with a projector and screen.
-- [All] Attend the prelminary design reviews and grade.
+- [All] Attend the preliminary design reviews and grade.
 - [Instructor or TA] Give microcontroller studio tutorial.
 - [All] Participate in Meijo visit activities.
 
 Week 9
 ^^^^^^
 
-- [Instructor] Announce purchasing tips pages.
+- [Instructor] Announce purchasing tips and technical resources pages.
+- [TA] Create randomized Lightning talk schedule
 
 Week 10
 ^^^^^^^
