@@ -4,7 +4,7 @@ double line returns and are as follows:
 
 1. Extraneous metadata
 2. Table of answers to the per team member rating questions (it has two header lines)
-3. An aggregation table of the daa in part 2
+3. An aggregation table of the data in part 2
 
 The next optional sections are a list of a set of question answers followed by
 a table of the responses to those questions.
@@ -17,7 +17,10 @@ import os
 import argparse
 from io import StringIO
 
+import numpy as np
 import pandas as pd
+from scipy.optimize import curve_fit
+import matplotlib.pyplot as plt
 
 team_id_map = {
     "APB9": "Biodesiel Sclerosis Treatment",
@@ -96,11 +99,89 @@ def load_main_table(table_text):
             cols.append(thing)
     lines[1] = '","'.join(cols)
     text = "\n".join(lines[1:])
-    df = pd.read_csv(StringIO(text))
-    df['Student ID'] = df['Student ID'].str.split('-').str.join('')
+    #dtype = {'Student Name': str,
+             #'Team ID': str,
+             #'Note': str}
+    df = pd.read_csv(StringIO(text)) #, dtype=dtype)
+    # may have been needed in previous pandas versions
+    #df['Student ID'] = df['Student ID'].str.split('-').str.join('')
     df.index = df['Student ID']
 
     return df
+
+
+def merge_adjustment_factor(*dataframes, with_self=True):
+    """Returns a data frame with student id as the index and the peer
+    evaluation instances as the columns. The entry is the adjustment factor
+    value. A numerical value is also computed in the column 'Improvement' that
+    shows whether they were ranked higher or lower as time progressed."""
+
+    if with_self:
+        col = 'Adj Factor (w/ Self)'
+    else:
+        col = 'Adj Factor (w/o Self)'
+
+    data = {}
+
+    for i, df in enumerate(dataframes):
+        data['P{}'.format(i + 1)] = df[col]
+
+    data['Student Name'] = df['Student Name']
+
+    data = pd.DataFrame(data)
+
+    # calculate a slope value, improvement metric, that characterizes whether
+    # the students' ranking improved over time or didn't, positive values are
+    # improvements and negative means the got rated worse over time
+
+    x_vals = range(4)
+    slopes = []
+    means = []
+    stds = []
+    adjusted_scores = []
+
+    for idx, row in data.iterrows():
+        y_vals = row[['P1', 'P2', 'P3', 'P4']].values.astype(float)
+
+        # Weight the latter reviews more than the earlier reviews.
+        mean = np.average(y_vals, weights=[0.85, 0.90, 0.95, 1.0])
+
+        # Calculate a "slope" val that indicates how little or how much
+        # improvement there was.
+        opt, _ = curve_fit(lambda x, slope, intercept: slope * x + intercept,
+                           x_vals, y_vals)
+        improvement = opt[0]
+
+        # If the student was rated low but improved over time, bump their
+        # factor up based on the improvement. Also, don't allow any factor's
+        # lower than 0.80.
+        if mean < 0.95 and improvement > 0.0:
+            adjusted_score = mean + 1.5 * improvement
+        else:
+            adjusted_score = max([0.80, mean])
+
+        means.append(mean)
+        stds.append(y_vals.std())
+        slopes.append(improvement)
+        adjusted_scores.append(adjusted_score)
+
+    data['Improvement'] = slopes
+    data['Mean Adj Factor'] = means
+    data['STD Adj Factor'] = stds
+    data['Final Adj Factor'] = adjusted_scores
+
+    return data
+
+
+def plot_student_adj(df, with_self=True):
+    fig, axes = plt.subplots(3, sharex=True)
+    df = df.sort_values('Final Adj Factor')
+    df.plot(x='Student Name', y='Mean Adj Factor', kind='bar',
+            yerr='STD Adj Factor', ylim=(0.6, 1.1), ax=axes[0])
+    df.plot(x='Student Name', y='Improvement', kind='bar', ax=axes[1])
+    df.plot(x='Student Name', y='Final Adj Factor', kind='bar',
+            ylim=(0.75, 1.1), ax=axes[2])
+    return axes
 
 
 def load_catme_data_sections(path_to_file):
@@ -111,6 +192,13 @@ def load_catme_data_sections(path_to_file):
     sections = text.split('\n\n')
 
     return sections
+
+
+def parse_catme_text(text_sections):
+
+    metadata = pd.read_csv(StringIO(text_sections[0])).to_dict('records')[0]
+
+    return
 
 
 def create_team_factor(df):
@@ -125,34 +213,68 @@ def create_team_factor(df):
     return df
 
 
+def parse_conflict_text(question_map_text, score_text):
+
+    # need to remove the first line because it is an extraneous header
+    df = pd.read_csv(StringIO('\n'.join(score_text.split('\n')[1:])))
+
+    # remove stats columns
+    df = df.select(lambda x: not (x.startswith('Mn') or x.startswith('SD')),
+                   axis=1)
+    # remove rows with summary stats
+    df = df[df['Student Name'] != 'Team Stats']
+
+    # transform to long format
+    long_df = pd.melt(df, id_vars=['Student ID', 'Student Name', 'Team ID'],
+                      value_vars=['R1', 'R2', 'R3', 'T1', 'T2', 'T3', 'P1',
+                                  'P2', 'P3'])
+
+    long_df.index = long_df['Student ID'].astype(int)
+    del long_df['Student ID']
+
+    long_df = long_df.rename(columns={'variable': 'Question ID',
+                                      "value": 'Score'})
+
+    question_map = {}
+
+    for line in question_map_text.split('\n')[1:]:
+        code, question = line.split(',')
+        question_map[code[1:-1]] = question.split(' (')[0][1:]
+
+    long_df['Question'] = long_df['Question ID']
+
+    long_df.replace({'Question': question_map}, inplace=True)
+
+    return long_df
+
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser()
-    parser.add_argument('file')
-    args = parser.parse_args()
-
-    path = '/home/moorepants/Teaching/eme185'
-
-    file1 = 'Moore-EME_185A_Peer_Evaluation-EME_185-Winter_2016.csv'
-    file2 = 'Moore-Final_Peer_Evaluation-EME_185-Winter_2016.csv'
-    file3 = 'Moore-Spring_Midterm_Peer_Evaluation-EME_185-Winter_2016.csv'
-
-    sections1 = load_catme_data_sections(os.path.join(path, file1))
-    sections2 = load_catme_data_sections(os.path.join(path, file2))
-    sections3 = load_catme_data_sections(os.path.join(path, file3))
-
-    df1 = load_main_table(sections1[1])
-    df2 = load_main_table(sections2[1])
-    df3 = load_main_table(sections3[1])
-
-    df1 = create_team_factor(df1)
-    df2 = create_team_factor(df2)
-    df3 = create_team_factor(df3)
-
-    df = df3[['Student Name', 'Student ID', 'Team Factor']].copy()
-    df['Team Factor'] = (df1['Team Factor'] + df2['Team Factor'] + df3['Team Factor']) / 3
-
-    df[['Student ID', 'Team Factor']].to_csv('team_factor.csv')
+    #parser = argparse.ArgumentParser()
+    #parser.add_argument('file')
+    #args = parser.parse_args()
+#
+    #path = '/home/moorepants/Teaching/eme185'
+#
+    #file1 = 'Moore-EME_185A_Peer_Evaluation-EME_185-Winter_2016.csv'
+    #file2 = 'Moore-Final_Peer_Evaluation-EME_185-Winter_2016.csv'
+    #file3 = 'Moore-Spring_Midterm_Peer_Evaluation-EME_185-Winter_2016.csv'
+#
+    #sections1 = load_catme_data_sections(os.path.join(path, file1))
+    #sections2 = load_catme_data_sections(os.path.join(path, file2))
+    #sections3 = load_catme_data_sections(os.path.join(path, file3))
+#
+    #df1 = load_main_table(sections1[1])
+    #df2 = load_main_table(sections2[1])
+    #df3 = load_main_table(sections3[1])
+#
+    #df1 = create_team_factor(df1)
+    #df2 = create_team_factor(df2)
+    #df3 = create_team_factor(df3)
+#
+    #df = df3[['Student Name', 'Student ID', 'Team Factor']].copy()
+    #df['Team Factor'] = (df1['Team Factor'] + df2['Team Factor'] + df3['Team Factor']) / 3
+#
+    #df[['Student ID', 'Team Factor']].to_csv('team_factor.csv')
 
     # Parse extra questions
     #q_map = question_map(sections[3])
@@ -166,3 +288,16 @@ if __name__ == "__main__":
     #q_map = question_map(sections[7])
     #satis_df = parse_answer_section(sections[8], q_map)
     #print_sorted(satis_df, False)
+
+    path = '/home/moorepants/Drive/EME185/2017/peer-evaluations/Moore-Peer_Evaluation_{}-EME_185-Winter_2017.csv'
+    dfs = []
+    conflict_dfs = []
+
+    for i in range(4):
+        sections = load_catme_data_sections(path.format(i + 1))
+        dfs.append(load_main_table(sections[1]))
+        conflict_dfs.append(parse_conflict_text(sections[3], sections[4]))
+
+    adj_fact_df = merge_adjustment_factor(*dfs)
+
+    plot_student_adj(adj_fact_df)
