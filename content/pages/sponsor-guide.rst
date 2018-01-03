@@ -26,7 +26,7 @@ tangible outcome.
 How It Works
 ============
 
-The course starts on January 10th, 2017 and ends on June 15th, 2017 with spring
+The course starts on January 9th, 2018 and ends on June 14th, 2018 with spring
 break at the midpoint between two eleven week quarters. The students spend the
 first half learning about the design process, researching, gathering, and
 synthesizing information, testing ideas, developing initial designs, and
@@ -44,8 +44,8 @@ to redefine the scope either to ensure that it is feasible, to best highlight
 our students' skills, or to ensure that it aligns well with the flow of the
 course. Once the project is well defined and the class starts, I will match
 projects with student teams based on their skills and preferences during the
-first week of class. Note that we currently have 33 proposals and will only be
-able to match 27 of the projects due to the current course enrollment. It is
+first week of class. Note that we currently have 26 proposals and will only be
+able to match 22 of the projects due to the current course enrollment. It is
 possible your project will not be matched to a group.
 
 The Client's Role
@@ -65,7 +65,8 @@ interact with the students, the higher likelihood of a solution that meets
 and/or exceeds your expectations. We will work to make sure that the students
 in turn will give their best effort to deliver a working design and/or
 prototype, communicate effectively with you about their process, and be
-respectful of your time.
+respectful of your time. If your schedule permits, you may also join the
+weekly meetings the students have with the instructors.
 
 The Instructors' Roles
 ======================
@@ -134,7 +135,7 @@ periodic invitations to these events.
 
 .. _`College of Engineering Design Showcase`: http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase/
 
-Above all, communication is the key to a successful design experience.  If you
+Above all, communication is the key to a successful design experience. If you
 have any questions or concerns you are welcome to contact me at any time.
 
 
