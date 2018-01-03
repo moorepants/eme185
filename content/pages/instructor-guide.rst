@@ -537,7 +537,7 @@ Week 4
 Week 5
 ^^^^^^
 
-- Create Report 1 assignment (project proposal) *include a rubric section for standards
+- Create Report 1 assignment (project proposal) *include a rubric section for standards*
 - [All TAs] Grade Memo 4
 - [All TAs] Grade week 5 AIO + participation.
 - [Lead TA] Prototype a control system for the microcontroller studio session
