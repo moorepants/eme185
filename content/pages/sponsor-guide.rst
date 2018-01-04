@@ -12,7 +12,8 @@ expect in the relationships with the student team, the instructors, and the
 department. This is a long email, but please read carefully so that we are all
 on the same page. If you are not comfortable with what is presented below it is
 OK not to participate from here on forward. If you need clarification before
-proceeding just let me know.
+proceeding just let me know. I will need to know if you do not want to
+participate by Monday, January 8th.
 
 The primary educational goal of this course is for the students to demonstrate
 their ability to realize a viable mechanical design based on a given client's
@@ -77,8 +78,9 @@ will work with the students to define the scope of the project and to set
 deliverables for periodic review. This process works best when early focus is
 on the client need, so that students do not go into the project with a
 preconceived solution in mind. In fact, they are encouraged to consider
-multiple possible solution strategies before settling on one to implement. Your
-support of this process is encouraged.
+multiple possible solution strategies before settling on one to implement. We
+generally follow the design process described in Product Design and Development
+by Ulrich, K.T. and Eppinger, S.D. Your support of this process is encouraged.
 
 Expectations of the Students
 ============================
