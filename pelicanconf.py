@@ -22,8 +22,8 @@ STATIC_PATHS = ['images', 'docs']
 # NOTE: The order here is important. The last item is the first to be searched
 # it seems.
 PLUGIN_PATHS = [join(expanduser("~"), 'src', 'pelican-plugins'),
-                "pelican-plugins/plugins",  # for travis-ci
-                "plugins"]
+                'pelican-plugins',  # for travis-ci
+                'plugins']
 PLUGINS = ['neighbors', 'render_math', 'headerid', 'jinja2content']
 
 # headerid options
