@@ -8,7 +8,6 @@ env:
 install:
   - pip install pelican doctr
   - git clone https://github.com/getpelican/pelican-plugins.git
-before-script:
   - ls
 script:
   - set -e
