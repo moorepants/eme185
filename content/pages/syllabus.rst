@@ -115,7 +115,8 @@ Student Outcomes for the Mechanical Engineering and Aeronautical Science and
 Engineering Programs:
 
 a. an ability to apply knowledge of mathematics, science, and engineering
-c. an ability to design a system , component, or process to meet desired needs
+
+c. an ability to design a system, component, or process to meet desired needs
    within realistic constraints such as economic, environmental, social,
    political, ethical, health and safety, manufacturability, and sustainability
 d. an ability to function on multidisciplinary teams
