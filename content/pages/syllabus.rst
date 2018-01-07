@@ -9,10 +9,10 @@ Course Description
 | University of California, Davis
 | Department of Mechanical and Aerospace Engineering
 | Mechanical Design - EME 185A/B
-| Winter 2017, Lecture: T 3:10-4:00PM, Studio: A02 W 3:10-6:00PM, A03 R 3:10-6:00PM
-| CRN: A02 22399, A03 22400
-| Spring 2017
-| CRN: 70981, 70982, 70983, 70984, 70985, 70986
+| Winter 2018, Lecture: T 3:10PM-4:00PM, Studio: A02 F 10:00AM-12:50PM, A03 R 3:10PM-6:00PM
+| CRN: A02 52633, A03 52634
+| Spring 2018
+| CRN: TBA
 | `Catalog Entry`_
 
 .. _Catalog Entry: http://catalog.ucdavis.edu/programs/EME/EMEcourses.html
@@ -72,15 +72,15 @@ corporate sponsor accepting this responsibility.
 Instructors' Role & Responsibility
 ----------------------------------
 
-Your instructors mentor have two primary responsibilities. First, they will
-serve as an engineering consultant to the design project teams. In this
-capacity, they expect to be kept informed of your project progress, have
-discussions about design concepts and problems, point out appropriate reference
-materials, suggest analysis methods, etc. They will not make engineering
-decisions that they feel are rightly the responsibility of the design project
-engineers, and they will generally play the role of devil's advocate in your
-decision making process. Every student should keep in mind that the best time
-to use your consultant is before your problem becomes unmanageable.
+Your instructors have two primary responsibilities. First, they will serve as
+an engineering consultant to the design project teams. In this capacity, they
+expect to be kept informed of your project progress, have discussions about
+design concepts and problems, point out appropriate reference materials,
+suggest analysis methods, etc. They will not make engineering decisions that
+they feel are rightly the responsibility of the design project engineers, and
+they will generally play the role of devil's advocate in your decision making
+process. Every student should keep in mind that the best time to use your
+consultant is before your problem becomes unmanageable.
 
 Your instructors' second responsibility is to evaluate your performance and
 your design solution to the project. This is done by periodic review of your
@@ -89,55 +89,46 @@ Final Design Project Report at the end of the second quarter. It should be
 noted that each project's sponsor will provide feedback that may contribute to
 final grading as well.
 
-Objectives
-----------
+Course Objectives
+-----------------
 
-To study and experience the engineering design process using all of the tools
-developed throughout the curriculum through an industrial-type design project.
+After completing the course, students will provide a mechanical design solution
+to an arbitrary external client that meets their needs under set of real
+constraints. To do this, students will have to utilize much of the knowledge,
+skills, and tools they have learned throughout the curriculum in addition to
+new knowledge, skills, and tools developed during the class. To meet the
+primary objective, students will also be able to:
 
-Course Learning Outcomes
-~~~~~~~~~~~~~~~~~~~~~~~~
+- identify the needs of an arbitrary client and translate those into
+  engineering specifications
+- utilize a variety of techniques to generate and select appropriate designs
+- justify design decisions with analysis, simulation, and/or physical testing
+  and experimentation
+- plan, organize, and schedule activities to meet team milestones and goals
+- collaboratively write technical memos and reports that effectively
+  communicate engineering work to a variety of audiences
+- collaboratively develop and present technical materials via small meetings
+  and formal public and private presentations
 
-Students will be able to:
+These objectives will simultaneously satisfy the following ABET  Educational
+Student Outcomes for the Mechanical Engineering and Aeronautical Science and
+Engineering Programs:
 
-1. work comfortably and competently with mathematics, science, and basic
-   engineering principles,
-2. design and conduct experiments as well as collect, analyze and interpret
-   data,
-3. design an engineering system, component, or process to meet prescribed needs
-   and constraints,
-4. work comfortably on multi-disciplinary teams,
-5. identify, formulate and solve engineering problems,
-6. understand professional and ethical responsibility,
-7. communicate effectively,
-8. understand the impact of engineering solutions in a global, economic,
-   environmental, and societal context,
-9. stay abreast of contemporary issues, and
-10. use the techniques, skills, and modern engineering tools necessary for
-    engineering practice.
-
-ABET Educational Student Outcomes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This course addresses the following Educational Outcomes for the Mechanical
-Engineering and Aeronautical Science and Engineering Programs::
-
-   a. an ability to apply knowledge of mathematics, science, and engineering
-   c. an ability to design a system , component, or process to meet desired
-      needs within realistic constraints such as economic, environmental,
-      social, political, ethical, health and safety, manufacturability, and
-      sustainability
-   d. an ability to function on multidisciplinary teams
-   e. an ability to identify, formulate, and solve engineering problems
-   f. an understanding of professional and ethical responsibility
-   g. an ability to communicate effectively
-   h. the broad education necessary to understand the impact of engineering
-      solutions in a global, economic, environmental, and societal context
-   i. a recognition of the need for, and an ability to engage in life-long
-      learning
-   j. a knowledge of contemporary issues
-   k. an ability to use the techniques, skills, and modern engineering tools
-      necessary for engineering practice.
+a. an ability to apply knowledge of mathematics, science, and engineering
+c. an ability to design a system , component, or process to meet desired needs
+   within realistic constraints such as economic, environmental, social,
+   political, ethical, health and safety, manufacturability, and sustainability
+d. an ability to function on multidisciplinary teams
+e. an ability to identify, formulate, and solve engineering problems
+f. an understanding of professional and ethical responsibility
+g. an ability to communicate effectively
+h. the broad education necessary to understand the impact of engineering
+   solutions in a global, economic, environmental, and societal context
+i. a recognition of the need for, and an ability to engage in life-long
+   learning
+j. a knowledge of contemporary issues
+k. an ability to use the techniques, skills, and modern engineering tools
+   necessary for engineering practice.
 
 Prerequites
 -----------
@@ -146,12 +137,17 @@ You must have Senior standing in EMEC and a C- or better in the following
 classes:
 
 - EME 150A
-- EME 165 (may be taken concurrently)
+- EME 165 (may be taken concurrently _[1])
 
 It is recommended to have taken:
 
-- Communications 1 or 3
+- ENG 003, CMN 001, or CMN 003
 - Upper division composition
+
+.. [1] Note that EME 165 is only offered in the Fall and Spring. The
+       instructor's generally approve any petition to waive EME 165 as a
+       co-requisite as long as the student does not select a project in EME 185
+       that requires a background in thermal related engineering to succeed.
 
 Instructors
 ===========
@@ -159,36 +155,39 @@ Instructors
 +--------------------------------+-----------------------------+
 | Instructors                    | Teaching Assistants         |
 +================================+=============================+
-| | Steve A. Velinsky            | | Stephanie Fung            |
+| | Steve A. Velinsky            | | TBA                       |
 | | *A01 Primary Instructor*     | | *A01*                     |
-| | savelinsky@ucdavis.edu       | | stfung@ucdavis.edu        |
+| | savelinsky@ucdavis.edu       | | TBA                       |
 +--------------------------------+-----------------------------+
-| | Jason K. Moore               | | Kenneth Lyons             |
+| | Jason K. Moore               | | Naveen Gowrishankar       |
 | | *A02/A03 Primary Instructor* | | *A02/A03*                 |
-| | 2095 Bainer Hall             | | krlyons@ucdavis.edu       |
+| | 2095 Bainer Hall             | | ngowrishankar@ucdavis.edu |
 | | 530-752-4805                 |                             |
 | | jkm@ucdavis.edu              |                             |
 +--------------------------------+-----------------------------+
-|                                | | Naveen Gowrishankar       |
+|                                | | Ian Garretson             |
 |                                | | *A02/A03*                 |
-|                                | | ngowrishankar@ucdavis.edu |
+|                                | | icgarretson@ucdavis.edu   |
 +--------------------------------+-----------------------------+
-|                                | | Gang Chen                 |
+|                                | | Scott Kresie              |
 |                                | | *A02/A03*                 |
-|                                | | ggchen@ucdavis.edu        |
+|                                | | swkresie@ucdavis.edu      |
 +--------------------------------+-----------------------------+
 
 Time and Location
 =================
 
-The winter lecture meets on Tuesdays from 3:10 to 4:00 PM in Storer 1322. The
-A02 studio sections will meet on Wednesday from 3:10 to 6:00 PM the A03 studio
-sections will meet on Thursday from 3:10 to 6:00 PM, both in Bainer 2071.
+The winter lecture meets on Tuesdays from 3:10 to 4:00 PM in `Medical Science
+C`_ 180. The A02 studio sections will meet on Friday from 10:00 AM to 12:50 PM
+and the A03 studio sections will meet on Thursday from 3:10 to 6:00 PM, both in
+the MAE Design Studio (Bainer 2071).
 
 The spring meetings will be scheduled during the winter quarter.
 
 **If you have any conflicts with the schedule you must tell me by email in the
 first week of class (emergencies will be the only exception).**
+
+.. _Medical Science C: http://campusmap.ucdavis.edu/?b=102
 
 Office Hours
 ============
@@ -251,12 +250,12 @@ goes with this book. There are a lot of useful materials available.
 Assignments & Grades
 ====================
 
-You will receive a single grade for EME185A and EME185B (total of 8 units) that
-will be reported to you via the registrar at the end of the spring quarter.
-After the winter quarter your grade will show as "IP" until the end of the
-spring quarter. All of the work in this class is graded per group, with each
-team member receiving the same grade as the group. Your peer evaluations may
-affect you individual grade.
+You will receive a **single grade** for EME185A and EME185B (total of 8 units)
+that will be reported to you via the registrar at the end of the spring
+quarter.  After the winter quarter your grade will show as "IP" until the end
+of the spring quarter. All of the work in this class is graded per group, with
+each team member receiving the same grade as the group but your peer
+evaluations will affect you individual grade.
 
 Grades will be available in the canvas.ucdavis.edu_ grade book periodically
 throughout the course along with class statistics. Check the website on a
@@ -315,7 +314,7 @@ Project Success
    the group completes their goals.
 Peer Evaluation
    You will evaluate your teammates' work on the project multiple times in the
-   coure and this evaluation may modify your grade up or down relative to the
+   course and this evaluation may modify your grade up or down relative to the
    group score.
 
 .. _Memos: {filename}/pages/memos.rst
@@ -327,7 +326,7 @@ Canvas
 ======
 
 We will make use of Canvas for the course. Log in to canvas.ucdavis.edu_ with
-your Kerberos ID and passphrase then select **EME 185A A02 WQ 2017**.
+your Kerberos ID and passphrase then select **EME 185A A02 WQ 2018**.
 
 We will be using several features in Canvas:
 
