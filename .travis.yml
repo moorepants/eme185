@@ -5,8 +5,10 @@ env:
   global:
     # Doctr deploy key for moorepants/eme185
     - secure: "bvp2xMZKQIIkK1VxGdNJvvJHGrdldus/S/ZwnJLCLXzFjmFc52AISrQEchk9MeGUystOoSEcXtfNjnPO/QBdtIHSngTXuC1ujMM/4Zp4hVARpUejMkVc3jdJN8qawQw7Vc+YPv2Zwccf0oKdjRVdwRLu6azAm6kvuo+oA6dXk9A7EUroiCz2yemmKkzYNujmnW41OKosBvGgxvFMNRlC8qnSqNRexVzQLVBgnQrB6/6JilIEIRQBoMh6J5gAJG2ssh3MEj1XPrRtEWKsCy4xF88OiAaEQvH/qzmVrVh0PoiYOekjt8dS5zIj8nkYZHNL3KJYZbx8pGowNyQy/DqMgTQEwO27MyOr15PtrHH9qaejmtgXEA5vAPco7GyCgo6bPIhPeqSEWMbhbTZgKCdYMR71stjAKZyW3N+AcMIYyKUzmrFdTOgArcCA94Etg83crrs6MQjkpAMus7G/PfNygFDoekoEPAeJp0gyHjdZzdBVxiIKZ9/q5LW6C8mU7bL667lm6xigwQLdY01UDrnuAH5UKfOOXbVzT5XQeuFqMDJ1OlsuiDzMzKc3QDBgN5F+LEi50rRm/rjA67q/h3/lh18bM+qAMbwzWmm+gvKTQCfR+EVnrElwGvrRvv29DsY+uCFL4yuXa2hsqzrX7Oycoc6dn/CFlYT4jwSmYVCO6gU="
+install:
+  - pip install pelican doctr
+  - git clone git@github.com:getpelican/pelican-plugins.git ~/src/pelican-plugins
 script:
   - set -e
   - pelican -s publishconf.py
-  - pip install doctr
   - doctr deploy --built-docs output/ .
