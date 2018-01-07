@@ -137,7 +137,7 @@ You must have Senior standing in EMEC and a C- or better in the following
 classes:
 
 - EME 150A
-- EME 165 (may be taken concurrently _[1])
+- EME 165 (may be taken concurrently [1]_)
 
 It is recommended to have taken:
 
@@ -145,9 +145,9 @@ It is recommended to have taken:
 - Upper division composition
 
 .. [1] Note that EME 165 is only offered in the Fall and Spring. The
-       instructor's generally approve any petition to waive EME 165 as a
-       co-requisite as long as the student does not select a project in EME 185
-       that requires a background in thermal related engineering to succeed.
+   instructors generally approve any petition to waive EME 165 as a
+   co-requisite as long as the student does not select a project in EME 185
+   that requires a background in thermal related engineering to succeed.
 
 Instructors
 ===========
@@ -195,13 +195,12 @@ Office Hours
 Instructor Office Hours
 -----------------------
 
-Jason's winter office hours are Tuesdays and Wednesdays from 10:00am-12:00pm in
-Bainer 2095. His spring office hours are Wednesdays and Thursdays from
-11:00am-1:00pm. **For Jason's office hours, book a time slot for your team at
-least 12 hours in advance via:** http://moorepants.youcanbook.me. [#]_ If you
-can't make the regular scheduled office hours, check Jason's `work calendar`_
-for an open time slot between 8AM and 6:30PM on weekdays and email him with a
-request for a meeting.
+Jason's winter office hours are TBA in Bainer 2095. His spring office hours are
+TBA. **For Jason's office hours, book a time slot for your team at least 12
+hours in advance via:** http://moorepants.youcanbook.me. [#]_ If you can't make
+the regular scheduled office hours, check Jason's `work calendar`_ for an open
+time slot between 8AM and 6:30PM on weekdays and email him with a request for a
+meeting.
 
 .. _work calendar: http://www.moorepants.info/work-calendar.html
 
@@ -216,9 +215,9 @@ booked via YouCanBook.me:
 =================== =================== ==============================
 TA                  Office              Link
 =================== =================== ==============================
-Kenneth Lyons       Academic Surge 2334 https://ixjlyons.youcanbook.me
 Naveen Gowrishankar Academic Surge 2328 https://nav-go.youcanbook.me
-Gang Chen           Academic Surge 2328 https://gang.youcanbook.me
+Ian Garreston       TBA                 TBA
+Scott Kresie        TBA                 TBA
 =================== =================== ==============================
 
 Academic Integrity
