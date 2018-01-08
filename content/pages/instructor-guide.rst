@@ -618,7 +618,8 @@ Week 11 (finals week)
 
 - [All] Have co-grading meeting for report 2
 - [All] Grade report 2
-
+- [Lead TA] Send feedback form to clients to see how they feel things are
+  going.
 
 EME 185B
 --------
