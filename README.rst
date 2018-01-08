@@ -1,8 +1,19 @@
 Here lie the source files for the UCD Mechanical Engineering senior capstone
 design course that is organized by Jason K. Moore.
 
-Build Instructions
-==================
+Editing On Github
+=================
+
+Navigate to the ``.rst`` file you want to change in the ``content`` directory
+and press the pencil to edit the file. The formatting should follow the rules
+of restructuredText (`example guide
+<http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_). Once, done
+submit a pull request and wait to see if the page properly builds. If it
+builds, then merge the pull request. If it fail, then edit the files in the
+pull request to fix the errors and try again.
+
+Local Build Instructions
+========================
 
 Install miniconda_, add the Conda Forge channel, and create an environment for
 Pelican sites::
@@ -19,10 +30,6 @@ Clone the plugin repository::
 Rebuild and serve the site locally::
 
    (pelican)$ fab reserve
-
-Push the site to Github pages::
-
-   (pelican)$ fab gh_pages
 
 .. _miniconda: http://conda.pydata.org/miniconda.html
 
