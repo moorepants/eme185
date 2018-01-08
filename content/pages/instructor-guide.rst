@@ -492,6 +492,7 @@ introduction.
 - [Instructor] Update the course website and schedule.
 - [Instructor] Setup the Canvas website.
 - [Instructor] Invite EFL staff to present during one of the lectures.
+- [Instructor] Invite Design Showcase Coordinator to visit a lecture.
 - [Lead TA] Copy over previous Canvas content to the new site. See this `guide
   <https://community.canvaslms.com/docs/DOC-13035-4152239683>`_
 
