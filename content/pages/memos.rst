@@ -39,8 +39,8 @@ content.
 .. [#] I recommend collaborative editors for team work like Google Docs,
    ShareLaTeX, OverLeaf, SageMathCloud, Etherpad, etc.
 
-Memo 1: Project Selection [Due: Friday, January 13, 2017]
-=========================================================
+Memo 1: Project Selection [Due: {{ DUE_DATES['mem_01'].strftime('%A, %b %-d, %Y') }}]
+===================================================================================================
 
 This "memo" will be in the form of a CATME Team Maker Survey and your résumé.
 You will receive a notice via email for CATME and will need to fill out the
@@ -68,8 +68,8 @@ switch from attending Wednesday to attending Thursday or vice versa, then you
 will have a larger chance of getting the project you want. Please indicate this
 in the survey.
 
-Memo 2: Team Charter [Due: Friday, January 20, 2017]
-====================================================
+Memo 2: Team Charter [Due: {{ DUE_DATES['mem_02'].strftime('%A, %b %-d, %Y') }}]
+===================================================================================================
 
 A team charter is a document that specifies your team's purpose and the
 organizational principles you will use to fulfill that purpose. Generating
@@ -85,8 +85,8 @@ responsibilities change throughout the project.
 With your group members, select a company name and write a 1-page charter
 following this `team charter template <{filename}/pages/team-charter.rst>`_.
 
-Memo 3: Needs and Specs [Due: Friday, January 27, 2017]
-=======================================================
+Memo 3: Needs and Specs [Due: {{ DUE_DATES['mem_03'].strftime('%A, %b %-d, %Y') }}]
+===================================================================================================
 
 The purpose of this memo is to summarize what you have learned from the
 stakeholders in your project, in particular your sponsors' needs and desired
@@ -112,8 +112,8 @@ Other items to include:
 - The organized target specifications (appendices).
 - Reflections on the process and the results.
 
-Memo 4: Concept Generation [Due: Friday, February 3, 2017]
-==========================================================
+Memo 4: Concept Generation [Due: {{ DUE_DATES['mem_04'].strftime('%A, %b %-d, %Y') }}]
+===================================================================================================
 
 The purpose of this memo is to summarize your initial exploration of external
 and internal concepts. Using the needs and specifications that you developed in
@@ -149,8 +149,8 @@ Suggestions of what to include:
   classification trees, combination tables, etc.)
 - Reflection on the process and the results.
 
-Memo 5: Preliminary Analysis [Due: Friday, Feburary 17, 2017]
-=============================================================
+Memo 5: Preliminary Analysis [Due: {{ DUE_DATES['mem_05'].strftime('%A, %b %-d, %Y') }}]
+===================================================================================================
 
 To select your final design concept, you will need to determine if the
 different concepts meet your target specifications. This typically requires
@@ -175,7 +175,7 @@ Suggestions of what to include:
 
 .. _back-of-the-envelope: https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation
 
-Memo 6: Concept Selection [Due: Friday, March 10, 2017]
+Memo 6: Concept Selection [Due: TBA]
 =======================================================
 
 The purpose of this memo is to show that you have narrowed down your concepts

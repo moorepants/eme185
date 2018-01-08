@@ -3,17 +3,15 @@
 
 .. contents:: Table of Contents
 
-Preliminary Design Review
-=========================
-
-Preliminary Design Reviews will be held the week of February 27th.
+Preliminary Design Review [{{ DUE_DATES['pre_01'].strftime('%b %-d, %Y') }}]
+===================================================================================================
 
 Your team will be scheduled for a 50 minute preliminary design review during
-the eighth week of the winter quarter. The first 5 minutes will be for setup
+the ninth week of the winter quarter. The first 5 minutes will be for setup
 followed by your 25 minute presentation. This will be followed by 20 minutes
 for the review questions and discussion. The primary purpose of this review is
 for your team to justify your concept selection and design decisions through
-technical details and analysis. We are not concerned with the path to the
+technical details and analysis. We are not as concerned with the path to the
 final design (i.e., initial concepts, etc.) but what the final concept is and
 why you feel confident it will work. The intent of critical design reviews is
 to insure that the proper methods are being used in analyses and that the
@@ -36,10 +34,10 @@ Suggestions of what to include:
 - A schedule and financial plan to execute your design.
 
 **You will need to submit your presentation materials as a PDF to Canvas by
-midnight Friday, March 3rd.**
+Friday of that week.**
 
-Preliminary Design Lightning Talk
-=================================
+Preliminary Design Lightning Talk [{{ DUE_DATES['pre_02'].strftime('%b %-d, %Y') }}]
+===================================================================================================
 
 During the last studio section your team will present their work and
 preliminary design to the entire class, the instructors, and any project
@@ -55,27 +53,30 @@ practice for a high level presentation in industry (for example, to high level
 executives). All students are required to attend this session.
 
 **You will need to submit your presentation materials as a PDF to Canvas by
-midnight Friday, March 17th.**
+Friday of that week.**
 
-Engineering Design Showcase Poster Presentation
-===============================================
+Engineering Design Showcase Poster Presentation [{{ DUE_DATES['pre_03'].strftime('%b %-d, %Y') }}]
+===================================================================================================
 
-Your team will be required to present your work at the Engineering Design
-Showcase at the ARC Pavilion on Thursday June 8th from 2-4 pm. You need to
-`register for the showcase`_ by {{ SHOWCASE_REG_DATE }}. Each team will develop
-a poster that showcases and explains your project which must be submitted to
-both Canvas and to Alin Wakefield for printing by {{ POSTER_DUE_DATE }}. If you
-don't turn it in on time you will jeopardize having the $75+ cost of printing
-covered for you. You are also welcome and encouraged to bring any prototype
-that you have constructed or videos and other media that will explain your
-project. Any special accommodations for your prototype (size, power, etc) or
-presentation must be coordinated with Alin Wakefield at registration. At least
-one member of the team must be present at the poster at all times from 2-4 pm
-and all team members must attend the event. Your team's poster will be visited
-by one or more industry judges who will score your poster. You should were
-business attire. Your TA will visit your poster for approximately 10 minutes,
-interact with you,and will grade your poster presentation for the class.
+Your team will be required to present your work at the `Engineering Design
+Showcase`_ at the ARC Pavilion on {{ DUE_DATES['show'].strftime('%A %b %-d,
+%Y') }} from 2-4 pm. You need to `register for the showcase`_ by {{
+DUE_DATES['show_reg'].strftime('%A %b %-d, %Y') }}. Each team will develop a
+poster that showcases and explains your project which must be submitted to both
+Canvas and to the Dean's office for printing by {{
+DUE_DATES['pre_03'].strftime('%A %b %-d, %Y') }}. If you don't turn it in on
+time you will jeopardize having the $75+ cost of printing covered for you. You
+are also welcome and encouraged to bring any prototype that you have
+constructed or videos and other media that will explain your project. Any
+special accommodations for your prototype (size, power, etc) or presentation
+must be coordinated with the Dean's office at registration. At least one member
+of the team must be present at the poster at all times from 2-4 pm and all team
+members must attend the event. Your team's poster will be visited by one or
+more industry judges who will score your poster. You should were business
+attire. Your TA will visit your poster for approximately 10 minutes, interact
+with you,and will grade your poster presentation for the class.
 
+.. _Engineering Design Showcase: http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase/
 .. _register for the showcase: {{ SHOWCASE_REG_URL }}
 
 Content Suggestions
@@ -184,14 +185,14 @@ and quality product.
    instructors after the showcase and it will be displayed in Bainer Hall the
    following year.
 
-Critical Design Review
-======================
+Critical Design Review [{{ DUE_DATES['pre_04'].strftime('%b %-d, %Y') }}]
+===================================================================================================
 
-Critical Design Reviews will be held on Monday, Tuesday, and Wednesday June
-12th, 13th, and 14th. Your team will be scheduled for a 50 minute critical
-design review during finals week of spring quarter. The first 5 minutes will be
-for setup followed by your 25 minute presentation. This will be followed by 20
-minutes for the review questions and discussion.
+Critical Design Reviews will be held during the first three days of exam week.
+Your team will be scheduled for a 50 minute critical design review during
+finals week of spring quarter. The first 5 minutes will be for setup followed
+by your 25 minute presentation. This will be followed by 20 minutes for the
+review questions and discussion.
 
 The primary purpose of this review is for your team to justify that your design
 solves your sponsors needs through technical details, analysis, and testing. We
@@ -208,4 +209,4 @@ and other potential guests will be present. The presentation should be geared
 toward and "engineering management" audience.
 
 **You will need to submit your presentation materials as a PDF to Canvas by
-midnight Wednesday, June 14th.**
+10PM Wednesday of exam week.**
