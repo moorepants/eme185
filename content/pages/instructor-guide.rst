@@ -466,16 +466,25 @@ The instructors should meeting the week before class starts for an
 introduction.
 
 - [All] Read over course website, particularly the instructor guide.
-- [All] First instructor meeting.
+- [All] Attend first instructor meeting.
 - [All] Setup a weekly instructor meeting time.
 - [All] Review the issues and comments from last year and decide how the course
   may be changed for this year.
-- [Instructor] Invite EFL staff to present during one of the lectures.
 - [All] Go over the MAE TA form and sign with TAs.
+- [All TAs] Sign up for Github and send Github username to Jason.
+- [All TAs] Sign up for CATME.
+- [All TAs] Ensure that you have access to Canvas and the EME 185 course.
+- [Instructor] Approve/deny pre-req petitions.
+- [Instructor] Prepare the project proposals list for the students.
+- [Instructor] Choose and post office hours.
+- [Instructor] Update the course website and schedule.
+- [Instructor] Setup the Canvas website.
+- [Instructor] Invite EFL staff to present during one of the lectures.
 
 Week 1
 ^^^^^^
 
+- [Instructor] Select students and a TA for each team.
 - [All TAs] Come to the first 15 minutes of the first lecture to be introduced
   to the entire class.
 - [All TAs] Prepare a 5 to 7 minute introduction for the studio sessions. I
@@ -490,7 +499,6 @@ Week 1
   handout.
 - [Lead TA] Get design supplies for the needs and specifications studio
   activity for next week.
-- [Instructor] Select students and a TA for each team.
 
 Week 2
 ^^^^^^
