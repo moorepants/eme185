@@ -456,6 +456,19 @@ Weekly Tasks
 
 We will consider weeks starting on Mondays for this section.
 
+Here is how I'd like things to flow each week:
+
+- We collectively prep an agenda on GDrive in "meeting-notes" each week before
+  our meeting by reviewing the instructor guide and adding anything else that
+  comes up.
+- We meet and discuss the plans, making action items.
+- All action items that would happen each year should end up in the instructor
+  guide so that these are missed in the future. The Lead TA should add these.
+- All action items that need tracking, further discussion, etc, should end up
+  in the Github issues page.
+- We execute that week's plan.
+- Rinse and repeat.
+
 EME 185A
 --------
 
@@ -485,6 +498,7 @@ introduction.
 Week 1
 ^^^^^^
 
+- [Instructor] Send introductory email to the students.
 - [Instructor] Select students and a TA for each team.
 - [All TAs] Come to the first 15 minutes of the first lecture to be introduced
   to the entire class.
