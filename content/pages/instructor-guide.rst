@@ -22,7 +22,6 @@ Primary TA Duties
 - Organize the team meetings and presentations.
 - Organize the Meijo University visit.
 
-
 General TA Requirements
 -----------------------
 
@@ -35,13 +34,12 @@ General TA Requirements
   everyone's schedule in the first week of both EME 185A and 185B.
 - If you want to meet with me, check my `work calendar`_ for an open weekday
   slot and send me a request via email.
-- I strictly use the Linux operating system and strive to use open source tools
-  for most of my work. I prefer not to have to deal with any Microsoft Office
-  Suite file types. Please avoid these and choose LibreOffice for Google
-  equivalents so that we can easily collaborate and share.
+- Jason primarily uses the Linux operating system and strive to use open source
+  and free tools for most of my work. I prefer not to have to deal with any
+  Microsoft Office Suite file types. Please avoid these and choose LibreOffice
+  for Google equivalents so that we can easily collaborate and share.
 
 .. _work calendar:  http://www.moorepants.info/work-calendar.html
-
 
 Class Attendance
 ================
@@ -56,15 +54,15 @@ for information on the topics covered in lectures.
 
 TAs are not required to attend any of the lecture periods, but they are welcome
 to sit in on lectures or even give one or more. If you sit in on the lectures
-I will ask you to note down feedback for me. If a TA would like to give
-a lecture, just let the instructor know well beforehand and we will make
+Jason will ask you to note down feedback for him. If a TA would like to give a
+lecture, just let the instructor know well beforehand and we will make
 arrangements. Past TAs have given a lecture to introduce students to useful
 things (e.g. 3D printing, microcontrollers) for their projects.
 
 Studios
 -------
 
-In EME 185A, alongisde lectures, students will meet in their project groups for
+In EME 185A, alongside lectures, students will meet in their project groups for
 a 3-hour `studio session <{filename}/pages/meetings.rst>`_. TAs are required to
 attend all of the studio sessions in the winter quarter. During these sessions,
 TAs will meet with each of their assigned teams, go over their progress, and
@@ -97,7 +95,6 @@ meetings early in the quarter and adjust to fit each team's style.
 
 .. _185B meeting agenda: {filename}/pages/meetings.rst#spring-quarter
 
-
 Office Hours
 ============
 
@@ -110,7 +107,6 @@ set up a `YouCanBook.me`_ page so that you know ahead of time whether or not
 students are coming to your office hours.
 
 .. _YouCanBook.me: https://youcanbook.me/
-
 
 Websites
 ========
@@ -306,7 +302,6 @@ a rough schedule of when to expect the TA to visit so they can all be present
 during that time. The TA should respect other guests' time with the students
 and not cause the students to disengage with them.
 
-
 Planning
 ========
 
@@ -429,7 +424,7 @@ External Presentation Options
 The students are required to present at the design showcase but there other
 things to keep them aware of:
 
-- BMES Research Symposisum (in May) for any biomed sponsored projects.
+- BMES Research Symposium (in May) for any biomed sponsored projects.
 - `Undergraduate Research Symposium <https://urc.ucdavis.edu/conference/>`_ in
   April
 - Sandia Design Award, due around first of June
@@ -456,7 +451,6 @@ requests is tedious, so some policies should be enforced to minimize issues.
   clear that students should not make their BoM a "living document" so that
   this doesn't happen frequently.
 
-
 Weekly Tasks
 ============
 
@@ -471,30 +465,46 @@ Week 0
 The instructors should meeting the week before class starts for an
 introduction.
 
-- [All] First instructor meeting.
-- Setup a weekly instructor meeting time.
+- [All] Read over course website, particularly the instructor guide.
+- [All] Attend first instructor meeting.
+- [All] Setup a weekly instructor meeting time.
+- [All] Review the issues and comments from last year and decide how the course
+  may be changed for this year.
+- [All] Go over the MAE TA form and sign with TAs.
+- [All TAs] Sign up for Github and send Github username to Jason.
+- [All TAs] Sign up for CATME.
+- [All TAs] Ensure that you have access to Canvas and the EME 185 course.
+- [Instructor] Approve/deny pre-req petitions.
+- [Instructor] Prepare the project proposals list for the students.
+- [Instructor] Choose and post office hours.
+- [Instructor] Update the course website and schedule.
+- [Instructor] Setup the Canvas website.
 - [Instructor] Invite EFL staff to present during one of the lectures.
 
 Week 1
 ^^^^^^
 
+- [Instructor] Select students and a TA for each team.
 - [All TAs] Come to the first 15 minutes of the first lecture to be introduced
   to the entire class.
-- TAs should prepare a 5 to 7 minute introduction. I would like you to have a 5
-  to 10 minute "show and tell" and introduction for the lab on Wednesday and
-  Thursday. The idea would be to introduce your self and show a few things,
-  slides, or just talk about a project or projects you have done that is
-  relevant to them in the class. It should also give the students and idea what
-  technical advice you can offer them.
-- [All TAs] Send the instructor a list of project preferences by the same due date as the CATME survey.
-- Get design supplies for the needs and specifications studio activity.
+- [All TAs] Prepare a 5 to 7 minute introduction for the studio sessions. I
+  would like you to have a "show and tell" and introduction for the studios.
+  The idea would be to introduce your self and show a few things, slides, or
+  just talk about a project or projects you have done that is relevant to them
+  in the class. It should also give the students and idea what technical advice
+  you can offer them.
+- [All TAs] Send the instructor a list of project preferences by the same due
+  date as the CATME survey.
+- [All TAs] Read chapters 5 and 6, needs/specs slides, and needs/specs activity
+  handout.
+- [Lead TA] Get design supplies for the needs and specifications studio
+  activity for next week.
 
 Week 2
 ^^^^^^
 
-- Choose teams.
-- Send out team assignment emails.
-- Send out sponsor rejection emails.
+- [Instructor] Send out team assignment emails.
+- [Instructor] Send out sponsor rejection emails.
 - [Lead TA] Create Canvas group set and add students to their assigned groups.
 - [Lead TA] Create Canvas rubric for grading the resumes.
 - [Lead TA] Prepare the group charter and name assignment.
@@ -502,15 +512,12 @@ Week 2
   name, and project ID)
 - [TA 2] Create the 2 hr and 3hr meeting schedule.
 - [All TAs] Grade the resumes.
-- [All TAs] Read chapters 5 and 6, needs/specs slides, and needs/specs activity
-  handout.
 - [All TAs] Grade week 2 participation.
-- [All TAs] Review the needs/specs chapters and slides.
 
 Week 3
 ^^^^^^
 
-- Show students how to view grading comments on Canvas submitted documents.
+- [Instructor] Show students how to view grading comments on Canvas submitted documents.
   Canvas provides a walkthrough of this `here
   <https://community.canvaslms.com/docs/DOC-10542-4212352349>`_.
 - [All TAs] Grade team charters. This can be very course: 0 (didn't do it), 5
@@ -549,7 +556,7 @@ Week 6
 
 - [Instructor] Send out microcontroller preparation instructions after lecture.
 - [Instructor] Update microcontroller lesson and prepare for giving it.
-- [Instructor] Develop prelimnary budget sheet.
+- [Instructor] Develop preliminary budget sheet.
 - [Instructor + all TAs] Co-grade a report in person.
 - [Instructor + all TAs] Grade report 1 by Friday 5pm.
 - [All TAs] Grade week 6 AIO + participation.
