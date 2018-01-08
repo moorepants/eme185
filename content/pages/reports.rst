@@ -170,7 +170,7 @@ Examples
   -- note the creativity needed to convey somewhat complex instructions with
   almost no text at all.
 
-Report #1: Project Proposal [Due: {{ DUE_DATES['report_01'].strftime('%A, %b %-d, %Y') }}]
+Report #1: Project Proposal [Due: {{ DUE_DATES['rep_01'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
 The primary purpose of the project proposal is for your team to clearly
@@ -227,7 +227,7 @@ Use your memos as building blocks for the proposal. The instructors and
 sponsors will evaluate your report to determine the size and scope of your
 project and if the objectives are both well thought out and feasible.
 
-Report #2: Preliminary Design [Due: {{ DUE_DATES['report_02'].strftime('%A, %b %-d, %Y') }}]
+Report #2: Preliminary Design [Due: {{ DUE_DATES['rep_02'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
 The purpose of the preliminary design report is to present your selected
@@ -323,7 +323,7 @@ Be sure to utilize your memos, proposal, and critical design review as a basis
 for your report. Use the feedback from them all to improve the work for this
 final written presentation of your preliminary design.
 
-Report #3: Spring Midterm Progress [Due: {{ DUE_DATES['report_03'].strftime('%A, %b %-d, %Y') }}]
+Report #3: Spring Midterm Progress [Due: {{ DUE_DATES['rep_03'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
 The purpose of this report is to update the instructors and sponsors on your
@@ -371,7 +371,7 @@ Technical Documentation
    We will provide feedback on this material so that your documentation can be
    improved for the final report.
 
-Report #4: Final Design [Due: {{ DUE_DATES['report_04'].strftime('%A, %b %-d, %Y') }}]
+Report #4: Final Design [Due: {{ DUE_DATES['rep_04'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
 The final design report should be a comprehensive report detailing the final

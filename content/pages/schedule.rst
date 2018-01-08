@@ -75,7 +75,7 @@ A03/A02  R/F Mar 8/9    Moore       Work on projects                            
 All      T Mar 13       Moore       - Course Evals
                                     - Industry Panel
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Mar 15/16  Moore       Class Presentations
+A03/A02  R/F Mar 15/16  Moore       Class Presentations                                    Lightning Talk Slides
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  M Mar 19                                                                          - Report 2: Preliminary Design
                                                                                            - Peer Evaluations

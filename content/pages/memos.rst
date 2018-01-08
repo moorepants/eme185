@@ -39,7 +39,7 @@ content.
 .. [#] I recommend collaborative editors for team work like Google Docs,
    ShareLaTeX, OverLeaf, SageMathCloud, Etherpad, etc.
 
-Memo 1: Project Selection [Due: {{ DUE_DATES['memo_01'].strftime('%A, %b %-d, %Y') }}]
+Memo 1: Project Selection [Due: {{ DUE_DATES['mem_01'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
 This "memo" will be in the form of a CATME Team Maker Survey and your résumé.
@@ -68,7 +68,7 @@ switch from attending Wednesday to attending Thursday or vice versa, then you
 will have a larger chance of getting the project you want. Please indicate this
 in the survey.
 
-Memo 2: Team Charter [Due: {{ DUE_DATES['memo_02'].strftime('%A, %b %-d, %Y') }}]
+Memo 2: Team Charter [Due: {{ DUE_DATES['mem_02'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
 A team charter is a document that specifies your team's purpose and the
@@ -85,7 +85,7 @@ responsibilities change throughout the project.
 With your group members, select a company name and write a 1-page charter
 following this `team charter template <{filename}/pages/team-charter.rst>`_.
 
-Memo 3: Needs and Specs [Due: {{ DUE_DATES['memo_03'].strftime('%A, %b %-d, %Y') }}]
+Memo 3: Needs and Specs [Due: {{ DUE_DATES['mem_03'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
 The purpose of this memo is to summarize what you have learned from the
@@ -112,7 +112,7 @@ Other items to include:
 - The organized target specifications (appendices).
 - Reflections on the process and the results.
 
-Memo 4: Concept Generation [Due: {{ DUE_DATES['memo_04'].strftime('%A, %b %-d, %Y') }}]
+Memo 4: Concept Generation [Due: {{ DUE_DATES['mem_04'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
 The purpose of this memo is to summarize your initial exploration of external
@@ -149,7 +149,7 @@ Suggestions of what to include:
   classification trees, combination tables, etc.)
 - Reflection on the process and the results.
 
-Memo 5: Preliminary Analysis [Due: {{ DUE_DATES['memo_05'].strftime('%A, %b %-d, %Y') }}]
+Memo 5: Preliminary Analysis [Due: {{ DUE_DATES['mem_05'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
 To select your final design concept, you will need to determine if the
