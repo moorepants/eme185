@@ -489,7 +489,6 @@ introduction.
 - [All TAs] Ensure that you have access to Canvas and the EME 185 course.
 - [Instructor] Approve/deny pre-req petitions.
 - [Instructor] Prepare the project proposals list for the students.
-- [Instructor] Choose and post office hours.
 - [Instructor] Update the course website and schedule.
 - [Instructor] Setup the Canvas website.
 - [Instructor] Invite EFL staff to present during one of the lectures.
@@ -499,6 +498,7 @@ introduction.
 Week 1
 ^^^^^^
 
+- [Instructor] Choose and post office hours.
 - [Instructor] Send introductory email to the students.
 - [Instructor] Select students and a TA for each team.
 - [All TAs] Come to the first 15 minutes of the first lecture to be introduced
