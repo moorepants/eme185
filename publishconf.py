@@ -18,7 +18,7 @@ FEED_RSS = None
 
 DELETE_OUTPUT_DIRECTORY = True
 
-MENUITEMS =[('Syllabus', '/eme185/pages/syllabus.html'),
+MENUITEMS =[('Syllabus', '/eme185/'),
             ('Schedule', '/eme185/pages/schedule.html'),
             ('Assignments', '/eme185/pages/assignments.html'),
             ('Projects', 'https://www.moorepants.info/jkm/courses/eme185-2018/pages/projects.html'),
