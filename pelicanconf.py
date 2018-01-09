@@ -41,6 +41,15 @@ DEFAULT_PAGINATION = False
 
 IGNORE_FILES = ['README*']
 
+# Manually curate the top bar menu
+DISPLAY_PAGES_ON_MENU = False
+
+MENUITEMS =[('Syllabus', ''),
+            ('Schedule', '/pages/schedule.html'),
+            ('Assignments', '/pages/assignments.html'),
+            ('Projects', 'https://www.moorepants.info/jkm/courses/eme185-2018/pages/projects.html'),
+            ('Resources', '/pages/resources.html')]
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
