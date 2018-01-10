@@ -5,7 +5,7 @@
 
 In general, you will create a number of memos that document your team's
 accomplishments and progress. The memos should all be turned in to Canvas
-Assignments by midnight on the respective due date (typically Fridays).
+Assignments by 10 PM on the respective due date.
 
 Each memo should stand on its own and you will be able to use the content as a
 base to develop the reports. In addition to turning in the assignment, you
@@ -47,7 +47,7 @@ You will receive a notice via email for CATME and will need to fill out the
 survey on the CATME website. Your résumé should be turned in via Canvas as a
 single PDF. **Note that your résumé should not exceed more that two pages.**
 
-The CATME Survey can be accessed via this link:
+The CATME Survey will be accessed via this link:
 
 https://www.catme.org/
 
@@ -58,15 +58,17 @@ CATME takes into account all of the information that you provide it and
 attempts to algorithmically select optimal teams to align schedules, distribute
 similar and dissimilar qualities, and ensure a project of your choice. We will
 read your your résumé to get to know you a bit better and to provide you
-feedback for improving it for the upcoming `Engineering Career Fair`_ (Jan 25).
+feedback for improving it for the upcoming `Engineering Career Fair`_ (Jan 24).
+You will also provide your résumé to your project client once your team is
+assigned.
 
 .. _Engineering Career Fair: https://icc.ucdavis.edu/employer/fairs.htm
 
-I make all projects available to students in both sections (A02, A03) but each
-selected group will have to attend the same section. If you are willing to
-switch from attending Wednesday to attending Thursday or vice versa, then you
-will have a larger chance of getting the project you want. Please indicate this
-in the survey.
+I make all of my projects available to students in both sections (A02, A03) but
+each selected group will have to attend the same section. If you are willing to
+switch from attending Thursday to attending Friday or vice versa, then you will
+have a larger chance of getting the project you want. Please indicate in the
+survey if you can switch sections only if you have no time conflicts.
 
 Memo 2: Team Charter [Due: {{ DUE_DATES['mem_02'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
