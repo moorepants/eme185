@@ -14,7 +14,7 @@ All      T Jan 9        Velinsky    Design Process Lecture                Chapte
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A03/A02  R/F Jan 11/12  Moore       - Introduction                        Chapters 5, 6
                                     - Introduce projects
-                                    - Specifications Lecture
+                                    - Needs/Specs Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Jan 12                                                                          Memo 1: Resume/Proj Selection
 -------  -------------  ----------  ------------------------------------  ---------------  -----
@@ -24,29 +24,33 @@ A02/A03  M Jan 15                   - Announce project assignments
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 16       Velinsky    Concept Generation Lecture            Chapter 7
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Jan 18/19  Moore       - Concept Selection Lecture           Chapter 8
+A03/A02  R/F Jan 18/19  Moore       - Concept Selection Lecture           Chapter 8        Memo 2: Team Charter
                                     - User stories activity
+                                    - Needs activity
+                                    - Specifications activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 23       Moore       Planning and Scheduling Lecture       Chapter 18
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Jan 25/26  Moore       - Planning and Scheduling activity                     Memo 2: Team Charter
+A03/A02  R/F Jan 25/26  Moore       - Planning and Scheduling activity
+                                    - Technical Reports Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 30       Velinsky    Product Architecture Lecture          Chapter 10
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Feb 1/2    Moore       - Technical Reports Lecture                            - Memo 3: Needs/Specs
-                                    - Concept generation activity                          - Sign up for 185B meeting times
+A03/A02  R/F Feb 1/2    Moore       Concept generation activity                            - Memo 3: Needs/Specs
+                                                                                           - Sign up for 185B meeting times
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Feb 6        Velinsky    Patents Lecture                       Chapter 16
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Feb 8/9    Moore       - Concept selection activity                           Memo 4: Concepts
+A03/A02  R/F Feb 8/9    Moore       - Preliminary analysis activity
+                                    - Concept testing activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Feb 13       Velinsky    Human Factors Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Feb 15/16  Moore       Work on projects                                       - Report 1: Project Proposal
+A03/A02  R/F Feb 15/16  Moore       Concept Selection Activity                             - Report 1: Project Proposal
                                                                                            - Peer Evaluation
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
@@ -54,28 +58,28 @@ All      M Feb 19                   President's Day Holiday
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Feb 20       Moore       `Microcontroller Tutorial`_ Part 1
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Feb 22/23  Moore       - Preliminary analysis activity
+A03/A02  R/F Feb 22/23  Moore       Product Architecture Activity
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F Feb 23
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-All      T Feb 27       EFL Staff   EFL Preparation Lecture                                Microcontroller Assignment
+All      T Feb 27       Moore       3D Printing Guest Lecture                              Microcontroller Assignment
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Mar 1/2    Moore       `Microcontroller Tutorial`_ Part 2                     Memo 5: Prelim Analysis/Concept Selection
+A03/A02  R/F Mar 1/2    Moore       `Microcontroller Tutorial`_ Part 2                     Memo 4: Concept Selection/Product Architecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  Mar 5-Mar 9                Preliminary Design Reviews
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-All      T Mar 6        Moore       - Showcase Announcement
-                                    - 3D Printing Guest Lecture
+All      T Mar 6        EFL Staff   - Showcase Announcement
+                                    - EFL Preparation Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A03/A02  R/F Mar 8/9    Moore       Work on projects                                       Design review slides
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-All      T Mar 13       Moore       - Course Evals
-                                    - Industry Panel
+All      T Mar 13       Moore       Industry Panel
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Mar 15/16  Moore       Class Presentations                                    Lightning Talk Slides
+A03/A02  R/F Mar 15/16  Moore       - Course Evals                                         Lightning Talk Slides
+                                    - Class Presentations
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  M Mar 19                                                                          - Report 2: Preliminary Design
                                                                                            - Peer Evaluations

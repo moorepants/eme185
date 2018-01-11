@@ -12,7 +12,7 @@ base to develop the reports. In addition to turning in the assignment, you
 should share these memos with your project sponsor(s) for feedback but the main
 audience you should address are the course instructors.
 
-The memos should have no more than two pages of main content and an optional
+The memos should have no more than three pages of main content and an optional
 appendices. The "main content" is defined as the essential text, figures,
 tables, etc. to tell your story. Additionally, feel free to link to rich media:
 videos, websites, demos, etc. This main content should stand on its own without
@@ -114,71 +114,8 @@ Other items to include:
 - The organized target specifications (appendices).
 - Reflections on the process and the results.
 
-Memo 4: Concept Generation [Due: {{ DUE_DATES['mem_04'].strftime('%A, %b %-d, %Y') }}]
+Memo 4: Concept Selection [Due: {{ DUE_DATES['mem_04'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
-
-The purpose of this memo is to summarize your initial exploration of external
-and internal concepts. Using the needs and specifications that you developed in
-the previous weeks and those that you continue to identify during your
-interactions with stakeholders, you should begin to generate concepts that can
-meet the specifications.
-
-The external concepts should be obtained through extensive searches in product
-information on the web, patents, discussions with experts, literature searches,
-etc. Specifications from external concepts should be compared to specifications
-you have derived from your needs.
-
-You should also generate a large number of internal concepts both individually
-and as a group. The more concepts you can generate, the better. Also remember
-to suspend judgment during this process. The goal is to explore all
-possibilities regardless of how crazy they seem.
-
-The memo should present the findings of the preliminary external and internal
-concept generation process. We highly recommend making heavy use of graphical
-means to communicate the concepts along with accompanying textual information.
-
-You are welcome to use any process to generate concepts, but we recommend
-following the processes presented in class and in the textbook as a starting
-point.
-
-Suggestions of what to include:
-
-- Problem decomposition (function diagrams, etc.)
-- Identification of critical sub-problems.
-- Summary of external concepts and how they influenced your internal concepts.
-- Summary of internal concepts along with the main themes.
-- An organized depiction of the developed concepts (e.g. tables, charts,
-  classification trees, combination tables, etc.)
-- Reflection on the process and the results.
-
-Memo 5: Preliminary Analysis [Due: {{ DUE_DATES['mem_05'].strftime('%A, %b %-d, %Y') }}]
-===================================================================================================
-
-To select your final design concept, you will need to determine if the
-different concepts meet your target specifications. This typically requires
-preliminary engineering analysis and/or testing to make those decisions. For
-many specifications a "back-of-the-envelope_" calculation is sufficient for
-decision making and is preferred because it takes little time. This memo should
-detail the preliminary analyses for any concepts that need to be evaluated.
-Analysis is not required for all of your concepts. To reduce the number of
-concepts feel free to screen them at this point. If you believe testing is
-required to make your final concept selection you will need to explain the
-necessary testing and a plan to get that done.
-
-Suggestions of what to include:
-
-- Descriptions of the methods needed to determine if concepts meet target
-  specifications.
-- Screened concepts that need analyses or testing for further scoring.
-- Preliminary analyses that shows whether concepts meet or fail to meet target
-  specifications.
-- Plans or results from any required testing.
-- Any other relevant analyses that you have done.
-
-.. _back-of-the-envelope: https://en.wikipedia.org/wiki/Back-of-the-envelope_calculation
-
-Memo 6: Concept Selection [Due: TBA]
-=======================================================
 
 The purpose of this memo is to show that you have narrowed down your concepts
 and have a solution that you want to move forward with. Ideally, you have one
