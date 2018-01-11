@@ -38,7 +38,7 @@ Student responsibility:
 Play a critical role in your team of engineers. Solve the stakeholder's
 problem.
 
-Lectures on Tuesdays, Studios on W and R
+Lectures on Tuesdays, Studios on R and F
 
 - Grading
 - Assignments
@@ -53,10 +53,22 @@ Assignment for this week:
 Schedule
 ========
 
-- Read chapters before coming to class.
-- Weekly memos.
+- Read chapters before coming to class. (will be quizzed on material at
+  beginning of studios)
+- Two memos first two weeks and then two more.
 - Project proposals due in three/four weeks.
 - Final report due at the end of class.
+- AIO emails due each week to your client and instructors.
+- Meet with client as needed: recommend once per week.
+
+Studio
+======
+
+- Come here to work, just like a job.
+- Most studios will have structured activities such that you apply the design
+  process we teach you to your project. Intro, activity, break, intro,
+  activity, intro, activity, share.
+- Instructors will be here to help.
 
 Projects
 ========
@@ -64,13 +76,21 @@ Projects
 - Have a look at the list on your smart phone.
 - Questions about the projects?
 - Mention the requirements for the projects.
-- Select all that you are willing to work on in the CATME survey.
+- Select your top five in order in CATME survey.
+- Explain CATME rational.
+  - Mix up teams (random-like)
+  - Mix of GPAs.
+  - Mix of people for diverse skills, knowledge, attitudes, backgrounds, etc.
+  - Try our best to get a top project: but hard optimization problem.
+  - Learning improves for all in group and potential for success is higher.
 
-Resumes and Cover Letters
-=========================
+Resumes
+=======
 
-Career fair is January 25
+Career fair is January 24, 10 AM to 2 PM
 https://icc.ucdavis.edu/services/fairs/engineering.htm
+
+Micro-Vu info session: Jan 18: Grove 1309 (free pizza and machines)
 
 Questions about writing resumes.
 
