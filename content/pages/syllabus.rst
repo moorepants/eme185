@@ -109,6 +109,7 @@ primary objective, students will also be able to:
   communicate engineering work to a variety of audiences
 - collaboratively develop and present technical materials via small meetings
   and formal public and private presentations
+- solve a real engineering problem specified by someone else
 
 These objectives will simultaneously satisfy the following ABET  Educational
 Student Outcomes for the Mechanical Engineering and Aeronautical Science and
@@ -156,7 +157,7 @@ Instructors
 +--------------------------------+-----------------------------+
 | Instructors                    | Teaching Assistants         |
 +================================+=============================+
-| | Steve A. Velinsky            | | TBA                       |
+| | Steve A. Velinsky            | | Stephanie Fung            |
 | | *A01 Primary Instructor*     | | *A01*                     |
 | | savelinsky@ucdavis.edu       | | TBA                       |
 +--------------------------------+-----------------------------+
