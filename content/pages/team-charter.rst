@@ -2,12 +2,15 @@
 :status: hidden
 
 Below is a template for a team charter. Create a document with the sections
-below and fill them in according to the instructions.
+below and fill them in according to the instructions. You can also copy the
+Google Doc form of this template:
+
+https://docs.google.com/document/d/1E27reNFfTqI3d2RK5UeOFQ4T3sc6RarNvTHaW3pAjQs/edit?usp=sharing
 
 ----
 
-<Company Name> Charter
-======================
+<Company/Team Name> Charter
+===========================
 
 Purpose
 -------
