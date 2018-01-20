@@ -24,7 +24,7 @@ A02/A03  M Jan 15                   - Announce project assignments
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 16       Velinsky    Concept Generation Lecture            Chapter 7
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Jan 18/19  Moore       - Concept Selection Lecture           Chapter 8        Memo 2: Team Charter
+A03/A02  R/F Jan 18/19  Moore       - Concept Selection Lecture           Chapter 8
                                     - User stories activity
                                     - Needs activity
                                     - Specifications activity
@@ -32,7 +32,7 @@ A03/A02  R/F Jan 18/19  Moore       - Concept Selection Lecture           Chapte
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 23       Moore       Planning and Scheduling Lecture       Chapter 18
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Jan 25/26  Moore       - Planning and Scheduling activity
+A03/A02  R/F Jan 25/26  Moore       - Planning and Scheduling activity                     Memo 2: Team Charter
                                     - Technical Reports Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
