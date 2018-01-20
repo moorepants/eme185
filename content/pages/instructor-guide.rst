@@ -523,6 +523,15 @@ Week 2
 - [Instructor] Send out team assignment emails.
 - [Instructor] Send out sponsor rejection emails.
 - [Lead TA] Create Canvas group set and add students to their assigned groups.
+  This allows us to select "Project Teams" for all the group assignments and to
+  select due dates based on which section the students are in.
+
+  - Group Set #1: "Project Teams", should have all teams in all of Jason's
+    sections
+  - Group Set #2: "Project Sections", should have a group for each section,
+    note that this is not the registered section, but tied to which projec
+    they were assigned
+
 - [Lead TA] Create Canvas rubric for grading the resumes.
 - [Lead TA] Prepare the group charter and name assignment.
 - [TA 1] Create placards for team tables (student names, blank line for team
