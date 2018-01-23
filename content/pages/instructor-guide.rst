@@ -528,9 +528,7 @@ Week 2
 
   - Group Set #1: "Project Teams", should have all teams in all of Jason's
     sections
-  - Group Set #2: "Project Sections", should have a group for each section,
-    note that this is not the registered section, but tied to which projec
-    they were assigned
+  - Group Set #2: "Project Sections", should have a group for each section, eg. an A02 group and an A03 group with individual students in each group. Registered section can be different from the Actual section the student ends up in. The groups are to be created based on Actual section. The Actual section assigned to the student corresponds to the "Project sections" field in the master project list.
 
 - [Lead TA] Create Canvas rubric for grading the resumes.
 - [Lead TA] Prepare the group charter and name assignment.
