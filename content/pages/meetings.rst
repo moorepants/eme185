@@ -3,16 +3,16 @@
 
 Each team will be assigned a teaching assistant that will act as a consultant
 for your project. During the winter studio sections, each team will meet with
-the teaching assistant for approximately 30 minutes each week to discuss the
-weekly progress and/or the current studio activity. Additionally, your team
-will meet with the main instructor for approximately 10 minutes. In the Spring
-quarter, you will meet with the TA and the instructor together for 50 minutes
-per week.
+the teaching assistant each week to discuss the weekly progress and/or the
+current studio activity. Additionally, your team will meet with the main
+instructor as needed. In the Spring quarter, you will meet with the TA and the
+instructor together for 50 minutes per week.
 
 To prepare for the meeting, you are required to send an update email to the
 instructor, your assigned TA, your client, all of your teammates, and anyone
 else that is directly involved in your project 24 hours before the beginning of
-the meeting. The subject line of the email should be as follows:
+the meeting (or studio session). The subject line of the email should be as
+follows:
 
 ``[EME185] AIO: <team name>``
 
@@ -33,8 +33,11 @@ Chart <{filename}/pages/gantt-chart.rst>`_ with a vertical line indicating the
 date of the meeting and the percent complete of each task in the chart. For
 tips on creating a good snapshot see the `Gantt Chart page
 <{filename}/pages/gantt-chart.rst>`_. The accomplishments and objectives in
-your AIO should match up with your Gantt Chart. For the Spring quarter, print
-this out and bring it to your meeting.
+your AIO should match up with your Gantt Chart.
+
+Here is a template for the AIO and an example:
+
+https://docs.google.com/document/d/1UwfJnClqgxhBl3WGTrAUeC7bdtJdF-GKWhFn56nzW2s/edit?usp=sharing
 
 **Your in-class grade will be affected if you don't send an AIO or if you don't
 show up to these meetings.**
