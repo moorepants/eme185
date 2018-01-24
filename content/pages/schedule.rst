@@ -76,7 +76,8 @@ All      T Mar 6        EFL Staff   - Showcase Announcement
 A03/A02  R/F Mar 8/9    Moore       Work on projects                                       Design review slides
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-All      T Mar 13       Moore       Industry Panel
+All      T Mar 13       Moore       - Showcase announcement
+                                    - Industry Panel
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A03/A02  R/F Mar 15/16  Moore       - Course Evals                                         Lightning Talk Slides
                                     - Class Presentations
