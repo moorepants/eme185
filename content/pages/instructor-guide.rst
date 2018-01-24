@@ -551,7 +551,9 @@ Week 3
 - [All TAs] Read chapter 7, concept generation slides, and concept generation
   activity.
 - [All TAs] Review AIOs before studio sessions.
-- [All TAs] Grade week 3 AIO + participation.
+- [All TAs] Grade week 3 AIO + participation. Make sure to give firm feedback
+  on the AIO formats this week, so that we get them on track. Docking points
+  for the formatting is an effective way to get these in shape early.
 
 Week 4
 ^^^^^^
