@@ -218,7 +218,7 @@ booked via YouCanBook.me:
 TA                  Office              Link
 =================== =================== ==============================
 Naveen Gowrishankar Academic Surge 2328 https://nav-go.youcanbook.me
-Ian Garreston       TBA                 TBA
+Ian Garreston       Bainer 1125         https://icgarretson.youcanbook.me/
 Scott Kresie        TBA                 TBA
 =================== =================== ==============================
 
