@@ -520,6 +520,13 @@ Week 1
 Week 2
 ^^^^^^
 
+Announcements:
+
+- Team charter due next Friday
+- Read Chapter 18 before next studio
+
+Tasks:
+
 - [Instructor] Send out team assignment emails.
 - [Instructor] Send out sponsor rejection emails.
 - [Lead TA] Create Canvas group set and add students to their assigned groups.
@@ -540,13 +547,22 @@ Week 2
 Week 3
 ^^^^^^
 
+Announcements:
+
+- Team charter due this Friday
+- Needs/Specs Memo due next Friday, will post updated description
+- Read Chapter 7 before next studio
+- Everyone should have had a meeting with their client by now.
+
+Tasks:
+
 - [Instructor] Show students how to view grading comments on Canvas submitted documents.
   Canvas provides a walkthrough of this `here
   <https://community.canvaslms.com/docs/DOC-10542-4212352349>`_.
+- [Instructor] Update the needs/specs memo assignment and post.
 - [All TAs] Grade team charters. This can be very course: 0 (didn't do it), 5
   (did it poorly), 10 (did it average or better). Make comments on improving.
-- [All TAs] Read chapter 7, concept generation slides, and concept generation
-  activity.
+- [All TAs] Read Chapter 18
 - [All TAs] Review AIOs before studio sessions.
 - [All TAs] Grade week 3 AIO + participation. Make sure to give firm feedback
   on the AIO formats this week, so that we get them on track. Docking points
@@ -556,6 +572,8 @@ Week 4
 ^^^^^^
 
 - Create Memo 4 assignment (concept generation)
+- [All TAs] Read chapter 7, concept generation slides, and concept generation
+  activity.
 - [All TAs] Grade Memo 3 (needs and specs)
 - [Lead TA] Check microcontroller kits for all parts and charged batteries.
 - [All TAs] Grade week 4 AIO + participation.
