@@ -3,25 +3,25 @@
 
 .. contents:: Table of Contents
 
-In general, you will create a number of memos that document your team's
-accomplishments and progress. The memos should all be turned in to Canvas
-Assignments by 10 PM on the respective due date.
+You will develop a number of memos that document your team's accomplishments
+and progress. The memos should all be turned in to Canvas Assignments by 10 PM
+on the respective due date.
 
 Each memo should stand on its own and you will be able to use the content as a
 base to develop the reports. In addition to turning in the assignment, you
 should share these memos with your project sponsor(s) for feedback but the main
 audience you should address are the course instructors.
 
-The memos should have no more than three pages of main content and an optional
-appendices. The "main content" is defined as the essential text, figures,
-tables, etc. to tell your story. Additionally, feel free to link to rich media:
-videos, websites, demos, etc. This main content should stand on its own without
-the appendices. The appendices can include labeled and captioned figures,
-tables, drawings, renderings, analyses, source code, and other relevant
-material to support the story told in your main content pages if the reader
-desires to understand further details. Reference the items in the appendices in
-the main text. The appendices should not be required to understand the main
-content.
+The memos should have no more than **two pages** of main content and an
+optional appendices. The "main content" is defined as the essential text,
+figures, tables, etc. to tell your story. Additionally, feel free to link to
+rich media: videos, websites, demos, etc. This main content should stand on its
+own without the appendices. The appendices can include labeled and captioned
+figures, tables, drawings, renderings, analyses, source code, and other
+relevant material to support the story told in your main content pages if the
+reader desires to understand further details. Reference the items in the
+appendices in the main text. The appendices should not be required to
+understand the main content.
 
 - Each memo must be submitted as a single PDF document made up of 8.5" x 11"
   sheets to Canvas. **You will be docked points if you submit a format other
@@ -92,7 +92,7 @@ Memo 3: Needs and Specs [Due: {{ DUE_DATES['mem_03'].strftime('%A, %b %-d, %Y') 
 
 The purpose of this memo is to summarize what you have learned from the
 stakeholders in your project, in particular your sponsors' needs and desired
-outcomes. You should use the initial conversations with the sponsor to learn
+outcomes. You should use the initial conversations with the sponsor to learn as
 much as possible. **As soon as the projects are assigned you should initiate
 contact with your sponsor for an interview.**
 
@@ -105,7 +105,17 @@ needs.
 Secondly, you should show preliminary target specifications based on the needs
 that you have found. Techniques for generating the specifications from the
 needs are provided in Chapter 6, where the first portion explains getting to
-target specs.
+target specs. Additionally, you should being to look into various codes and
+standards_ that your project may be relevant to your project. See the
+`technical resources`_ page for more information on these.
+
+.. _standards: https://en.wikipedia.org/wiki/Technical_standard
+.. _technical resources: {filename}/pages/technicalresources.rst
+
+You should create tables and charts that you find in Chapter 5 and 6 to
+organize your needs and specifications. These may be large and thus should
+likley be attached in the appendix of the memo. You should summarize the
+findings in the main two pages of the memo.
 
 Other items to include:
 
