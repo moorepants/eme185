@@ -111,9 +111,8 @@ primary objective, students will also be able to:
   and formal public and private presentations
 - solve a real engineering problem specified by someone else
 
-These objectives will simultaneously satisfy the following ABET  Educational
-Student Outcomes for the Mechanical Engineering and Aeronautical Science and
-Engineering Programs:
+These objectives fit with the following ABET Educational Student Outcomes for
+the Mechanical Engineering and Aeronautical Science and Engineering Programs:
 
 a. an ability to apply knowledge of mathematics, science, and engineering
 
@@ -253,8 +252,8 @@ Assignments & Grades
 
 You will receive a **single grade** for EME185A and EME185B (total of 8 units)
 that will be reported to you via the registrar at the end of the spring
-quarter.  After the winter quarter your grade will show as "IP" until the end
-of the spring quarter. All of the work in this class is graded per group, with
+quarter. After the winter quarter your grade will show as "IP" until the end of
+the spring quarter. All of the work in this class is graded per group, with
 each team member receiving the same grade as the group but your peer
 evaluations will affect you individual grade.
 
@@ -346,6 +345,8 @@ Files
    Copyrighted and private files, documents, and other resources will be
    available here for download. The rest will be available for download on this
    website.
+Quizzes
+   There will be quizzes associated with the weekly readings.
 
 Communication
 =============
@@ -371,11 +372,11 @@ Email
    "[EME185]" to their subject line.
 Class
    You will get to meet with the instructors during the studio time. You must
-   prepare an `AIO`_ for the meeting. You will get at least 15 minutes of time
-   from your TA and 15 minutes every other week with the primary instructor.
+   prepare an `AIO`_ for the meeting. You will get a chance to meet with your
+   instructors every week.
 Office Hours
-   The primary instructor will hold office hours in which you can schedule up
-   to a 30 minute block for your team to meet.
+   The primary instructor will hold office hours in which you can schedule 30
+   minute blocks for your team to meet.
 Appointments
    You may schedule an appointment with any of the instructors if all of the
    above doesn't work for some reason. Use this as a last resort.
