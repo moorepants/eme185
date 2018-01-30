@@ -562,27 +562,35 @@ Tasks:
 - [Instructor] Update the needs/specs memo assignment and post.
 - [All TAs] Grade team charters. This can be very course: 0 (didn't do it), 5
   (did it poorly), 10 (did it average or better). Make comments on improving.
-- [All TAs] Read Chapter 18
+- [All TAs] Read Chapter 18 before the studio section as a reminder.
 - [All TAs] Review AIOs before studio sessions.
 - [All TAs] Grade week 3 AIO + participation. Make sure to give firm feedback
   on the AIO formats this week, so that we get them on track. Docking points
   for the formatting is an effective way to get these in shape early.
+- [Lead TA] Prepare to teach the 50 minute Asana tutorial and teach in in the
+  studio sessions.
 
 Week 4
 ^^^^^^
 
-- Create Memo 4 assignment (concept generation)
-- [All TAs] Read chapter 7, concept generation slides, and concept generation
-  activity.
-- [All TAs] Grade Memo 3 (needs and specs)
-- [Lead TA] Check microcontroller kits for all parts and charged batteries.
-- [All TAs] Grade week 4 AIO + participation.
-- [Lead TA] Create a 185B scheduling spreadsheet for teams to sign up for
-  meeting times.
-- [Lead TA] Book rooms for preliminary design review.
+Announcements:
+
+- Needs/Specs memo is due Friday.
+- Read something on prelim analysis and testing.
+
+Tasks:
+
+- [Instructor] Prepare the concept generation studio activity.
 - [Instructor] Post the CATME peer evaluation on Friday.
-- [Lead TA] Create a preliminary Meijo visit schedule and send out for
+- [Instructor] Update the proposal report description and post the assignment.
+- [Lead TA] Check microcontroller kits for all parts and charged batteries.
+- [Lead TA] Create a 185B scheduling spreadsheet for teams to sign up for.
+- [Lead TA] Book rooms for preliminary design review.
   feedback.
+- [All TAs] Read chapter 7, concept generation slides, and concept generation
+  activity before the studio session.
+- [All TAs] Grade Memo 3 (needs and specs).
+- [All TAs] Grade week 4 AIO + studio participation.
 
 Week 5
 ^^^^^^
