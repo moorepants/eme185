@@ -44,14 +44,13 @@ A03/A02  R/F Feb 1/2    Moore       Concept generation activity                 
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Feb 6        Velinsky    Patents Lecture                       Chapter 16
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Feb 8/9    Moore       - Preliminary analysis activity
-                                    - Concept testing activity
+A03/A02  R/F Feb 8/9    Moore       Concept Selection Activity            Chapter 8
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Feb 13       Velinsky    Human Factors Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Feb 15/16  Moore       Concept Selection Activity                             - Report 1: Project Proposal
-                                                                                           - Peer Evaluation
+A03/A02  R/F Feb 15/16  Moore       - Preliminary analysis activity                        - Report 1: Project Proposal
+                                    - Concept testing activity                             - Peer Evaluation
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      M Feb 19                   President's Day Holiday

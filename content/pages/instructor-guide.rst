@@ -535,7 +535,12 @@ Tasks:
 
   - Group Set #1: "Project Teams", should have all teams in all of Jason's
     sections
-  - Group Set #2: "Project Sections", should have a group for each section, eg. an A02 group and an A03 group with individual students in each group. Registered section can be different from the Actual section the student ends up in. The groups are to be created based on Actual section. The Actual section assigned to the student corresponds to the "Project sections" field in the master project list.
+  - Group Set #2: "Project Sections", should have a group for each section, eg.
+    an A02 group and an A03 group with individual students in each group.
+    Registered section can be different from the Actual section the student
+    ends up in. The groups are to be created based on Actual section. The
+    Actual section assigned to the student corresponds to the "Project
+    sections" field in the master project list.
 
 - [Lead TA] Prepare the group charter and name assignment.
 - [TA 1] Create placards for team tables (student names, blank line for team
@@ -576,17 +581,17 @@ Week 4
 Announcements:
 
 - Needs/Specs memo is due Friday.
-- Read something on prelim analysis and testing.
+- First report is due in two weeks.
+- Read Chapter 8: Concept Selection
+- How to sign up for Spring meetings.
 
 Tasks:
 
 - [Instructor] Prepare the concept generation studio activity.
-- [Instructor] Post the CATME peer evaluation on Friday.
 - [Instructor] Update the proposal report description and post the assignment.
 - [Lead TA] Check microcontroller kits for all parts and charged batteries.
 - [Lead TA] Create a 185B scheduling spreadsheet for teams to sign up for.
 - [Lead TA] Book rooms for preliminary design review.
-  feedback.
 - [All TAs] Read chapter 7, concept generation slides, and concept generation
   activity before the studio session.
 - [All TAs] Grade Memo 3 (needs and specs).
@@ -595,7 +600,9 @@ Tasks:
 Week 5
 ^^^^^^
 
-- Create Report 1 assignment (project proposal) *include a rubric section for standards*
+- [Instructor] Create Report 1 assignment (project proposal) *include a rubric section for standards*
+- [Instructor] Add teams to CATME for peer evaluation purposes.
+- [Instructor] Post the CATME peer evaluation on Friday.
 - [All TAs] Grade Memo 4
 - [All TAs] Grade week 5 AIO + participation.
 - [Lead TA] Prototype a control system for the microcontroller studio session
