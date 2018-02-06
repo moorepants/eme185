@@ -32,13 +32,13 @@ A03/A02  R/F Jan 18/19  Moore       - Concept Selection Lecture           Chapte
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 23       Moore       Planning and Scheduling Lecture       Chapter 18
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Jan 25/26  Moore       - Planning and Scheduling activity                     Memo 2: Team Charter
+A03/A02  R/F Jan 25/26  Moore       - Planning and Scheduling activity    Chapter 18       Memo 2: Team Charter
                                     - Technical Reports Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 All      T Jan 30       Velinsky    Product Architecture Lecture          Chapter 10
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A03/A02  R/F Feb 1/2    Moore       Concept generation activity                            - Memo 3: Needs/Specs
+A03/A02  R/F Feb 1/2    Moore       Concept generation activity           Chapter 7        - Memo 3: Needs/Specs
                                                                                            - Sign up for 185B meeting times
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
@@ -47,7 +47,7 @@ All      T Feb 6        Velinsky    Patents Lecture                       Chapte
 A03/A02  R/F Feb 8/9    Moore       Concept Selection Activity            Chapter 8
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-All      T Feb 13       Velinsky    Human Factors Lecture
+All      T Feb 13       Guest       Human Factors Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A03/A02  R/F Feb 15/16  Moore       - Preliminary analysis activity                        - Report 1: Project Proposal
                                     - Concept testing activity                             - Peer Evaluation
@@ -69,8 +69,7 @@ A03/A02  R/F Mar 1/2    Moore       `Microcontroller Tutorial`_ Part 2          
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  Mar 5-Mar 9                Preliminary Design Reviews
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-All      T Mar 6        EFL Staff   - Showcase Announcement
-                                    - EFL Preparation Lecture
+All      T Mar 6        EFL Staff   - EFL Preparation Lecture
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A03/A02  R/F Mar 8/9    Moore       Work on projects                                       Design review slides
 -------  -------------  ----------  ------------------------------------  ---------------  -----

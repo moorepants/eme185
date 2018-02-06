@@ -499,9 +499,17 @@ introduction.
 Week 1
 ^^^^^^
 
+Announcements:
+
+- TODO
+
+Tasks:
+
 - [Instructor] Choose and post office hours.
 - [Instructor] Send introductory email to the students.
 - [Instructor] Select students and a TA for each team.
+- [Lead TA] Get design supplies for the needs and specifications studio
+  activity for next week.
 - [All TAs] Come to the first 15 minutes of the first lecture to be introduced
   to the entire class.
 - [All TAs] Prepare a 5 to 7 minute introduction for the studio sessions. I
@@ -514,8 +522,6 @@ Week 1
   date as the CATME survey.
 - [All TAs] Read chapters 5 and 6, needs/specs slides, and needs/specs activity
   handout.
-- [Lead TA] Get design supplies for the needs and specifications studio
-  activity for next week.
 
 Week 2
 ^^^^^^
@@ -589,25 +595,33 @@ Tasks:
 
 - [Instructor] Prepare the concept generation studio activity.
 - [Instructor] Update the proposal report description and post the assignment.
-- [Lead TA] Check microcontroller kits for all parts and charged batteries.
+- [Instructor] Send out request for donations from external sources.
+- [Instructor] Send out request for winter space needs.
 - [Lead TA] Create a 185B scheduling spreadsheet for teams to sign up for.
 - [Lead TA] Book rooms for preliminary design review.
 - [All TAs] Read chapter 7, concept generation slides, and concept generation
   activity before the studio session.
-- [All TAs] Grade Memo 3 (needs and specs).
 - [All TAs] Grade week 4 AIO + studio participation.
 
 Week 5
 ^^^^^^
 
+Announcements:
+
+- Signup for Spring meetings are due Friday.
+- Proposal will be due end of next week.
+
+Tasks:
+
 - [Instructor] Create Report 1 assignment (project proposal) *include a rubric section for standards*
 - [Instructor] Add teams to CATME for peer evaluation purposes.
 - [Instructor] Post the CATME peer evaluation on Friday.
-- [All TAs] Grade Memo 4
+- [Instructor] Invite industry visitors for the panel.
+- [Lead TA] Check microcontroller kits for all parts and charged batteries.
+- [Lead TA] Prototype a control system for the microcontroller studio session.
+- [All TAs] Grade Memo 3: Needs and Specs.
 - [All TAs] Grade week 5 AIO + participation.
-- [Lead TA] Prototype a control system for the microcontroller studio session
-- [Lead TA] Create a preliminary schedule for Meijo visit and have Petros
-  approve it.
+- [All TAs] Read chatper 8 on concept selection before the studio.
 
 Week 6
 ^^^^^^
@@ -615,8 +629,6 @@ Week 6
 - [Instructor] Send out microcontroller preparation instructions after lecture.
 - [Instructor] Update microcontroller lesson and prepare for giving it.
 - [Instructor] Develop preliminary budget sheet.
-- [Instructor + all TAs] Co-grade a report in person.
-- [Instructor + all TAs] Grade report 1 by Friday 5pm.
 - [All TAs] Grade week 6 AIO + participation.
 - [Lead TA] Prepare the preliminary design review signup and send out by
   Wednesday (announcement and assignment on canvas).
@@ -628,6 +640,8 @@ Week 7
 
 - [Instructor] Meet with Chair to request additional course funding if needed.
 - [Instructor or TA] Practice the microcontroller studio lesson.
+- [Instructor + all TAs] Co-grade a report in person.
+- [Instructor + all TAs] Grade report 1 by Friday 5pm.
 - [TA] Invite the sponsors and the EFL staff to the design reviews.
 - [Lead TA] Organize Meijo visit lunch and campus activities.
 - [TA] Organize microcontroller studio tutorial kits.
@@ -712,6 +726,8 @@ Week 6
 Week 7
 ^^^^^^
 
+- [Lead TA] Create a preliminary schedule for Meijo visit and have Petros
+  approve it.
 - [Lead TA] Work on Meijo visit scheduling.
 
 Week 8
