@@ -609,7 +609,7 @@ Week 5
 Announcements:
 
 - Signup for Spring meetings are due Friday.
-- Proposal will be due end of next week.
+- Proposal will be due end of week 6.
 
 Tasks:
 
@@ -629,20 +629,21 @@ Week 6
 - [Instructor] Send out microcontroller preparation instructions after lecture.
 - [Instructor] Update microcontroller lesson and prepare for giving it.
 - [Instructor] Develop preliminary budget sheet.
-- [All TAs] Grade week 6 AIO + participation.
 - [Lead TA] Prepare the preliminary design review signup and send out by
   Wednesday (announcement and assignment on canvas).
+- [All TAs] Grade week 6 AIO + participation.
 - [TA] Prepare a fabrication and space needs document to provide to the Chair
   and the EFL staff.
 
 Week 7
 ^^^^^^
 
-- [Instructor] Meet with Chair to request additional course funding if needed.
+- [Instructor] Meet with Chair to request additional course funding if needed
+  and space.
 - [Instructor or TA] Practice the microcontroller studio lesson.
 - [Instructor + all TAs] Co-grade a report in person.
 - [Instructor + all TAs] Grade report 1 by Friday 5pm.
-- [TA] Invite the sponsors and the EFL staff to the design reviews.
+- [TA] Invite the sponsors, faculty, and the EFL staff to the design reviews.
 - [Lead TA] Organize Meijo visit lunch and campus activities.
 - [TA] Organize microcontroller studio tutorial kits.
 - [Lead TA] Invite students to Meijo lunch and cultural activities.
