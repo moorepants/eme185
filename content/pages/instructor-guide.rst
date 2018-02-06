@@ -554,6 +554,7 @@ Tasks:
 - [TA 2] Create the 2 hr and 3hr meeting schedule.
 - [All TAs] Grade the resumes.
 - [All TAs] Grade week 2 participation.
+- [Single TA] Review Quiz for Chapters 5 and 6.
 
 Week 3
 ^^^^^^
@@ -580,6 +581,7 @@ Tasks:
   for the formatting is an effective way to get these in shape early.
 - [Lead TA] Prepare to teach the 50 minute Asana tutorial and teach in in the
   studio sessions.
+- [Single TA] Review Quiz for Chapter 18.
 
 Week 4
 ^^^^^^
@@ -602,6 +604,7 @@ Tasks:
 - [All TAs] Read chapter 7, concept generation slides, and concept generation
   activity before the studio session.
 - [All TAs] Grade week 4 AIO + studio participation.
+- [Single TA] Review Quiz for Chapter 7.
 
 Week 5
 ^^^^^^
@@ -622,6 +625,7 @@ Tasks:
 - [All TAs] Grade Memo 3: Needs and Specs.
 - [All TAs] Grade week 5 AIO + participation.
 - [All TAs] Read chatper 8 on concept selection before the studio.
+- [Single TA] Review Quiz for Chapter 8.
 
 Week 6
 ^^^^^^
