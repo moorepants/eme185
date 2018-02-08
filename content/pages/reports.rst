@@ -199,6 +199,9 @@ the content to best fit this combined audience.
 
 The project proposal should address the following things:
 
+Context and Background
+   Here, you should introduce your problem in context with respect to your
+   sponsor's work, their broader goals, society, and contemporary issues.
 Mission Statement
    State and define your problem and objectives as clearly as you can. If your
    proposal deals with the smaller component of a larger problem, discuss your
