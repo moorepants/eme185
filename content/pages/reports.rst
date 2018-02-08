@@ -27,22 +27,24 @@ The reports will be due in PDF format via Canvas by the due dates and times
 posted in the `schedule <{filename}/pages/schedule.rst>`_ and on the Canvas
 assignment. A single report should be submitted by one team member.
 
-- The report should fit on 8.5" x 11" sheets of paper [1]_.
+- The report should be formatted to fit on 8.5" x 11" sheets of paper [1]_.
 - All margins should be 1".
 - The font size of main text should be 11 or 12 pt.
 - The font size in captions can be as small as 10 pt.
 - Number and caption all figures and tables.
+- All graphics should be legible with adequate font sizes and clear lines.
 - Include page numbers on every sheet.
 - Equations should be numbered and rendered as proper mathematical notation.
-- Any standard citation style is permitted (e.g. IEEE, Havard, APA, MLA, etc.)
+- Any standard citation style is permitted (e.g. IEEE, Havard, APA, MLA, etc.),
+  but one must be used.
 - The reports should be treated as a professional documents and formatted as
   such.
 - The audience you should write for is a technically competent reader, e.g.
   another engineering colleague or engineering management.
-- All graphics should be legible with adequate font sizes and clear lines.
 
 For report writing tips see the slides from lecture that are available on
-Canvas.
+Canvas. Past reports are available on Canvas Files. These should only be shared
+among students in the class.
 
 .. [1] Be sure to either scale layout drawings correctly with legible font
    sizes or print them in the appendices on larger paper sizes.
@@ -51,7 +53,9 @@ Title Page
 ----------
 
 The title page should include the title, authors, team name, project title,
-date, course section, and an abstract (~150 words).
+date, course section, and an abstract (~150 words). The abstract should inform
+the reader what they will find in the report, i.e. what it is about and what it
+concludes.
 
 Table of Contents
 -----------------
@@ -63,15 +67,19 @@ Content Sections
 ----------------
 
 These sections should contain the essential text, figures, tables, etc. to tell
-your story. This main content should stand on its own without having to delve
-into the optional appendices.
+your story. This main content should be understandable without having to delve
+into the optionally provided appendices, e.g. don't refer to figures in the
+appendix if discussed in detail in the content sections, include the figure (or
+simpler version of the figure) near the relevant text.
 
 References
 ----------
 
 All text and materials in the paper that were not created by your team must be
-cited here. Be sure to up-hold copyright laws on any included material. Use any
-citation style that you prefer that fully communicates the reference.
+cited here. Be sure to up-hold copyright laws on any included material or be
+sure they fall under fair-use. Use any citation style that you prefer that
+fully communicates the reference, but you must make use of one. Note that URLs
+do not make adequate citations.
 
 Appendices
 ----------
@@ -80,9 +88,9 @@ The appendices can be any length and contain details that do not belong in the
 content section(s). This could include large figures, sketches, layout
 drawings, 3D renderings, detailed calculations, big tables, short source code
 snippets, etc. Basically, anything that takes attention away from the main
-points but provides the details that back them up should go in the appendices.
-Keep in mind that the content sections should stand on their own. Additionally,
-feel free to link to rich media: videos, websites, demos, etc.
+points but provides the details that back up the main content should go in the
+appendices. Keep in mind that the content sections should stand on their own.
+Additionally, feel free to link to rich media: videos, websites, demos, etc.
 
 Technical Documentation Explanation and Examples
 ================================================
@@ -128,6 +136,8 @@ Tips
 - Choose dimensions that are most useful for the fabricator that will make your
   part. You should think about how the part will be made and how the part will
   be measured.
+- The is not need to make layout drawings for purchased parts. Only make
+  drawings for those things you need to fabricate and assemble.
 
 Examples
 ++++++++
@@ -177,8 +187,9 @@ The primary purpose of the project proposal is for your team to clearly
 articulate your understanding of the customer's needs and to share your
 preliminary research findings, concepts, first quarter timeline, preliminary
 budget, and goals. This story should convince your instructors and sponsors
-that you have a clear understanding of the needs, have a realistic scope, and
-are ready to move forward with design, analysis, concept selection.
+that you have a clear understanding of the needs, have a realistic scope, have
+a narrowed idea of a solution, and are ready to move forward with design,
+analysis, and final concept selection.
 
 This document should be shared with your sponsor(s) by email (cc the instructor
 and TA) for feedback in addition to being turned into Canvas. Be sure to adjust
@@ -196,11 +207,17 @@ Identified customer needs
    Use this section to show a more detailed view of the identified needs. It is
    important that you sponsor see that you've understood their needs. Note that
    you may also have discovered needs that your sponsor didn't explicitly
-   describe, so use this opportunity to share those with your sponsor.
+   describe, so use this opportunity to share those with your sponsor. Make use
+   of ranked needs tables to document all of your needs. The large superset of
+   needs should likely go in the appendices.
 Refined target specifications
    List as many design specifications as you can at this time including such
    aspects as capacities, speeds, size, weight, cost, etc. as well as any other
-   specific and/or general requirements and specifications for your design.
+   specific and/or general requirements and specifications for your design. You
+   should indicate which needs correspond to the specifications. Make use of
+   the relevant tables in Chapter 6 of the book to present this information.
+   You should include any relevant engineering codes and standards that will
+   have bearing on your specifications.
 External concepts and existing solutions
    It should be clear that you've "done your homework", i.e. searched for
    existing solutions and used them to help develop your specifications and
@@ -208,22 +225,28 @@ External concepts and existing solutions
 Initial design concepts
    You should have a large number of concepts to share at this point. Be sure
    to show these off so that your sponsor can see that there are a wide range
-   of possible solutions to their needs. You can highlight the most promising
-   ideas.
+   of possible solutions to their needs. Make use of functional diagrams,
+   concept combination trees, and concept combination tables to organize this
+   information. Discuss and highlight the most promising concepts based on any
+   concept selection you have done. Show how the concepts meet the needs using
+   at least concept screening. You can present a single concept selection if
+   your screening identified one or present your top 3 or so designs if you
+   haven't quite homed in on a solution.
 Preliminary planning and scheduling
    The preliminary plan should give at least a coarse idea of the important
-   milestones you will need to meet over the next quarter. You should include a
-   `Gantt chart <{filename}/pages/gantt-chart.rst>`_ with the details.
+   milestones you will need to meet for the remaining weeks of the course. You
+   should include a `Gantt chart <{filename}/pages/gantt-chart.rst>`_ with the
+   details.
 Preliminary budget
    The purpose of the preliminary budget statement is to give a very rough idea
    of what expected project costs may be for your top designs. This will vary
    based on your or your sponsor's desire to construct a prototype or run
    testing. The instructors and sponsors will use this number to start planning
-   resource allocation. A refined budget will be presented in the final report
-   of the winter quarter.
+   resource allocation. A refined budget for a single design will be presented
+   in the final report of the winter quarter.
 
 You may add other information that is deemed necessary to "sell" your proposal.
-Use your memos as building blocks for the proposal. The instructors and
+Use your memo as a building block for the proposal. The instructors and
 sponsors will evaluate your report to determine the size and scope of your
 project and if the objectives are both well thought out and feasible.
 
