@@ -611,8 +611,12 @@ Week 5
 
 Announcements:
 
-- Signup for Spring meetings are due Friday.
-- Proposal will be due end of week 6.
+- Signup for Spring meetings are due Friday, contact us if there isn't a
+  workable slot.
+- Proposal will be due end of week 6. Discuss rubric (50 point section)
+- First peer evaluation will also be due at same time as the proposal.
+- Next lecture will be guest remote speaker.
+- How many would like a studio activity on FEA?
 
 Tasks:
 
@@ -621,11 +625,10 @@ Tasks:
 - [Instructor] Post the CATME peer evaluation on Friday.
 - [Instructor] Invite industry visitors for the panel.
 - [Lead TA] Check microcontroller kits for all parts and charged batteries.
-- [Lead TA] Prototype a control system for the microcontroller studio session.
 - [All TAs] Grade Memo 3: Needs and Specs.
 - [All TAs] Grade week 5 AIO + participation.
 - [All TAs] Read chatper 8 on concept selection before the studio.
-- [Single TA] Review Quiz for Chapter 8.
+- [Single TA] Review/Update Quiz for Chapter 8.
 
 Week 6
 ^^^^^^
