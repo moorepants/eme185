@@ -28,9 +28,10 @@ Please do all of the following before coming to class:
 - Install the Arduino Integrated Development Environment (IDE) from the
   `software page`_ on the Arduino website.
 - Make sure you have an up-to-date web browser.
-- Sign up for a free circuits.io_ account.
+- Sign up for a free `TinkerCAD`_ account.
 
 .. _software page: https://www.arduino.cc/en/Main/Software
+.. _TinkerCAD: https://www.tinkercad.com/
 
 Finally, bring your prepped laptop to both class periods [1]_.
 
