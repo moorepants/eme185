@@ -59,13 +59,11 @@ uploaded onto the Arudino's memory. To try out code on the Arduino you must
 have the actual hardware. But during this lesson we will make use of an Arduino
 emulator which allows us to try out code we want to run on an Arduino without
 having the actual hardware. There are a number of Arduino emulators available,
-but we will make use of a web application called circuits.io_.
+but we will make use of a web application called TinkerCAD_.
 
-1. Visit circuits.io and create an account.
-2. Log in to your account.
-3. Select the "Create" tab.
-4. Open "Electronics Lab Hub"
-5. Open a new "Electronics Lab"
+1. Visit TinkerCAD and create an account.
+2. Sign in to your account.
+3. From your profile page, Select "Circuits" and "Create new Circuit".
 
 Components
    Open a library of components that can be dropped onto the workspace.
@@ -98,7 +96,7 @@ Serial monitor
 Start Simulation
    This will run the simulation of the circuit.
 
-.. _circuits.io: http://circuits.io
+.. _TinkerCAD: https://www.tinkercad.com/
 
 Processing Language
 ===================
