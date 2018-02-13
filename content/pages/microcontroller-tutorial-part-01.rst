@@ -55,7 +55,7 @@ Emulation
 
 In general, the code you write on your computer for the microcontroller must be
 compiled, i.e.  transformed into the language of the Arduino's CPU, and then
-uploaded onto the Arudino's memory. To try out code on the Arduino you must
+uploaded onto the Arduino's memory. To try out code on the Arduino you must
 have the actual hardware. But during this lesson we will make use of an Arduino
 emulator which allows us to try out code we want to run on an Arduino without
 having the actual hardware. There are a number of Arduino emulators available,
@@ -68,21 +68,23 @@ but we will make use of a web application called TinkerCAD_.
 Components
    Open a library of components that can be dropped onto the workspace.
 Breadboard
-   The breadboard is a simple has a grid of input pins. The rows along the top
-   and bottom are connected and generally used to supply a common voltage and
-   ground. The columns in the middle rows are tied together.
+   The breadboard is a basic component that has a grid of pins inputs where wires can be inserted.
+   The rows along the top and bottom are connected internally and generally used to supply a common voltage and
+   ground. The columns in the middle rows are connected together internally.
 
 Search for Arduino Uno and drag it onto the screen.
 
-The Arduino board has the CPU chip which is connected to the black pins along
-the edges. There is a USB plug to connect to your computer for communication
-purposes.
+The Arduino board has an MCU chip which is connected to the black pins along
+the edges. There is an USB plug to connect to your computer for communication
+purposes and can also be used to power the Arduino itself. Look at the pin labels
+on the board.
 
 Ground
    The common ground for the circuit (the negative polarity side of the
    circuit).
 5V
-   A 5V power supply which can provide up to X amps of current.
+   A 5V power supply which can provide up to 900 milli-amps of current depending on 
+   the power source.
 Digital I/O
    Pins that can read binary inputs and write binary outputs.
 Analog Inputs
@@ -108,6 +110,9 @@ one of the most widely used programming languages. Most work with
 microcontrollers is done in C.
 
 .. _Processing language: https://en.wikipedia.org/wiki/Processing_%28programming_language%29
+
+Click on the 'Code' button and switch from 'Blocks' to the 'Text' editor in the dropdown box.
+Now you can code directly in the Processing language instead of using simplified code blocks.
 
 Variables
 =========
