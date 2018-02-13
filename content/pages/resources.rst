@@ -117,7 +117,7 @@ Resume Information
 ------------------
 
 - UCD Internship and Career Center's tips: https://icc.ucdavis.edu/materials/resume/
-- Tips from Cornell University: https://www.engineering.cornell.edu/resources/career_services/students/resumes.cfm
+- Tips from Cornell University: https://research.engineering.cornell.edu/resources/career_services/students/resumes.cfm
 - Electronic resume and networking: LinkedIn https://www.linkedin.com
 
 Out-of-the-box Resume Websites
