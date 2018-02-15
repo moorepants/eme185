@@ -633,6 +633,17 @@ Tasks:
 Week 6
 ^^^^^^
 
+Announcements:
+
+- Report and peer eval due Friday by 10 PM.
+- Grading note: A (90-100%) (exceptional work), B (80-90%) (meets expectations,
+  good), C (70-80%) (needs improvement)
+- Design review signup sheets and space requirements.
+- Bring laptop to lecture next Tuesday: Microcontroller introduction.
+- Read Chapter 10, product architecture, for next week (last quiz)
+
+Tasks:
+
 - [Instructor] Send out microcontroller preparation instructions after lecture.
 - [Instructor] Update microcontroller lesson and prepare for giving it.
 - [Instructor] Develop preliminary budget sheet.
