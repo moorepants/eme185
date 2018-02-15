@@ -86,7 +86,7 @@ current going through the device. In most applications (e.g. indicators),
 a current-limiting resistor is connected in series with the LED to provide
 a fixed brightness for a given control voltage.
 
-|led|
+.. image::|led|/images/microcontroller-tutorial/led.jpg
 
 |led-diagram|
 
