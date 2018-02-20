@@ -636,8 +636,6 @@ Week 6
 Announcements:
 
 - Report and peer eval due Friday by 10 PM.
-- Grading note: A (90-100%) (exceptional work), B (80-90%) (meets expectations,
-  good), C (70-80%) (needs improvement)
 - Design review signup sheets and space requirements.
 - Bring laptop to lecture next Tuesday: Microcontroller introduction.
 - Read Chapter 10, product architecture, for next week (last quiz)
@@ -646,7 +644,6 @@ Tasks:
 
 - [Instructor] Send out microcontroller preparation instructions after lecture.
 - [Instructor] Update microcontroller lesson and prepare for giving it.
-- [Instructor] Develop preliminary budget sheet.
 - [Instructor] Recruit some students to be helpers in the Arduino lesson.
 - [Lead TA] Prepare the preliminary design review signup and send out by
   Wednesday (announcement and assignment on canvas).
@@ -657,15 +654,21 @@ Tasks:
 Week 7
 ^^^^^^
 
+Announcements:
+
+- Sign up for the preliminary design reviews by Friday 10pm.
+- Sign up for the space needs by Firday 10pm.
+
+Tasks:
+
+- [Instructor] Develop preliminary budget sheet.
 - [Instructor] Meet with Chair to request additional course funding if needed
   and space.
 - [Instructor or TA] Practice the microcontroller studio lesson.
 - [Instructor + all TAs] Co-grade a report in person.
 - [Instructor + all TAs] Grade report 1 by Friday 5pm.
 - [TA] Invite the sponsors, faculty, and the EFL staff to the design reviews.
-- [Lead TA] Organize Meijo visit lunch and campus activities.
 - [TA] Organize microcontroller studio tutorial kits.
-- [Lead TA] Invite students to Meijo lunch and cultural activities.
 
 Week 8
 ^^^^^^
@@ -736,6 +739,8 @@ Week 5
 - [Lead TA] Send out design review scheduling form.
 - [Lead TA] Remind students to sign up for showcase.
 - [Instructor] Remind students of Sandia Design Award
+- [Lead TA] Organize Meijo visit lunch and campus activities.
+- [Lead TA] Invite students to Meijo lunch and cultural activities.
 
 Week 6
 ^^^^^^
