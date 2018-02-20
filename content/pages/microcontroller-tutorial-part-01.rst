@@ -12,9 +12,11 @@ using an electronics emulator.
 Objectives
 ==========
 
-- To understand what a microcontroller is and what it may be used for.
-- To introduce the basics of programming an Arduino microcontroller.
-- To understand what is and how to use an emulator.
+After the lesson students will be able to:
+
+- explain what a microcontroller is and what it may be used for
+- use an emulator to program and simulate and Arduino
+- program an Arduino with basic C code
 
 Microcontrollers
 ================
@@ -68,31 +70,32 @@ but we will make use of a web application called TinkerCAD_.
 Components
    Open a library of components that can be dropped onto the workspace.
 Breadboard
-   The breadboard is a basic component that has a grid of pins inputs where wires can be inserted.
-   The rows along the top and bottom are connected internally and generally used to supply a common voltage and
-   ground. The columns in the middle rows are connected together internally.
+   The breadboard is a basic component that has a grid of pins inputs where
+   wires can be inserted. The rows along the top and bottom are connected
+   internally and generally used to supply a common voltage and ground. The
+   columns in the middle rows are connected together internally.
 
 Search for Arduino Uno and drag it onto the screen.
 
 The Arduino board has an MCU chip which is connected to the black pins along
 the edges. There is an USB plug to connect to your computer for communication
-purposes and can also be used to power the Arduino itself. Look at the pin labels
-on the board.
+purposes and can also be used to power the Arduino itself. Look at the pin
+labels on the board.
 
 Ground
    The common ground for the circuit (the negative polarity side of the
    circuit).
 5V
-   A 5V power supply which can provide up to 900 milli-amps of current depending on 
-   the power source.
+   A 5V power supply which can provide up to 900 milli-amps of current
+   depending on the power source.
 Digital I/O
    Pins that can read binary inputs and write binary outputs.
 Analog Inputs
    Pins that can read continuous inputs and convert them to a digital signal.
-
-Code editor
+Code botton
    Here you can edit the code that will be loaded onto any component that
-   excepts code, e.g. the Arduino UNO.
+   excepts code, e.g. the Arduino UNO. Make sure to select "Text" instead of
+   blocks.
 Serial monitor
    This will display the outputs of the USB connection on the Arduino board.
 Start Simulation
@@ -100,19 +103,17 @@ Start Simulation
 
 .. _TinkerCAD: https://www.tinkercad.com/
 
-Processing Language
-===================
+C Language
+==========
 
-The Arduino can be programmed by writing code in the `Processing language`_,
-which is derivative of the C programming language. C is a low level language
-that compiles directly to machine code for different CPU architectures and is
-one of the most widely used programming languages. Most work with
-microcontrollers is done in C.
+The Arduino can be programmed by writing code in the C programming language. C
+is a low level language that compiles directly to machine code for different
+CPU architectures and is one of the most widely used programming languages.
+Most work with microcontrollers is done in C.
 
-.. _Processing language: https://en.wikipedia.org/wiki/Processing_%28programming_language%29
-
-Click on the 'Code' button and switch from 'Blocks' to the 'Text' editor in the dropdown box.
-Now you can code directly in the Processing language instead of using simplified code blocks.
+Click on the 'Code' button and switch from 'Blocks' to the 'Text' editor in the
+dropdown box. Now you can code directly in the C language instead of using
+simplified code blocks.
 
 Variables
 =========
@@ -395,8 +396,8 @@ Exercise
 --------
 
 Plug in an LED to the breadboard and connect its anode (+, long side) to a 150
-ohm resistor [#]_.  Then connect the other end of the resistor to the number 13 pin.
-Finally, connect the LED's cathode (-, short side) to the ground pin and
+ohm resistor [#]_. Then connect the other end of the resistor to the number 13
+pin.  Finally, connect the LED's cathode (-, short side) to the ground pin and
 confirm that the LED component blinks the same as the on board LED.
 
 `Solution <https://123d.circuits.io/circuits/1573816-simple-led>`__
@@ -407,9 +408,9 @@ confirm that the LED component blinks the same as the on board LED.
 Conditionals
 ============
 
-Processing supports flow control with ``if`` statements. For example, if you'd
-like to activate the on-board LED every 100 milliseconds except on every 5th
-cycle wait for 1000 milliseconds. You could use:
+C supports flow control with ``if`` statements. For example, if you'd like to
+activate the on-board LED every 100 milliseconds except on every 5th cycle wait
+for 1000 milliseconds. You could use:
 
 .. code-block:: arduino
 
