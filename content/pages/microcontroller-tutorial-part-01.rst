@@ -152,10 +152,28 @@ you can convert an integer to a double with:
    int int_val = 1;
    double double_val = (double) int_val;
 
+Note that the casting prefix only applies to the value directly adjacent to it.
+This works:
+
+.. code-block:: arduino
+
+   int a = 1;
+   int b = 2
+   (double) a * (double) b;
+
+But this does not:
+
+.. code-block:: arduino
+
+   int a = 1;
+   int b = 2
+   (double) a * b;
+
 Exercise
 --------
 
-What will the value of the variable ``result``` be in the following code?
+What will the value and type of the variable ``result`` be in the following
+code?
 
 .. code-block:: arduino
 
@@ -163,12 +181,14 @@ What will the value of the variable ``result``` be in the following code?
    int b = 5;
    double c = 2.4;
 
-   int result = (int) c * b + a;
+   ? result = (int) c * b + a;
 
-a. 22.00
-b. 20
-c. 25
-d. 20.00
+a. 22.00 (a double)
+b. 20 (an integer)
+c. 22 (an integer)
+d. 20.00 (a double)
+e. 30 (an integer)
+f. the program will error due to incompatible types
 
 Functions: setup(), loop(), and custom
 ======================================
@@ -201,9 +221,9 @@ parentheses typically hold the arguments to the function but as convention
 execute in that function.
 
 The second function that must be in every Arduino program is called ``loop``.
-This function executes once every clock cycle (at 16 MHz) or as fast as it can
-and contains the main code for your application. The function follows the style
-of ``setup`` and looks like:
+This function executes once every clock cycle (at 16 MHz), or as fast as it
+can, and contains the main code for your application. The function follows the
+style of ``setup`` and looks like:
 
 .. code-block:: arduino
 
@@ -244,7 +264,7 @@ Exercise
 --------
 
 What will the result of the following code be if the values returned by the
-``square()`` function were displayed to the screen?
+``square()`` function were displayed to the screen in the ``loop()`` function?
 
 .. code-block:: arduino
 
@@ -324,7 +344,8 @@ The result would be::
 
 Let's modify the above exercise code so that we can see if our guess about the
 result of the code is correct. You will need to open the serial monitor while
-this code simulates to see the results.
+this code simulates to see the results. After you modify the code, simulate it,
+and open the serial monitor to see the display.
 
 Exercise
 --------
