@@ -647,6 +647,7 @@ Tasks:
 - [Instructor] Send out microcontroller preparation instructions after lecture.
 - [Instructor] Update microcontroller lesson and prepare for giving it.
 - [Instructor] Develop preliminary budget sheet.
+- [Instructor] Recruit some students to be helpers in the Arduino lesson.
 - [Lead TA] Prepare the preliminary design review signup and send out by
   Wednesday (announcement and assignment on canvas).
 - [All TAs] Grade week 6 AIO + participation.
