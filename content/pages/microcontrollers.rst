@@ -12,10 +12,11 @@ hardware and open source code.
 
 During the lecture and studio we will lead you through a tutorial that
 introduces you to using a lightweight microcontroller called the Arduino_. This
-first lesson will use an emulator for the hardware and we will cover the basics
-about programming the microcontroller. The following week we will have an hour
-long activity in the studio sessions where you will get to work with the real
-hardware and will implement a simple control system in pairs of two people.
+first lesson will use an *emulator* for the hardware and we will cover the
+basics about programming the microcontroller. The following week we will have a
+three hour long activity in the studio sessions where you will get to work with
+the real hardware and will implement a simple control system in pairs of two
+people.
 
 .. _Microcontrollers: https://en.wikipedia.org/wiki/Microcontroller
 .. _Arduino: https://www.arduino.cc
@@ -25,10 +26,10 @@ Preparation
 
 Please do all of the following before coming to class:
 
+- Make sure you have an up-to-date web browser. (needed in part 1)
+- Sign up for a free `TinkerCAD`_ account. (needed in part 1)
 - Install the Arduino Integrated Development Environment (IDE) from the
-  `software page`_ on the Arduino website.
-- Make sure you have an up-to-date web browser.
-- Sign up for a free `TinkerCAD`_ account.
+  `software page`_ on the Arduino website. (needed in part 2)
 
 .. _software page: https://www.arduino.cc/en/Main/Software
 .. _TinkerCAD: https://www.tinkercad.com/
@@ -41,14 +42,14 @@ Finally, bring your prepped laptop to both class periods [1]_.
 Objectives
 ==========
 
-- To learn what a microcontroller is and what it may be used for in the context
-  of mechanical engineering.
-- To learn the basic programming constructs needed to program an Arduino.
-- To get introduced to an emulation tool for microcontroller design.
-- To understand how a simple theoretical control system can be implemented
-  with a microcontroller.
-- To learn how to control a high power motor with a low power control circuit.
-- To practice building a physical control circuit.
+After the lessons are completed students will be able to:
+
+- explain what a microcontroller is and what it may be used for in the context
+  of mechanical engineering
+- use an emulator for microcontroller design
+- program an Arduino using the C programming language
+- design code that implements a simple theoretical control system
+- build a physical circuit that implements a simple control system
 
 Lesson Materials
 ================
@@ -63,5 +64,5 @@ Reference
 - `Arduino IDE Download <https://www.arduino.cc/en/Main/Software>`_
 - `Arduino Language Reference <https://www.arduino.cc/en/Reference/HomePage>`_
 - `Q & A for Arduino <http://arduino.stackexchange.com/>`_
+- `TinkerCAD <https://www.tinkercad.com/>`_
 - `circuits.io <https://circuits.io>`_
-- `Etherpad for the class <http://pad.software-carpentry.org/eme185-winter-2016-arduino>`_
