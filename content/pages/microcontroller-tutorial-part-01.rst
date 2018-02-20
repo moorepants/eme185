@@ -92,7 +92,7 @@ Digital I/O
    Pins that can read binary inputs and write binary outputs.
 Analog Inputs
    Pins that can read continuous inputs and convert them to a digital signal.
-Code botton
+Code button
    Here you can edit the code that will be loaded onto any component that
    excepts code, e.g. the Arduino UNO. Make sure to select "Text" instead of
    blocks.
@@ -421,7 +421,7 @@ ohm resistor [#]_. Then connect the other end of the resistor to the number 13
 pin.  Finally, connect the LED's cathode (-, short side) to the ground pin and
 confirm that the LED component blinks the same as the on board LED.
 
-`Solution <https://123d.circuits.io/circuits/1573816-simple-led>`__
+`Solution <https://circuits.io/circuits/1573816-simple-led>`_
 
 .. [#] The resistor ensures that the LED doesn't draw more current than the
    Arduino board and the LED can handle.
@@ -520,7 +520,7 @@ ground and the red pin to the ``A0`` pin. Write some code that causes the
 voltage to display to the serial monitor and ensure that it matches the voltage
 supplied by the power supply.
 
-`Solution <https://123d.circuits.io/circuits/1588003-simple-analog-read>`__
+`Solution <https://circuits.io/circuits/1588003-simple-analog-read>`_
 
 Arduino IDE
 ===========
