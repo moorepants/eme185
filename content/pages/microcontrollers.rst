@@ -1,6 +1,8 @@
 :title: Microcontroller Tutorial Materials and Information
 :status: hidden
 
+Short URL to this page: https://tinyurl.com/eme185-micro
+
 Introduction
 ============
 
