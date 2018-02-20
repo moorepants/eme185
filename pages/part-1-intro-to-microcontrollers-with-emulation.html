@@ -195,20 +195,34 @@ you can convert an integer to a double with:</p>
 <div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">int_val</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 <span class="kr">double</span> <span class="n">double_val</span> <span class="o">=</span> <span class="p">(</span><span class="kr">double</span><span class="p">)</span> <span class="n">int_val</span><span class="p">;</span>
 </pre></div>
+<p>Note that the casting prefix only applies to the value directly adjacent to it.
+This works:</p>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kr">int</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="p">(</span><span class="kr">double</span><span class="p">)</span> <span class="n">a</span> <span class="o">*</span> <span class="p">(</span><span class="kr">double</span><span class="p">)</span> <span class="n">b</span><span class="p">;</span>
+</pre></div>
+<p>But this does not:</p>
+<div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="kr">int</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="p">(</span><span class="kr">double</span><span class="p">)</span> <span class="n">a</span> <span class="o">*</span> <span class="n">b</span><span class="p">;</span>
+</pre></div>
 <div class="section" id="exercise">
 <h3>Exercise<a class="toc-backref headerlink" href="#id18">¶</a></h3>
-<p>What will the value of the variable <tt class="docutils literal">result`</tt> be in the following code?</p>
+<p>What will the value and type of the variable <tt class="docutils literal">result</tt> be in the following
+code?</p>
 <div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
 <span class="kr">int</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
 <span class="kr">double</span> <span class="n">c</span> <span class="o">=</span> <span class="mf">2.4</span><span class="p">;</span>
 
-<span class="kr">int</span> <span class="n">result</span> <span class="o">=</span> <span class="p">(</span><span class="kr">int</span><span class="p">)</span> <span class="n">c</span> <span class="o">*</span> <span class="n">b</span> <span class="o">+</span> <span class="n">a</span><span class="p">;</span>
+<span class="o">?</span> <span class="n">result</span> <span class="o">=</span> <span class="p">(</span><span class="kr">int</span><span class="p">)</span> <span class="n">c</span> <span class="o">*</span> <span class="n">b</span> <span class="o">+</span> <span class="n">a</span><span class="p">;</span>
 </pre></div>
 <ol class="loweralpha simple">
-<li>22.00</li>
-<li>20</li>
-<li>25</li>
-<li>20.00</li>
+<li>22.00 (a double)</li>
+<li>20 (an integer)</li>
+<li>22 (an integer)</li>
+<li>20.00 (a double)</li>
+<li>30 (an integer)</li>
+<li>the program will error due to incompatible types</li>
 </ol>
 </div>
 </div>
@@ -238,9 +252,9 @@ parentheses typically hold the arguments to the function but as convention
 <tt class="docutils literal">setup</tt> has no arguments. Finally the braces <tt class="docutils literal">{}</tt> bound the code that will
 execute in that function.</p>
 <p>The second function that must be in every Arduino program is called <tt class="docutils literal">loop</tt>.
-This function executes once every clock cycle (at 16 MHz) or as fast as it can
-and contains the main code for your application. The function follows the style
-of <tt class="docutils literal">setup</tt> and looks like:</p>
+This function executes once every clock cycle (at 16 MHz), or as fast as it
+can, and contains the main code for your application. The function follows the
+style of <tt class="docutils literal">setup</tt> and looks like:</p>
 <div class="highlight"><pre><span></span><span class="kr">void</span> <span class="nb">loop</span><span class="p">()</span> <span class="p">{</span>
 
 <span class="p">};</span>
@@ -269,7 +283,7 @@ functions.</p>
 <div class="section" id="id1">
 <h3>Exercise<a class="toc-backref headerlink" href="#id20">¶</a></h3>
 <p>What will the result of the following code be if the values returned by the
-<tt class="docutils literal">square()</tt> function were displayed to the screen?</p>
+<tt class="docutils literal">square()</tt> function were displayed to the screen in the <tt class="docutils literal">loop()</tt> function?</p>
 <div class="highlight"><pre><span></span><span class="kr">int</span> <span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
 <span class="kr">int</span> <span class="nf">square</span><span class="p">(</span><span class="kr">int</span> <span class="n">a</span><span class="p">)</span> <span class="p">{</span>
@@ -336,7 +350,8 @@ values to the serial port:</p>
 </pre>
 <p>Let's modify the above exercise code so that we can see if our guess about the
 result of the code is correct. You will need to open the serial monitor while
-this code simulates to see the results.</p>
+this code simulates to see the results. After you modify the code, simulate it,
+and open the serial monitor to see the display.</p>
 <div class="section" id="id3">
 <h3>Exercise<a class="toc-backref headerlink" href="#id23">¶</a></h3>
 <p>Add some print statements to your code so that you can see the results of the
