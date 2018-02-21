@@ -2,7 +2,7 @@
 :status: hidden
 
 .. contents:: Table of Contents
-   :depth: 1
+   :depth: 2
 
 Primary TA Duties
 =================
@@ -34,10 +34,11 @@ General TA Requirements
   everyone's schedule in the first week of both EME 185A and 185B.
 - If you want to meet with me, check my `work calendar`_ for an open weekday
   slot and send me a request via email.
-- Jason primarily uses the Linux operating system and strive to use open source
-  and free tools for most of my work. I prefer not to have to deal with any
-  Microsoft Office Suite file types. Please avoid these and choose LibreOffice
-  for Google equivalents so that we can easily collaborate and share.
+- Jason primarily uses the Linux operating system and strives to use open
+  source and free tools for most of my work. I prefer not to have to deal with
+  any Microsoft Office Suite or other proprietary file types. Please avoid
+  these and choose LibreOffice for Google equivalents so that we can easily
+  collaborate and share.
 
 .. _work calendar:  http://www.moorepants.info/work-calendar.html
 
