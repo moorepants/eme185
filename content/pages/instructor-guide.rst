@@ -658,10 +658,15 @@ Week 7
 Announcements:
 
 - Sign up for the preliminary design reviews by Friday 10pm.
-- Sign up for the space needs by Firday 10pm.
+- Sign up for the space needs by Friday 10pm.
+- Do the microcontroller HW.
+- Bring laptop to studio next week.
+- Ian will give a lecture on 3D printing.
+- Concept selection and product architecture memo due next Friday.
 
 Tasks:
 
+- [All] Read chapter 10.
 - [Instructor] Develop preliminary budget sheet.
 - [Instructor] Meet with Chair to request additional course funding if needed
   and space.
