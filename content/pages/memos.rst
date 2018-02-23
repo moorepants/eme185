@@ -114,7 +114,7 @@ standards_ that your project may be relevant to your project. See the
 
 You should create tables and charts that you find in Chapter 5 and 6 to
 organize your needs and specifications. These may be large and thus should
-likley be attached in the appendix of the memo. You should summarize the
+likely be attached in the appendix of the memo. You should summarize the
 findings in the main two pages of the memo.
 
 Other items to include:
@@ -124,23 +124,21 @@ Other items to include:
 - The organized target specifications (appendices).
 - Reflections on the process and the results.
 
-Memo 4: Concept Selection [Due: {{ DUE_DATES['mem_04'].strftime('%A, %b %-d, %Y') }}]
+Memo 4: Selection and Architecture [Due: {{ DUE_DATES['mem_04'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
 The purpose of this memo is to show that you have narrowed down your concepts
 and have a solution that you want to move forward with. Ideally, you have one
 concept at this point, but if not, you should be down to a very minimal set of
 choices and have a strong justification as to why you are having a hard time
-deciding. Finally, you should show that your selected concept has a very high
-probability of meeting your target specs and solving your problem.
+deciding. It should be evident that your selected concept has a very high
+probability of meeting your client's needs and solving your problem.
 
 Suggestions of what to include:
 
-- A detailed description of your selected concept.
-- Proof that indicates this concept will meet all or most of your target
-  specifications. If it doesn't meet all of them, justification as to why is
-  needed.
+- A description of your selected concept.
+- The product architecture of your selected concept.
+- Evidence that the concept will meet the client's needs.
 - Justification for your elimination of the abandoned concepts.
-- A description of your selection process to document why you ended up with the
-  selected choice.
-- Any screening or scoring charts/tables/graphs, etc.
+- Documentation of your selection process in the form of any screening or
+  scoring charts/tables/graphs, etc.
