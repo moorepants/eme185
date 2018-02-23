@@ -663,6 +663,7 @@ Announcements:
 - Bring laptop to studio next week.
 - Ian will give a lecture on 3D printing.
 - Concept selection and product architecture memo due next Friday.
+- Explain the design reviews.
 
 Tasks:
 
