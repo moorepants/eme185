@@ -172,7 +172,8 @@ throughout the session.</li>
 <li>With this circuit hooked up, you can test its operation. Add to the code
 below to repeatedly ramp up the brightness of LED from off to fully on over
 a few seconds each time. You'll need the <a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogWrite">analogWrite</a> function as well as
-the <a class="reference external" href="https://www.arduino.cc/en/Reference/Delay">delay</a> function. HINT: you can also use a '<a class="reference external" href="https://www.arduino.cc/reference/en/language/structure/control-structure/for/">for</a>' loop for Note that the pin number for the LED has been specified
+the <a class="reference external" href="https://www.arduino.cc/en/Reference/Delay">delay</a> function. HINT: you can also use a '<a class="reference external" href="https://www.arduino.cc/reference/en/language/structure/control-structure/for/">for</a>' loop to vary the input to the analogWrite function smoothly.
+Note that the pin number for the LED has been specified
 via a <a class="reference external" href="https://en.wikipedia.org/wiki/C_preprocessor">preprocessor macro</a>.
 This is a special statement that literally substitutes each occurence of
 <code>LED_PIN</code> with the value 5, saving some of the limited memory in the
