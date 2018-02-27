@@ -36,23 +36,24 @@
 <li><a class="reference internal" href="#learning-objectives" id="id3">Learning Objectives</a></li>
 <li><a class="reference internal" href="#introduction-to-the-arduino-ide" id="id4">Introduction to the Arduino IDE</a></li>
 <li><a class="reference internal" href="#the-kit-components" id="id5">The Kit Components</a><ul>
-<li><a class="reference internal" href="#basic-circuit-modules" id="id6">Basic circuit modules</a></li>
-<li><a class="reference internal" href="#light-emitting-diodes-led" id="id7">Light Emitting Diodes (LED)</a><ul>
-<li><a class="reference internal" href="#exercise-1-vary-the-led-brigtness" id="id8">Exercise 1: Vary the LED Brigtness</a></li>
+<li><a class="reference internal" href="#arduino-uno-microcontroller" id="id6">Arduino Uno Microcontroller</a></li>
+<li><a class="reference internal" href="#basic-circuit-modules" id="id7">Basic circuit modules</a></li>
+<li><a class="reference internal" href="#light-emitting-diodes-led" id="id8">Light Emitting Diodes (LED)</a><ul>
+<li><a class="reference internal" href="#exercise-1-vary-the-led-brigtness" id="id9">Exercise 1: Vary the LED Brigtness</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#photocells" id="id9">Photocells</a><ul>
-<li><a class="reference internal" href="#exercise-2-read-from-the-photocell" id="id10">Exercise 2: Read from the Photocell</a></li>
+<li><a class="reference internal" href="#photocells" id="id10">Photocells</a><ul>
+<li><a class="reference internal" href="#exercise-2-read-from-the-photocell" id="id11">Exercise 2: Read from the Photocell</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a class="reference internal" href="#control-system" id="id11">Control System</a><ul>
-<li><a class="reference internal" href="#circuit-construction" id="id12">Circuit Construction</a></li>
-<li><a class="reference internal" href="#implementing-the-controller" id="id13">Implementing the Controller</a><ul>
-<li><a class="reference internal" href="#excercise-3-finding-a-setpoint" id="id14">Excercise 3: Finding a Setpoint</a></li>
-<li><a class="reference internal" href="#exercise-4-implement-a-proportional-controller" id="id15">Exercise 4: Implement a Proportional Controller</a></li>
-<li><a class="reference internal" href="#exercise-5-adding-integral-control" id="id16">Exercise 5: Adding Integral Control</a></li>
+<li><a class="reference internal" href="#control-system" id="id12">Control System</a><ul>
+<li><a class="reference internal" href="#circuit-construction" id="id13">Circuit Construction</a></li>
+<li><a class="reference internal" href="#implementing-the-controller" id="id14">Implementing the Controller</a><ul>
+<li><a class="reference internal" href="#excercise-3-finding-a-setpoint" id="id15">Excercise 3: Finding a Setpoint</a></li>
+<li><a class="reference internal" href="#exercise-4-implement-a-proportional-controller" id="id16">Exercise 4: Implement a Proportional Controller</a></li>
+<li><a class="reference internal" href="#exercise-5-adding-integral-control" id="id17">Exercise 5: Adding Integral Control</a></li>
 </ul>
 </li>
 </ul>
@@ -94,17 +95,28 @@ microcontroller</li>
 </div>
 <div class="section" id="the-kit-components">
 <h2>The Kit Components<a class="toc-backref headerlink" href="#id5">¶</a></h2>
-<p>Check the kit that you received and make sure that it has below components
+<p>Check the kit that you received and make sure that it has below components.
 Our final circuit requires:</p>
 <ul class="simple">
+<li>Arduino Uno Micro Controller with USB cable</li>
 <li>an LED</li>
 <li>a photocell (photoresistor, light-dependent resistor)</li>
 <li>4-8 jumper wires</li>
 <li>a 4.7kΩ resistor (yellow, purple, red, [gold])</li>
 <li>a 330Ω resistor (orange, orange, brown, [gold])</li>
 </ul>
+<div class="section" id="arduino-uno-microcontroller">
+<h3>Arduino Uno Microcontroller<a class="toc-backref headerlink" href="#id6">¶</a></h3>
+<p>The basics of the Arduino microcontroller were discussed in the part 1 lecture.
+The Arduino requires a power source to work and the USB cable offers a way to
+both supply power and upload code into its memory simultaneously. For an actual
+application, standard practice is to upload and test your code with the USB
+first and then use a dedicated power supply to power the Arduino via power jack
+(large round socket in black).</p>
+<p><img alt="Arduino-uno-Pin-summary" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/Arduino-uno-Pin-summary.jpg" style="width: 7in;" /></p>
+</div>
 <div class="section" id="basic-circuit-modules">
-<h3>Basic circuit modules<a class="toc-backref headerlink" href="#id6">¶</a></h3>
+<h3>Basic circuit modules<a class="toc-backref headerlink" href="#id7">¶</a></h3>
 <p>Analog circuits are circuits dealing with signals free to vary from zero to
 full power supply voltage. This stands in contrast to digital circuits, which
 almost exclusively employ “all or nothing” signals: voltages restricted to
@@ -112,7 +124,7 @@ values of zero and full supply voltage, with no valid state in between those
 extreme limits.</p>
 </div>
 <div class="section" id="light-emitting-diodes-led">
-<h3>Light Emitting Diodes (LED)<a class="toc-backref headerlink" href="#id7">¶</a></h3>
+<h3>Light Emitting Diodes (LED)<a class="toc-backref headerlink" href="#id8">¶</a></h3>
 <p>Light emitting diodes (LEDs) are semiconductor devices that emit light
 when voltage is applied across them. LEDs typically have a fixed voltage
 drop of around 2V (depends on the LED), which is the voltage required to cause
@@ -143,7 +155,7 @@ This function accepts any integer value between 0 (pin fully off, 0% duty
 cycle) and 255 (pin fully on, 100% duty cycle).</p>
 <p><object data="https://moorepants.github.io/eme185/images/microcontroller-tutorial/pwm.svg" style="width: 5in;" type="image/svg+xml">pwm</object></p>
 <div class="section" id="exercise-1-vary-the-led-brigtness">
-<h4>Exercise 1: Vary the LED Brigtness<a class="toc-backref headerlink" href="#id8">¶</a></h4>
+<h4>Exercise 1: Vary the LED Brigtness<a class="toc-backref headerlink" href="#id9">¶</a></h4>
 <ol class="arabic simple">
 <li>Start by connecting the 5V and GND pins of the Arduino to the red and blue
 &quot;power rails&quot; of your breadboard, respectively.</li>
@@ -178,7 +190,7 @@ microcontroller.</li>
 </div>
 </div>
 <div class="section" id="photocells">
-<h3>Photocells<a class="toc-backref headerlink" href="#id9">¶</a></h3>
+<h3>Photocells<a class="toc-backref headerlink" href="#id10">¶</a></h3>
 <p>Photocells are passive circuit elements which change their resistance in
 response to a change in brightness. Their resistance <em>decreases</em> when the
 ambient environment becomes <em>brighter</em>. The <a class="reference external" href="https://media.digikey.com/pdf/Data%20Sheets/Photonic%20Detetectors%20Inc%20PDFs/PDV-P7002.pdf">datasheet</a>
@@ -212,7 +224,7 @@ V = \frac{5}{1023}x
 \end{equation*}
 </div>
 <div class="section" id="exercise-2-read-from-the-photocell">
-<h4>Exercise 2: Read from the Photocell<a class="toc-backref headerlink" href="#id10">¶</a></h4>
+<h4>Exercise 2: Read from the Photocell<a class="toc-backref headerlink" href="#id11">¶</a></h4>
 <ol class="arabic simple">
 <li>Leave the 5V and GND connections from the LED example intact, then place one
 of the photocell leads on the 5V rail. A photocell is essentially
@@ -254,7 +266,7 @@ record the numerical value.</li>
 </div>
 </div>
 <div class="section" id="control-system">
-<h2>Control System<a class="toc-backref headerlink" href="#id11">¶</a></h2>
+<h2>Control System<a class="toc-backref headerlink" href="#id12">¶</a></h2>
 <p>Now we'll put the LED and photocell together in order to obtain a desired
 brightness level. Here is a block diagram of the control system we will
 implement to achieve this:</p>
@@ -273,7 +285,7 @@ measured voltage, hence decreasing the error. This kind of controller
 configuration is called a regulator, and its job is to achieve and maintain
 zero error between the measured output and the desired output.</p>
 <div class="section" id="circuit-construction">
-<h3>Circuit Construction<a class="toc-backref headerlink" href="#id12">¶</a></h3>
+<h3>Circuit Construction<a class="toc-backref headerlink" href="#id13">¶</a></h3>
 <p>Now let's put together the hardware of our control system. The photocell will be the sensor
 and the led will be the actuator that we control. Our goal is to control the local brightness
 of small volume surrounding our sensor.</p>
@@ -294,9 +306,9 @@ able to influence the reading of the sensor as much as possible.</p>
 <p><img alt="complete-circuit" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/complete-circuit.jpg" style="width: 5in;" /></p>
 </div>
 <div class="section" id="implementing-the-controller">
-<h3>Implementing the Controller<a class="toc-backref headerlink" href="#id13">¶</a></h3>
+<h3>Implementing the Controller<a class="toc-backref headerlink" href="#id14">¶</a></h3>
 <div class="section" id="excercise-3-finding-a-setpoint">
-<h4>Excercise 3: Finding a Setpoint<a class="toc-backref headerlink" href="#id14">¶</a></h4>
+<h4>Excercise 3: Finding a Setpoint<a class="toc-backref headerlink" href="#id15">¶</a></h4>
 <ol class="arabic simple">
 <li>Start with the photocell reading code you finished.</li>
 <li>Add to that sketch the code for setting up the LED (refer to the first code
@@ -308,7 +320,7 @@ will seek to achieve with an automatic control system.</li>
 </ol>
 </div>
 <div class="section" id="exercise-4-implement-a-proportional-controller">
-<h4>Exercise 4: Implement a Proportional Controller<a class="toc-backref headerlink" href="#id15">¶</a></h4>
+<h4>Exercise 4: Implement a Proportional Controller<a class="toc-backref headerlink" href="#id16">¶</a></h4>
 <ol class="arabic simple">
 <li>Create a new sketch based on the code below. You will need to replace the
 value of <code>r</code> with the setpoint you found in the previous exercise, and
@@ -393,7 +405,7 @@ serial plotter?</li>
 </ol>
 </div>
 <div class="section" id="exercise-5-adding-integral-control">
-<h4>Exercise 5: Adding Integral Control<a class="toc-backref headerlink" href="#id16">¶</a></h4>
+<h4>Exercise 5: Adding Integral Control<a class="toc-backref headerlink" href="#id17">¶</a></h4>
 <p>As you probably have noticed, proportional controllers may suffer from non-zero
 <em>steady state error</em>. That is, there is a consistent mismatch between the
 desired and measured outputs, but the controller does not compensate for it
