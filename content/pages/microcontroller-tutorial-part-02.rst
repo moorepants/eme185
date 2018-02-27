@@ -42,10 +42,11 @@ For more in-depth descriptions of the IDE, see the `official guide
 <https://www.arduino.cc/en/Guide/Environment>`_
 
 
-The Circuit Components
+The Kit Components
 ======================
 
-The circuit requires:
+Check the kit that you received and make sure that it has below components
+Our final circuit requires:
 
 -  an LED
 -  a photocell (photoresistor, light-dependent resistor)
@@ -53,18 +54,6 @@ The circuit requires:
 -  a 4.7kΩ resistor (yellow, purple, red, [gold])
 -  a 330Ω resistor (orange, orange, brown, [gold])
 
-Once constructed, the circuit should look like the image below:
-
-|complete-circuit|
-
-The circuit consists of a light emitting diode (LED) circuit, driven by one of
-the Arduino's digital I/O pins capable of producing a pulsewidth modulation
-(PWM) signal. This will allow the LED’s brightness to change. A photocell
-facing the LED senses the ambient lighting. The objective of the circuit is to
-demonstrate an automatic feedback control system that drives the LED to
-a desired brightness level near the sensor. You will be able to cast shadows on
-the photocell and watch as the LED brightness increases to compensate for the
-dimmed lighting.
 
 Basic circuit modules
 ----------------------
@@ -86,7 +75,7 @@ current going through the device. In most applications (e.g. indicators),
 a current-limiting resistor is connected in series with the LED to provide
 a fixed brightness for a given control voltage.
 
-.. image::|led|/images/microcontroller-tutorial/led.jpg
+|led|
 
 |led-diagram|
 
@@ -256,16 +245,29 @@ zero error between the measured output and the desired output.
 
 Circuit Construction
 --------------------
+Now let's put together the hardware of our control system. The photocell will be the sensor
+and the led will be the actuator that we control. Our goal is to control the local brightness 
+of small volume surrounding our sensor.
 
-Below is a diagram of the complete circuit and the photo from before. Both
-components (the LED and the photocell) should be connected from the previous
+The circuit consists of a light emitting diode (LED) circuit, driven by one of
+the Arduino's digital I/O pins capable of producing a pulsewidth modulation
+(PWM) signal. This will allow the LED’s brightness to change. A photocell
+facing the LED senses the ambient lighting. The objective of the circuit is to
+demonstrate an automatic feedback control system that drives the LED to
+a desired brightness level near the sensor. You will be able to cast shadows on
+the photocell and watch as the LED brightness increases to compensate for the
+dimmed lighting.
+
+Both components (the LED and the photocell) should be connected from the previous
 two sections. The most important part of the control circuit construction
 (aside from making the correct electrical connections) is that the LED and
 photocell are close to and facing one another. This will ensure that the LED is
-able to influence the reading of the sensor as much as possible. The photo of
-the completed circuit is repeated below:
+able to influence the reading of the sensor as much as possible. 
+
+Once constructed, the circuit should look like the image below:
 
 |complete-circuit|
+
 
 Implementing the Controller
 ---------------------------
