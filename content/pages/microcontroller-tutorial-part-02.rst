@@ -56,9 +56,14 @@ Our final circuit requires:
 -  a 330Ω resistor (orange, orange, brown, [gold])
 
 Arduino Uno Microcontroller
-----------------------
+---------------------------
 
-The basics of the Arduino microcontroller were discussed in the part 1 lecture. The Arduino requires a power source to work and the USB cable offers a way to both supply power and upload code into its memory simultaneously. For an actual application, standard practice is to upload and test your code with the USB first and then use a dedicated power supply to power the Arduino via power jack (large round socket in black).
+The basics of the Arduino microcontroller were discussed in the part 1 lecture.
+The Arduino requires a power source to work and the USB cable offers a way to
+both supply power and upload code into its memory simultaneously. For an actual
+application, standard practice is to upload and test your code with the USB
+first and then use a dedicated power supply to power the Arduino via power jack
+(large round socket in black).
 
 |Arduino-uno-Pin-summary|
 
