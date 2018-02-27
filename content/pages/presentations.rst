@@ -13,16 +13,17 @@ for the review questions and discussion. The primary purpose of this review is
 for your team to justify your concept selection and design decisions through
 technical details and analysis. We are not as concerned with the path to the
 final design (i.e., initial concepts, etc.) but what the final concept is and
-why you feel confident it will work. The intent of critical design reviews is
-to insure that the proper methods are being used in analyses and that the
-design is valid and valuable, i.e. it meets specifications, it can be
-manufactured, etc. Both your teaching assistant and the primary instructor will
-be present along with other potential reviewers. The presentation should be
-geared toward and "engineering management" audience. Every team member should
-have a significant speaking role.
+why you feel confident it will work. The intent of design reviews is to insure
+that the proper methods are being used in analyses and that the design is valid
+and valuable, i.e. it meets specifications, it can be manufactured, etc. Both
+your teaching assistant and the primary instructor will be present along with
+other potential reviewers. The presentation should be geared toward and
+"engineering management" audience. **Every team member should have a
+significant speaking role.**
 
 Suggestions of what to include:
 
+- Context and background of your project.
 - A technical description of the need you are trying to solve.
 - The primary specs and metrics your solution must meet.
 - A detailed technical description of your selected concept and solution.
@@ -33,8 +34,11 @@ Suggestions of what to include:
 - Any relevant technical preliminary design details.
 - A schedule and financial plan to execute your design.
 
+This is essentially the presentation form of the second report, which is due
+the last week of class.
+
 **You will need to submit your presentation materials as a PDF to Canvas by
-Friday of that week.**
+Friday of the week of the presentationn.**
 
 Preliminary Design Lightning Talk [{{ DUE_DATES['pre_02'].strftime('%b %-d, %Y') }}]
 ===================================================================================================
