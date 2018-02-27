@@ -57,7 +57,7 @@ Our final circuit requires:
 Arduino Uno Microcontroller
 ----------------------
 
-|Arduino-uno Pin summary|
+|Arduino-uno-Pin-summary|
 
 Basic circuit modules
 ----------------------
