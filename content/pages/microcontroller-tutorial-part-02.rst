@@ -134,7 +134,8 @@ Exercise 1: Vary the LED Brigtness
 4. With this circuit hooked up, you can test its operation. Add to the code
    below to repeatedly ramp up the brightness of LED from off to fully on over
    a few seconds each time. You'll need the analogWrite_ function as well as
-   the delay_ function. HINT: you can also use a 'for_' loop for Note that the pin number for the LED has been specified
+   the delay_ function. HINT: you can also use a 'for_' loop to vary the input to the analogWrite function smoothly.
+   Note that the pin number for the LED has been specified
    via a `preprocessor macro <https://en.wikipedia.org/wiki/C_preprocessor>`_.
    This is a special statement that literally substitutes each occurence of
    :code:`LED_PIN` with the value 5, saving some of the limited memory in the
