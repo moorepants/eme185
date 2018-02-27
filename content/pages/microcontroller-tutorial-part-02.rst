@@ -49,11 +49,14 @@ Check the kit that you received and make sure that it has below components.
 Our final circuit requires:
 
 -  Arduino Uno Micro Controller with USB cable
+-  Small Breadboard
 -  an LED
 -  a photocell (photoresistor, light-dependent resistor)
 -  4-8 jumper wires
 -  a 4.7kΩ resistor (yellow, purple, red, [gold])
 -  a 330Ω resistor (orange, orange, brown, [gold])
+
+If you are missing any component or you find out that they are not working, let us know.
 
 Arduino Uno Microcontroller
 ---------------------------
@@ -118,10 +121,10 @@ cycle) and 255 (pin fully on, 100% duty cycle).
 Exercise 1: Vary the LED Brigtness
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Start by connecting the 5V and GND pins of the Arduino to the red and blue
-   "power rails" of your breadboard, respectively.
+1. Start by connecting the GND pin of the Arduino to blue
+   "power rail" of your breadboard. This is good practice while using a breadboard.
 2. LEDs are directional components, so ensure that the cathode is connected to
-   ground (see diagram above). Connect the 330Ω resistor to the other lead, and
+   ground (see diagram below). Connect the 330Ω resistor to the other lead, and
    connect the resistor to pin 5 of the Arduino using a jumper wire.
 3. Check your circuit against the diagram below. Leave the circuit constructed
    throughout the session.
@@ -131,7 +134,7 @@ Exercise 1: Vary the LED Brigtness
 4. With this circuit hooked up, you can test its operation. Add to the code
    below to repeatedly ramp up the brightness of LED from off to fully on over
    a few seconds each time. You'll need the analogWrite_ function as well as
-   the delay_ function. Note that the pin number for the LED has been specified
+   the delay_ function. HINT: you can also use a 'for_' loop for Note that the pin number for the LED has been specified
    via a `preprocessor macro <https://en.wikipedia.org/wiki/C_preprocessor>`_.
    This is a special statement that literally substitutes each occurence of
    :code:`LED_PIN` with the value 5, saving some of the limited memory in the
@@ -435,6 +438,7 @@ zero.
 
 .. _analogWrite: https://www.arduino.cc/en/Reference/AnalogWrite
 .. _delay: https://www.arduino.cc/en/Reference/Delay
+.. _for: https://www.arduino.cc/reference/en/language/structure/control-structure/for/
 .. _analogRead: https://www.arduino.cc/en/Reference/AnalogRead
 .. _Serial.println: https://www.arduino.cc/en/Serial/Println
 .. _Serial.print: https://www.arduino.cc/en/Serial/Print
