@@ -35,7 +35,7 @@
 <li><a class="reference internal" href="#introduction" id="id2">Introduction</a></li>
 <li><a class="reference internal" href="#learning-objectives" id="id3">Learning Objectives</a></li>
 <li><a class="reference internal" href="#introduction-to-the-arduino-ide" id="id4">Introduction to the Arduino IDE</a></li>
-<li><a class="reference internal" href="#the-circuit-components" id="id5">The Circuit Components</a><ul>
+<li><a class="reference internal" href="#the-kit-components" id="id5">The Kit Components</a><ul>
 <li><a class="reference internal" href="#basic-circuit-modules" id="id6">Basic circuit modules</a></li>
 <li><a class="reference internal" href="#light-emitting-diodes-led" id="id7">Light Emitting Diodes (LED)</a><ul>
 <li><a class="reference internal" href="#exercise-1-vary-the-led-brigtness" id="id8">Exercise 1: Vary the LED Brigtness</a></li>
@@ -92,9 +92,10 @@ microcontroller</li>
 </ul>
 <p>For more in-depth descriptions of the IDE, see the <a class="reference external" href="https://www.arduino.cc/en/Guide/Environment">official guide</a></p>
 </div>
-<div class="section" id="the-circuit-components">
-<h2>The Circuit Components<a class="toc-backref headerlink" href="#id5">¶</a></h2>
-<p>The circuit requires:</p>
+<div class="section" id="the-kit-components">
+<h2>The Kit Components<a class="toc-backref headerlink" href="#id5">¶</a></h2>
+<p>Check the kit that you received and make sure that it has below components
+Our final circuit requires:</p>
 <ul class="simple">
 <li>an LED</li>
 <li>a photocell (photoresistor, light-dependent resistor)</li>
@@ -102,16 +103,6 @@ microcontroller</li>
 <li>a 4.7kΩ resistor (yellow, purple, red, [gold])</li>
 <li>a 330Ω resistor (orange, orange, brown, [gold])</li>
 </ul>
-<p>Once constructed, the circuit should look like the image below:</p>
-<p><img alt="complete-circuit" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/complete-circuit.jpg" style="width: 5in;" /></p>
-<p>The circuit consists of a light emitting diode (LED) circuit, driven by one of
-the Arduino's digital I/O pins capable of producing a pulsewidth modulation
-(PWM) signal. This will allow the LED’s brightness to change. A photocell
-facing the LED senses the ambient lighting. The objective of the circuit is to
-demonstrate an automatic feedback control system that drives the LED to
-a desired brightness level near the sensor. You will be able to cast shadows on
-the photocell and watch as the LED brightness increases to compensate for the
-dimmed lighting.</p>
 <div class="section" id="basic-circuit-modules">
 <h3>Basic circuit modules<a class="toc-backref headerlink" href="#id6">¶</a></h3>
 <p>Analog circuits are circuits dealing with signals free to vary from zero to
@@ -129,7 +120,7 @@ it to illuminate. The brightness can then be controlled directly by varying the
 current going through the device. In most applications (e.g. indicators),
 a current-limiting resistor is connected in series with the LED to provide
 a fixed brightness for a given control voltage.</p>
-<!-- image::|led|/images/microcontroller-tutorial/led.jpg -->
+<p><img alt="led" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/led.jpg" style="width: 3in;" /></p>
 <p><object data="https://moorepants.github.io/eme185/images/microcontroller-tutorial/led-diagram.svg" style="width: 3in;" type="image/svg+xml">led-diagram</object></p>
 <p>In our application, we will use a fixed current-limiting resistor of 330Ω and
 a 5V control voltage, but we will use a technique called pulsewidth modulation
@@ -283,13 +274,23 @@ configuration is called a regulator, and its job is to achieve and maintain
 zero error between the measured output and the desired output.</p>
 <div class="section" id="circuit-construction">
 <h3>Circuit Construction<a class="toc-backref headerlink" href="#id12">¶</a></h3>
-<p>Below is a diagram of the complete circuit and the photo from before. Both
-components (the LED and the photocell) should be connected from the previous
+<p>Now let's put together the hardware of our control system. The photocell will be the sensor
+and the led will be the actuator that we control. Our goal is to control the local brightness
+of small volume surrounding our sensor.</p>
+<p>The circuit consists of a light emitting diode (LED) circuit, driven by one of
+the Arduino's digital I/O pins capable of producing a pulsewidth modulation
+(PWM) signal. This will allow the LED’s brightness to change. A photocell
+facing the LED senses the ambient lighting. The objective of the circuit is to
+demonstrate an automatic feedback control system that drives the LED to
+a desired brightness level near the sensor. You will be able to cast shadows on
+the photocell and watch as the LED brightness increases to compensate for the
+dimmed lighting.</p>
+<p>Both components (the LED and the photocell) should be connected from the previous
 two sections. The most important part of the control circuit construction
 (aside from making the correct electrical connections) is that the LED and
 photocell are close to and facing one another. This will ensure that the LED is
-able to influence the reading of the sensor as much as possible. The photo of
-the completed circuit is repeated below:</p>
+able to influence the reading of the sensor as much as possible.</p>
+<p>Once constructed, the circuit should look like the image below:</p>
 <p><img alt="complete-circuit" src="https://moorepants.github.io/eme185/images/microcontroller-tutorial/complete-circuit.jpg" style="width: 5in;" /></p>
 </div>
 <div class="section" id="implementing-the-controller">
