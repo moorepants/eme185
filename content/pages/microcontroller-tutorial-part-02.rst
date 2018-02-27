@@ -404,7 +404,8 @@ zero.
    information on Wikipedia's extensive article on `PID control
    <https://en.wikipedia.org/wiki/PID_controller>`_
 
-
+.. |Arduino-uno-Pin-summary| image:: {filename}/images/microcontroller-tutorial/Arduino-uno-Pin-summary.jpg
+   :width: 7in
 .. |complete-circuit| image:: {filename}/images/microcontroller-tutorial/complete-circuit.jpg
    :width: 5in
 .. |pwm| image:: {filename}/images/microcontroller-tutorial/pwm.svg
