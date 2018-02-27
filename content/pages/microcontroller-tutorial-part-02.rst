@@ -54,6 +54,10 @@ Our final circuit requires:
 -  a 4.7kΩ resistor (yellow, purple, red, [gold])
 -  a 330Ω resistor (orange, orange, brown, [gold])
 
+Arduino Uno Microcontroller
+----------------------
+
+|Arduino-uno Pin summary|
 
 Basic circuit modules
 ----------------------
