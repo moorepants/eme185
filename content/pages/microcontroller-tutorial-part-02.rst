@@ -121,8 +121,8 @@ cycle) and 255 (pin fully on, 100% duty cycle).
 Exercise 1: Vary the LED Brigtness
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Start by connecting the GND pin of the Arduino to blue
-   "power rail" of your breadboard. This is good practice while using a breadboard.
+1. Start by connecting the 5V pin output and GND pin of the Arduino to the red and blue
+   "power rails" of your breadboard. This is good practice while using a breadboard.
 2. LEDs are directional components, so ensure that the cathode is connected to
    ground (see diagram below). Connect the 330Ω resistor to the other lead, and
    connect the resistor to pin 5 of the Arduino using a jumper wire.
@@ -209,8 +209,8 @@ Exercise 2: Read from the Photocell
 5. Check your circuit against the diagram above.
 6. Create a new sketch using the Arduino IDE and replace it with the following
    code. Write your own statements to read in the input value (10-bit unsigned
-   int), convert that reading to a floating point voltage, then print the
-   voltage to the serial port. You will need to make use of the
+   int), convert that reading to a floating point value, then print the
+   this brightness value to the serial port. You will need to make use of the
    analogRead_ and Serial.println_ functions.
 
 .. code:: c++
@@ -230,9 +230,9 @@ Exercise 2: Read from the Photocell
 
 7. Once the code is uploaded and running, use the Arduino IDE's **serial
    monitor** or **serial plotter** to view the values being read. *What happens
-   to the voltage if you cast shadows over the circuit?*
-8. Allow the voltage to settle to a steady value. Use the serial monitor to
-   record the numerical value.
+   to the brightness value if you cast shadows over the circuit?*
+8. Allow the brightness value to settle to a steady value. Use the serial monitor to
+   record the numerical value. You can also convert this value to voltage as per above formula.
 
 
 Control System
@@ -295,7 +295,7 @@ Excercise 3: Finding a Setpoint
 2. Add to that sketch the code for setting up the LED (refer to the first code
    listing for help), then use the analogWrite_ function inside :code:`setup`
    to turn the LED on at **30% duty cycle**.
-3. Run the sketch and observe the voltage output by the photocell circuit.
+3. Run the sketch and observe the brightness/voltage output by the photocell circuit.
    **Write this value down** as this will be the desired brightness level we
    will seek to achieve with an automatic control system.
 
