@@ -660,7 +660,7 @@ Tasks:
 Week 7
 ^^^^^^
 
-Announcements:
+Studio Announcements:
 
 - Sign up for the preliminary design reviews by Friday 10pm.
 - Sign up for the space needs by Friday 10pm.
@@ -673,34 +673,50 @@ Announcements:
 Tasks:
 
 - [All] Read chapter 10.
-- [Instructor] Develop preliminary budget sheet.
-- [Instructor] Meet with Chair to request additional course funding if needed
-  and space.
-- [Instructor or TA] Practice the microcontroller studio lesson.
-- [Instructor + all TAs] Co-grade a report in person.
-- [Instructor + all TAs] Grade report 1 by Friday 5pm.
-- [TA] Invite the sponsors, faculty, and the EFL staff to the design reviews.
-- [TA] Organize microcontroller studio tutorial kits.
+- [All] Practice the microcontroller studio lesson.
+- [All] Co-grade a report in person.
+- [All] Grade report 1 by Friday 5pm.
+- [Instructor] Develop preliminary budget sheet while grading report 1.
+- [Lead TA] Organize microcontroller studio tutorial kits.
 
 Week 8
 ^^^^^^
 
+Studio Announcements:
+
+- Talk about design reviews.
+
+Tasks:
+
 - [All] Review grading rubric for preliminary design reviews.
+- [Instructor] Update the preliminary design review assignment and post to
+  website/canvas.
+- [Instructor] Invite faculty and the student shop staff to the design reviews
+- [Instructor] Meet with MAE Chair to request additional course funding if
+  needed and space.
+- [Lead TA] Invite the sponsors to the design reviews (give 1 week notice).
+  (give 1 week notice).
 - [TA] Setup the design review room(s) with a projector and screen.
-- [All] Attend the preliminary design reviews and grade.
 - [Instructor or TA] Give microcontroller studio tutorial.
-- [All] Participate in Meijo visit activities.
 
 Week 9
 ^^^^^^
 
+Studio Announcements:
+
+- Explain lightning talks.
+
+Tasks:
+
+- [Instructor] Send out funding status recommendations to project clients.
 - [Instructor] Announce purchasing tips and technical resources pages.
+- [All] Attend the preliminary design reviews and grade.
+- [TAs] Grade concept selection and product architecture memo.
 - [TA] Create randomized Lightning talk schedule
 
 Week 10
 ^^^^^^^
 
-- [All TAs] Grade memo 5
 - [All] Hold (and grade) lightning talks in studio session.
 - [Instructor] Hold industry panel at 185A lecture.
 
