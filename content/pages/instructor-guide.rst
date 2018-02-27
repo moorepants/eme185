@@ -316,7 +316,9 @@ There are two rounds of design reviews: **Preliminary Design Reviews** and
 **Critical Design Reviews**. Preliminary design reviews take place during week
 8 of EME 185A, and critical design reviews take place during finals week of EME
 185B. The design reviews are 50-minute sessions for teams to present their
-selected concept (PDR) or final results (CDR) to the instructor and their TA.
+selected concept (PDR) or final results (CDR) to the instructor, their TA, and
+possible facutly, staff, and the clients.
+
 The timing is as follows:
 
 - 5 minutes of setup
@@ -325,9 +327,11 @@ The timing is as follows:
 - 10 minutes for grading (instructor + TA only)
 
 This timing allows the reviews to be scheduled back-to-back in slots that fit
-the class schedule (e.g. 9:00 AM - 9:50 AM, 2:10 PM - 3:00 PM, etc.). Getting
-the schedule together is difficult logistically, but the following steps should
-lead to minimal issues:
+the class schedule (e.g. 9:00 AM - 9:50 AM, 2:10 PM - 3:00 PM, etc.). The
+blocks should always be scheduled to fit the morning "on the hour" and
+afternoon "10 after the hour" class schedule to provide adequate time for
+people to get to and from classes. Getting the schedule together is difficult
+logistically, but the following steps should lead to minimal issues:
 
 #. Check the `schedule <{filename}/pages/schedule.rst>`_ for the dates
 #. Get the instructor's availability.
@@ -335,7 +339,8 @@ lead to minimal issues:
    available.
 #. Generate a spreadsheet with the common availability from the steps above.
 #. Have the TAs fill in when they are available in blocks. Make sure that
-   blocks are overlapping to minimize issues.
+   blocks are overlapping to minimize issues. The TAs should be as flexible as
+   possible.
 #. Send a refined version out to students, instructing them to select only
    a slot that their TA has available.
 #. Fix any issues as necessary.
