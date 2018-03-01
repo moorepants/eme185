@@ -27,7 +27,7 @@ Students will be able to
 
 
 Introduction to the Arduino IDE and Setup (10 minutes)
-===============================
+====================================================
 
 Interactive demo of main IDE features:
 
@@ -378,7 +378,7 @@ Exercise 4: Implement a Proportional Controller (15 minutes)
    estimate of what :math:`K_{p}` should be to drive the error to zero. Recall
    that the reference value was found by producing a PWM signal at 30% duty
    cycle, so the term :math:`u(t) = K_{p}e(t)` should be approximately
-   :math:`0.3 \times 255 = 76.5`. If math:`u(t)` should be 76.5, what should math:`K_{p}` be?
+   :math:`0.3 \times 255 = 76.5`. If :math:`u(t)` should be 76.5, what should :math:`K_{p}` be?
    This initial guess will likely produce a proportional constant that is too high and causes instability. 
    Divide it by 2 to start and try different values. Note the steady state error.
 4. Now try casting shadows over the circuit. Looking at the LED itself, does it
