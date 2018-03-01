@@ -6,8 +6,8 @@
 Introduction
 ============
 
-This lesson will walk through using an Arduino to control ambient brightness
-using a light-emitting diode (LED) for actuation and a photocell for sensing.
+This lesson will walk through using an Arduino to control local brightness in a small volume
+using a light-emitting diode (LED) as an "actuator" and a photocell as a sensor.
 
 
 Learning Objectives
@@ -26,8 +26,8 @@ Students will be able to
 - write a program to integrate all of this information
 
 
-Introduction to the Arduino IDE
-===============================
+Introduction to the Arduino IDE and Setup (10 minutes)
+====================================================
 
 Interactive demo of main IDE features:
 
@@ -49,11 +49,14 @@ Check the kit that you received and make sure that it has below components.
 Our final circuit requires:
 
 -  Arduino Uno Micro Controller with USB cable
+-  Small Breadboard
 -  an LED
 -  a photocell (photoresistor, light-dependent resistor)
 -  4-8 jumper wires
 -  a 4.7kΩ resistor (yellow, purple, red, [gold])
 -  a 330Ω resistor (orange, orange, brown, [gold])
+
+If you are missing any component or you find out that they are not working, let us know.
 
 Arduino Uno Microcontroller
 ---------------------------
@@ -110,18 +113,18 @@ will actually smoothly vary.
 
 The Arduino Uno allows us to output a PWM signal on several of its pins. This
 is done by setting the pin as an output, and using the analogWrite_ function.
-This function accepts any integer value between 0 (pin fully off, 0% duty
-cycle) and 255 (pin fully on, 100% duty cycle).
+This function accepts an unsigned (positive) 8-bit integer value ((2^8)-1) between 0 (pin fully off, 0% duty
+cycle) and 255 (pin fully on, 100% duty cycle). 
 
 |pwm|
 
-Exercise 1: Vary the LED Brigtness
+Exercise 1: Vary the LED Brightness (15 minutes)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Start by connecting the 5V and GND pins of the Arduino to the red and blue
-   "power rails" of your breadboard, respectively.
+1. Start by connecting the 5V pin output and GND pin of the Arduino to the red and blue
+   "power rails" of your breadboard. This is good practice while using a breadboard.
 2. LEDs are directional components, so ensure that the cathode is connected to
-   ground (see diagram above). Connect the 330Ω resistor to the other lead, and
+   ground (see diagram below). Connect the 330Ω resistor to the other lead, and
    connect the resistor to pin 5 of the Arduino using a jumper wire.
 3. Check your circuit against the diagram below. Leave the circuit constructed
    throughout the session.
@@ -131,7 +134,8 @@ Exercise 1: Vary the LED Brigtness
 4. With this circuit hooked up, you can test its operation. Add to the code
    below to repeatedly ramp up the brightness of LED from off to fully on over
    a few seconds each time. You'll need the analogWrite_ function as well as
-   the delay_ function. Note that the pin number for the LED has been specified
+   the delay_ function. HINT: you can also use a 'for_' loop to vary the input to the analogWrite function smoothly.
+   Note that the pin number for the LED has been specified
    via a `preprocessor macro <https://en.wikipedia.org/wiki/C_preprocessor>`_.
    This is a special statement that literally substitutes each occurence of
    :code:`LED_PIN` with the value 5, saving some of the limited memory in the
@@ -191,7 +195,7 @@ unsigned integer**, so it has the range of 0 to 1023 (:math:`2^{10}
    V = \frac{5}{1023}x
 
 
-Exercise 2: Read from the Photocell
+Exercise 2: Read from the Photocell (15 minutes)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Leave the 5V and GND connections from the LED example intact, then place one
@@ -205,8 +209,8 @@ Exercise 2: Read from the Photocell
 5. Check your circuit against the diagram above.
 6. Create a new sketch using the Arduino IDE and replace it with the following
    code. Write your own statements to read in the input value (10-bit unsigned
-   int), convert that reading to a floating point voltage, then print the
-   voltage to the serial port. You will need to make use of the
+   int), cast (convert) that reading to a floating point value, convert the brightness value into voltage using the formula above
+   then print the voltage to the serial port. You will need to make use of the
    analogRead_ and Serial.println_ functions.
 
 .. code:: c++
@@ -228,7 +232,7 @@ Exercise 2: Read from the Photocell
    monitor** or **serial plotter** to view the values being read. *What happens
    to the voltage if you cast shadows over the circuit?*
 8. Allow the voltage to settle to a steady value. Use the serial monitor to
-   record the numerical value.
+   record the numerical value.  This voltage corresponds to the ambient brightness in the room.
 
 
 Control System
@@ -284,7 +288,7 @@ Once constructed, the circuit should look like the image below:
 Implementing the Controller
 ---------------------------
 
-Excercise 3: Finding a Setpoint
+Excercise 3: Finding a Setpoint (5 minutes)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Start with the photocell reading code you finished.
@@ -295,7 +299,7 @@ Excercise 3: Finding a Setpoint
    **Write this value down** as this will be the desired brightness level we
    will seek to achieve with an automatic control system.
 
-Exercise 4: Implement a Proportional Controller
+Exercise 4: Implement a Proportional Controller (15 minutes)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Create a new sketch based on the code below. You will need to replace the
@@ -312,9 +316,10 @@ Exercise 4: Implement a Proportional Controller
    // desired voltage (change this to the value you found)
    float r = 2;
 
-   // proportional controller coefficient
+   // proportional controller coefficient (change to tune controller)
    float Kp = 0;
-
+    
+   // Initialize Global variables 
    // reading from the photocell
    float y = 0;
    // error between the desired output and the reading
@@ -329,19 +334,21 @@ Exercise 4: Implement a Proportional Controller
    }
 
    void loop() {
-       // update the photocell reading (voltage)
+      
+        
+       // store your measured voltage in this variable
        y =
 
-       // compute the error between the reading and the desired value
+       // compute the error between the measurement and the desired value
        e =
 
-       // compute the output value by multiplying the error by Kp
+       // compute the control effort by multiplying the error by Kp
        u =
 
-       // make sure the output value is bounded to 0 to 255
-       // then write it to the LED pin
+       // make sure the output value is bounded to 0 to 255 using the bound function defined below
+       
        u = bound(u, 0, 255);
-       analogWrite(LED_PIN, u);
+       analogWrite(LED_PIN, u); // then write it to the LED pin to change control voltage to LED
 
        // plot the measurement
        Serial.print(y);
@@ -371,15 +378,15 @@ Exercise 4: Implement a Proportional Controller
    estimate of what :math:`K_{p}` should be to drive the error to zero. Recall
    that the reference value was found by producing a PWM signal at 30% duty
    cycle, so the term :math:`u(t) = K_{p}e(t)` should be approximately
-   :math:`0.3 \times 255 = 76.5`. This initial guess will likely produce
-   a proportional constant that is too high and causes instability. Divide it
-   by 2 to start.
+   :math:`0.3 \times 255 = 76.5`. If :math:`u(t)` should be 76.5, what should :math:`K_{p}` be?
+   This initial guess will likely produce a proportional constant that is too high and causes instability. 
+   Divide it by 2 to start and try different values. Note the steady state error.
 4. Now try casting shadows over the circuit. Looking at the LED itself, does it
    seem to compensate when less light from the ambient environment hits the
    photocell? What do you observe when looking at the error signal in the
    serial plotter?
 
-Exercise 5: Adding Integral Control
+Exercise 5: Adding Integral Control (15 minutes)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As you probably have noticed, proportional controllers may suffer from non-zero
@@ -435,6 +442,7 @@ zero.
 
 .. _analogWrite: https://www.arduino.cc/en/Reference/AnalogWrite
 .. _delay: https://www.arduino.cc/en/Reference/Delay
+.. _for: https://www.arduino.cc/reference/en/language/structure/control-structure/for/
 .. _analogRead: https://www.arduino.cc/en/Reference/AnalogRead
 .. _Serial.println: https://www.arduino.cc/en/Serial/Println
 .. _Serial.print: https://www.arduino.cc/en/Serial/Print
