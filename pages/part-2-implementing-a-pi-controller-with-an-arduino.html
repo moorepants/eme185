@@ -34,16 +34,16 @@
 <ul class="simple">
 <li><a class="reference internal" href="#introduction" id="id2">Introduction</a></li>
 <li><a class="reference internal" href="#learning-objectives" id="id3">Learning Objectives</a></li>
-<li><a class="reference internal" href="#introduction-to-the-arduino-ide" id="id4">Introduction to the Arduino IDE</a></li>
+<li><a class="reference internal" href="#introduction-to-the-arduino-ide-and-setup-10-minutes" id="id4">Introduction to the Arduino IDE and Setup (10 minutes)</a></li>
 <li><a class="reference internal" href="#the-kit-components" id="id5">The Kit Components</a><ul>
 <li><a class="reference internal" href="#arduino-uno-microcontroller" id="id6">Arduino Uno Microcontroller</a></li>
 <li><a class="reference internal" href="#basic-circuit-modules" id="id7">Basic circuit modules</a></li>
 <li><a class="reference internal" href="#light-emitting-diodes-led" id="id8">Light Emitting Diodes (LED)</a><ul>
-<li><a class="reference internal" href="#exercise-1-vary-the-led-brigtness" id="id9">Exercise 1: Vary the LED Brigtness</a></li>
+<li><a class="reference internal" href="#exercise-1-vary-the-led-brightness-15-minutes" id="id9">Exercise 1: Vary the LED Brightness (15 minutes)</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#photocells" id="id10">Photocells</a><ul>
-<li><a class="reference internal" href="#exercise-2-read-from-the-photocell" id="id11">Exercise 2: Read from the Photocell</a></li>
+<li><a class="reference internal" href="#exercise-2-read-from-the-photocell-15-minutes" id="id11">Exercise 2: Read from the Photocell (15 minutes)</a></li>
 </ul>
 </li>
 </ul>
@@ -51,9 +51,9 @@
 <li><a class="reference internal" href="#control-system" id="id12">Control System</a><ul>
 <li><a class="reference internal" href="#circuit-construction" id="id13">Circuit Construction</a></li>
 <li><a class="reference internal" href="#implementing-the-controller" id="id14">Implementing the Controller</a><ul>
-<li><a class="reference internal" href="#excercise-3-finding-a-setpoint" id="id15">Excercise 3: Finding a Setpoint</a></li>
-<li><a class="reference internal" href="#exercise-4-implement-a-proportional-controller" id="id16">Exercise 4: Implement a Proportional Controller</a></li>
-<li><a class="reference internal" href="#exercise-5-adding-integral-control" id="id17">Exercise 5: Adding Integral Control</a></li>
+<li><a class="reference internal" href="#excercise-3-finding-a-setpoint-5-minutes" id="id15">Excercise 3: Finding a Setpoint (5 minutes)</a></li>
+<li><a class="reference internal" href="#exercise-4-implement-a-proportional-controller-15-minutes" id="id16">Exercise 4: Implement a Proportional Controller (15 minutes)</a></li>
+<li><a class="reference internal" href="#exercise-5-adding-integral-control-15-minutes" id="id17">Exercise 5: Adding Integral Control (15 minutes)</a></li>
 </ul>
 </li>
 </ul>
@@ -62,8 +62,8 @@
 </div>
 <div class="section" id="introduction">
 <h2>Introduction<a class="toc-backref headerlink" href="#id2">¶</a></h2>
-<p>This lesson will walk through using an Arduino to control ambient brightness
-using a light-emitting diode (LED) for actuation and a photocell for sensing.</p>
+<p>This lesson will walk through using an Arduino to control local brightness in a small volume
+using a light-emitting diode (LED) as an &quot;actuator&quot; and a photocell as a sensor.</p>
 </div>
 <div class="section" id="learning-objectives">
 <h2>Learning Objectives<a class="toc-backref headerlink" href="#id3">¶</a></h2>
@@ -80,8 +80,8 @@ microcontroller</li>
 <li>write a program to integrate all of this information</li>
 </ul>
 </div>
-<div class="section" id="introduction-to-the-arduino-ide">
-<h2>Introduction to the Arduino IDE<a class="toc-backref headerlink" href="#id4">¶</a></h2>
+<div class="section" id="introduction-to-the-arduino-ide-and-setup-10-minutes">
+<h2>Introduction to the Arduino IDE and Setup (10 minutes)<a class="toc-backref headerlink" href="#id4">¶</a></h2>
 <p>Interactive demo of main IDE features:</p>
 <ul class="simple">
 <li>Code editor</li>
@@ -153,11 +153,11 @@ dynamics are often slow enough with respect to the PWM signal that their output
 will actually smoothly vary.</p>
 <p>The Arduino Uno allows us to output a PWM signal on several of its pins. This
 is done by setting the pin as an output, and using the <a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogWrite">analogWrite</a> function.
-This function accepts any integer value between 0 (pin fully off, 0% duty
+This function accepts an unsigned (positive) 8-bit integer value ((2^8)-1) between 0 (pin fully off, 0% duty
 cycle) and 255 (pin fully on, 100% duty cycle).</p>
 <p><object data="https://moorepants.github.io/eme185/images/microcontroller-tutorial/pwm.svg" style="width: 5in;" type="image/svg+xml">pwm</object></p>
-<div class="section" id="exercise-1-vary-the-led-brigtness">
-<h4>Exercise 1: Vary the LED Brigtness<a class="toc-backref headerlink" href="#id9">¶</a></h4>
+<div class="section" id="exercise-1-vary-the-led-brightness-15-minutes">
+<h4>Exercise 1: Vary the LED Brightness (15 minutes)<a class="toc-backref headerlink" href="#id9">¶</a></h4>
 <ol class="arabic simple">
 <li>Start by connecting the 5V pin output and GND pin of the Arduino to the red and blue
 &quot;power rails&quot; of your breadboard. This is good practice while using a breadboard.</li>
@@ -226,8 +226,8 @@ unsigned integer</strong>, so it has the range of 0 to 1023 (<span class="math">
 V = \frac{5}{1023}x
 \end{equation*}
 </div>
-<div class="section" id="exercise-2-read-from-the-photocell">
-<h4>Exercise 2: Read from the Photocell<a class="toc-backref headerlink" href="#id11">¶</a></h4>
+<div class="section" id="exercise-2-read-from-the-photocell-15-minutes">
+<h4>Exercise 2: Read from the Photocell (15 minutes)<a class="toc-backref headerlink" href="#id11">¶</a></h4>
 <ol class="arabic simple">
 <li>Leave the 5V and GND connections from the LED example intact, then place one
 of the photocell leads on the 5V rail. A photocell is essentially
@@ -240,8 +240,8 @@ GND.</li>
 <li>Check your circuit against the diagram above.</li>
 <li>Create a new sketch using the Arduino IDE and replace it with the following
 code. Write your own statements to read in the input value (10-bit unsigned
-int), convert that reading to a floating point value, then print the
-this brightness value to the serial port. You will need to make use of the
+int), cast (convert) that reading to a floating point value, convert the brightness value into voltage using the formula above
+then print the voltage to the serial port. You will need to make use of the
 <a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogRead">analogRead</a> and <a class="reference external" href="https://www.arduino.cc/en/Serial/Println">Serial.println</a> functions.</li>
 </ol>
 <pre class="code c++ literal-block">
@@ -261,9 +261,9 @@ this brightness value to the serial port. You will need to make use of the
 <ol class="arabic simple" start="7">
 <li>Once the code is uploaded and running, use the Arduino IDE's <strong>serial
 monitor</strong> or <strong>serial plotter</strong> to view the values being read. <em>What happens
-to the brightness value if you cast shadows over the circuit?</em></li>
-<li>Allow the brightness value to settle to a steady value. Use the serial monitor to
-record the numerical value. You can also convert this value to voltage as per above formula.</li>
+to the voltage if you cast shadows over the circuit?</em></li>
+<li>Allow the voltage to settle to a steady value. Use the serial monitor to
+record the numerical value.  This voltage corresponds to the ambient brightness in the room.</li>
 </ol>
 </div>
 </div>
@@ -310,20 +310,20 @@ able to influence the reading of the sensor as much as possible.</p>
 </div>
 <div class="section" id="implementing-the-controller">
 <h3>Implementing the Controller<a class="toc-backref headerlink" href="#id14">¶</a></h3>
-<div class="section" id="excercise-3-finding-a-setpoint">
-<h4>Excercise 3: Finding a Setpoint<a class="toc-backref headerlink" href="#id15">¶</a></h4>
+<div class="section" id="excercise-3-finding-a-setpoint-5-minutes">
+<h4>Excercise 3: Finding a Setpoint (5 minutes)<a class="toc-backref headerlink" href="#id15">¶</a></h4>
 <ol class="arabic simple">
 <li>Start with the photocell reading code you finished.</li>
 <li>Add to that sketch the code for setting up the LED (refer to the first code
 listing for help), then use the <a class="reference external" href="https://www.arduino.cc/en/Reference/AnalogWrite">analogWrite</a> function inside <code>setup</code>
 to turn the LED on at <strong>30% duty cycle</strong>.</li>
-<li>Run the sketch and observe the brightness/voltage output by the photocell circuit.
+<li>Run the sketch and observe the voltage output by the photocell circuit.
 <strong>Write this value down</strong> as this will be the desired brightness level we
 will seek to achieve with an automatic control system.</li>
 </ol>
 </div>
-<div class="section" id="exercise-4-implement-a-proportional-controller">
-<h4>Exercise 4: Implement a Proportional Controller<a class="toc-backref headerlink" href="#id16">¶</a></h4>
+<div class="section" id="exercise-4-implement-a-proportional-controller-15-minutes">
+<h4>Exercise 4: Implement a Proportional Controller (15 minutes)<a class="toc-backref headerlink" href="#id16">¶</a></h4>
 <ol class="arabic simple">
 <li>Create a new sketch based on the code below. You will need to replace the
 value of <code>r</code> with the setpoint you found in the previous exercise, and
@@ -338,10 +338,11 @@ and use <span class="math">\(u(t) = K_p e(t)\)</span>.</li>
 <span class="c1">// desired voltage (change this to the value you found)
 </span><span class="kt">float</span> <span class="n">r</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
 
-<span class="c1">// proportional controller coefficient
+<span class="c1">// proportional controller coefficient (change to tune controller)
 </span><span class="kt">float</span> <span class="n">Kp</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
-<span class="c1">// reading from the photocell
+<span class="c1">// Initialize Global variables
+// reading from the photocell
 </span><span class="kt">float</span> <span class="n">y</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 <span class="c1">// error between the desired output and the reading
 </span><span class="kt">float</span> <span class="n">e</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
@@ -355,20 +356,22 @@ and use <span class="math">\(u(t) = K_p e(t)\)</span>.</li>
 <span class="p">}</span>
 
 <span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
-    <span class="c1">// update the photocell reading (voltage)
+
+
+    <span class="c1">// store your measured voltage in this variable
 </span>    <span class="n">y</span> <span class="o">=</span>
 
-    <span class="c1">// compute the error between the reading and the desired value
+    <span class="c1">// compute the error between the measurement and the desired value
 </span>    <span class="n">e</span> <span class="o">=</span>
 
-    <span class="c1">// compute the output value by multiplying the error by Kp
+    <span class="c1">// compute the control effort by multiplying the error by Kp
 </span>    <span class="n">u</span> <span class="o">=</span>
 
-    <span class="c1">// make sure the output value is bounded to 0 to 255
-</span>    <span class="c1">// then write it to the LED pin
-</span>    <span class="n">u</span> <span class="o">=</span> <span class="n">bound</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">);</span>
-    <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span> <span class="n">u</span><span class="p">);</span>
-
+    <span class="c1">// make sure the output value is bounded to 0 to 255 using the bound function defined below
+</span>
+    <span class="n">u</span> <span class="o">=</span> <span class="n">bound</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">);</span>
+    <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_PIN</span><span class="p">,</span> <span class="n">u</span><span class="p">);</span> <span class="c1">// then write it to the LED pin to change control voltage to LED
+</span>
     <span class="c1">// plot the measurement
 </span>    <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">y</span><span class="p">);</span>
     <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="sc">'\t'</span><span class="p">);</span>
@@ -398,17 +401,17 @@ casting shadows on it and figure out which line is which.</li>
 estimate of what <span class="math">\(K_{p}\)</span> should be to drive the error to zero. Recall
 that the reference value was found by producing a PWM signal at 30% duty
 cycle, so the term <span class="math">\(u(t) = K_{p}e(t)\)</span> should be approximately
-<span class="math">\(0.3 \times 255 = 76.5\)</span>. This initial guess will likely produce
-a proportional constant that is too high and causes instability. Divide it
-by 2 to start.</li>
+<span class="math">\(0.3 \times 255 = 76.5\)</span>. If <span class="math">\(u(t)\)</span> should be 76.5, what should <span class="math">\(K_{p}\)</span> be?
+This initial guess will likely produce a proportional constant that is too high and causes instability.
+Divide it by 2 to start and try different values. Note the steady state error.</li>
 <li>Now try casting shadows over the circuit. Looking at the LED itself, does it
 seem to compensate when less light from the ambient environment hits the
 photocell? What do you observe when looking at the error signal in the
 serial plotter?</li>
 </ol>
 </div>
-<div class="section" id="exercise-5-adding-integral-control">
-<h4>Exercise 5: Adding Integral Control<a class="toc-backref headerlink" href="#id17">¶</a></h4>
+<div class="section" id="exercise-5-adding-integral-control-15-minutes">
+<h4>Exercise 5: Adding Integral Control (15 minutes)<a class="toc-backref headerlink" href="#id17">¶</a></h4>
 <p>As you probably have noticed, proportional controllers may suffer from non-zero
 <em>steady state error</em>. That is, there is a consistent mismatch between the
 desired and measured outputs, but the controller does not compensate for it
