@@ -27,7 +27,7 @@ Students will be able to
 
 
 Introduction to the Arduino IDE and Setup (10 minutes)
-====================================================
+========================================================
 
 Interactive demo of main IDE features:
 
@@ -80,7 +80,7 @@ values of zero and full supply voltage, with no valid state in between those
 extreme limits.
 
 Light Emitting Diodes (LED)
----------------------------
+-----------------------------
 
 Light emitting diodes (LEDs) are semiconductor devices that emit light
 when voltage is applied across them. LEDs typically have a fixed voltage
@@ -119,7 +119,7 @@ cycle) and 255 (pin fully on, 100% duty cycle).
 |pwm|
 
 Exercise 1: Vary the LED Brightness (15 minutes)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Start by connecting the 5V pin output and GND pin of the Arduino to the red and blue
    "power rails" of your breadboard. This is good practice while using a breadboard.
@@ -196,7 +196,7 @@ unsigned integer**, so it has the range of 0 to 1023 (:math:`2^{10}
 
 
 Exercise 2: Read from the Photocell (15 minutes)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Leave the 5V and GND connections from the LED example intact, then place one
    of the photocell leads on the 5V rail. A photocell is essentially
@@ -236,7 +236,7 @@ Exercise 2: Read from the Photocell (15 minutes)
 
 
 Control System
-==============
+===============
 
 Now we'll put the LED and photocell together in order to obtain a desired
 brightness level. Here is a block diagram of the control system we will
@@ -289,7 +289,7 @@ Implementing the Controller
 ---------------------------
 
 Excercise 3: Finding a Setpoint (5 minutes)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Start with the photocell reading code you finished.
 2. Add to that sketch the code for setting up the LED (refer to the first code
@@ -300,7 +300,7 @@ Excercise 3: Finding a Setpoint (5 minutes)
    will seek to achieve with an automatic control system.
 
 Exercise 4: Implement a Proportional Controller (15 minutes)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Create a new sketch based on the code below. You will need to replace the
    value of :code:`r` with the setpoint you found in the previous exercise, and
@@ -387,7 +387,7 @@ Exercise 4: Implement a Proportional Controller (15 minutes)
    serial plotter?
 
 Exercise 5: Adding Integral Control (15 minutes)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As you probably have noticed, proportional controllers may suffer from non-zero
 *steady state error*. That is, there is a consistent mismatch between the
