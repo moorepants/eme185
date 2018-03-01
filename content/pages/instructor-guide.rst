@@ -684,7 +684,7 @@ Week 8
 
 Studio Announcements:
 
-- Talk about design reviews.
+- Talk about design reviews: times, grading, etc.
 
 Tasks:
 
