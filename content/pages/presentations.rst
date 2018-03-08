@@ -49,7 +49,7 @@ sponsors that can attend. Groups will present their design concepts and will
 justify their final selected concept.
 
 The presentations will be 5 minutes comprised of an overview of the project and
-selected design concept. This will be followed by 5 minutes for questions and
+selected design concept. This will be followed by 3 minutes for questions and
 changing groups. Only one team member will deliver the presentation, but all
 team members must prepare to speak. The team member will be selected randomly
 from the group at the time of presentation. This presentation will be good
