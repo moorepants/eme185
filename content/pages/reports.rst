@@ -23,6 +23,8 @@ project.
 Report Format
 =============
 
+eeeeeeeeeeeeeee
+
 The reports will be due in PDF format via Canvas by the due dates and times
 posted in the `schedule <{filename}/pages/schedule.rst>`_ and on the Canvas
 assignment. A single report should be submitted by one team member.
