@@ -72,6 +72,15 @@ into the optionally provided appendices, e.g. don't refer to figures in the
 appendix if discussed in detail in the content sections, include the figure (or
 simpler version of the figure) near the relevant text.
 
+Contributions
+-------------
+
+Provide a brief section that describes each author's contribution to the
+report. This should only be one to two sentences per author. For example:
+"Carlos was the primary author of the buckling analysis and plan sections,
+contributed to the introduction, handled organizing and formatting the
+references, and edited the entire paper."
+
 References
 ----------
 
@@ -314,7 +323,8 @@ Plan
    the project timeline into a set of dependent tasks and milestones. Every
    task should have a duration, due date, its dependencies, and an assignee(s).
    This information should be presented as a `Gantt Chart
-   <{filename}/pages/gantt-chart.rst>`_.
+   <{filename}/pages/gantt-chart.rst>`_ in addition to some text that explains
+   the high level view of the plan.
 Financing
    The costs should be refined as much as possible to give a very realistic
    estimate of what you plan to spend. A bill of materials (see definition
@@ -331,12 +341,13 @@ Financing
    This will be based off the amount requested and the quality of your work.
 Appendices
    The appendices should include any details that support the content of your
-   paper. It should include sufficient details that document your work this
-   quarter. This should be highly organized and easy to follow. At this point
-   you can include details of your concept generation and selection process,
-   your full set of needs and specs, CAD renderings, sketches, diagrams,
-   abandoned designs, in-depth tasks lists and charts, extensive bill of
-   materials, etc.
+   paper. **Note that the report should make complete sense if the appendices
+   are removed.** It should include sufficient details that document your work
+   this quarter. This should be highly organized and easy to follow. At this
+   point you can include details of your concept generation and selection
+   process, your full set of needs and specs, CAD renderings, sketches,
+   diagrams, abandoned designs, in-depth tasks lists and charts, extensive bill
+   of materials, etc.
 
 This report should be self contained. Imagine if someone that has never seen
 your work picks up your report and wants to understand it in depth without you
