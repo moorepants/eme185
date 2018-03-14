@@ -717,6 +717,10 @@ Tasks:
 Week 10
 ^^^^^^^
 
+Studio Announcments:
+
+- Explain final report.
+
 - [All] Hold (and grade) lightning talks in studio session.
 - [Instructor] Hold industry panel at 185A lecture.
 
