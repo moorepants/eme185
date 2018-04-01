@@ -218,7 +218,7 @@ TA                  Office              Link
 =================== =================== ==============================
 Naveen Gowrishankar Academic Surge 2328 https://nav-go.youcanbook.me
 Ian Garreston       Bainer 1125         https://icgarretson.youcanbook.me/
-Scott Kresie        TBA                 TBA
+Scott Kresie        Hickey Gym 276      https://scott-kresie.youcanbook.me/
 =================== =================== ==============================
 
 Academic Integrity
