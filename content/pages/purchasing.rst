@@ -56,6 +56,8 @@ etc.
 Order for Supplies and Consumables using a Department Purchase Order (DPO)
 ==========================================================================
 
+**BME funded projects must have their TA place the orders!**
+
 Applicable to Store Pickup, FAX/Internet Order, Credit Card Order
 
 - Obtain approval and correct account # for the order from the instructor.
@@ -91,10 +93,12 @@ Local Purchases
 To place an order at a local store for pickup, these are the procedures to
 follow:
 
-1. Go to local store and record quantity and part number of items.
+1. Go to local store and record quantity and part number of items or make a
+   conservative guess at the prices.
 2. Place OPS order listing the normal quantity, unit, parts number,
-   description.
-3. check box in OPS for "order for pick up"
+   description. Use the "Not to exceed amount" column to give a conservative
+   dollar amount needed for the purchase.
+3. Check box in OPS for "order for pick up"
 4. OPS will give a purchase order in the amount needed to pick up the items at
    the local store
 5. Return the receipt as the "packing slip"
@@ -107,8 +111,8 @@ expenses may be unavoidable due to extenuating circumstances (e.g., no access
 to a Purchase Order after MAE office hours; emergency purchase; Department
 Purchase Order not accepted by a store/vendor).
 
-Out-of-pocket expenses must be PRE-APPROVED by the instructor and must be
-deemed necessary for the capstone design project.
+Out-of-pocket expenses must be PRE-APPROVED by one of the instructors and must
+be deemed necessary for the capstone design project.
 
 **Total out-of-pocket purchases (including tax and shipping cost) must not
 exceed $500 per receipt.**
