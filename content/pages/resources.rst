@@ -23,14 +23,14 @@ Purchasing Parts and Materials
 
 You may need to purchase parts and materials for your project with funds that
 are provided by (or by proxy through) the MAE department. Please review the
-`MAE Purchasing Guidelines`_ to learn how to do this. Take special note that
-you will need an online purchasing system (OPS) account (more information on
-the page). Do this well in advance of needing to submit an order request.
+`Purchasing Guidelines`_ to learn how to do this. Take special note that you
+will need an online purchasing system (OPS) account (more information on the
+page). Do this well in advance of needing to submit an order request.
 
 For some general advice on finding parts and materials, there is a `Purchasing
 Tips`_ page.
 
-.. _MAE Purchasing Guidelines: {filename}/pages/purchasing.rst
+.. _Purchasing Guidelines: {filename}/pages/purchasing.rst
 .. _Purchasing Tips: {filename}/pages/purchasing-tips.rst
 
 Project Storage
@@ -38,13 +38,13 @@ Project Storage
 
 We have a space that is available for temporary storage of your project while
 you are working on it during the spring quarter. You can get access to this
-room, Bainer 1231, by asking your TA for the keypad entry code. The following
-list shows the rules for the use of the space. Any abuse of these will cause
-all teams to lose access to the space. The EFL staff are monitoring and
-managing the space, so check in with them with any questions on the use of the
-space.
+room, Bainer 1120, by asking one of the instructors for the keypad entry code.
+The following list shows the rules for the use of the space. Any abuse of these
+will cause all teams to lose access to the space. The ESDC staff are monitoring
+and managing the space, so check in with them with any questions on the use of
+the space.
 
-- You should only request the key if you actually need space.
+- You should only request the key code if you actually need space.
 - Do not share the keypad entry key code. If you do, then you jeopardize the
   security people's projects.
 - Group your items into as few labeled boxes/shelves/tables as possible.
@@ -52,17 +52,17 @@ space.
   number.
 - Keep the space tidy. In particular, there should be no tripping hazards.
 - No hazardous chemicals, paint, glue, or any things that require SDS.
-- All work with power tools should happen in the EFL.
-- Do not go upstairs or disturb the office space up there.
-- The MAE groups can use the room closest to the hallway. The room closest to
-  the Bainer courtyard is for the BME groups.
+- All work with power tools should happen in the ESDC.
+- The MAE groups can use the floor space marked with an "M". The floor space
+  marked with a "B" is for the biomedical capstone course.
 - Share the tables and space with your fellow classmates.
 - Make sure the doors to the hallway and courtyard are always left locked and
   closed.
 - Do not touch any equipment in the room that doesn't belong to you.
-- All items must be removed from the room by Friday, June 16th or you risk an
+- All items must be removed from the room by
+  {{ DUE_DATES['workroom'].strftime('%A, %b %-d, %Y') }} or you risk an
   incomplete grade.
-- Respect the EFL staff's wishes and help, as they have the final say on the
+- Respect the ESDC staff's wishes and help, as they have the final say on the
   use of the space.
 - The keypad entry code will be changed at the end of quarter.
 - Long pants, closed to shoes, and safety glass are required while in the

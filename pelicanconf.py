@@ -70,6 +70,7 @@ DUE_DATES = \
      'pre_04': '2018-06-11 22:00:00',  # design review 2
      'show_reg': '2018-05-04 23:59:59',
      'show': '2018-06-08 22:00:00',  # design review 2
+     'workroom': '2018-06-15 23:59:59',  # clear workroom
     }
 DUE_DATES = {k: datetime.strptime(v, '%Y-%m-%d %H:%M:%S')
              for k, v in DUE_DATES.items()}
