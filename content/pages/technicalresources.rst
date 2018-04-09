@@ -123,16 +123,21 @@ Electrical
 
 Standards
 ----------
-- `Library site`_- a well organized list of engineering standards available to UC Davis
-- `OSHA`_- A list of all topics that OSHA covers
+- `Library site`_ - a well organized list of engineering standards available to UC Davis
+- `OSHA`_ - A list of all topics that OSHA covers
    - `Machine Guarding pdf`_ - machine guarding pdf
    - `Machine Guarding etool`_- machine guarding website same content as pdf
-- `ASTM`_- A list of standards accessible by UCD, most are for testing
-
+- `ASTM`_- A list of standards accessible by UCD, most are for testing but there is useful information
+- `ASME`_- Mechanical Engineering Standards, payment required
+- `IEEE`_ - Electronic Engineering Standards
+   - `Electric Machinery`_- IEEE electric machinery standards
 
 .. _library site: https://www.library.ucdavis.edu/guide/mechanical-aerospace-engineering/#standards-10
 .. _OSHA: https://www.osha.gov/SLTC/text_index.html
 .. _Machine Guarding etool: https://www.osha.gov/SLTC/etools/machineguarding/index.html
 .. _Machine Guarding pdf: https://www.osha.gov/Publications/osha3170.pdf
 .. _ASTM: https://compass.astm.org/CUSTOMERS/index.html
+.. _ASME: https://www.asme.org/shop/standards 
+.. _IEEE: https://ieeexplore.ieee.org/browse/standards/collection/ieee
+.. _Electric Machinery: https://ieeexplore.ieee.org/browse/standards/collection/ieee/power-and-energy?selectedValue=Electric%20Machinery
 
