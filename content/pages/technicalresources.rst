@@ -120,3 +120,19 @@ Electrical
 .. _DC Motor Selection guide: http://www.micromo.com/technical-library/dc-motor-tutorials
 .. _Small DC motors: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-motor-selection-guide.pdf
 .. _Battery University: http://batteryuniversity.com/learn/
+
+Standards
+----------
+- `Library site`_- a well organized list of engineering standards available to UC Davis
+- `OSHA`_- A list of all topics that OSHA covers
+   - `Machine Guarding pdf`_ - machine guarding pdf
+   - `Machine Guarding etool`_- machine guarding website same content as pdf
+- `ASTM`_- A list of standards accessible by UCD, most are for testing
+
+
+.. _library site: https://www.library.ucdavis.edu/guide/mechanical-aerospace-engineering/#standards-10
+.. _OSHA: https://www.osha.gov/SLTC/text_index.html
+.. _Machine Guarding etool: https://www.osha.gov/SLTC/etools/machineguarding/index.html
+.. _Machine Guarding pdf: https://www.osha.gov/Publications/osha3170.pdf
+.. _ASTM: https://compass.astm.org/CUSTOMERS/index.html
+
