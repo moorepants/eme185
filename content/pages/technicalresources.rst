@@ -131,6 +131,8 @@ Standards
 - `ASME`_- Mechanical Engineering Standards, payment required
 - `IEEE`_ - Electronic Engineering Standards
    - `Electric Machinery`_- IEEE electric machinery standards
+- `NEMA`_ - Electric Equipment and Medical Imaging Manufacturers Standards
+   - `Motor Standards`_- NEMA motor and generator standards
 
 .. _library site: https://www.library.ucdavis.edu/guide/mechanical-aerospace-engineering/#standards-10
 .. _OSHA: https://www.osha.gov/SLTC/text_index.html
@@ -140,4 +142,5 @@ Standards
 .. _ASME: https://www.asme.org/shop/standards 
 .. _IEEE: https://ieeexplore.ieee.org/browse/standards/collection/ieee
 .. _Electric Machinery: https://ieeexplore.ieee.org/browse/standards/collection/ieee/power-and-energy?selectedValue=Electric%20Machinery
-
+.. _NEMA: https://www.nema.org/Standards/pages/default.aspx
+.. _Motor Standards: https://www.nema.org/Standards/Pages/All-Standards-by-Product.aspx?ProductId=f6107549-40c5-4110-9a4c-dd7215bf1e60
