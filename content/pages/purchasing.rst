@@ -4,9 +4,12 @@
 EME 185 A/B Capstone MAE Purchasing And Out-Of-Pocket Reimbursement Guidelines
 
 Key Guidelines
-=========
-Expenses must first be approved before purchased.
-The University does not have an Amazon Prime account.
+==============
+
+- Expenses must first be approved before purchased.
+- The University does not have an Amazon Prime account.
+- We've been having issues getting POs for Home Depot, please send a request
+  for a reimbursement prior to making a purchase.
 
 .. contents:: Table of Contents
 
