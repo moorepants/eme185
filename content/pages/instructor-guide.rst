@@ -208,14 +208,18 @@ through interactively, with pairs of students sharing microcontroller kit. All
 TAs should attend all of the studio sessions during this week to help out with
 the tutorial, with one TA leading the tutorial.
 
-Industry Panel
---------------
-
 3D Printing Lesson
 ------------------
 
+One TA can give this lecture.
+
 Human Factors Lecture
 ---------------------
+
+Prof. Velinsky may have his daughter deliver this.
+
+Industry Panel
+--------------
 
 
 Grading
@@ -729,6 +733,8 @@ Week 11 (finals week)
 
 - [All] Have co-grading meeting for report 2
 - [All] Grade report 2
+- [All TAs] Grab bills of materials from report 2 and put on Drive
+- [Lead TA] Generate lightning talk grade sheets.
 - [Lead TA] Send feedback form to clients to see how they feel things are
   going.
 
@@ -738,39 +744,43 @@ EME 185B
 Week 0 (spring break)
 ^^^^^^^^^^^^^^^^^^^^^
 
+- [All] Choose office hours for Spring quarter and setup youcanbookme links.
+- [Instructor] Send out funding recommendations and progress thoughts to the clients.
+- [Instructor] Send out email announcing Spring quarter to remind students, etc.
+- [Instructor] Announce Spring office hours.
+- [Instructor] Respond to client feedback.
+
 Week 1
 ^^^^^^
 
-- [Lead TA] Generate lightning talk grade sheets.
-- [Instructor] Distribute lightning talk grade sheets.
-- [All TAs] Create youcanbookme pages.
+- [All TAs] Get access to and setup the project room.
 - [Lead TA] Create a sign for reserving a table in 2071
 
 Week 2
 ^^^^^^
 
-- [All TAs] Grab bills of materials from report 2 and put on Drive
 - [All TAs] Review Sandia award documents and think about teams that could
   apply
 
 Week 3
 ^^^^^^
 
-- [Lead TA] Create a poster template
+- [Instructor] Update report 3 info and rubric, post to canvas.
 
 Week 4
 ^^^^^^
 
+- [Instructor] Send out the CATME survey.
 - [Lead TA] Start planning Meijo visit activities and send out for feedback.
 - [Lead TA] Start critical design review scheduling.
 
 Week 5
 ^^^^^^
 
+- [Instructor] Remind students of Sandia Design Award
 - [Lead TA] Announce poster template along with website info on poster design.
 - [Lead TA] Send out design review scheduling form.
 - [Lead TA] Remind students to sign up for showcase.
-- [Instructor] Remind students of Sandia Design Award
 - [Lead TA] Organize Meijo visit lunch and campus activities.
 - [Lead TA] Invite students to Meijo lunch and cultural activities.
 
