@@ -90,11 +90,10 @@ All      Mar 24-Apr 1               Spring Break
 All      Apr 2                      Start of Spring Quarter
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 -------  -------------  ----------  ------------------------------------  ---------------  -----
-A02/A03  F April 27                                                                        Design Showcase Registration
+A02/A03  F April 27                                                                        `Design Showcase Registration`_
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F May 4                                                                           - Report 3: Midterm Progress
                                                                                            - Peer evaluations
-                                                                                           - Showcase registration
 -------  -------------  ----------  ------------------------------------  ---------------  -----
 A02/A03  F May 11                                                                          - Sandia award intent [1]_
                                                                                            - Showcase coordination
@@ -119,6 +118,6 @@ A02/A03  W Jun 13                   Critical Design Reviews                     
 
 .. _Microcontroller Tutorial: {filename}/pages/microcontrollers.rst
 .. _Engineering Design Showcase: http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase
-.. _Design Showcase Registration: https://www.addme.com
+.. _Design Showcase Registration: {{ SHOWCASE_REG_URL }}
 
 .. [1] The Sandia Design Award submissions are optional.

@@ -73,10 +73,11 @@ College of Engineering Design Showcase
 
 At the end of the course you will be expected to present your results to
 faculty, students, and visitors at the College of Engineering Design Showcase.
-This year's showcase will be at the ARC Pavilion on **June 8, 2017** from 2 to
-4 pm and registration will open in March. At the showcase you will meet with
-industry sponsors and will have the opportunity to win various awards and to
-show off your work to potential employers.
+This year's showcase will be at the ARC Pavilion on
+**{{ DUE_DATES['show'].strftime('%A, %b %-d, %Y') }}** from 1:30 to 4:30 pm and
+registration will open in April. At the showcase you will meet with industry
+sponsors and will have the opportunity to win various awards and to show off
+your work to potential employers.
 
 See the following website for more information:
 

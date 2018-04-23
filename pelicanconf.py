@@ -53,7 +53,7 @@ MENUITEMS =[('Syllabus', ''),
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-SHOWCASE_REG_URL = 'https://updateme.eee'
+SHOWCASE_REG_URL = 'https://ucdavis.co1.qualtrics.com/jfe/form/SV_1NvJvbejIFfjleR'
 DUE_DATES = \
     {
      'mem_01': '2018-01-12 22:00:00',
@@ -68,8 +68,8 @@ DUE_DATES = \
      'pre_02': '2018-03-15 00:00:00',  # lightning talk
      'pre_03': '2018-05-24 22:00:00',  # showcase poster
      'pre_04': '2018-06-11 22:00:00',  # design review 2
-     'show_reg': '2018-05-04 23:59:59',
-     'show': '2018-06-08 22:00:00',  # design review 2
+     'show_reg': '2018-04-27 23:59:59', # showcase registration
+     'show': '2018-06-07 13:30:00',  # showcase
      'workroom': '2018-06-15 23:59:59',  # clear workroom
     }
 DUE_DATES = {k: datetime.strptime(v, '%Y-%m-%d %H:%M:%S')

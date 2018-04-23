@@ -64,7 +64,7 @@ Engineering Design Showcase Poster Presentation [{{ DUE_DATES['pre_03'].strftime
 
 Your team will be required to present your work at the `Engineering Design
 Showcase`_ at the ARC Pavilion on {{ DUE_DATES['show'].strftime('%A %b %-d,
-%Y') }} from 2-4 pm. You need to `register for the showcase`_ by {{
+%Y') }} from 1:30-4:30 pm. You need to `register for the showcase`_ by {{
 DUE_DATES['show_reg'].strftime('%A %b %-d, %Y') }}. Each team will develop a
 poster that showcases and explains your project which must be submitted to both
 Canvas and to the Dean's office for printing by {{
@@ -74,11 +74,11 @@ are also welcome and encouraged to bring any prototype that you have
 constructed or videos and other media that will explain your project. Any
 special accommodations for your prototype (size, power, etc) or presentation
 must be coordinated with the Dean's office at registration. At least one member
-of the team must be present at the poster at all times from 2-4 pm and all team
-members must attend the event. Your team's poster will be visited by one or
-more industry judges who will score your poster. You should were business
-attire. Your TA will visit your poster for approximately 10 minutes, interact
-with you,and will grade your poster presentation for the class.
+of the team must be present at the poster at all times from 1:30-4:30 pm and
+all team members must attend the event. Your team's poster will be visited by
+one or more industry judges who will score your poster. You should were
+business attire. Your TA will visit your poster for approximately 10 minutes,
+interact with you,and will grade your poster presentation for the class.
 
 .. _Engineering Design Showcase: http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase/
 .. _register for the showcase: {{ SHOWCASE_REG_URL }}
