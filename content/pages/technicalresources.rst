@@ -76,6 +76,22 @@ Other references:
 
 
 
+Software
+--------
+CAD
+  - Solidworks (Dassault Systems)
+  - AutoCAD (Autodesk)
+  
+CAM
+  - ESPRIT (DP Technology)
+  - HSM (Autodesk)
+  
+Electrical
+  - LT Spice (Linear Technology)
+  - Easy EDA (Website)
+  - Tinker CAD (Website)
+
+
 Mechanisms and Movements
 ------------------------
 
