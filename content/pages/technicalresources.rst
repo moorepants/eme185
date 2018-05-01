@@ -5,13 +5,20 @@ In the course of making your project or product successful, you will have to
 draw on your team's combined knowledge, experience and talents as an engineer.
 But a good engineer also does not waste time 'reinventing the wheel' from
 scratch. There is a wealth of knowledge and resources available in the form of
-books,articles and videos on the internet and the UCDavis' Physical Sciences and Engineering Library.  Here is a list of some of these
-resources that you may want to use:
+books,articles and videos on the internet and the UCDavis' Physical Sciences
+and Engineering Library.  Here is a list of some of these resources that you
+may want to use:
 
 UCDavis Library Resources
 -------------------------
 
-The `Physical Sciences and Engineering (PSE) Library webpage`_ provides you access to a vast collection of resources that may not be readily available on the internet ranging from full Books, eBooks, Journals, Databooks, Patents and Industry Standards. Many of these are available in digital form. Some may require you to use the Library VPN to sign in. We encourage you to make use of these university resources in your projects. Remember to cite your references in your reports. The above webpage also contains a citation guide.
+The `Physical Sciences and Engineering (PSE) Library webpage`_ provides you
+access to a vast collection of resources that may not be readily available on
+the internet ranging from full Books, eBooks, Journals, Databooks, Patents and
+Industry Standards. Many of these are available in digital form. Some may
+require you to use the Library VPN to sign in. We encourage you to make use of
+these university resources in your projects. Remember to cite your references
+in your reports. The above webpage also contains a citation guide.
 
 .. _Physical Sciences and Engineering (PSE) Library webpage: https://www.library.ucdavis.edu/guide/mechanical-aerospace-engineering/
 
@@ -33,7 +40,7 @@ Design Calculations and References
    - `Shafts,Keys and Bearings <http://www.ncedaust.org/pdf/ENGG1000_PROJ5_Shafts-Bearings.pdf>`_ Drawings and info on ways to put shafts,keys and bearings together
    - `MIT Power transmission <http://pergatory.mit.edu/resources/FUNdaMENTALs%20Book%20pdf/FUNdaMENTALs%20Topic%205.PDF>`_ - Page 44-57 has info on shafts
    - `How to choose a Bearing <http://www.robot-and-machines-design.com/en/Articles/Mechanics/Tips-Guides/266-Bearing-Selection-How-To-Choose-A-Bearing.html>`_ - Good resource on the steps required before selecting a bearing
-   
+
 - `MatWeb`_ - Properties of various Materials
 - `Machinery's Handbook`_ - Reference text for Machinery design
 
@@ -54,11 +61,16 @@ Design Calculations and References
 Making Technical Drawings
 -------------------------
 
-Here are a few resources and references for making your technical drawings package (your major deliverable) look professional and informative.
+Here are a few resources and references for making your technical drawings
+package (your major deliverable) look professional and informative.
 
-- `ASME/ANSI Y14.5 Standards <https://tutorialcadcam.files.wordpress.com/2016/03/asme-y14-5m-2009.pdf>`_ Please read from section 1.4 onwards to check if you are following the right dimensioning conventions defined in the standard. 
+- `ASME/ANSI Y14.5 Standards
+  <https://tutorialcadcam.files.wordpress.com/2016/03/asme-y14-5m-2009.pdf>`_
+  Please read from section 1.4 onwards to check if you are following the right
+  dimensioning conventions defined in the standard.
 
-Other ASME Y14 standards that define Lines and Lettering, sheet size and formats and Drawing Views are linked to below:
+Other ASME Y14 standards that define Lines and Lettering, sheet size and
+formats and Drawing Views are linked to below:
 
 - `ASME/ANSI Y14.1 Standards <http://gost-snip.su/download/asme_y14_12005_decimal_inch_drawing_sheet_size_and_format_re>`_
 - `ASME/ANSI Y14.2 Standards <http://gost-snip.su/download/asme_y14_22008_line_conventions_and_lettering>`_
@@ -74,23 +86,20 @@ Other references:
 
 - `Drawing package example <https://www.csuchico.edu/mmem/documents/Department_Drawing_Standard.pdf>`_
 
-
-
 Software
 --------
 CAD
   - Solidworks (Dassault Systems)
   - AutoCAD (Autodesk)
-  
+
 CAM
   - ESPRIT (DP Technology)
   - HSM (Autodesk)
-  
+
 Electrical
   - LT Spice (Linear Technology)
   - Easy EDA (Website)
   - Tinker CAD (Website)
-
 
 Mechanisms and Movements
 ------------------------
