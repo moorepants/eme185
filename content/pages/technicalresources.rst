@@ -100,6 +100,7 @@ Electrical
   - LT Spice (Linear Technology)
   - Easy EDA (Website)
   - Tinker CAD (Website)
+  - Ki-cad (Open-source Electrical Drawing Software)
 
 Mechanisms and Movements
 ------------------------
