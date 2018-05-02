@@ -773,22 +773,24 @@ Week 4
 - [Instructor] Send out the CATME survey.
 - [Lead TA] Start planning Meijo visit activities and send out for feedback.
 - [Lead TA] Start critical design review scheduling.
+- [Lead TA] Remind students to sign up for showcase.
 
 Week 5
 ^^^^^^
 
 - [Instructor] Remind students of Sandia Design Award
-- [Lead TA] Announce poster template along with website info on poster design.
 - [Lead TA] Send out design review scheduling form.
-- [Lead TA] Remind students to sign up for showcase.
-- [Lead TA] Organize Meijo visit lunch and campus activities.
-- [Lead TA] Invite students to Meijo lunch and cultural activities.
+- [Lead TA] Setup initial plan and options for the Meijo visit lunch and campus
+  activities.
 
 Week 6
 ^^^^^^
 
-- [Lead TA] Finalize design review scheduling.
 - [All] Review CATME results.
+- [All TAs] Grade report 3 except for the progress rubric row.
+- [Instructor] Grade the progress rubric row for report 3.
+- [Lead TA] Announce poster template along with website info on poster design.
+- [Lead TA] Finalize design review scheduling.
 
 Week 7
 ^^^^^^
@@ -808,6 +810,7 @@ Week 9
 
 - [Lead TA] Finalize Meijo visit scheduling.
 - [Lead TA] Reserve appropriate vehicle for showcase transport.
+- [Lead TA] Invite students to Meijo lunch and cultural activities.
 
 Week 10
 ^^^^^^^
