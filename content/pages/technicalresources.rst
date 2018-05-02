@@ -88,9 +88,30 @@ Other references:
 
 Software
 --------
-CAD
+
+3D CAD
+  - Onshape_: Web-browser-based CAD software made by original authors of
+    Solidworks. Works on all operating systems. Free (but limited) educational
+    and personal accounts.
+  - FreeCAD_: Open source parametric 3D CAD. Works on all operating systems.
+  - Fusion 360 (Autodesk): Free 3-year education license. Works on Mac and PC.
   - Solidworks (Dassault Systems)
-  - AutoCAD (Autodesk)
+  - https://www.vention.io/ : Online CAD system for 80/20-like design that
+    ships parts next day.
+
+.. _Onshape: https://www.onshape.com/edu/students
+.. _FreeCAD: https://www.freecadweb.org/
+
+2D CAD
+
+  - AutoCAD (Autodesk): Probably the most widely used 2D CAD software.
+    Mac/Windows.
+  - QCAD_: Open source, Windows/Mac/Linux
+  - LibreCAD_: Open source, Windows/Mac/Linux
+
+.. _AutoCAD: https://www.autodesk.com/products/autocad/overview
+.. _LibreCAD: http://librecad.org/
+.. _QCAD: https://qcad.org
 
 CAM
   - ESPRIT (DP Technology)
@@ -101,6 +122,7 @@ Electrical
   - Easy EDA (Website)
   - Tinker CAD (Website)
   - Ki-cad (Open-source Electrical Drawing Software)
+
 
 Mechanisms and Movements
 ------------------------
@@ -122,14 +144,12 @@ Manufacturing
 - `GrabCAD`_- Free CAD model Library
 - `MIT Machining`_- Video lectures on using various machines in a machine shop
 - `Grainger`_- Tools and Hardware
-- `Onshape`_- Free CAD software
 - `OpenBOM`_ Bill of materials tracking
 
 .. _McMaster-Carr: https://www.mcmaster.com/
 .. _MIT Machining: http://techtv.mit.edu/videos/142-machine-shop-1
 .. _GrabCAD: https://grabcad.com/library?utm_campaign=workbench&utm_content=library_button&utm_medium=cta&utm_source=index
 .. _Grainger: https://www.grainger.com/
-.. _Onshape: https://www.onshape.com/edu/students
 .. _OpenBOM: http://www.openbom.com/
 
 Electrical
