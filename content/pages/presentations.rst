@@ -130,11 +130,12 @@ them at http://marketingtoolbox.ucdavis.edu/identity/logos/index.html.
 Template
 --------
 
-Below is a link to a poster template for you to use as a basis for your poster.
+Below are links to two possible poster templates for you to use as a basis for your poster.
 Feel free to modify the colors, fonts, layout, etc. There is no obligation to
-use the template.
+use the template
 
-https://drive.google.com/open?id=1DhddKWEk8GZJZDMotgJ7H-AxJdSh_fJkB5Cm2gQve-E
+- Template 1: https://drive.google.com/open?id=1DhddKWEk8GZJZDMotgJ7H-AxJdSh_fJkB5Cm2gQve-E
+- Template 2: https://drive.google.com/open?id=1V87_YdZN8SC0j1IxQNklPuRvdMok_Iwn
 
 Instructions:
 
