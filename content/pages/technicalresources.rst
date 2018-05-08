@@ -160,6 +160,8 @@ Electrical
 - `DC Motor Selection guide`_- How to approach the problem of selecting DC motors
 - `Small DC motors`_- Selecting small DC motors
 - `Battery University`_
+- 3D Printed power supply covers:
+  https://www.thingiverse.com/troubadixx/collections/psu-cover/page:1
 
 .. _Digikey: http://www.digikey.com/
 .. _All About Circuits: https://www.allaboutcircuits.com/
