@@ -7,82 +7,40 @@ double line returns and are as follows:
 3. An aggregation table of the data in part 2
 
 The next optional sections are a list of a set of question answers followed by
-a table of the responses to those questions.
+a table of the responses to those questions. Here are the options for these
+sets of questions that are tied to a score of 1, 2, 3, 4, or 5 (I don't yet
+know whether 1 or 5 corresponds to the first or last item on the lists.)
+
+Team Conflict
+=============
+- None or Not at all
+- Little or Rarely
+- Some
+- Much or Often
+- Very Much or Very Often
+
+Team Satisfaction and Team Perspectives
+=======================================
+- Strongly Disagree
+- Disagree
+- Neither Agree Nor Disagree
+- Agree
+- Strongly Agree
 
 The final section are the private comments that the students provide.
 
 """
 
+# TODO : Report which students are not filling out the peer eval.
+
 import os
-import argparse
 from io import StringIO
 
 import numpy as np
 import pandas as pd
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
-
-team_id_map = {
-    "APB9": "Biodesiel Sclerosis Treatment",
-    "APS1": "Self-tending chicken coop",
-    "APS3": "Solar compost sterilizer",
-    "APU6": "Urban greenhouse office shed",
-    "BDD1": "Design of a Grape Roomba",
-    "CFO6": "Optimal mountain bike rim design",
-    "CNA7": "Adaptive target for jumping studies",
-    "CWH0": "Floating Toilets: To Boldy 'Go' Where Noone has Been Able to Go Before",
-    "DDL5": "Laparoscopic Field Hydraulic Surgery Table (Burro chute)",
-    "DUM0": "Mobile microscope stand for wheelchair-bound students",
-    "EDR4": "Recycler's Transportation Cart",
-    "FMA5": "Automatic board feeder for custom saw/drill station",
-    "FTC1": "Crimping device for refitting broken shovel heads",
-    "FTR2": "Repurposing discarded 5 gallon vegetable oil jugs into nursery pots",
-    "FUA7": "Automated native plant plug planting",
-    "FUP6": "Pond Algae Removal",
-    "GIS8": "Sports instrument inertial estimation device",
-    "GSP6": "Pyrotechnic Actuator Installation Robot",
-    "HWO8": "Low Cost DIY Powered Wheelchair",
-    "JII6": "Instrumented Bicycle for Collision Reconstruction",
-    "KM32": "3D Printing Micro-UAVs",
-    "LLD5": "Design of Additively Manufactured (AM) Embedded Sensors for Structural Health Monitoring",
-    "LLG6": "GUI or APP for Data Fitting of Constitutive Models",
-    "LLP3": "Pressure sensor design development",
-    "LMD2": "Design of a water table",
-    "LPM7": "Portable Pasture Fencing",
-    "LUR1": "Robotic Scarecrow",
-    "MBD3": "Line Launcher",
-    "MDA2": "Save the Bees through Engineering",
-    "MDL2": "Instrumentation to Measure Equine Tail Pull Forces",
-    "MDL9": "Large Animal Venipuncture Training Models"
-}
-
-
-def question_map(text):
-    question_map = {}
-    for q in text.split('\n')[1:]:
-        key, question = q.split('","')
-        question_map[key[1:]] = question[:-1]
-    return question_map
-
-
-def parse_answer_section(text, q_map):
-    new_text = ''
-    for line in text.split('\n')[1:]:
-        if not line.startswith('"Team Stats'):
-            new_text += line + '\n'
-    df = pd.read_csv(StringIO(new_text))
-    df = df.rename(columns=q_map)
-    df = df.select(lambda x: not x.startswith('Mn') and not x.startswith('SD'), axis=1)
-    df['Team Name'] = df['Team ID'].map(team_id_map)
-    return df
-
-
-def print_sorted(df, ascending=True):
-    group = df.groupby('Team Name')
-    results = group.mean()
-    for col in results.columns:
-        print(results[col].sort_values(ascending=ascending))
-        print('\n\n')
+import seaborn as sns
 
 
 def load_main_table(table_text):
@@ -130,21 +88,26 @@ def merge_adjustment_factor(*dataframes, with_self=True):
 
     data = pd.DataFrame(data)
 
+    data = data.dropna()  # if student drops and is deleted after peer eval
+
     # calculate a slope value, improvement metric, that characterizes whether
     # the students' ranking improved over time or didn't, positive values are
     # improvements and negative means the got rated worse over time
 
-    x_vals = range(4)
+    x_vals = list(range(len(dataframes)))
     slopes = []
     means = []
     stds = []
     adjusted_scores = []
 
+    eval_names = ['P1', 'P2', 'P3', 'P4']
+    weights = [0.85, 0.90, 0.95, 1.0]
+
     for idx, row in data.iterrows():
-        y_vals = row[['P1', 'P2', 'P3', 'P4']].values.astype(float)
+        y_vals = row[eval_names[:len(dataframes)]].values.astype(float)
 
         # Weight the latter reviews more than the earlier reviews.
-        mean = np.average(y_vals, weights=[0.85, 0.90, 0.95, 1.0])
+        mean = np.average(y_vals, weights=weights[:len(dataframes)])
 
         # Calculate a "slope" val that indicates how little or how much
         # improvement there was.
@@ -194,13 +157,6 @@ def load_catme_data_sections(path_to_file):
     return sections
 
 
-def parse_catme_text(text_sections):
-
-    metadata = pd.read_csv(StringIO(text_sections[0])).to_dict('records')[0]
-
-    return
-
-
 def create_team_factor(df):
     # TODO : What to do about note="over"
     df['Team Factor'] = df['Adj Factor (w/ Self)']
@@ -213,24 +169,80 @@ def create_team_factor(df):
     return df
 
 
-def parse_conflict_text(question_map_text, score_text):
+def parse_team_questions(question_map_text, score_text):
+    """Returns a data frame with each asked question in a row.
 
-    # need to remove the first line because it is an extraneous header
-    df = pd.read_csv(StringIO('\n'.join(score_text.split('\n')[1:])))
+    Team Conflict
+    =============
+
+    Example text that maps an ID to the actual question::
+
+       "T1","How much conflict of ideas is there in your work group? (Task Conflict)"
+       "T2","How frequently do you have disagreements within your work group about the task of the project you are working on? (Task Conflict)"
+       "T3","How often do people in your work group have conflicting opinions about the project you are working on? (Task Conflict)"
+       "R1","How much relationship tension is there in your work group? (Relationship Conflict)"
+       "R2","How often do people get angry while working in your group? (Relationship Conflict)"
+       "R3","How much emotional conflict is there in your work group? (Relationship Conflict)"
+       "P1","How often are there disagreements about who should do what in your work group? (Process Conflict)"
+       "P2","How much conflict is there in your group about task responsibilities? (Process Conflict)"
+       "P3","How often do you disagree about resource allocation in your work group? (Process Conflict)"
+
+    This text is then followed by the scores for those questions::
+
+       ,,,"Relationship Conflict",,,,,"Task Conflict",,,,,"Process Conflict",,,,,"Overall",,
+       "Student Name","Student ID","Team ID","R1","R2","R3","Mn","SD","T1","T2","T3","Mn","SD","P1","P2","P3","Mn","SD","Mn","SD"
+       "Surname01, Firstname01","12345","team01","1","1","1","1.00","0.00","1","1","1","1.00","0.00","1","1","1","1.00","0.00","1.00","0.00"
+       "Surname02, Firstname02","12346","team01","2","1","1","1.33","0.58","3","2","3","2.67","0.58","2","3","2","2.33","0.58","2.11","0.78"
+       "Surname03, Firstname03","12347","team01","1","1","1","1.00","0.00","2","1","1","1.33","0.58","1","1","1","1.00","0.00","1.11","0.33"
+       "Surname04, Firstname04","12348","team01","1","1","1","1.00","0.00","2","2","2","2.00","0.00","2","2","1","1.67","0.58","1.56","0.53"
+
+    Team Satisfaction
+    =================
+
+    "Q1","I am satisfied with my present teammates"
+    "Q2","I am pleased with the way my teammates and I work together"
+    "Q3","I am very satisfied with working in this team"
+
+    ,,,"Team Satisfaction",,,,,
+    "Student Name","Student ID","Team ID","Q1","Q2","Q3","Mn","SD"
+    "Surname01, Firstname01","12345","team01","4","4","4","4.00","0.00"
+    "Surname02, Firstname02","12346","team01","4","4","3","3.67","0.58"
+
+    Team Perspectives
+    =================
+
+    "TA1","Being part of the team allows team members to do enjoyable work (Task Attraction)"
+    "TA2","Team members get to participate in enjoyable activities (Task Attraction)"
+    "TA3","Team members like the work that the group does (Task Attraction)"
+    "IC1","Team members like each other (Interpersonal Cohesiveness)"
+    "IC2","Team members get along well (Interpersonal Cohesiveness)"
+    "IC3","Team members enjoy spending time together (Interpersonal Cohesiveness)"
+    "TC1","Our team is united in trying to reach its goals for performance (Task Commitment)"
+    "TC2","I'm unhappy with my team's level of commitment to the task (Task Commitment) [scale reversed]"
+    "TC3","Our team members have conflicting aspirations for the team's performance (Task Commitment) [scale reversed]"
+
+    ,,,"Interpersonal Cohesiveness",,,,,"Task Commitment",,,,,"Task Attraction",,,,,"Overall",,
+    "Student Name","Student ID","Team ID","IC1","IC2","IC3","Mn","SD","TC1","TC2","TC3","Mn","SD","TA1","TA2","TA3","Mn","SD","Mn","SD"
+    "Surname01, Firstname01","12345","team01","5","5","4","4.67","0.58","5","1","2","4.67","0.58","5","4","4","4.33","0.58","4.56","0.53"
+    "Surname02, Firstname02","12346","team01","4","4","3","3.67","0.58","4","3","4","3.00","1.00","4","3","4","3.67","0.58","3.44","0.73"
+    "Surname03, Firstname03","12347","team01","5","5","5","5.00","0.00","5","1","2","4.67","0.58","5","5","5","5.00","0.00","4.89","0.33"
+
+
+        """
+
+    # need to remove the first line because it is an extraneous header and any
+    # lines with summary stats
+    lines = [l for l in score_text.split('\n')[1:] if 'Team Stats' not in l]
+    df = pd.read_csv(StringIO('\n'.join(lines)))
 
     # remove stats columns
     df = df.select(lambda x: not (x.startswith('Mn') or x.startswith('SD')),
                    axis=1)
-    # remove rows with summary stats
-    df = df[df['Student Name'] != 'Team Stats']
 
     # transform to long format
+    question_cols = [s for s in df.columns if s[-1].isdigit()]
     long_df = pd.melt(df, id_vars=['Student ID', 'Student Name', 'Team ID'],
-                      value_vars=['R1', 'R2', 'R3', 'T1', 'T2', 'T3', 'P1',
-                                  'P2', 'P3'])
-
-    long_df.index = long_df['Student ID'].astype(int)
-    del long_df['Student ID']
+                      value_vars=question_cols)
 
     long_df = long_df.rename(columns={'variable': 'Question ID',
                                       "value": 'Score'})
@@ -249,54 +261,45 @@ def parse_conflict_text(question_map_text, score_text):
 
 if __name__ == "__main__":
 
-    #parser = argparse.ArgumentParser()
-    #parser.add_argument('file')
-    #args = parser.parse_args()
-#
-    #path = '/home/moorepants/Teaching/eme185'
-#
-    #file1 = 'Moore-EME_185A_Peer_Evaluation-EME_185-Winter_2016.csv'
-    #file2 = 'Moore-Final_Peer_Evaluation-EME_185-Winter_2016.csv'
-    #file3 = 'Moore-Spring_Midterm_Peer_Evaluation-EME_185-Winter_2016.csv'
-#
-    #sections1 = load_catme_data_sections(os.path.join(path, file1))
-    #sections2 = load_catme_data_sections(os.path.join(path, file2))
-    #sections3 = load_catme_data_sections(os.path.join(path, file3))
-#
-    #df1 = load_main_table(sections1[1])
-    #df2 = load_main_table(sections2[1])
-    #df3 = load_main_table(sections3[1])
-#
-    #df1 = create_team_factor(df1)
-    #df2 = create_team_factor(df2)
-    #df3 = create_team_factor(df3)
-#
-    #df = df3[['Student Name', 'Student ID', 'Team Factor']].copy()
-    #df['Team Factor'] = (df1['Team Factor'] + df2['Team Factor'] + df3['Team Factor']) / 3
-#
-    #df[['Student ID', 'Team Factor']].to_csv('team_factor.csv')
+    DIR = '/home/moorepants/Drive/Teaching/EME185/2017/peer-evaluations'
+    FNAME_TEMP = 'Moore-Peer_Evaluation_{}-EME_185-Winter_2017.csv'
 
-    # Parse extra questions
-    #q_map = question_map(sections[3])
-    #conflict_df = parse_answer_section(sections[4], q_map)
-    #print_sorted(conflict_df, False)
-#
-    #q_map = question_map(sections[5])
-    #satis_df = parse_answer_section(sections[6], q_map)
-    #print_sorted(satis_df, False)
-#
-    #q_map = question_map(sections[7])
-    #satis_df = parse_answer_section(sections[8], q_map)
-    #print_sorted(satis_df, False)
+    DIR = '/home/moorepants/Drive/Teaching/EME185/2018/peer-evaluations'
+    FNAME_TEMP = 'Moore-2018_EME185_Peer_Evaluation_#{}-EME_185-Winter_2018.csv'
 
-    path = '/home/moorepants/Drive/EME185/2017/peer-evaluations/Moore-Peer_Evaluation_{}-EME_185-Winter_2017.csv'
     dfs = []
-    conflict_dfs = []
+    team_ques_dfs = []
 
-    for i in range(4):
-        sections = load_catme_data_sections(path.format(i + 1))
+    for i in range(3):
+        path = os.path.join(DIR, FNAME_TEMP.format(i + 1))
+        sections = load_catme_data_sections(path)
         dfs.append(load_main_table(sections[1]))
-        conflict_dfs.append(parse_conflict_text(sections[3], sections[4]))
+
+        conflict_df = parse_team_questions(sections[3], sections[4])
+        conflict_df['Evaluation'] = i + 1
+        conflict_df['Question Page'] = 'Team Conflict'
+
+        satisfaction_df = parse_team_questions(sections[5], sections[6])
+        satisfaction_df['Evaluation'] = i + 1
+        satisfaction_df['Question Page'] = 'Team Satisfaction'
+
+        perspectives_df = parse_team_questions(sections[7], sections[8])
+        perspectives_df['Evaluation'] = i + 1
+        perspectives_df['Question Page'] = 'Team Perspectives'
+
+        team_ques_dfs.append(pd.concat([conflict_df, satisfaction_df,
+                                        perspectives_df], ignore_index=True))
+
+    team_questions_df = pd.concat(team_ques_dfs, ignore_index=True)
+    team_questions_df['Question Group'] = team_questions_df['Question ID'].apply(lambda x: x[:-1])
+
+    sns.factorplot(x='Question ID', y='Score', hue='Evaluation', col='Team ID',
+                   col_wrap=2, data=team_questions_df, kind='bar', ci='sd',
+                   sharex=False)
+
+    questions = team_questions_df[['Question ID', 'Question']].drop_duplicates()
+    q_id_map = dict(zip(questions['Question ID'], questions['Question']))
+    print(q_id_map)
 
     adj_fact_df = merge_adjustment_factor(*dfs)
 
