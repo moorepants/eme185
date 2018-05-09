@@ -76,9 +76,9 @@ special accommodations for your prototype (size, power, etc) or presentation
 must be coordinated with the Dean's office at registration. At least one member
 of the team must be present at the poster at all times from 1:30-4:30 pm and
 all team members must attend the event. Your team's poster will be visited by
-one or more industry judges who will score your poster. You should were
+one or more industry judges who will score your poster. You should wear
 business attire. Your TA will visit your poster for approximately 10 minutes,
-interact with you,and will grade your poster presentation for the class.
+interact with you, and will grade your poster presentation for the class.
 
 .. _Engineering Design Showcase: http://engineering.ucdavis.edu/undergraduate/senior-engineering-design-showcase/
 .. _register for the showcase: {{ SHOWCASE_REG_URL }}
@@ -93,7 +93,7 @@ people that aren't necessarily mechanical engineers. Your poster should
 address:
 
 - A description of your project.
-- The main need or needs and how you've addressed them.
+- The main needs and how you've addressed them.
 - Why your project is a great solution.
 - Any innovative things you've come up with.
 
@@ -130,9 +130,9 @@ them at http://marketingtoolbox.ucdavis.edu/identity/logos/index.html.
 Template
 --------
 
-Below are links to two possible poster templates for you to use as a basis for your poster.
-Feel free to modify the colors, fonts, layout, etc. There is no obligation to
-use the template
+Below are links to two possible poster templates for you to use as a basis for
+your poster.  Feel free to modify the colors, fonts, layout, etc. There is no
+obligation to use either of the templates.
 
 - Template 1: https://drive.google.com/open?id=1DhddKWEk8GZJZDMotgJ7H-AxJdSh_fJkB5Cm2gQve-E
 - Template 2: https://drive.google.com/open?id=1V87_YdZN8SC0j1IxQNklPuRvdMok_Iwn
@@ -173,19 +173,20 @@ and quality product.
 1. The Engineering Dean's Office will cover the cost of printing one landscape
    48" W x 36" H full-color poster per team. No other dimensions or sizes will
    be allowed. Only 1 poster per team will be printed (no reprints).
-2. The poster PDF file must be emailed to amwakefield@ucdavis.edu no later than
-   {{ POSTER_DUE_DATE }} *and* submitted to Canvas assignments at the same
-   time. Alin will not accept nor print any file received after this deadline.
+2. The poster PDF file must be submitted via the official Google form no later
+   than {{ POSTER_DUE_DATE }} *and* submitted to Canvas assignments at the same
+   time. The College will not accept nor print any file received after this
+   deadline.
 3. Files must be submitted as a PDF (highest quality preferred).
 4. When designing your poster, please carefully check the page setup settings.
    You must ensure your poster is correctly sized at 48" W x 36" H.
 5. The CoE cannot be responsible for verifying the accuracy of technical
    content, so you are strongly advised to have your instructor review your
    poster prior to submission.
-6. Once printed, the posters will be stored in 1050 Kemper Hall. Alin will
-   arrange for setup and display of all posters in the Pavilion on June 8th.
-   Posters will be mounted to foam/poster board for stability and easier
-   viewing.
+6. Once printed, the posters will be stored in 1050 Kemper Hall. The College will
+   arrange for setup and display of all posters in the Pavilion on the day of
+   the showcase. Posters will be mounted to foam/poster board for stability and
+   easier viewing.
 7. If you do not want to keep your poster you should return it to the
    instructors after the showcase and it will be displayed in Bainer Hall the
    following year.
