@@ -1,31 +1,38 @@
-"""The CATME Peer evaluation results are provided in a non-standard CSV file.
-There are multiple tables in the single file. The tables are separated by
-double line returns and are as follows:
+#!/usr/bin/env python
+
+"""Script that parses CATME peer evaluation data and plots summary plots and
+statistics.
+
+The CATME Peer evaluation results are provided in a CSV file which contains
+more than one table and mixed in metadata. The data are separated by double
+line returns and are as follows:
 
 1. Extraneous metadata
-2. Table of answers to the per team member rating questions (it has two header lines)
+2. Table of answers to the per team member rating questions (it has two header
+   lines)
 3. An aggregation table of the data in part 2
 
 The next optional sections are a list of a set of question answers followed by
 a table of the responses to those questions. Here are the options for these
-sets of questions that are tied to a score of 1, 2, 3, 4, or 5 (I don't yet
-know whether 1 or 5 corresponds to the first or last item on the lists.)
+sets of questions that are tied to a score of 1, 2, 3, 4, or 5.
 
 Team Conflict
 =============
-- None or Not at all
-- Little or Rarely
-- Some
-- Much or Often
-- Very Much or Very Often
+
+1. None or Not at all
+2. Little or Rarely
+3. Some
+4. Much or Often
+5. Very Much or Very Often
 
 Team Satisfaction and Team Perspectives
 =======================================
-- Strongly Disagree
-- Disagree
-- Neither Agree Nor Disagree
-- Agree
-- Strongly Agree
+
+1. Strongly Disagree
+2. Disagree
+3. Neither Agree Nor Disagree
+4. Agree
+5. Strongly Agree
 
 The final section are the private comments that the students provide.
 
@@ -34,6 +41,7 @@ The final section are the private comments that the students provide.
 # TODO : Report which students are not filling out the peer eval.
 
 import os
+import textwrap
 from io import StringIO
 
 import numpy as np
@@ -44,6 +52,8 @@ import seaborn as sns
 
 
 def load_main_table(table_text):
+    """Returns a data frame with the peer to peer ratings for a single CATME
+    peer evaluation given the text from the CSV export."""
 
     lines = table_text.split('\n')
     i = 1
@@ -57,12 +67,7 @@ def load_main_table(table_text):
             cols.append(thing)
     lines[1] = '","'.join(cols)
     text = "\n".join(lines[1:])
-    #dtype = {'Student Name': str,
-             #'Team ID': str,
-             #'Note': str}
-    df = pd.read_csv(StringIO(text)) #, dtype=dtype)
-    # may have been needed in previous pandas versions
-    #df['Student ID'] = df['Student ID'].str.split('-').str.join('')
+    df = pd.read_csv(StringIO(text))
     df.index = df['Student ID']
 
     return df
@@ -137,6 +142,10 @@ def merge_adjustment_factor(*dataframes, with_self=True):
 
 
 def plot_student_adj(df, with_self=True):
+    """Returns three axes. The first is a bar plot of the adjustment factor for
+    each student. The second is a bar plot showing the improvement value. And
+    the third is a bar plot of the adjustment factor modified by the
+    improvement score."""
     fig, axes = plt.subplots(3, sharex=True)
     df = df.sort_values('Final Adj Factor')
     df.plot(x='Student Name', y='Mean Adj Factor', kind='bar',
@@ -148,6 +157,7 @@ def plot_student_adj(df, with_self=True):
 
 
 def load_catme_data_sections(path_to_file):
+    """Returns a list of text sections from the CATME csv export."""
 
     with open(path_to_file, 'r') as f:
         text = f.read()
@@ -228,7 +238,7 @@ def parse_team_questions(question_map_text, score_text):
     "Surname03, Firstname03","12347","team01","5","5","5","5.00","0.00","5","1","2","4.67","0.58","5","5","5","5.00","0.00","4.89","0.33"
 
 
-        """
+    """
 
     # need to remove the first line because it is an extraneous header and any
     # lines with summary stats
@@ -261,18 +271,28 @@ def parse_team_questions(question_map_text, score_text):
 
 if __name__ == "__main__":
 
+    # 2017
     DIR = '/home/moorepants/Drive/Teaching/EME185/2017/peer-evaluations'
     FNAME_TEMP = 'Moore-Peer_Evaluation_{}-EME_185-Winter_2017.csv'
 
+    # 2018
     DIR = '/home/moorepants/Drive/Teaching/EME185/2018/peer-evaluations'
     FNAME_TEMP = 'Moore-2018_EME185_Peer_Evaluation_#{}-EME_185-Winter_2018.csv'
+
+    if not os.path.exists(os.path.join(DIR, 'charts')):
+        os.makedirs(os.path.join(DIR, 'charts'))
+
+    files = os.listdir(DIR)
 
     dfs = []
     team_ques_dfs = []
 
     for i in range(3):
+
         path = os.path.join(DIR, FNAME_TEMP.format(i + 1))
+
         sections = load_catme_data_sections(path)
+
         dfs.append(load_main_table(sections[1]))
 
         conflict_df = parse_team_questions(sections[3], sections[4])
@@ -293,14 +313,63 @@ if __name__ == "__main__":
     team_questions_df = pd.concat(team_ques_dfs, ignore_index=True)
     team_questions_df['Question Group'] = team_questions_df['Question ID'].apply(lambda x: x[:-1])
 
-    sns.factorplot(x='Question ID', y='Score', hue='Evaluation', col='Team ID',
-                   col_wrap=2, data=team_questions_df, kind='bar', ci='sd',
-                   sharex=False)
-
     questions = team_questions_df[['Question ID', 'Question']].drop_duplicates()
     q_id_map = dict(zip(questions['Question ID'], questions['Question']))
-    print(q_id_map)
+
+    for team_id in team_questions_df['Team ID'].unique():
+        subset = team_questions_df[team_questions_df['Team ID'] == team_id]
+        facet = sns.factorplot(x='Question ID', y='Score', hue='Evaluation',
+                               col='Question Page', data=subset, kind='bar',
+                               ci='sd', sharey=False, sharex=False,
+                               legend_out=False)
+        facet.axes[0, 0].set_title(team_id + ': ' +
+                                   facet.axes[0, 0].get_title(), fontsize=12)
+        facet.axes[0, 0].set_ylim((0, 5))
+        facet.axes[0, 0].set_yticks(range(6))
+        facet.axes[0, 0].set_yticklabels(['',
+                                          'None or Not\nat all',
+                                          'Little or\nRarely',
+                                          'Some',
+                                          'Much or\nOften',
+                                          'Very Much or\nVery Often'])
+        facet.axes[0, 0].set_xlim((-0.5, 8.5))
+
+        facet.axes[0, 1].set_title(team_id + ': ' +
+                                   facet.axes[0, 1].get_title(), fontsize=12)
+        facet.axes[0, 1].set_ylim((0, 5))
+        facet.axes[0, 1].set_yticks(range(6))
+        facet.axes[0, 1].set_yticklabels(['',
+                                          'Strongly\nDisagree',
+                                          'Disagree',
+                                          'Neither Agree\nNor Disagree',
+                                          'Agree',
+                                          'Strongly\nAgree'])
+        facet.axes[0, 1].set_xlim((8.5, 11.5))
+
+        facet.axes[0, 2].set_title(team_id + ': ' +
+                                   facet.axes[0, 2].get_title(), fontsize=12)
+        facet.axes[0, 2].set_ylim((0, 5))
+        facet.axes[0, 2].set_yticks(range(6))
+        facet.axes[0, 2].set_yticklabels(['',
+                                          'Strongly\nDisagree',
+                                          'Disagree',
+                                          'Neither Agree\nNor Disagree',
+                                          'Agree',
+                                          'Strongly\nAgree'])
+        facet.axes[0, 2].set_xlim((11.5, 20.5))
+
+        new_labs = ['\n'.join(textwrap.wrap(q_id_map[lab.get_text()], width=40))
+                    for lab in facet.axes[0, 0].get_xticklabels()]
+        facet.set_xticklabels(new_labs, rotation=-90)
+        plt.gcf().set_size_inches(20.0, 10.0)
+        plt.tight_layout()
+        plt.savefig(os.path.join(DIR, 'charts', team_id + '.png'))
+        plt.close()
 
     adj_fact_df = merge_adjustment_factor(*dfs)
 
     plot_student_adj(adj_fact_df)
+
+    plt.gcf().set_size_inches(20.0, 15.0)
+    plt.tight_layout()
+    plt.savefig(os.path.join(DIR, 'charts', 'adjustment.png'))
