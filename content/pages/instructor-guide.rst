@@ -808,9 +808,11 @@ Week 8
 Week 9
 ^^^^^^
 
+- [Instructor] Invite department to the showcase.
 - [Lead TA] Finalize Meijo visit scheduling.
-- [Lead TA] Reserve appropriate vehicle for showcase transport.
+- [TA] Reserve appropriate vehicle for showcase transport.
 - [Lead TA] Invite students to Meijo lunch and cultural activities.
+- [Instructor] Post final report and design review assignments/rubrics.
 
 Week 10
 ^^^^^^^
@@ -829,3 +831,4 @@ Week 11 (finals week)
 - [All] Grade final reports.
 - [All] Hold end-of-course meeting to discuss how the course went.
 - [All] Hold critical design reviews.
+- [Instructor] Submit final grades.
