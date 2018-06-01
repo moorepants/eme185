@@ -154,6 +154,8 @@ among the instructors. This should not be shared outside of the instructors as
 it will have FERPA protected information. **You must be extremely careful that
 you do not share any document in this drive with any student.**
 
+There will be two Google Drive folders. One private to instructors and one meant for sharing with students and general public. Both folders will have only the current instructors as collaborators (access to edit/view and change permissions). Instructors will create new forms/documents meant for sharing in the sharing folder, or create a copy in the private folder and move it to the sharing folder (move works only if 'add to my drive' is done first on the file). After the file to be shared is situated in the sharing folder, permissions for that file can be changed to allow only students with the link to view/edit the file. Folder level access will remain with the instructors.
+
 CATME
 -----
 
