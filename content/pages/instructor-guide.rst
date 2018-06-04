@@ -776,6 +776,7 @@ Week 4
 - [Lead TA] Start planning Meijo visit activities and send out for feedback.
 - [Lead TA] Start critical design review scheduling.
 - [Lead TA] Remind students to sign up for showcase.
+- [Lead TA] Reserve a Pickup for the Showcase. Last year reservation was made too late.
 
 Week 5
 ^^^^^^
