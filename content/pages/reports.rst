@@ -489,3 +489,11 @@ electrical systems. Other possible items to include:
 - Full set of needs and specs
 - CAD renderings
 - Engineering standards details
+
+You may submit your drawing package (mechanical, electrical, etc) and any
+manuals you create as separate PDF documents if that makes it easier to compile
+your final report. For example:
+
+- PDF #1: Report + appendices
+- PDF #2: Mechanical drawings
+- PDF #3: Usage manual
