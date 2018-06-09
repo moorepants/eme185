@@ -215,4 +215,4 @@ and other potential guests will be present. The presentation should be geared
 toward and "engineering management" audience.
 
 **You will need to submit your presentation materials as a PDF to Canvas by
-10PM Wednesday of exam week.**
+11:59PM Wednesday of exam week.**
