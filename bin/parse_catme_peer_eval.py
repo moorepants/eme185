@@ -73,6 +73,29 @@ def load_main_table(table_text):
     return df
 
 
+def find_deliquent_students(df):
+    """Returns a list of student names who did not fill out the survey."""
+
+    def is_int(s):
+        try:
+            int(s)
+            return True
+        except ValueError:
+            return False
+
+    deliquent_students = []
+
+    for name, group in df.groupby('Team ID'):
+        na_cols = group.columns[group.isna().any()].tolist()
+        num_members = len(group)
+        deliquent_rater_nums = set([int(name.strip()[-1]) for name in na_cols
+                                    if is_int(name.strip()[-1])])
+        deliquent_students += [group['Student Name'][group['Rater #'] == num].values[0]
+                               for num in deliquent_rater_nums if num <= num_members]
+
+    return deliquent_students
+
+
 def merge_adjustment_factor(*dataframes, with_self=True):
     """Returns a data frame with student id as the index and the peer
     evaluation instances as the columns. The entry is the adjustment factor
@@ -122,11 +145,13 @@ def merge_adjustment_factor(*dataframes, with_self=True):
 
         # If the student was rated low but improved over time, bump their
         # factor up based on the improvement. Also, don't allow any factor's
-        # lower than 0.80.
+        # lower than 0.75.
         if mean < 0.95 and improvement > 0.0:
             adjusted_score = mean + 1.5 * improvement
         else:
-            adjusted_score = max([0.80, mean])
+            adjusted_score = max([0.75, mean])
+
+        adjusted_score = mean
 
         means.append(mean)
         stds.append(y_vals.std())
@@ -287,7 +312,10 @@ if __name__ == "__main__":
     dfs = []
     team_ques_dfs = []
 
-    for i in range(3):
+    # TODO : The range should adjust based on the number of files in the
+    # directory.
+
+    for i in range(4):
 
         path = os.path.join(DIR, FNAME_TEMP.format(i + 1))
 
@@ -315,6 +343,12 @@ if __name__ == "__main__":
 
     questions = team_questions_df[['Question ID', 'Question']].drop_duplicates()
     q_id_map = dict(zip(questions['Question ID'], questions['Question']))
+
+    for i, df in enumerate(dfs):
+        names = find_deliquent_students(df)
+        print('Missing survey {}:'.format(i + 1))
+        print(names)
+        print('\n')
 
     for team_id in team_questions_df['Team ID'].unique():
         subset = team_questions_df[team_questions_df['Team ID'] == team_id]
