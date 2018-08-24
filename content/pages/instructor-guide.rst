@@ -813,7 +813,7 @@ Week 9
 
 - [Instructor] Invite department to the showcase.
 - [Lead TA] Finalize Meijo visit scheduling.
-- [TA] Reserve appropriate vehicle for showcase transport.
+- [TA] Create and distribute a Google Form for attendance signups for joint EME 185 and Meijo student activities/ company tours.
 - [Lead TA] Invite students to Meijo lunch and cultural activities.
 - [Instructor] Post final report and design review assignments/rubrics.
 
