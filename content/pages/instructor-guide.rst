@@ -481,6 +481,14 @@ Here is how I'd like things to flow each week:
 - We execute that week's plan.
 - Rinse and repeat.
 
+Fall
+----
+
+- Proposals should be due about November 15th, whatever Friday closest lines up.
+- Send out call for solicitation via Mailchimp around October 15th.
+- Between November 15th and December 15th review all proposals and call the
+  submitters to help them get the scopes and expectations set.
+
 EME 185A
 --------
 
