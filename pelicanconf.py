@@ -7,6 +7,8 @@ from datetime import datetime
 AUTHOR = u'Jason K. Moore'
 SITENAME = u'EME 185: Mechanical Systems Design Project'
 SITEURL = ''
+YEAR = '2019'
+LECTURE_ROOM = 'California Hall 1100'
 
 PATH = 'content'
 THEME = 'theme'
