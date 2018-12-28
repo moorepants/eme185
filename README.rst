@@ -37,4 +37,4 @@ License
 =======
 
 The text, images, contents, and source of the website are released under the
-Creative Commons Zero License (public domain) unless otherwise specified.
+Creative Commons Attribution License 4.0.
