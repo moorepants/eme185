@@ -10,7 +10,12 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://moorepants.github.io/eme185'
+if 'TRAVIS_TAG' in os.environ:
+    TAG_DIR = '/' + os.environ.get('TRAVIS_TAG')
+else:
+    TAG_DIR = ''
+
+SITEURL = 'https://moorepants.github.io/eme185{}'.format(TAG_DIR)
 RELATIVE_URLS = False
 
 FEED_ATOM = None
@@ -18,11 +23,11 @@ FEED_RSS = None
 
 DELETE_OUTPUT_DIRECTORY = True
 
-MENUITEMS =[('Syllabus', '/eme185/'),
-            ('Schedule', '/eme185/pages/schedule.html'),
-            ('Assignments', '/eme185/pages/assignments.html'),
+MENUITEMS =[('Syllabus', '/eme185/{}'.format(TAG_DIR[1:])),
+            ('Schedule', '/eme185{}/pages/schedule.html'.format(TAG_DIR)),
+            ('Assignments', '/eme185{}/pages/assignments.html'.format(TAG_DIR)),
             ('Projects', 'https://www.moorepants.info/jkm/courses/eme185-2018/pages/projects.html'),
-            ('Resources', '/eme185/pages/resources.html')]
+            ('Resources', '/eme185{}/pages/resources.html'.format(TAG_DIR))]
 
 # Following items are often useful when publishing
 
