@@ -1,0 +1,31 @@
+tr:nth-child(even) {
+  background: #E0E0EB
+}
+tr:nth-child(odd) {
+  background: #FFF
+}
+img.homeworkfig {
+  width: 600px
+}
+
+a.headerlink {
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+h1:hover > a.headerlink,
+h2:hover > a.headerlink,
+h3:hover > a.headerlink,
+h4:hover > a.headerlink,
+h5:hover > a.headerlink,
+h6:hover > a.headerlink,
+dt:hover > a.headerlink {
+    visibility: visible;
+}
+
+a.headerlink{
+  visibility: hidden;
+}
+.strike {
+  text-decoration: line-through;
+}
