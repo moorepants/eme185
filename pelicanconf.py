@@ -9,6 +9,10 @@ SITENAME = u'EME 185: Mechanical Systems Design Project'
 SITEURL = ''
 YEAR = '2019'
 LECTURE_ROOM = 'California Hall 1100'
+NUM_PROPOSALS = 26
+NUM_STUDENTS = 67
+NUM_SECTIONS = 2
+NUM_SELECTED = min(NUM_SECTIONS * 11, round(NUM_STUDENTS / 4))
 
 PATH = 'content'
 THEME = 'theme'
@@ -58,6 +62,9 @@ MENUITEMS =[('Syllabus', ''),
 SHOWCASE_REG_URL = 'https://'
 DUE_DATES = \
     {
+     'client_yay_nay': '2019-01-04 11:59:59',
+     'first_day': '2019-01-07 00:00:00',
+     'last_day': '2019-06-12 11:59:59',
      'mem_01': '2019-01-11 23:59:59',
      'mem_02': '2019-01-25 23:59:59',
      'mem_03': '2019-02-01 23:59:59',

@@ -4,7 +4,7 @@
 .. contents:: Table of Contents
    :depth: 1
 
-Thank you for submitting a proposal for the 2017 UCD MAE Department's
+Thank you for submitting a proposal for the {{ YEAR}} UCD MAE Department's
 Mechanical Engineering Capstone Design Course. We have reviewed your proposal
 and believe that it will be a suitable project for a team of our engineering
 students to tackle. This letter is intended to give you an idea of what to
@@ -13,7 +13,7 @@ department. This is a long email, but please read carefully so that we are all
 on the same page. If you are not comfortable with what is presented below it is
 OK not to participate from here on forward. If you need clarification before
 proceeding just let me know. I will need to know if you do not want to
-participate by Monday, January 8th.
+participate by {{ DUE_DATES['client_yay_nay'].strftime('%A, %b %-d, %Y') }}.
 
 The primary educational goal of this course is for the students to demonstrate
 their ability to realize a viable mechanical design based on a given client's
@@ -27,7 +27,8 @@ tangible outcome.
 How It Works
 ============
 
-The course starts on January 9th, 2018 and ends on June 14th, 2018 with spring
+The course starts on {{ DUE_DATES['first_day'].strftime('%A, %b %-d, %Y') }}
+and ends on {{ DUE_DATES['last_day'].strftime('%A, %b %-d, %Y') }} with spring
 break at the midpoint between two eleven week quarters. The students spend the
 first half learning about the design process, researching, gathering, and
 synthesizing information, testing ideas, developing initial designs, and
@@ -45,9 +46,10 @@ to redefine the scope either to ensure that it is feasible, to best highlight
 our students' skills, or to ensure that it aligns well with the flow of the
 course. Once the project is well defined and the class starts, I will match
 projects with student teams based on their skills and preferences during the
-first week of class. Note that we currently have 26 proposals and will only be
-able to match 22 of the projects due to the current course enrollment. It is
-possible your project will not be matched to a group.
+first week of class. Note that we currently have **{{ NUM_PROPOSALS}}**
+proposals and will only be able to match **{{ NUM_SELECTED }}** of the projects
+due to the current course enrollment. It is possible your project will not be
+matched to a group. Note that we typically only assign one project per client.
 
 The Client's Role
 =================
