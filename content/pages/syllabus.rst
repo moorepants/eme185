@@ -9,13 +9,13 @@ Course Description
 | University of California, Davis
 | Department of Mechanical and Aerospace Engineering
 | Mechanical Design - EME 185A/B
-| Winter 2018, Lecture: T 3:10PM-4:00PM, Studio: A02 F 10:00AM-12:50PM, A03 R 3:10PM-6:00PM
-| CRN: A02 52633, A03 52634
-| Spring 2018
+| Winter {{ YEAR }}, Lecture: T 3:10PM-4:00PM, Studio: A02 R 3:10PM-6:00PM, A03 F 10:00AM-12:50PM
+| CRN: A02 54981, A03 54982
+| Spring {{ YEAR }}
 | CRN: TBA
 | `Catalog Entry`_
 
-.. _Catalog Entry: http://catalog.ucdavis.edu/programs/EME/EMEcourses.html
+.. _Catalog Entry: https://ucdavis.pubs.curricunet.com/Catalog/eme-courses-sc
 
 Course Philosophy
 -----------------
@@ -111,7 +111,7 @@ primary objective, students will also be able to:
   and formal public and private presentations
 - solve a real engineering problem specified by someone else
 
-These objectives fit with the following ABET Educational Student Outcomes for
+These objectives support the following ABET Educational Student Outcomes for
 the Mechanical Engineering and Aeronautical Science and Engineering Programs:
 
 a. an ability to apply knowledge of mathematics, science, and engineering
@@ -160,9 +160,9 @@ Instructors
 | | *A01 Primary Instructor*     | | *A01*                     |
 | | savelinsky@ucdavis.edu       | | TBA                       |
 +--------------------------------+-----------------------------+
-| | Jason K. Moore               | | Naveen Gowrishankar       |
+| | Jason K. Moore               | | Scott Kresie              |
 | | *A02/A03 Primary Instructor* | | *A02/A03*                 |
-| | 2095 Bainer Hall             | | ngowrishankar@ucdavis.edu |
+| | 2095 Bainer Hall             | | swkresie@ucdavis.edu      |
 | | 530-752-4805                 |                             |
 | | jkm@ucdavis.edu              |                             |
 +--------------------------------+-----------------------------+
@@ -170,17 +170,17 @@ Instructors
 |                                | | *A02/A03*                 |
 |                                | | icgarretson@ucdavis.edu   |
 +--------------------------------+-----------------------------+
-|                                | | Scott Kresie              |
+|                                | | Gregory Bales             |
 |                                | | *A02/A03*                 |
-|                                | | swkresie@ucdavis.edu      |
+|                                | | glbales@ucdavis.edu       |
 +--------------------------------+-----------------------------+
 
 Time and Location
 =================
 
-The winter lecture meets on Tuesdays from 3:10 to 4:00 PM in `Medical Science
-C`_ 180. The A02 studio sections will meet on Friday from 10:00 AM to 12:50 PM
-and the A03 studio sections will meet on Thursday from 3:10 to 6:00 PM, both in
+The winter lecture meets on Tuesdays from 3:10 to 4:00 PM in {{ LECTURE_ROOM }}
+[#]_. The A02 studio sections will meet on Thursday from 3:10 to 6:00 PM and
+the A03 studio sections will meet on Friday from 10:00 AM to 12:50 PM, both in
 the MAE Design Studio (Bainer 2071).
 
 The spring meetings will be scheduled during the winter quarter.
@@ -188,7 +188,8 @@ The spring meetings will be scheduled during the winter quarter.
 **If you have any conflicts with the schedule you must tell me by email in the
 first week of class (emergencies will be the only exception).**
 
-.. _Medical Science C: http://campusmap.ucdavis.edu/?b=102
+.. [#] Note that California Hall is a new building and not on all maps yet. It
+   is just south of Asmundon Hall.
 
 Office Hours
 ============
@@ -196,12 +197,12 @@ Office Hours
 Instructor Office Hours
 -----------------------
 
-Jason's winter office hours are T 10-11AM and W 1-2PM in Bainer 2095. His
-spring office hours are Friday 10-11AM. **For Jason's office hours, book a time
-slot for your team at least 12 hours in advance via:**
-http://moorepants.youcanbook.me.  [#]_ If you can't make the regular scheduled
-office hours, check Jason's `work calendar`_ for an open time slot between 8AM
-and 6:30PM on weekdays and email him with a request for a meeting.
+Jason's winter office hours are TBA in Bainer 2095. His spring office hours are
+TBA. **For Jason's office hours, book a time slot for your team at least 12
+hours in advance via:** http://moorepants.youcanbook.me.  [#]_ If you can't
+make the regular scheduled office hours, check Jason's `work calendar`_ for an
+open time slot between 8AM and 6:30PM on weekdays and email him with a request
+for a meeting.
 
 .. _work calendar: http://www.moorepants.info/work-calendar.html
 
@@ -216,9 +217,9 @@ booked via YouCanBook.me:
 =================== =================== ==============================
 TA                  Office              Link
 =================== =================== ==============================
-Naveen Gowrishankar Academic Surge 2328 https://nav-go.youcanbook.me
-Ian Garreston       Bainer 1125         https://icgarretson.youcanbook.me/
 Scott Kresie        Hickey Gym 276      https://scott-kresie.youcanbook.me/
+Ian Garreston       Bainer 1125         https://icgarretson.youcanbook.me/
+Gregory Bales       TBA                 TBA
 =================== =================== ==============================
 
 Academic Integrity
@@ -306,8 +307,9 @@ Poster Presentation_
    This poster presentation will be given at the Engineering Design Showcase to
    sponsors, educators, and fellow students.
 In class
-   There will be a variety of in class activities that will count towards your
-   grade and you will be expected to attend the sessions and meetings.
+   There will be a variety of in class activities, such as quizzes, that will
+   count towards your grade and you will be expected to attend the sessions and
+   meetings.
 Project Success
    The instructor reserves the right to adjust the team's grade based on
    whether the project was successful at meeting the clients needs and whether
@@ -326,7 +328,7 @@ Canvas
 ======
 
 We will make use of Canvas for the course. Log in to canvas.ucdavis.edu_ with
-your Kerberos ID and passphrase then select **EME 185A A02 WQ 2018**.
+your Kerberos ID and passphrase then select **EME 185A A02 WQ 2019**.
 
 We will be using several features in Canvas:
 

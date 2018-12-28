@@ -530,6 +530,7 @@ Tasks:
 - [Instructor] Select students and a TA for each team.
 - [Lead TA] Get design supplies for the needs and specifications studio
   activity for next week.
+- [Lead TA] Make sure the design studio is stocked with markers, erasers, etc.
 - [All TAs] Come to the first 15 minutes of the first lecture to be introduced
   to the entire class.
 - [All TAs] Prepare a 5 to 7 minute introduction for the studio sessions. I
