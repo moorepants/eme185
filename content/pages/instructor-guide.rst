@@ -20,7 +20,10 @@ Primary TA Duties
 
 - All 25% TA duties
 - Organize the team meetings and presentations.
+- Organize the industry panel.
 - Organize the Meijo University visit.
+- Organize the design showcase.
+- Any other unique tasks.
 
 General TA Requirements
 -----------------------
@@ -103,9 +106,9 @@ Both the instructor and the TAs are expected to hold office hours each week.
 These should be convenient for the homework due dates, and TA and instructor
 office hours should not conflict. Past TAs have used Bainer 2071 or their own
 lab for the office hours. Provide feedback to the instructor about how well
-these are attended so that adjustments can be made if needed. You may want to
-set up a `YouCanBook.me`_ page so that you know ahead of time whether or not
-students are coming to your office hours.
+these are attended so that adjustments can be made if needed. You should set up
+a `YouCanBook.me`_ page so that you know ahead of time whether or not students
+are coming to your office hours.
 
 .. _YouCanBook.me: https://youcanbook.me/
 
@@ -154,7 +157,15 @@ among the instructors. This should not be shared outside of the instructors as
 it will have FERPA protected information. **You must be extremely careful that
 you do not share any document in this drive with any student.**
 
-There will be two Google Drive folders. One private to instructors and one meant for sharing with students and general public. Both folders will have only the current instructors as collaborators (access to edit/view and change permissions). Instructors will create new forms/documents meant for sharing in the sharing folder, or create a copy in the private folder and move it to the sharing folder (move works only if 'add to my drive' is done first on the file). After the file to be shared is situated in the sharing folder, permissions for that file can be changed to allow only students with the link to view/edit the file. Folder level access will remain with the instructors.
+There will be two Google Drive folders. One private to instructors and one
+meant for sharing with students and general public. Both folders will have only
+the current instructors as collaborators (access to edit/view and change
+permissions). Instructors will create new forms/documents meant for sharing in
+the sharing folder, or create a copy in the private folder and move it to the
+sharing folder (move works only if 'add to my drive' is done first on the
+file). After the file to be shared is situated in the sharing folder,
+permissions for that file can be changed to allow only students with the link
+to view/edit the file. Folder level access will remain with the instructors.
 
 CATME
 -----
@@ -166,7 +177,6 @@ To get the percent busy of all students in class, choose data and then "choose
 params" to see summary.
 
 .. _CATME: http://info.catme.org/
-
 
 Instructor Feedback
 ===================
@@ -186,7 +196,6 @@ course/quarter went. Notes from this meeting should be added to the `Github
 issues page`_ to benefit future instantiations of the course.
 
 .. _Github issues page: https://github.com/moorepants/eme185/issues
-
 
 Instruction
 ===========
@@ -223,6 +232,11 @@ Prof. Velinsky may have his daughter deliver this.
 Industry Panel
 --------------
 
+This needs to be organized in the first few weeks of the quarter. Pick at day.
+Invite 5 people in the workforce, preferably those that are new to the
+mechanical engineering work force so they can provide relevant views to the
+students. We strive to have a diverse panel in terms of job type, gender,
+ethnicity, etc. The lead TA should organize this panel.
 
 Grading
 =======
@@ -323,7 +337,7 @@ There are two rounds of design reviews: **Preliminary Design Reviews** and
 8 of EME 185A, and critical design reviews take place during finals week of EME
 185B. The design reviews are 50-minute sessions for teams to present their
 selected concept (PDR) or final results (CDR) to the instructor, their TA, and
-possible facutly, staff, and the clients.
+possible faculty, staff, and the clients.
 
 The timing is as follows:
 
@@ -427,8 +441,8 @@ the side -- this allows you to drive directly up to wherever the projects are
 stored. It sounds like this is possible even with a non-UCD vehicle, but you
 should make sure beforehand. Also, note that the little kiosk at this gate
 closes at 5pm, so you may not be able to drive onto campus after that. The EFL
-has a number of ratcheting tie-down straps you can check out.
-
+has a number of ratcheting tie-down straps you can check out. Reserve the truck
+well in advance because they are often booked close to the desired date.
 
 External Presentation Options
 =============================
@@ -442,7 +456,6 @@ things to keep them aware of:
 - Sandia Design Award, due around first of June
 - It may be possible for some teams to exhibit at the `Bay Area Maker Faire
   <http://makerfaire.com/bay-area/call-for-makers/>`_ in May.
-
 
 Handling Parts Orders
 =====================
@@ -531,14 +544,12 @@ Tasks:
 - [Lead TA] Get design supplies for the needs and specifications studio
   activity for next week.
 - [Lead TA] Make sure the design studio is stocked with markers, erasers, etc.
-- [All TAs] Come to the first 15 minutes of the first lecture to be introduced
-  to the entire class.
-- [All TAs] Prepare a 5 to 7 minute introduction for the studio sessions. I
-  would like you to have a "show and tell" and introduction for the studios.
-  The idea would be to introduce your self and show a few things, slides, or
-  just talk about a project or projects you have done that is relevant to them
-  in the class. It should also give the students and idea what technical advice
-  you can offer them.
+- [All TAs] Prepare a 5 minute introduction for the studio sessions. I would
+  like you to have a "show and tell" and introduction for the studios.  The
+  idea would be to introduce your self and show a few things, slides, or just
+  talk about a project or projects you have done that is relevant to them in
+  the class. It should also give the students and idea what technical advice
+  you can offer them. Drop the slides in the Google Drive.
 - [All TAs] Send the instructor a list of project preferences by the same due
   date as the CATME survey.
 - [All TAs] Read chapters 5 and 6, needs/specs slides, and needs/specs activity
@@ -822,7 +833,8 @@ Week 9
 
 - [Instructor] Invite department to the showcase.
 - [Lead TA] Finalize Meijo visit scheduling.
-- [TA] Create and distribute a Google Form for attendance signups for joint EME 185 and Meijo student activities/ company tours.
+- [TA] Create and distribute a Google Form for attendance signups for joint EME
+  185 and Meijo student activities/ company tours.
 - [Lead TA] Invite students to Meijo lunch and cultural activities.
 - [Instructor] Post final report and design review assignments/rubrics.
 
