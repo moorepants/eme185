@@ -260,8 +260,7 @@ The purpose of the memos is two fold:
 
 Each memo has a rubric that is available in Canvas's speed grading tool.
 
-- Grade relatively "hard" on memos so that the students take the feedback
-  seriously.
+- Grade firmly on memos so that the students take the feedback seriously.
 - For each of the grading criteria in the rubric, start with the middle
   category and adjust up or down. Students are accustomed to being penalized
   for specific things, so be prepared to justify your decision and/or provide
@@ -523,7 +522,9 @@ introduction.
 - [Instructor] Approve/deny pre-req petitions.
 - [Instructor] Prepare the project proposals list for the students.
 - [Instructor] Update the course website and schedule.
-- [Instructor] Setup the Canvas website.
+- [Instructor] Setup the Canvas website, invite TAs, and `merge in the second
+  session
+  <https://www.uwb.edu/digital-learning/canvas/canvas-for-faculty/cross-listing-sections>`_.
 - [Instructor] Invite EFL staff to present during one of the lectures.
 - [Instructor] Invite Design Showcase Coordinator to visit a lecture.
 - [Lead TA] Copy over previous Canvas content to the new site. See this `guide
@@ -541,6 +542,7 @@ Tasks:
 - [Instructor] Choose and post office hours.
 - [Instructor] Send introductory email to the students.
 - [Instructor] Select students and a TA for each team.
+- [Instructor] Make sure all students have taken EME 50.
 - [Lead TA] Get design supplies for the needs and specifications studio
   activity for next week.
 - [Lead TA] Make sure the design studio is stocked with markers, erasers, etc.
