@@ -53,18 +53,16 @@ IGNORE_FILES = ['README*']
 DISPLAY_PAGES_ON_MENU = False
 
 if 'TRAVIS' in os.environ:
-    project_url = 'https://www.moorepants.info/jkm/courses/eme185-2018/pages/projects.html'
+    project_url = ('https://www.moorepants.info/jkm/courses/'
+                   'eme185-{}/pages/projects.html'.format(YEAR))
 else:
     project_url = '/pages/projects.html'
 
-MENUITEMS =[('Syllabus', ''),
-            ('Schedule', '/pages/schedule.html'),
-            ('Assignments', '/pages/assignments.html'),
-            ('Projects', project_url),
-            ('Resources', '/pages/resources.html')]
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+MENUITEMS = [('Syllabus', ''),
+             ('Schedule', '/pages/schedule.html'),
+             ('Assignments', '/pages/assignments.html'),
+             ('Projects', project_url),
+             ('Resources', '/pages/resources.html')]
 
 SHOWCASE_REG_URL = 'https://'
 DUE_DATES = \
