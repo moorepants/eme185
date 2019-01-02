@@ -1,2 +1,12 @@
+# Pelican
+output/
+
+# Python
+.ipynb_checkpoints/
 *.pyc
+
+# R
+.Rhistory
+
+# Vim
 *.swp
