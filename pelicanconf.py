@@ -67,7 +67,7 @@ MENUITEMS = [('Syllabus', ''),
 SHOWCASE_REG_URL = 'https://'
 DUE_DATES = \
     {
-     'client_yay_nay': '2019-01-04 11:59:59',
+     'client_yay_nay': '2019-01-06 11:59:59',
      'first_day': '2019-01-07 00:00:00',
      'last_day': '2019-06-12 11:59:59',
      'mem_01': '2019-01-11 23:59:59',

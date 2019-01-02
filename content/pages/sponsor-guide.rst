@@ -1,4 +1,4 @@
-:title: Sponsor Guide
+:title: Client Guide
 :status: hidden
 
 .. contents:: Table of Contents
@@ -41,12 +41,12 @@ can be found on my `course website`_.
 .. _course website: http://moorepants.github.io/eme185/
 
 Before the course starts, I will contact you by phone/email or visit you in
-person to discuss your project. Some of the projects may need some adjustments
-to redefine the scope either to ensure that it is feasible, to best highlight
-our students' skills, or to ensure that it aligns well with the flow of the
-course. Once the project is well defined and the class starts, I will match
-projects with student teams based on their skills and preferences during the
-first week of class. Note that we currently have **{{ NUM_PROPOSALS}}**
+person to discuss your project if needed. Some of the projects may need some
+adjustments to redefine the scope either to ensure that it is feasible, to best
+highlight our students' skills, or to ensure that it aligns well with the flow
+of the course. Once the project is well defined and the class starts, I will
+match projects with student teams based on their skills and preferences during
+the first week of class. Note that we currently have **{{ NUM_PROPOSALS}}**
 proposals and will only be able to match **{{ NUM_SELECTED }}** of the projects
 due to the current course enrollment. It is possible your project will not be
 matched to a group. Note that we typically only assign one project per client.
@@ -97,8 +97,7 @@ report detailing their design. But most teams rise to the occasion and are able
 to develop working prototypes by the course's end. Keep in mind that the
 students are working on designs and prototypes, which are by definition **not a
 consumer ready product**. It is important to also be aware that out of our
-100-160 students in the course each year we do occasionally have a team that
-underperforms.
+100-160 students in the course each year we do haves teams that underperform.
 
 Funding
 =======
