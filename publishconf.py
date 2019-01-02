@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-if 'TRAVIS_TAG' in os.environ:
+if 'TRAVIS_TAG' in os.environ and 'TRAVIS_TAG' not None:
     TAG_DIR = '/' + os.environ.get('TRAVIS_TAG')
 else:
     TAG_DIR = ''
