@@ -4,16 +4,6 @@
 ./docs/balance-bom-example.pdf
 ./docs/instrumented-bicycle-wiring-schematic.pdf
 ./docs/whim-manual.pdf
-./images/aerial-01.jpg
-./images/artpod-01.jpg
-./images/bikeleap-01.pdf
-./images/bikemill-01.jpg
-./images/bikemill-02.jpg
-./images/bikemill-03.jpg
-./images/bottlecap-01.jpg
-./images/breeze-01.jpg
-./images/breeze-02.jpg
-./images/bugbot-01.jpg
 ./images/fuel-meter.svg
 ./images/microcontroller-tutorial/Arduino-uno-Pin-summary.jpg
 ./images/microcontroller-tutorial/circuit-sketch-full.svg
@@ -30,9 +20,6 @@
 ./images/microcontroller-tutorial/photocell-resistance.png
 ./images/microcontroller-tutorial/photocell.jpg
 ./images/microcontroller-tutorial/pwm.svg
-./images/regatta-01.jpg
-./images/rowdy-01.jpg
-./images/watertab-01.jpg
 ./index.html
 ./pages/assignments.html
 ./pages/gantt-charts.html
