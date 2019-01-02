@@ -11,14 +11,9 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 if 'TRAVIS_TAG' in os.environ and os.environ.get('TRAVIS_TAG') is not '':
-    print('TRAVIS_TAG is in environ.')
-    print('TRAVIS_TAG is {}'.format(os.environ.get('TRAVIS_TAG')))
     TAG_DIR = '/' + os.environ.get('TRAVIS_TAG')
 else:
-    print('TRAVIS_TAG is not in environ.')
     TAG_DIR = ''
-
-print('TAG_DIR is {}'.format(TAG_DIR))
 
 SITEURL = 'https://moorepants.github.io/eme185{}'.format(TAG_DIR)
 RELATIVE_URLS = False
