@@ -22,6 +22,7 @@
 ./images/microcontroller-tutorial/pwm.svg
 ./index.html
 ./pages/assignments.html
+./pages/client-guide.html
 ./pages/gantt-charts.html
 ./pages/instructor-guide.html
 ./pages/lecture-plan-for-wednesday-january-27-2016.html
@@ -44,7 +45,6 @@
 ./pages/reports.html
 ./pages/resources.html
 ./pages/schedule.html
-./pages/sponsor-guide.html
 ./pages/studio-plan-for-tuesday-january-5-2016.html
 ./pages/studio-plan-for-tuesday-march-8-2016.html
 ./pages/studio-plan-for-week-1.html
