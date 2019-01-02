@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+
+import os
 from os.path import join, expanduser
 from datetime import datetime
 
@@ -9,7 +11,7 @@ SITENAME = u'EME 185: Mechanical Systems Design Project'
 SITEURL = ''
 YEAR = '2019'
 LECTURE_ROOM = 'California Hall 1100'
-NUM_PROPOSALS = 26
+NUM_PROPOSALS = 23
 NUM_STUDENTS = 67
 NUM_SECTIONS = 2
 NUM_SELECTED = min(NUM_SECTIONS * 11, round(NUM_STUDENTS / 4))
@@ -50,10 +52,15 @@ IGNORE_FILES = ['README*']
 # Manually curate the top bar menu
 DISPLAY_PAGES_ON_MENU = False
 
+if 'TRAVIS' in os.environ:
+    project_url = 'https://www.moorepants.info/jkm/courses/eme185-2018/pages/projects.html'
+else:
+    project_url = '/pages/projects.html'
+
 MENUITEMS =[('Syllabus', ''),
             ('Schedule', '/pages/schedule.html'),
             ('Assignments', '/pages/assignments.html'),
-            ('Projects', 'https://www.moorepants.info/jkm/courses/eme185-2018/pages/projects.html'),
+            ('Projects', project_url),
             ('Resources', '/pages/resources.html')]
 
 # Uncomment following line if you want document-relative URLs when developing
