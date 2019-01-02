@@ -26,7 +26,8 @@ DELETE_OUTPUT_DIRECTORY = True
 MENUITEMS =[('Syllabus', '/eme185/{}'.format(TAG_DIR[1:])),
             ('Schedule', '/eme185{}/pages/schedule.html'.format(TAG_DIR)),
             ('Assignments', '/eme185{}/pages/assignments.html'.format(TAG_DIR)),
-            ('Projects', 'https://www.moorepants.info/jkm/courses/eme185-2018/pages/projects.html'),
+            ('Projects', ('https://www.moorepants.info/jkm/courses/'
+                          'eme185-{}/pages/projects.html'.format(YEAR))),
             ('Resources', '/eme185{}/pages/resources.html'.format(TAG_DIR))]
 
 # Following items are often useful when publishing
