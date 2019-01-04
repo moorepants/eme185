@@ -531,7 +531,6 @@ introduction.
   <https://community.canvaslms.com/docs/DOC-12935-415257077>`_.
 - [Lead TA] Print copies of the `01-design-process.pdf <https://drive.google.com/file/d/1PD9iJdkWjnWZlSV1W-u80MqJgL-pPNNE/view>`_
   for all students and bring them to the first lecture.
-  
 Week 1
 ^^^^^^
 
