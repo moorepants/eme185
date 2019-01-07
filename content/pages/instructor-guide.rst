@@ -528,8 +528,10 @@ introduction.
 - [Instructor] Invite EFL staff to present during one of the lectures.
 - [Instructor] Invite Design Showcase Coordinator to visit a lecture.
 - [Lead TA] Copy over previous Canvas content to the new site. See this `guide
-  <https://community.canvaslms.com/docs/DOC-13035-4152239683>`_. Make sure all
+  <https://community.canvaslms.com/docs/DOC-12935-415257077>`_. Make sure all
   items are unpublished. Clear old discussions from last year.
+- [Lead TA] Print copies of the `01-design-process.pdf <https://drive.google.com/file/d/1PD9iJdkWjnWZlSV1W-u80MqJgL-pPNNE/view>`_
+  for all students and bring them to the first lecture.
 
 Week 1
 ^^^^^^
