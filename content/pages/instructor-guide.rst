@@ -519,6 +519,7 @@ introduction.
 - [All TAs] Sign up for Github and send Github username to Jason.
 - [All TAs] Sign up for CATME.
 - [All TAs] Ensure that you have access to Canvas and the EME 185 course.
+- [All TAs] Get copy of the book from the MAE office.
 - [Instructor] Approve/deny pre-req petitions.
 - [Instructor] Prepare the project proposals list for the students.
 - [Instructor] Update the course website and schedule.
