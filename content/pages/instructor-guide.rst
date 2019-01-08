@@ -542,7 +542,8 @@ Week 1
 
 Announcements:
 
-- TODO
+- Project selection due Friday to CATME
+- Resume due Friday to Canvas
 
 Tasks:
 
