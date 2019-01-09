@@ -520,6 +520,8 @@ introduction.
 - [All TAs] Sign up for CATME.
 - [All TAs] Ensure that you have access to Canvas and the EME 185 course.
 - [All TAs] Get copy of the book from the MAE office.
+- [All TAs] Take the FERPA online training if you have never taken it:
+  https://hr.ucdavis.edu/departments/learning-dev/course-catalog/a-z#F
 - [Instructor] Approve/deny pre-req petitions.
 - [Instructor] Prepare the project proposals list for the students.
 - [Instructor] Update the course website and schedule.
