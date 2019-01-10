@@ -546,6 +546,10 @@ Announcements:
 
 - Project selection due Friday to CATME
 - Resume due Friday to Canvas
+- Career fair is {{ DUE_DATES['career_fair'] }}
+- Quiz on chapters 5 and 6 next studio session, bring an electronic device
+- Projects will be announced Monday. Get in touch with sponsors ASAP and start
+  gathering needs through interviewing.
 
 Tasks:
 
