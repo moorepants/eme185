@@ -77,7 +77,7 @@ A03/A02  R/F Feb 21/22  Moore       - Product Architecture Quiz           - Chap
 A02/A03  F Feb 22
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 -------  -------------  ----------  ------------------------------------  ------------------  -----
-All      T Feb 26       Moore       3D Printing Guest Lecture                                 Microcontroller Assignment
+All      T Feb 26       EFL Staff   EFL Preparation Lecture                                   Microcontroller Assignment
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 A03/A02  R/F F 28/M 1   Moore       `Microcontroller Tutorial`_ Pt |_| 2
 -------  -------------  ----------  ------------------------------------  ------------------  -----
@@ -86,7 +86,7 @@ A03/A02  F Mar 1                                                                
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 A02/A03  Mar 4-Mar 8                Preliminary Design Reviews
 -------  -------------  ----------  ------------------------------------  ------------------  -----
-All      T Mar 5        EFL Staff   EFL Preparation Lecture
+All      T Mar 5        Moore       3D Printing Guest Lecture
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 A03/A02  R/F Mar 7/8    Moore       Work on projects                                          Design review slides
 -------  -------------  ----------  ------------------------------------  ------------------  -----
