@@ -26,7 +26,7 @@ A02/A03  M Jan 14                   Announce project assignments
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 All      T Jan 15       Moore       Planning and Scheduling Lecture       Chapter |_| 18
 -------  -------------  ----------  ------------------------------------  ------------------  -----
-A03/A02  R/F Jan 17/18  Moore       - Needs/Specs Quiz                    - Chapters |_| 5,6
+A03/A02  R/F Jan 17/18  Moore       - Needs/Specs Quiz (CH5 & 6)          - Chapters |_| 5,6
                                     - User stories activity               - Chapters |_| 5,6
                                     - Needs activity                      - Chapters |_| 5,6
                                     - Specifications activity             - Chapters |_| 5,6
@@ -39,14 +39,14 @@ All      M Jan 21                   Martin Luther King Jr. Holiday
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 All      T Jan 22       Velinsky    Concept Selection Lecture             Chapter 8
 -------  -------------  ----------  ------------------------------------  ------------------  -----
-A03/A02  R/F Jan 24/25  Moore       - Planning and Scheduling Quiz        - Chapter |_| 18
+A03/A02  R/F Jan 24/25  Moore       - Planning and Scheduling Quiz (CH18) - Chapter |_| 18
                                     - Planning and Scheduling Activity    - Chapter |_| 18
                                     - Technical Reports Lecture
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 All      T Jan 29       Velinsky    Product Architecture Lecture          Chapter 10
 -------  -------------  ----------  ------------------------------------  ------------------  -----
-A03/A02  R/F J 31/F 1   Moore       - Concept generation quiz             - Chapter |_| 7
+A03/A02  R/F J 31/F 1   Moore       - Concept generation quiz (CH7)       - Chapter |_| 7
                                     - Concept generation activity         - Chapter |_| 7
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 A02/A03  F Feb 1                                                                              - Memo 3: Needs/Specs
@@ -55,7 +55,7 @@ A02/A03  F Feb 1                                                                
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 All      T Feb 5        Velinsky    Patents Lecture                       Chapter 16
 -------  -------------  ----------  ------------------------------------  ------------------  -----
-A03/A02  R/F Feb 7/8    Moore       - Concept Selection Quiz              - Chapter 8
+A03/A02  R/F Feb 7/8    Moore       - Concept Selection Quiz (CH8)        - Chapter 8
                                     - Concept Selection Activity          - Chapter 8
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 -------  -------------  ----------  ------------------------------------  ------------------  -----
@@ -72,7 +72,7 @@ All      M Feb 18                   President's Day Holiday
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 All      T Feb 19       Moore       `Microcontroller Tutorial`_ Pt |_| 1
 -------  -------------  ----------  ------------------------------------  ------------------  -----
-A03/A02  R/F Feb 21/22  Moore       - Product Architecture Quiz           - Chapter 10
+A03/A02  R/F Feb 21/22  Moore       - Product Architecture Quiz (CH10)    - Chapter 10
                                     - Product Architecture Activity       - Chapter 10
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 A02/A03  F Feb 22
