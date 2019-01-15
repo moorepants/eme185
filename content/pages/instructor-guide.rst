@@ -589,9 +589,12 @@ Tasks:
   select due dates based on which section the students are in.
 
   - Group Set #1: "Project Teams", should have all teams in all of Jason's
-    sections
+    sections. This group set is used when publishing assignments that are submitted
+    one per project team.
   - Group Set #2: "Project Sections", should have a group for each section, eg.
     an A02 group and an A03 group with individual students in each group.
+    This group set is used when publishing individual assignments that have different
+    due dates for each section, such as textbook reading assignments.
     Registered section can be different from the Actual section the student
     ends up in. The groups are to be created based on Actual section. The
     Actual section assigned to the student corresponds to the "Project
