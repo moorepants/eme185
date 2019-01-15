@@ -26,7 +26,7 @@ A02/A03  M Jan 14                   Announce project assignments
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 All      T Jan 15       Moore       Planning and Scheduling Lecture       Chapter |_| 18
 -------  -------------  ----------  ------------------------------------  ------------------  -----
-A03/A02  R/F Jan 17/18  Moore       - Needs/Specs Quiz (CH5 & 6)          - Chapters |_| 5,6
+A03/A02  R/F Jan 17/18  Moore       - Needs/Specs Quiz (CH5, 6)           - Chapters |_| 5,6
                                     - User stories activity               - Chapters |_| 5,6
                                     - Needs activity                      - Chapters |_| 5,6
                                     - Specifications activity             - Chapters |_| 5,6
