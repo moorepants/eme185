@@ -550,6 +550,7 @@ Announcements:
 - Quiz on chapters 5 and 6 next studio session, bring an electronic device
 - Projects will be announced Monday. Get in touch with sponsors ASAP and start
   gathering needs through interviewing.
+- Read chapters 5 and 6 before studio in second week.
 
 Tasks:
 
@@ -576,7 +577,7 @@ Week 2
 
 Announcements:
 
-- Team charter due next Friday
+- Team charter due Friday
 - Read Chapter 18 before next studio
 
 Tasks:
@@ -596,13 +597,14 @@ Tasks:
     Actual section assigned to the student corresponds to the "Project
     sections" field in the master project list.
 
-- [Lead TA] Prepare the group charter and name assignment.
+- [Lead TA] Prepare the canvas group charter and name assignment.
 - [TA 1] Create placards for team tables (student names, blank line for team
   name, and project ID)
-- [TA 2] Create the 2 hr and 3hr meeting schedule.
 - [All TAs] Grade the resumes.
-- [All TAs] Grade week 2 participation.
-- [Single TA] Review Quiz for Chapters 5 and 6.
+- [All TAs] Grade week 2 participation: either 4 points quiz + 3 points
+  attendance + 3 points AIO or 5 points AIO + 5 points attendance.
+- [Single TA] Review Quiz for Chapters 5 and 6 and prep for Jason's use in
+  studio.
 
 Week 3
 ^^^^^^
