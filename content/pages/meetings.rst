@@ -10,8 +10,8 @@ instructor together for 50 minutes per week.
 
 To prepare for the meeting, you are required to send an update email to the
 instructor, your assigned TA, your client, all of your teammates, and anyone
-else that is directly involved in your project 24 hours before the beginning of
-the meeting (or studio session). The subject line of the email should be as
+else that is directly involved in your project before the beginning of the
+meeting (or studio session). The subject line of the email should be as
 follows:
 
 ``[EME185] AIO: <team name>``
@@ -21,17 +21,19 @@ where "<team name>" is replaced with your team's name.
 "AIO" stands for **A**\ ccomplishments, **I**\ ssues, and **O**\ bjectives.
 This email should contain three bullet lists:
 
-1. what your team accomplished in the previous week,
-2. what issues you encountered during that week and would like help with, and
-   finally
-3. what your objectives are for the coming week.
+1. what your team Accomplished in the previous week,
+2. what unsolved Issues you encountered during that week and would like help
+   with, and finally
+3. what your Objectives are for the coming week.
 
 Both the accomplishments and objectives sections should indicate who worked on
 (or will work on) each item and how much time that person spent (or will spend)
-on that item. Lastly, this document should include a snapshot of your `Gantt
-Chart <{filename}/pages/gantt-chart.rst>`_ with a vertical line indicating the
-date of the meeting and the percent complete of each task in the chart. For
-tips on creating a good snapshot see the `Gantt Chart page
+on that item.
+
+During the Spring quatert, this document should include a snapshot of your
+`Gantt Chart <{filename}/pages/gantt-chart.rst>`_ with a vertical line
+indicating the date of the meeting and the percent complete of each task in the
+chart. For tips on creating a good snapshot see the `Gantt Chart page
 <{filename}/pages/gantt-chart.rst>`_. The accomplishments and objectives in
 your AIO should match up with your Gantt Chart.
 
@@ -83,9 +85,10 @@ Spring Quarter
    Go over your accomplishments from the week with the instructors. Be sure to
    bring things to show us, for example photos and videos of the parts you've
    created or the experiments you run and the results of calculations,
-   simulations, and experiments. You job is to teach us about what you've done. A mini presentation with clear accomplishments, issues and objectives would be ideal.
-   These accomplishments should reflect the goals and tasks in your Gantt
-   Chart.
+   simulations, and experiments. You job is to teach us about what you've done.
+   A mini presentation with clear accomplishments, issues and objectives would
+   be ideal.  These accomplishments should reflect the goals and tasks in your
+   Gantt Chart.
 20 minutes
    Explain the issues for the week with the instructors. We will work with you
    on solutions to these problems. Be prepared to show us the details so that
