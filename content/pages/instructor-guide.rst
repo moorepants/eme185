@@ -595,8 +595,8 @@ Tasks:
     an A02 group and an A03 group with individual students in each group.
     This group set is used when publishing individual assignments that have different
     due dates for each section, such as textbook reading assignments.
-    Registered section can be different from the Actual section the student
-    ends up in. The groups are to be created based on Actual section. The
+    Registered section can be different from the actual section the student
+    ends up in. The groups are to be created based on actual section. The
     Actual section assigned to the student corresponds to the "Project
     sections" field in the master project list.
 
