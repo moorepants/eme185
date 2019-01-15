@@ -43,15 +43,14 @@ A03/A02  R/F Jan 24/25  Moore       - Planning and Scheduling Quiz        - Chap
                                     - Planning and Scheduling Activity    - Chapter |_| 18
                                     - Technical Reports Lecture
 -------  -------------  ----------  ------------------------------------  ------------------  -----
-A02/A03  F Jan 25                                                                             Memo 3: Needs/Specs
--------  -------------  ----------  ------------------------------------  ------------------  -----
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 All      T Jan 29       Velinsky    Product Architecture Lecture          Chapter 10
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 A03/A02  R/F J 31/F 1   Moore       - Concept generation quiz             - Chapter |_| 7
                                     - Concept generation activity         - Chapter |_| 7
 -------  -------------  ----------  ------------------------------------  ------------------  -----
-A02/A03  F Feb 1                                                                              Sign up for 185B meeting times
+A02/A03  F Feb 1                                                                              - Memo 3: Needs/Specs
+                                                                                              - Sign up for 185B meeting times
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 -------  -------------  ----------  ------------------------------------  ------------------  -----
 All      T Feb 5        Velinsky    Patents Lecture                       Chapter 16
