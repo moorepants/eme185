@@ -11,7 +11,7 @@ install:
   - ls
 script:
   - set -e
-  - pelican -s publishconf.py
+  - pelican --verbose --fatal errors -s publishconf.py
   - if [[ -z "$TRAVIS_TAG" ]]; then
       DEPLOY_DIR=".";
     else
