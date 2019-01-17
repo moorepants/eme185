@@ -577,7 +577,7 @@ Week 2
 
 Announcements:
 
-- Team charter due Friday
+- Team charter due this Friday
 - Read Chapter 18 before next studio
 
 Tasks:
@@ -614,7 +614,6 @@ Week 3
 
 Announcements:
 
-- Team charter due this Friday
 - Needs/Specs Memo due next Friday, will post updated description
 - Read Chapter 7 before next studio
 - Everyone should have had a meeting with their client by now.
