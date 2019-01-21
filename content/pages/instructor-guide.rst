@@ -560,7 +560,8 @@ Tasks:
 - [Instructor] Make sure all students have taken EME 50.
 - [Lead TA] Get design supplies for the needs and specifications studio
   activity for next week.
-- [Lead TA] Make sure the design studio is stocked with markers, erasers, etc.
+- [Lead TA] Make sure the design studio is stocked with markers, erasers,
+  sticky notes,etc.
 - [All TAs] Prepare a 5 minute introduction for the studio sessions. I would
   like you to have a "show and tell" and introduction for the studios.  The
   idea would be to introduce your self and show a few things, slides, or just
@@ -624,6 +625,9 @@ Tasks:
   Canvas provides a walkthrough of this `here
   <https://community.canvaslms.com/docs/DOC-10542-4212352349>`_.
 - [Instructor] Update the needs/specs memo assignment and post.
+- [Lead TA] Send out notification about AIOs being due starting this week.
+- [Lead TA] Prepare to teach the 50 minute Asana tutorial and teach in in the
+  studio sessions.
 - [All TAs] Grade team charters. This can be very course: 0 (didn't do it), 5
   (did it poorly), 10 (did it average or better). Make comments on improving.
 - [All TAs] Read Chapter 18 before the studio section as a reminder.
@@ -631,8 +635,6 @@ Tasks:
 - [All TAs] Grade week 3 AIO + participation. Make sure to give firm feedback
   on the AIO formats this week, so that we get them on track. Docking points
   for the formatting is an effective way to get these in shape early.
-- [Lead TA] Prepare to teach the 50 minute Asana tutorial and teach in in the
-  studio sessions.
 - [Single TA] Review Quiz for Chapter 18.
 
 Week 4
