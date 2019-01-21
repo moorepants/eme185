@@ -609,6 +609,7 @@ Tasks:
   attendance + 3 points AIO or 5 points AIO + 5 points attendance.
 - [Single TA] Review Quiz for Chapters 5 and 6 and prep for Jason's use in
   studio.
+- [Single TA] Publish reading assignment.
 
 Week 3
 ^^^^^^
@@ -636,6 +637,7 @@ Tasks:
   on the AIO formats this week, so that we get them on track. Docking points
   for the formatting is an effective way to get these in shape early.
 - [Single TA] Review Quiz for Chapter 18.
+- [Single TA] Publish reading assignment.
 
 Week 4
 ^^^^^^
@@ -659,6 +661,7 @@ Tasks:
   activity before the studio session.
 - [All TAs] Grade week 4 AIO + studio participation.
 - [Single TA] Review Quiz for Chapter 7.
+- [Single TA] Publish reading assignment.
 
 Week 5
 ^^^^^^
@@ -683,6 +686,7 @@ Tasks:
 - [All TAs] Grade week 5 AIO + participation.
 - [All TAs] Read chatper 8 on concept selection before the studio.
 - [Single TA] Review/Update Quiz for Chapter 8.
+- [Single TA] Publish reading assignment.
 
 Week 6
 ^^^^^^
