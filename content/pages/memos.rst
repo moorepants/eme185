@@ -117,11 +117,14 @@ organize your needs and specifications. These may be large and thus should
 likely be attached in the appendix of the memo. You should summarize the
 findings in the main two pages of the memo.
 
-Other items to include:
+Items to include:
 
 - Summary of the problem, i.e. the mission statement.
-- The organized identified needs (appendices).
-- The organized target specifications (appendices).
+- The organized identified needs as an attachment (appendices). At the minimum
+  a comprehensive table like Exhibit 5-8 is required.
+- The organized target specifications as an attachment (appendices). At the
+  minimum a comprehensive table like Exhibit 6-8 is required. At least two
+  specifications should come from relevant engineering standards or codes.
 - Reflections on the process and the results.
 
 Memo 4: Selection and Architecture [Due: {{ DUE_DATES['mem_04'].strftime('%A, %b %-d, %Y') }}]
