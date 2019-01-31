@@ -56,12 +56,14 @@ Week    Section  Date           Instructor  Topic                               
 5       All      T Feb 5        Velinsky    Patents Lecture                       Chapter 16
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A03/A02  R/F Feb 7/8    Moore       - Concept Selection Quiz              - Chapter 8
+                                            - Concept Justification Lecture
                                             - Concept Selection Activity          - Chapter 8
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 6       All      T Feb 12       Guest       Human Factors Lecture
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F Feb 14/15  Moore       - Preliminary analysis activity
+\       A03/A02  R/F Feb 14/15  Moore       - Finite Element Tips Lecture
+                                            - Preliminary analysis activity
                                             - Concept testing activity
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A02/A03  F Feb 15                                                                             - Report 1: Project Proposal
@@ -73,6 +75,7 @@ Week    Section  Date           Instructor  Topic                               
 \       All      T Feb 19       Moore       `Microcontroller Tutorial`_ Pt |_| 1
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A03/A02  R/F Feb 21/22  Moore       - Product Architecture Quiz           - Chapter 10
+                                            - Hazard Analysis Lecture
                                             - Product Architecture Activity       - Chapter 10
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
         A02/A03  F Feb 22
@@ -93,7 +96,7 @@ Week    Section  Date           Instructor  Topic                               
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 10      All      T Mar 12       Moore       - Showcase announcement
-                                            - Possible Industry Panel
+                                            - Industry Panel
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A03/A02  R/F Mar 14/15  Moore       - Course Evals                                            Lightning Talk Slides
                                             - Class Presentations
