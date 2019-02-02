@@ -50,10 +50,9 @@ Week    Section  Date           Instructor  Topic                               
                                             - Concept generation activity         - Chapter |_| 7
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A02/A03  F Feb 1                                                                              - Memo 3: Needs/Specs
-                                                                                                      - Sign up for 185B meeting times
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-5       All      T Feb 5        Velinsky    Patents Lecture                       Chapter 16
+5       All      T Feb 5        Velinsky    Patents Lecture                       Chapter 16          - Sign up for 185B meeting times
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A03/A02  R/F Feb 7/8    Moore       - Concept Selection Quiz              - Chapter 8
                                             - Concept Justification Lecture
