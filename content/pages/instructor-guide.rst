@@ -655,7 +655,7 @@ Tasks:
 - [Instructor] Update the proposal report description and post the assignment.
 - [Instructor] Send out request for donations from external sources.
 - [Instructor] Send out request for winter space needs.
-- [Lead TA] Create a 185B scheduling spreadsheet for teams to sign up for.
+- [Lead TA] Create a 185B scheduling spreadsheet for teams to sign up for. Publish sign up assignment on Canvas.
 - [Lead TA] Book rooms for preliminary design review.
 - [All TAs] Read chapter 7, concept generation slides, and concept generation
   activity before the studio session.
