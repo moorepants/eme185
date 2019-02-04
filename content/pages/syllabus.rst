@@ -197,12 +197,12 @@ Office Hours
 Instructor Office Hours
 -----------------------
 
-Jason's winter office hours are TBA in Bainer 2095. His spring office hours are
-TBA. **For Jason's office hours, book a time slot for your team at least 12
-hours in advance via:** http://moorepants.youcanbook.me.  [#]_ If you can't
-make the regular scheduled office hours, check Jason's `work calendar`_ for an
-open time slot between 8AM and 6:30PM on weekdays and email him with a request
-for a meeting.
+Jason's winter office hours are Wednesday 11-12pm and Friday 2-3 pm in Bainer
+2095. His spring office hours are TBA. **For Jason's office hours, book a time
+slot for your team at least 12 hours in advance via:**
+http://moorepants.youcanbook.me. [#]_ If you can't make the regular scheduled
+office hours, check Jason's `work calendar`_ for an open time slot between 8AM
+and 6:00PM on weekdays and email him with a request for a meeting.
 
 .. _work calendar: http://www.moorepants.info/work-calendar.html
 
