@@ -185,8 +185,12 @@ the MAE Design Studio (Bainer 2071).
 
 The spring meetings will be scheduled during the winter quarter.
 
-**If you have any conflicts with the schedule you must tell me by email in the
-first week of class (emergencies will be the only exception).**
+Attendance is required both quarters. **If you have any conflicts with the
+schedule you must tell the instructor by email in the first week of class each
+quarter (emergencies will be the only exception).** If you have to miss class
+due to an emergency you need to let the instructors know **before** class and
+provide a doctor's note or other relevant documentation for the emergency the
+next time you attend class.
 
 .. [#] Note that California Hall is a new building and not on all maps yet. It
    is just south of Asmundon Hall.
@@ -197,9 +201,9 @@ Office Hours
 Instructor Office Hours
 -----------------------
 
-Jason's winter office hours are Wednesday 11-12pm and Friday 2-3 pm in Bainer
-2095. His spring office hours are TBA. **For Jason's office hours, book a time
-slot for your team at least 12 hours in advance via:**
+Jason's winter office hours are Wednesday 11 am - 12 pm and Friday 2 pm - 3 pm
+in Bainer 2095. His spring office hours are TBA. **For Jason's office hours,
+book a time slot for your team at least 12 hours in advance via:**
 http://moorepants.youcanbook.me. [#]_ If you can't make the regular scheduled
 office hours, check Jason's `work calendar`_ for an open time slot between 8AM
 and 6:00PM on weekdays and email him with a request for a meeting.
@@ -211,8 +215,8 @@ and 6:00PM on weekdays and email him with a request for a meeting.
 TA Office Hours
 ---------------
 
-The TAs are holding office hours in the Spring quarter that also need to be
-booked via YouCanBook.me:
+In the winter quarter, email the TAs to request a meeting. In the spring
+quarter, book a meeting with the the TAs via via YouCanBook.me:
 
 =================== =================== ==============================
 TA                  Office              Link
