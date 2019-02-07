@@ -51,7 +51,7 @@ class.
 .. [1] Be sure to either scale layout drawings correctly with legible font
    sizes or print them in the appendices on larger paper sizes.
 
-.. _Report Style Guide: https://docs.google.com/document/d/e/2PACX-1vQzGEp6pdVMn_rLWXHCWc5lv8Ao1BBRpE1BfdU84cvFKg_nh9-f4KIY1Ww7Ps6QkPNWVNnmZinB8bLA/pub
+.. _Report Style Guide: https://docs.google.com/document/d/1trrXnfDmXD1O9vuXVe93zd4pJ7v1kVvikJ0BHjMBngo/edit?usp=sharing
 
 Title Page
 ----------
