@@ -42,12 +42,16 @@ assignment. A single report should be submitted by one team member.
 - The audience you should write for is a technically competent reader, e.g.
   another engineering colleague or engineering management.
 
-For report writing tips see the slides from lecture that are available on
-Canvas. Past reports are available on Canvas Files. These should only be shared
-among students in the class.
+See the `Report Style Guide`_ for visual explanations of these formatting
+rules. Feel free to use the document as a template. For report writing tips see
+the slides from lecture that are available on Canvas. Past reports are
+available on Canvas Files. These should only be shared among students in the
+class.
 
 .. [1] Be sure to either scale layout drawings correctly with legible font
    sizes or print them in the appendices on larger paper sizes.
+
+.. _Report Style Guide: https://docs.google.com/document/d/e/2PACX-1vQzGEp6pdVMn_rLWXHCWc5lv8Ao1BBRpE1BfdU84cvFKg_nh9-f4KIY1Ww7Ps6QkPNWVNnmZinB8bLA/pub
 
 Title Page
 ----------
