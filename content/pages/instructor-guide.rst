@@ -673,7 +673,6 @@ Announcements:
 - Proposal will be due end of week 6. Discuss rubric (50 point section)
 - First peer evaluation will also be due at same time as the proposal.
 - Next lecture will be guest remote speaker.
-- How many would like a studio activity on FEA?
 
 Tasks:
 
@@ -718,7 +717,6 @@ Studio Announcements:
 - Sign up for the space needs by Friday 10pm.
 - Do the microcontroller HW.
 - Bring laptop to studio next week.
-- Ian will give a lecture on 3D printing.
 - Concept selection and product architecture memo due next Friday.
 - Explain the design reviews.
 
@@ -737,6 +735,7 @@ Week 8
 Studio Announcements:
 
 - Talk about design reviews: times, grading, etc.
+- Ian will give a lecture on 3D printing next week.
 
 Tasks:
 
