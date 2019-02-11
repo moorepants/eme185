@@ -277,6 +277,15 @@ Like with memos, TAs grade only for their own teams (aside from the fully
 collaboratively graded report). We will either use Google Drive to
 collaboratively annotate the PDFs or use the Canvas functionality.
 
+Report 1 Breakdown
+
+- TAs - beginning to planning
+- Jason - planning, budget, standalone, progress
+- All - Formatting and Grammar
+
+If you start grading: open, put in value for one our your rubric entries, and
+save so that others know you are grading it.
+
 Presentations
 -------------
 
