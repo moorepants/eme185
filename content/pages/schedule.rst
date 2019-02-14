@@ -63,7 +63,6 @@ Week    Section  Date           Instructor  Topic                               
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A03/A02  R/F Feb 14/15  Moore       - Finite Element Tips Lecture
                                             - Preliminary analysis activity
-                                            - Concept testing activity
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A02/A03  F Feb 15                                                                             - Report 1: Project Proposal
                                                                                                       - Peer Evaluation

@@ -241,6 +241,8 @@ ethnicity, etc. The lead TA should organize this panel.
 Grading
 =======
 
+- All assignments should have a due time of 11:59pm on the due date, unless it
+  needs to be done for class prep, i.e. due time is then the start of class.
 - Assignments should be graded and returned within 1 week of their due date.
 - For assignments not co-graded with the instructor (e.g. memos), the TAs
   should calibrate by grading one submission together. For group-submitted
