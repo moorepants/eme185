@@ -38,8 +38,8 @@ General TA Requirements
 - If you want to meet with me, check my `work calendar`_ for an open weekday
   slot and send me a request via email.
 - Jason primarily uses the Linux operating system and strives to use open
-  source and free tools for most of my work. I prefer not to have to deal with
-  any Microsoft Office Suite or other proprietary file types. Please avoid
+  source and free tools for most of his work. He prefers not to have to deal
+  with any Microsoft Office Suite or other proprietary file types. Please avoid
   these and choose LibreOffice for Google equivalents so that we can easily
   collaborate and share.
 
@@ -119,7 +119,7 @@ Course Website
 --------------
 
 All of the public information about the course should go on the `course
-website`_.  The website source is at https://github.com/moorepants/eme185.
+website`_. The website source is at https://github.com/moorepants/eme185.
 You'll need to make a GitHub account and share your user name with Jason to get
 access to modify the website and permission to edit the GitHub issues. See the
 README for instructions on editing and viewing the site locally.
@@ -155,7 +155,7 @@ Google Drive
 We will use a Google Drive for collaborative grading and sharing information
 among the instructors. This should not be shared outside of the instructors as
 it will have FERPA protected information. **You must be extremely careful that
-you do not share any document in this drive with any student.**
+you do not share any document in this drive directory with any student.**
 
 There will be two Google Drive folders. One private to instructors and one
 meant for sharing with students and general public. Both folders will have only
@@ -462,7 +462,7 @@ things to keep them aware of:
 
 - BMES Research Symposium (in May) for any biomed sponsored projects.
 - `Undergraduate Research Symposium <https://urc.ucdavis.edu/conference/>`_ in
-  April
+  April.
 - Sandia Design Award, due around first of June
 - It may be possible for some teams to exhibit at the `Bay Area Maker Faire
   <http://makerfaire.com/bay-area/call-for-makers/>`_ in May.
@@ -694,16 +694,16 @@ Tasks:
 - [Lead TA] Check microcontroller kits for all parts and charged batteries.
 - [All TAs] Grade Memo 3: Needs and Specs.
 - [All TAs] Grade week 5 AIO + participation.
-- [All TAs] Read chatper 8 on concept selection before the studio.
+- [All TAs] Read chapter 8 on concept selection before the studio.
 - [Single TA] Review/Update Quiz for Chapter 8.
 - [Single TA] Publish reading assignment.
 
 Week 6
 ^^^^^^
 
-Announcements:
+Studio Announcements:
 
-- Report and peer eval due Friday by 10 PM.
+- Report and peer eval due Friday by 11:59 PM.
 - Design review signup sheets and space requirements.
 - Bring laptop to lecture next Tuesday: Microcontroller introduction.
 - Read Chapter 10, product architecture, for next week (last quiz)
@@ -724,8 +724,8 @@ Week 7
 
 Studio Announcements:
 
-- Sign up for the preliminary design reviews by Friday 10pm.
-- Sign up for the space needs by Friday 10pm.
+- Sign up for the preliminary design reviews by Friday 11:59pm.
+- Sign up for the space needs by Friday 11:59pm.
 - Do the microcontroller HW.
 - Bring laptop to studio next week.
 - Concept selection and product architecture memo due next Friday.
@@ -735,9 +735,10 @@ Tasks:
 
 - [All] Read chapter 10.
 - [All] Practice the microcontroller studio lesson.
-- [All] Co-grade a report in person.
-- [All] Grade report 1 by Friday 5pm.
+- [TAs] Co-grade a report in person.
+- [All] Grade report 1 by Friday 11:59pm.
 - [Instructor] Develop preliminary budget sheet while grading report 1.
+- [Instructor] Send out CATME summaries generated from extra questions.
 - [Lead TA] Organize microcontroller studio tutorial kits.
 
 Week 8
