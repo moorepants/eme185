@@ -76,7 +76,7 @@ Week    Section  Date           Instructor  Topic                               
                                             - Hazard Analysis Lecture
                                             - Product Architecture Activity       - Chapter 10
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-        A02/A03  F Feb 22                                                                             - Space request spreadsheet
+\       A02/A03  F Feb 22                                                                             - Space request spreadsheet
                                                                                                       - Design review signup
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
