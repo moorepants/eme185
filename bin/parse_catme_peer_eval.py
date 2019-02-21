@@ -304,6 +304,10 @@ if __name__ == "__main__":
     DIR = '/home/moorepants/Drive/Teaching/EME185/2018/peer-evaluations'
     FNAME_TEMP = 'Moore-2018_EME185_Peer_Evaluation_#{}-EME_185-Winter_2018.csv'
 
+    # 2019
+    DIR = '/home/moorepants/Drive/Teaching/EME185/2019/peer-evaluations'
+    FNAME_TEMP = 'Moore-Peer_Evaluation_{}-EME_185-Winter_2019.csv'
+
     if not os.path.exists(os.path.join(DIR, 'charts')):
         os.makedirs(os.path.join(DIR, 'charts'))
 
@@ -315,7 +319,7 @@ if __name__ == "__main__":
     # TODO : The range should adjust based on the number of files in the
     # directory.
 
-    for i in range(4):
+    for i in range(1):
 
         path = os.path.join(DIR, FNAME_TEMP.format(i + 1))
 
