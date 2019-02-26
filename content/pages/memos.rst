@@ -140,7 +140,8 @@ probability of meeting your client's needs and solving your problem.
 Suggestions of what to include:
 
 - A description of your selected concept.
-- The product architecture of your selected concept.
+- An annotated figure of the concept depecting general form and function like seen in Exhibit 8-6.
+- The product architecture of your selected concept. At minimum a figure like seen in Exhibit 10-7.
 - Evidence that the concept will meet the client's needs.
 - Justification for your elimination of the abandoned concepts.
 - Documentation of your selection process in the form of any screening or
