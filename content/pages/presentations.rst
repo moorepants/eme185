@@ -9,23 +9,26 @@ Preliminary Design Review [{{ DUE_DATES['pre_01'].strftime('%b %-d, %Y') }}]
 Your team will be scheduled for a 50 minute preliminary design review during
 the ninth week of the winter quarter. The first 5 minutes will be for setup
 followed by your 25 minute presentation. This will be followed by 20 minutes
-for the review questions and discussion. 
+for the review questions and discussion.
 
 The primary purpose of this review is for your team to justify your concept
 selection and design decisions through technical details and analysis. We are
-not as concerned with the path to the final design (i.e., initial concepts, 
+not as concerned with the path to the final design (i.e., initial concepts,
 etc.) but what the final concept is and why you feel confident it will work.
 
-- In this presentation you are proposing a final design that you will build and test in Spring quarter. 
+- In this presentation you are proposing a final design that you will build and
+  test in Spring quarter.
 - We do not need to see your eliminated designs.
-- Include engineering calculations that show your design will function as planned. For example:
-    - Factor of safety, strength, vibrations, heat transfer, fatigue, etc.
+- Include engineering calculations that show your design will function as
+  planned. For example: Factor of safety, strength, vibrations, heat transfer,
+  fatigue, etc.
 
-The intent of design reviews is to insure that the proper methods are being 
-used in analyses and that the design is valid and valuable, i.e. it meets 
+The intent of design reviews is to insure that the proper methods are being
+used in analyses and that the design is valid and valuable, i.e. it meets
 specifications, it can be manufactured, etc. Both your teaching assistant and
 the primary instructor will be present along with other potential reviewers.
 The presentation should be geared toward and "engineering management" audience.
+
 **Every team member should have a significant speaking role.**
 
 Suggestions of what to include:
@@ -40,6 +43,7 @@ Suggestions of what to include:
   design is very likely to succeed.
 - Any relevant technical preliminary design details.
 - A schedule and financial plan to execute your design.
+- Hazard analysis.
 
 This is essentially the presentation form of the second report, which is due
 the last week of class.

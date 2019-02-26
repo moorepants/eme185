@@ -16,9 +16,10 @@ during the spring quarter:
 
 Please note that each report should be standalone. You may refer to earlier
 reports, but each report should provide adequate information to allow a reader
-to fully understand what is being presented and why. The reports should be
-directed to other personnel that may not have detailed knowledge of the
-project.
+to fully understand what is being presented and why without reading any of the
+other reports. The reports should be directed to other personnel that may not
+have detailed knowledge of the project.
+
 Report Format
 =============
 
@@ -52,7 +53,7 @@ Title Page
 ----------
 
 The title page should include the title, authors, team name, project title,
-date, course section, and an abstract (~150 words). The abstract should inform
+date, course section, and an abstract (<150 words). The abstract should inform
 the reader what they will find in the report, i.e. what it is about and what it
 concludes.
 
@@ -119,7 +120,7 @@ used by manufacturing engineers to determine manufacturing processes and costs
 although this has been increasingly incorporated into the design process. How
 detailed should it be? It must be adequately complete so that it can meet the
 above uses. If it is not necessary to ask how the design works or what a
-particular part looks like, etc., then the layout is adequate.  The ideal
+particular part looks like, etc., then the layout is adequate. The ideal
 drawing package is one that can be passed to the fabricators so they can create
 your product without having to ask you any questions and it comes back as
 specified.
@@ -139,7 +140,7 @@ Tips
   anything that standard drawing symbols can't communicate.
 - Use GD&T when basic tolerancing is not sufficient to describe the desired
   outcome of the part.
-- Do not overdefine your part with too many dimensions. Use the bare minimum
+- Do not over define your part with too many dimensions. Use the bare minimum
   needed to describe the size.
 - Choose dimensions that are most useful for the fabricator that will make your
   part. You should think about how the part will be made and how the part will
@@ -165,7 +166,9 @@ purchased or fabricated, and if purchased, the name and part number of the
 supplier with associated costs. The Bill of Materials is used for such aspects
 as: insuring that all parts are on hand when production begins, to ensure that
 detailed drawings are prepared for all components, for planning of the
-manufacturing process, etc.
+manufacturing process, etc. This document should be able to be provided to a
+purchaser and they are able to order the parts without having to ask you more
+details.
 
 Examples
 ++++++++
@@ -188,7 +191,6 @@ Examples
   -- note the creativity needed to convey somewhat complex instructions with
   almost no text at all.
 
-
 Report #1: Project Proposal [Due: {{ DUE_DATES['rep_01'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
@@ -197,8 +199,8 @@ articulate your understanding of the customer's needs and to share your
 preliminary research findings, concepts, first quarter timeline, preliminary
 budget, and goals. This story should convince your instructors and sponsors
 that you have a clear understanding of the needs, have a realistic scope, have
-a narrowed idea of a solution, and are ready to move forward with design,
-analysis, and final concept selection.
+a broad set of solution possibilities, and are ready to move forward with
+design, analysis, and final concept selection.
 
 This document should be shared with your sponsor(s) by email (cc the instructor
 and TA) for feedback in addition to being turned into Canvas. Be sure to adjust
@@ -246,9 +248,9 @@ Initial design concepts
    haven't quite homed in on a solution.
 Preliminary planning and scheduling
    The preliminary plan should give at least a coarse idea of the important
-   milestones you will need to meet for the remaining weeks of the course. You
-   should include a `Gantt chart <{filename}/pages/gantt-chart.rst>`_ with the
-   details.
+   milestones you will need to meet for the remaining weeks of the course, i.e.
+   now until ~June 15th. You should include a `Gantt chart
+   <{filename}/pages/gantt-chart.rst>`_ with the details.
 Preliminary budget
    The purpose of the preliminary budget statement is to give a very rough idea
    of what expected project costs may be for your top designs. This will vary
@@ -277,7 +279,7 @@ end of the course and how you will do that.
 Note that your design does not yet have to be complete and polished but the
 main concepts should be formally described in enough technical detail to make
 your case. Furthermore, it is not a requirement to have a physical realization
-of your solution for this class. You sponsors are aware of this. You can pass
+of your solution for this class. Your sponsors are aware of this. You can pass
 the course with high marks by presenting a comprehensive design that is ready
 to be built, i.e. enough information to pass onto other engineers and/or
 fabricators. But we encourage you to develop simple prototypes as part of the
@@ -327,26 +329,27 @@ Plan
    the high level view of the plan.
 Financing
    The costs should be refined as much as possible to give a very realistic
-   estimate of what you plan to spend. A bill of materials (see definition
-   above) should be included with best estimates of all project costs. Be sure
-   to account for shipping, tax, and any other indirect costs. This bill of
-   materials will be your and the instructors' guide to purchasing.
+   estimate of what you plan to spend. A refined budget and bill of materials
+   (see definition above) should be included with best estimates of all project
+   costs. Be sure to account for cost overruns, shipping, tax, and any other
+   indirect costs.  This bill of materials will be your and the instructors'
+   guide to purchasing.
 
    If your sponsor is not covering the costs (or all of the costs) of your
    project you will need to include a statement that requests money from the
    MAE department. You must include the amount of money from any other sources
    with this request. We will evaluate the requests and try to provide you with
    your requested amount from the limited available money by the start of the
-   Spring quarter. There is no guarantee that you will get what you ask for.
+   spring quarter. There is no guarantee that you will get what you ask for.
    This will be based off the amount requested and the quality of your work.
-Hazard Analysis (0.5 pages)
-   You shall include a hazard analysis of your design using Failure Modes and 
-   Effects Analysis (FMEA). Identify the hazards, risks, and implemented controls.
-   Include a concise description within this section of each hazard that can 
-   cause an injury and a control for how your team minimizes the hazards. Describe
-   only the highest risk hazards. Include only a concise FMEA table in the report.
-   
-   Extensive tables of your FMEA can be included in the appendix.
+Hazard Analysis
+   You shall include a hazard analysis of your design using Failure Modes and
+   Effects Analysis (FMEA) (half page max). Identify the hazards, risks, and
+   implemented controls.  Include a concise description within this section of
+   each hazard that can cause an injury and a control for how your team
+   minimizes the hazards.  Describe only the highest risk hazards. Include only
+   a concise FMEA table in the report. Extensive tables of your FMEA can be
+   included in the appendix.
 Appendices
    The appendices should include any details that support the content of your
    paper. **Note that the report should make complete sense if the appendices
@@ -505,5 +508,3 @@ your final report. For example:
 - PDF #1: Report + appendices
 - PDF #2: Mechanical drawings
 - PDF #3: Usage manual
-
-
