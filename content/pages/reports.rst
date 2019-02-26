@@ -238,6 +238,7 @@ External concepts and existing solutions
    It should be clear that you've "done your homework", i.e. searched for
    existing solutions and used them to help develop your specifications and
    concepts. Compare specs from existing solutions to your desired specs.
+   At minimum include a competitive benchmarking table (Ex 6-7).
 Initial design concepts
    You should have a large number of concepts to share at this point. Be sure
    to show these off so that your sponsor can see that there are a wide range
@@ -248,6 +249,10 @@ Initial design concepts
    at least concept screening. You can present a single concept selection if
    your screening identified one or present your top 3 or so designs if you
    haven't quite homed in on a solution.
+   At minimum include either a functional diagram (Ex. 7-4, Ex. 10-6), concept 
+   classification tree (Ex. 7-7), or a concept conbination table (7-9).
+   At minimum include several concept examples (Ex. 8-3), these can be hand drawn
+   and can be smaller than exmples shown.
 Preliminary planning and scheduling
    The preliminary plan should give at least a coarse idea of the important
    milestones you will need to meet for the remaining weeks of the course. You
@@ -313,6 +318,8 @@ Concept Description
    discussion of the various subsystems, and discussion of the interface
    between the various subsystems. But you are welcome to present more details
    of your design if you are further along.
+   At minimum include either an architecture diagram (Ex. 10-7).
+   At minimum include an annotated drawing of your concept (Ex. 8-6).
 Concept Justification
    Your selected design should have sufficient justification to prove that it
    is very likely to work. You can prove this in a number of ways, e.g.
