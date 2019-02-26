@@ -15,7 +15,7 @@ Week    Section  Date           Instructor  Topic                               
 ======  =======  =============  ==========  ====================================  ==================  =====
 1       All      T Jan 8        Velinsky    Design Process Lecture                Chapters 1,2
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F Jan 10/11  Moore       - Introduction                        - Chapters 5,6
+\       A02/A03  R/F Jan 10/11  Moore       - Introduction                        - Chapters 5,6
                                             - Introduce projects
                                             - Needs/Specs Lecture
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
@@ -26,27 +26,27 @@ Week    Section  Date           Instructor  Topic                               
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       All      T Jan 15       Moore       Planning and Scheduling Lecture       Chapter |_| 18
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F Jan 17/18  Moore       - Needs/Specs Quiz                    - Chapters |_| 5,6
+\       A02/A03  R/F Jan 17/18  Moore       - Needs/Specs Quiz                    - Chapters |_| 5,6
                                             - User stories activity               - Chapters |_| 5,6
                                             - Needs activity                      - Chapters |_| 5,6
                                             - Specifications activity             - Chapters |_| 5,6
                                             - Concept Generation Lecture          - Chapter |_| 7
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  F Jan 18                                                                             Memo 2: Team Charter
+\       A02/A03  F Jan 18                                                                             Memo 2: Team Charter
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 3       All      M Jan 21                   Martin Luther King Jr. Holiday
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       All      T Jan 22       Velinsky    Concept Selection Lecture             Chapter 8
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F Jan 24/25  Moore       - Planning and Scheduling Quiz        - Chapter |_| 18
+\       A02/A03  R/F Jan 24/25  Moore       - Planning and Scheduling Quiz        - Chapter |_| 18
                                             - Planning and Scheduling Activity    - Chapter |_| 18
                                             - Technical Reports Lecture
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 4       All      T Jan 29       Velinsky    Product Architecture Lecture          Chapter 10
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F J 31/F 1   Moore       - Concept generation quiz             - Chapter |_| 7
+\       A02/A03  R/F J 31/F 1   Moore       - Concept generation quiz             - Chapter |_| 7
                                             - Concept generation activity         - Chapter |_| 7
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A02/A03  F Feb 1                                                                              - Memo 3: Needs/Specs
@@ -54,14 +54,14 @@ Week    Section  Date           Instructor  Topic                               
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 5       All      T Feb 5        Velinsky    Patents Lecture                       Chapter 16          - Sign up for 185B meeting times
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F Feb 7/8    Moore       - Concept Selection Quiz              - Chapter 8
+\       A02/A03  R/F Feb 7/8    Moore       - Concept Selection Quiz              - Chapter 8
                                             - Concept Justification Lecture
                                             - Concept Selection Activity          - Chapter 8
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 6       All      T Feb 12       Guest       Human Factors Lecture
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F Feb 14/15  Moore       - Finite Element Tips Lecture
+\       A02/A03  R/F Feb 14/15  Moore       - Finite Element Tips Lecture
                                             - Preliminary analysis activity
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A02/A03  F Feb 15                                                                             - Report 1: Project Proposal
@@ -72,9 +72,8 @@ Week    Section  Date           Instructor  Topic                               
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       All      T Feb 19       Moore       `Microcontroller Tutorial`_ Pt |_| 1
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F Feb 21/22  Moore       - Product Architecture Quiz           - Chapter 10
+\       A02/A03  R/F Feb 21/22  Moore       - Product Architecture Quiz           - Chapter 10
                                             - Hazard Analysis Lecture
-                                            - Product Architecture Activity       - Chapter 10
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A02/A03  F Feb 22                                                                             - Space request spreadsheet
                                                                                                       - Design review signup
@@ -82,22 +81,22 @@ Week    Section  Date           Instructor  Topic                               
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 8       All      T Feb 26       EFL Staff   EFL Preparation Lecture                                   Microcontroller Assignment
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F F 28/M 1   Moore       `Microcontroller Tutorial`_ Pt |_| 2
+\       A02/A03  R/F F 28/M 1   Moore       `Microcontroller Tutorial`_ Pt |_| 2
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-        A03/A02  F Mar 1                                                                              Memo 4: Concept Selection/Product Architecture
+        A02/A03  F Mar 1                                                                              Memo 4: Concept Selection/Product Architecture
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 9       A02/A03  Mar 4-Mar 8                Preliminary Design Reviews
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       All      T Mar 5        Moore       3D Printing Guest Lecture
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F Mar 7/8    Moore       Work on projects                                          Design review slides
+\       A02/A03  R/F Mar 7/8    Moore       Work on projects                                          Design review slides
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 10      All      T Mar 12       Moore       - Showcase announcement
                                             - Industry Panel
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-\       A03/A02  R/F Mar 14/15  Moore       - Course Evals                                            Lightning Talk Slides
+\       A02/A03  R/F Mar 14/15  Moore       - Course Evals                                            Lightning Talk Slides
                                             - Class Presentations
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 \       A02/A03  M Mar 18                                                                             - Report 2: Preliminary Design
