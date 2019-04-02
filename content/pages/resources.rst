@@ -45,8 +45,8 @@ and managing the space, so check in with them with any questions on the use of
 the space.
 
 - You should only request the key code if you actually need space.
-- Do not share the keypad entry key code. If you do, then you jeopardize the
-  security people's projects.
+- Do not share the keypad entry key code outside of your team. If you do, then
+  you jeopardize the security people's projects.
 - Group your items into as few labeled boxes/shelves/tables as possible.
 - Label all boxes and any freestanding items with a contact name and phone
   number.
@@ -61,7 +61,7 @@ the space.
 - Do not touch any equipment in the room that doesn't belong to you.
 - All items must be removed from the room by
   {{ DUE_DATES['workroom'].strftime('%A, %b %-d, %Y') }} or you risk an
-  incomplete grade.
+  incomplete grade for the course.
 - Respect the ESDC staff's wishes and help, as they have the final say on the
   use of the space.
 - The keypad entry code will be changed at the end of quarter.
