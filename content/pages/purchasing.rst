@@ -64,7 +64,7 @@ etc.
 Order for Supplies and Consumables using a Department Purchase Order (DPO)
 ==========================================================================
 
-**BME funded projects must have their TA place the orders!**
+**BME funded projects must have their TA place the orders!** See the "Ordering for BME Funded Projects" section for more info.
 
 Applicable to Store Pickup, FAX/Internet Order, Credit Card Order
 
@@ -94,6 +94,30 @@ they arrive:
 | University of California, Davis
 | One Shields Avenue
 | Davis, CA 95616
+
+Ordering for BME Funded Projects
+================================
+Projects funded through the UC Davis Clinical and Translational Science Center (CTSC)
+or UC Davis School of Veterinary Medicine require a purchasing information to be sent
+to the TA so the TA can place the orders. A table or spreadsheet organized alphabetically
+by vendor with the following information must be sent to your team's TA via e-mail:
+
+1. Vendor Name
+2. Quantity of item
+3. Unit
+4. Part Number (if applicable)
+5. Item Description and URL
+6. Unit Cost
+
++--------------+----+------+----------------------------+------------------+----------+
+|Vendor        |QTY |Unit  |Part Number (if applicable) |Description       |Unit Cost |
++==============+====+======+============================+==================+==========+
+|Amazon.com    |2   |Pack  | N/A                        |Cables,<URL>      |   5.00   |
++--------------+----+------+----------------------------+------------------+----------+
+|Amazon.com    |1   |Each  | N/A                        |Arduino,<URL>     |  19.99   |
++--------------+----+------+----------------------------+------------------+----------+
+|DFROBOT       |1   |Each  | SER0038                    |Servo Motor,<URL> |  14.90   |
++--------------+----+------+----------------------------+------------------+----------+
 
 Local Purchases
 ===============
