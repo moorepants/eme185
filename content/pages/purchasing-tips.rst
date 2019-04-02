@@ -21,11 +21,13 @@ General Advice
   buying any.
 - The `Biological and Agricultural Engineering shop`_ can be hired for
   machining, welding, and other fabrication services.
-- There are some online services like `makexyz`_ which let you upload CAD
-  models and get back a 3D-printed part.
+- There are some online services like makexyz_, shapeways_, sculpteo_, etc.
+  which let you upload CAD models and get back a 3D-printed part.
 
 .. _Biological and Agricultural Engineering shop: http://bae.engineering.ucdavis.edu/bae-shop/
-.. _makexyz: https://www.makexyz.com/
+.. _makexyz: https://www.makexyz.com
+.. _shapeways: https://www.shapeways.com
+.. _sculpteo: https://www.sculpteo.com
 
 Mechanical
 ----------
