@@ -6,7 +6,7 @@ EME 185 A/B Capstone MAE Purchasing And Out-Of-Pocket Reimbursement Guidelines
 Key Guidelines
 ==============
 
-- Expenses must first be approved before purchased.
+- Expenses must first be approved before purchased.  There is a cap of two additional purchase requests.
 - The University does not have an Amazon Prime account.
 - We've been having issues getting POs for Home Depot, please send a request
   for a reimbursement prior to making a purchase.
@@ -156,6 +156,31 @@ exceed $500 per receipt.**
   the receipt.
 - Submit the completed form, along with original receipts, to one of the MAE
   staff, 2132 Bainer Office.
+
+Engineering Change Orders
+====
+As professional engineers, you have a fiduciary responsibility to spend your sponsor’s 
+funds in the best interest of the project.  Therefore, it is critical that you plan your 
+purchases prudently.  That said, there is no way to foresee all the stumbling blocks 
+that will occur over the course of this quarter and additional purchases are almost certain.  
+
+We will be implementing an element of what it known as an Engineering Change Order (ECO).  
+This is a procedure which you will encounter in your professional careers.  
+Its purpose is simple: any changes to your Bill of Materials must be justified and approved 
+before funds are released.  
+
+There will be a cap of two additional BOM changes for the remained of the quarter.  
+Each of these changes must be justified with a one-page memo answereing each of the 
+following questions:  
+ 
+1. What are you changing?
+2. Why are you chainging it?
+3. What do you need to purchase in order to facilitate this change?
+
+You must also submit an abridged BOM of the changes indicating what additionally is needed 
+including all vendors, part numbers, quantities and cost.  The new BOM can be an attachment 
+and need not fit within the one-page limit of the memo.   These will be sent to the 
+instructor, your TA, and your sponsor for approval.
 
 Tips
 ====
