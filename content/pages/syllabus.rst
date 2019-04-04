@@ -203,7 +203,7 @@ Instructor Office Hours
 
 Jason's winter office hours are Wednesday 11 am - 12 pm and Friday 2 pm - 3 pm
 in Bainer 2095. His spring office hours are TBA. **For Jason's office hours,
-book a time slot for your team at least 12 hours in advance via:**
+book a time slot for your team at least 24 hours in advance via:**
 http://moorepants.youcanbook.me. [#]_ If you can't make the regular scheduled
 office hours, check Jason's `work calendar`_ for an open time slot between 8AM
 and 6:00PM on weekdays and email him with a request for a meeting.
@@ -216,14 +216,15 @@ TA Office Hours
 ---------------
 
 In the winter quarter, email the TAs to request a meeting. In the spring
-quarter, book a meeting with the the TAs via via YouCanBook.me:
+quarter, book a meeting with the the TAs via via YouCanBook.me. You must book
+the meeting 24 hours in advance.
 
 =================== =================== ==============================
 TA                  Office              Link
 =================== =================== ==============================
 Scott Kresie        Hickey Gym 276      https://scott-kresie.youcanbook.me/
 Ian Garreston       Bainer 1125         https://icgarretson.youcanbook.me/
-Gregory Bales       TBA                 TBA
+Gregory Bales       Bainer 2071         https://greg-bales.youcanbook.me/
 =================== =================== ==============================
 
 Academic Integrity
