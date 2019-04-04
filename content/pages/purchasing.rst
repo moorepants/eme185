@@ -158,7 +158,7 @@ exceed $500 per receipt.**
   staff, 2132 Bainer Office.
 
 Bill of Materials Change Orders
-====
+===============================
 As professional engineers, you have a fiduciary responsibility to spend your sponsor’s 
 funds in the best interest of the project.  Therefore, it is critical that you plan your 
 purchases prudently.  That said, there is no way to foresee all the stumbling blocks 
