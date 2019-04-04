@@ -157,20 +157,16 @@ exceed $500 per receipt.**
 - Submit the completed form, along with original receipts, to one of the MAE
   staff, 2132 Bainer Office.
 
-Engineering Change Orders
+Bill of Materials Change Orders
 ====
 As professional engineers, you have a fiduciary responsibility to spend your sponsor’s 
 funds in the best interest of the project.  Therefore, it is critical that you plan your 
 purchases prudently.  That said, there is no way to foresee all the stumbling blocks 
-that will occur over the course of this quarter and additional purchases are almost certain.  
+that will occur over the course of this quarter and additional purchases are almost certain.
 
-We will be implementing an element of what it known as an Engineering Change Order (ECO).  
-This is a procedure which you will encounter in your professional careers.  
-Its purpose is simple: any changes to your Bill of Materials must be justified and approved 
-before funds are released.  
-
-There will be a cap of two additional BOM changes for the remained of the quarter.  
-Each of these changes must be justified with a one-page memo answereing each of the 
+There will be a cap of two additional BOM changes for the remained of the quarter. Any
+changes to your BOM must be justified and approved before funds are released.
+Change requests will be submitted as a one-page memo answereing each of the 
 following questions:  
  
 1. What are you changing?
