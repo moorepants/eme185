@@ -8,7 +8,7 @@ Key Guidelines
 
 - Project funds are only granted through an approved Bill of Materials (BOM).  The first BOM was submitted in your Preliminary Design Report at the end of the first quarter.
 - There are two additional oppurtunities (making 3 in total) to request/change funds for your project.  These will be submitted via BOM Change Orders described below.
-- Once funds are approved, proceed with purchasing only the items from your BOM any of the means described below.
+- Once funds are approved, proceed with purchasing only the items from your BOM by any of the means described below.
 - Students from BME funded projects do not have access to the OPS and must submit purchase requests through their TA. These submissions can only occur every two weeks.
 - The University does not have an Amazon Prime account.
 - We've been having issues getting POs for Home Depot, please send a request
