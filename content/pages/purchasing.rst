@@ -6,7 +6,10 @@ EME 185 A/B Capstone MAE Purchasing And Out-Of-Pocket Reimbursement Guidelines
 Key Guidelines
 ==============
 
-- Expenses must first be approved before purchased.
+- Project funds are only granted through an approved Bill of Materials (BOM).  The first BOM was submitted in your Preliminary Design Report at the end of the first quarter.
+- There are two additional oppurtunities (making 3 in total) to request/change funds for your project.  These will be submitted via BOM Change Orders described below.
+- Once funds are approved, proceed with purchasing only the items from your BOM by any of the means described below.
+- Students from BME funded projects do not have access to the OPS and must submit purchase requests through their TA. These submissions can only occur every two weeks.
 - The University does not have an Amazon Prime account.
 - We've been having issues getting POs for Home Depot, please send a request
   for a reimbursement prior to making a purchase.
@@ -156,6 +159,28 @@ exceed $500 per receipt.**
   the receipt.
 - Submit the completed form, along with original receipts, to one of the MAE
   staff, 2132 Bainer Office.
+
+Bill of Materials Change Orders
+===============================
+As professional engineers, you have a fiduciary responsibility to spend your sponsor’s 
+funds in the best interest of the project.  Therefore, it is critical that you plan your 
+purchases prudently.  That said, there is no way to foresee all the stumbling blocks 
+that will occur over the course of this quarter and additional purchases are almost certain.
+
+There will be a cap of two additional BOM changes for the remainder of the quarter. Any
+changes to your BOM must be justified and approved before funds are released.
+Change requests will be submitted as a one-page memo answereing each of the 
+following questions:  
+ 
+1. What are you changing?
+2. Why are you chainging it?
+3. What do you need to purchase in order to facilitate this change?
+
+You must also submit an abridged BOM of the changes indicating what additionally is needed 
+including all vendors, part numbers, quantities and cost.  The new BOM can be an attachment 
+and need not fit within the one-page limit of the memo.   These will be sent to the 
+instructor, your TA, and your sponsor for approval.  When your funds are approved, you can 
+purchase through any of the above means.
 
 Tips
 ====
