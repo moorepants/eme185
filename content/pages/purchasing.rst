@@ -5,25 +5,57 @@ EME 185 A/B Capstone MAE Purchasing And Out-Of-Pocket Reimbursement Guidelines
 
 .. contents:: Table of Contents
 
+Basic Steps
+===========
+
+1. Get your BoM approved by your TA (happens automatically on submission of
+   report 2, unless it is inadequate).
+2. Select a "purchasing lead" (only person allowed to submit orders from your
+   team).
+3. Purchaser creates multiple orders lists (likely a subset of your BoM)
+   throughout the quarter and submits one of three ways:
+
+   a. If an MAE account, log into OPS and create an order, select Jason K.
+      Moore as the approver.
+   b. If from a BME account, email the order list to your TA and they will
+      order.
+   c. If your client/sponsor is buying for you, then follow their protocol to
+      submit orders.
+
+4. Wait for item arrival (ship to MAE office C/O you and they will email you on
+   arrival).
+5. Pick up package at MAE office and sign the sheet to know package has been
+   received.
+
 Key Guidelines
 ==============
 
 - Project funds are only granted through an approved Bill of Materials (BOM).
   The first BOM was submitted in your Preliminary Design Report at the end of
   the first quarter.
-- There are two additional oppurtunities (making 3 in total) to request/change
-  funds for your project.  These will be submitted via BOM Change Orders
+- There are two additional opportunities (making 3 in total) to request/change
+  funds for your project. These will be submitted via BOM Change Orders
   described below.
 - Once funds are approved, proceed with purchasing only the items from your BOM
   by any of the means described below.
-- Students from BME funded projects do not have access to the OPS and must
-  submit purchase requests through their TA. These submissions can only occur
-  every two weeks.
 - **BME funded projects must have their TA place the orders!** See the
-  "Ordering for BME Funded Projects" section for more info.
+  "Ordering for BME Funded Projects" section for more info. Students from BME
+  funded projects do not have access to the OPS and must submit purchase
+  requests through their TA. These submissions can only occur every two weeks.
 - The University does not have an Amazon Prime account.
 - We've been having issues getting POs for Home Depot, please send a request
   for a reimbursement prior to making a purchase.
+- We do not offer reimbursements except in special circumstances.
+
+Purchasing Lead
+===============
+
+Select one purchasing lead. The lead's responsibility includes:
+
+- place orders
+- submit packing slips to MAE Office
+- serve as primary liaison with MAE and Shared Services offices or with your
+  client if they are handling purchasing
 
 Resources
 =========
@@ -51,16 +83,6 @@ cannot help.
 - Melanie Burt-Schipke, maburt@ucdavis.edu, 754-0394 (back-up)
 - Forms link: http://intranet.engineering.ucdavis.edu/shared-service-units/purchasing-and-accounts-payable/purchasing-and-travel/
 
-Purchasing Lead
-===============
-
-Select one purchasing lead. The lead's responsibility includes:
-
-- place orders
-- submit packing slips to MAE Office
-- serve as primary liaison with MAE and Shared Services offices or with your
-  client if they are handling purchasing
-
 OPS User Registration
 =====================
 
@@ -77,27 +99,8 @@ Note that the required "unit" column in the web form is to specify the unit of
 the quantity number. For example if could be "kilograms", "each", "bundles",
 etc.
 
-Order for Supplies and Consumables using a Department Purchase Order (DPO)
-==========================================================================
-
-Applicable to Store Pickup, FAX/Internet Order, Credit Card Order
-
-- Obtain approval and correct account # for the order from the instructor.
-  Your requested purchases must match your pre-approved bill of materials.
-- Submit a complete OPS order via http://ops.engineering.ucdavis.edu.
-  Order will e-route to the instructor and the MAE staff for approvals.
-- Include in the OPS order: # of items, unit price, item/catalog #. Attach a
-  price quotation or screen shot of product information if needed.
-- If you have a large list of items from an online vendor, save the order in
-  CART with your exact items in it and provide a copy to OPS as an attachment.
-- Include shipping/handling charges when you calculate the total order for
-  budgeting purposes. Charges may vary depending on delivery method (regular
-  ground vs. overnight). RUSH order will incur extra shipping costs. For RUSH
-  shipment, obtain approval from your instructor.
-- Verify with the vendor that item is in stock and available for shipment
-  within the timeframe needed.
-- Submit packing slips as soon as possible to process payment of invoices.
-- Plan ahead to avoid unnecessary high shipping charges.
+Shipping
+========
 
 You can ship items to the department and they will notify you via email when
 they arrive:
@@ -111,10 +114,12 @@ they arrive:
 
 Ordering for BME Funded Projects
 ================================
-Projects funded through the UC Davis Clinical and Translational Science Center (CTSC)
-or UC Davis School of Veterinary Medicine require a purchasing information to be sent
-to the TA so the TA can place the orders. A table or spreadsheet organized alphabetically
-by vendor with the following information must be sent to your team's TA via e-mail:
+
+Projects funded through the UC Davis Clinical and Translational Science Center
+(CTSC) or UC Davis School of Veterinary Medicine require a purchasing
+information to be sent to the TA so the TA can place the orders. A table or
+spreadsheet organized alphabetically by vendor with the following information
+must be sent to your team's TA via e-mail:
 
 1. Vendor Name
 2. Quantity of item
@@ -148,6 +153,28 @@ follow:
 4. OPS will give a purchase order in the amount needed to pick up the items at
    the local store
 5. Return the receipt as the "packing slip"
+
+Order for Supplies and Consumables using a Department Purchase Order (DPO)
+--------------------------------------------------------------------------
+
+Applicable to Store Pickup, FAX/Internet Order, Credit Card Order
+
+- Obtain approval and correct account # for the order from the instructor.
+  Your requested purchases must match your pre-approved bill of materials.
+- Submit a complete OPS order via http://ops.engineering.ucdavis.edu.
+  Order will e-route to the instructor and the MAE staff for approvals.
+- Include in the OPS order: # of items, unit price, item/catalog #. Attach a
+  price quotation or screen shot of product information if needed.
+- If you have a large list of items from an online vendor, save the order in
+  CART with your exact items in it and provide a copy to OPS as an attachment.
+- Include shipping/handling charges when you calculate the total order for
+  budgeting purposes. Charges may vary depending on delivery method (regular
+  ground vs. overnight). RUSH order will incur extra shipping costs. For RUSH
+  shipment, obtain approval from your instructor.
+- Verify with the vendor that item is in stock and available for shipment
+  within the time frame needed.
+- Submit packing slips as soon as possible to process payment of invoices.
+- Plan ahead to avoid unnecessary high shipping charges.
 
 Reimbursement for Out-of-Pocket Expenses
 ========================================
