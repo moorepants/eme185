@@ -3,18 +3,27 @@
 
 EME 185 A/B Capstone MAE Purchasing And Out-Of-Pocket Reimbursement Guidelines
 
+.. contents:: Table of Contents
+
 Key Guidelines
 ==============
 
-- Project funds are only granted through an approved Bill of Materials (BOM).  The first BOM was submitted in your Preliminary Design Report at the end of the first quarter.
-- There are two additional oppurtunities (making 3 in total) to request/change funds for your project.  These will be submitted via BOM Change Orders described below.
-- Once funds are approved, proceed with purchasing only the items from your BOM by any of the means described below.
-- Students from BME funded projects do not have access to the OPS and must submit purchase requests through their TA. These submissions can only occur every two weeks.
+- Project funds are only granted through an approved Bill of Materials (BOM).
+  The first BOM was submitted in your Preliminary Design Report at the end of
+  the first quarter.
+- There are two additional oppurtunities (making 3 in total) to request/change
+  funds for your project.  These will be submitted via BOM Change Orders
+  described below.
+- Once funds are approved, proceed with purchasing only the items from your BOM
+  by any of the means described below.
+- Students from BME funded projects do not have access to the OPS and must
+  submit purchase requests through their TA. These submissions can only occur
+  every two weeks.
+- **BME funded projects must have their TA place the orders!** See the
+  "Ordering for BME Funded Projects" section for more info.
 - The University does not have an Amazon Prime account.
 - We've been having issues getting POs for Home Depot, please send a request
   for a reimbursement prior to making a purchase.
-
-.. contents:: Table of Contents
 
 Resources
 =========
@@ -27,15 +36,16 @@ The MAE staff is your first stop for help with purchaing.
 MAE Main Office, 2132 Bainer Hall
 Business hours: 9:00 a.m. - 4:00 p.m., except - 12-1 p.m.
 
-- Jennifer Young,  jlyoung@ucdavis.edu, 752-1498
-- Lili Scheiber, lmscheiber@ucdavis.edu, 752-7266
-- CeCe Coyle,  ccoyle@ucdavis.edu, 752-6256
+- Primary MAE Capston Contact: Jessica Rodriguez, jesrod@ucdavis.edu, 530-752-5981
+- Main MAE desk: Jennifer Young, jlyoung@ucdavis.edu, 530-752-1498
+- Specific accounting needs: CeCe Coyle, ccoyle@ucdavis.edu, 530-752-6256
 
 College of Engineering Purchasing/Accounts Payable Shared Services
 ------------------------------------------------------------------
 
-All purchasing is handled at the College of Engineering, you may need to
-contact them for help for special cases.
+All purchasing is forwarded from MAE and handled at the College of Engineering,
+you may need to contact them for help for special cases if the above people
+cannot help.
 
 - Kathy Sanchez, kasanchez@ucdavis.edu, 530-752-7433
 - Melanie Burt-Schipke, maburt@ucdavis.edu, 754-0394 (back-up)
@@ -48,10 +58,13 @@ Select one purchasing lead. The lead's responsibility includes:
 
 - place orders
 - submit packing slips to MAE Office
-- serve as primary liaison with MAE and Shared Services offices
+- serve as primary liaison with MAE and Shared Services offices or with your
+  client if they are handling purchasing
 
 OPS User Registration
 =====================
+
+If your purchases are made through your client, ignore this section.
 
 **On-line Purchase System (OPS) Link**: http://ops.engineering.ucdavis.edu
 
@@ -66,8 +79,6 @@ etc.
 
 Order for Supplies and Consumables using a Department Purchase Order (DPO)
 ==========================================================================
-
-**BME funded projects must have their TA place the orders!** See the "Ordering for BME Funded Projects" section for more info.
 
 Applicable to Store Pickup, FAX/Internet Order, Credit Card Order
 
@@ -125,7 +136,7 @@ by vendor with the following information must be sent to your team's TA via e-ma
 Local Purchases
 ===============
 
-To place an order at a local store for pickup, these are the procedures to
+To place an OPS order at a local store for pickup, these are the procedures to
 follow:
 
 1. Go to local store and record quantity and part number of items or make a
@@ -146,8 +157,8 @@ expenses may be unavoidable due to extenuating circumstances (e.g., no access
 to a Purchase Order after MAE office hours; emergency purchase; Department
 Purchase Order not accepted by a store/vendor).
 
-Out-of-pocket expenses must be PRE-APPROVED by one of the instructors and must
-be deemed necessary for the capstone design project.
+Out-of-pocket expenses must be **PRE-APPROVED** by one of the instructors and
+must be deemed necessary for the capstone design project.
 
 **Total out-of-pocket purchases (including tax and shipping cost) must not
 exceed $500 per receipt.**
@@ -162,30 +173,33 @@ exceed $500 per receipt.**
 
 Bill of Materials Change Orders
 ===============================
-As professional engineers, you have a fiduciary responsibility to spend your sponsor’s 
-funds in the best interest of the project.  Therefore, it is critical that you plan your 
-purchases prudently.  That said, there is no way to foresee all the stumbling blocks 
-that will occur over the course of this quarter and additional purchases are almost certain.
 
-There will be a cap of two additional BOM changes for the remainder of the quarter. Any
-changes to your BOM must be justified and approved before funds are released.
-Change requests will be submitted as a one-page memo answereing each of the 
-following questions:  
- 
+As professional engineers, you have a fiduciary responsibility to spend your
+sponsor’s funds in the best interest of the project.  Therefore, it is critical
+that you plan your purchases prudently.  That said, there is no way to foresee
+all the stumbling blocks that will occur over the course of this quarter and
+additional purchases are almost certain.
+
+There will be a cap of two additional BOM changes for the remainder of the
+quarter. Any changes to your BOM must be justified and approved before funds
+are released.  Change requests will be submitted as a one-page memo answereing
+each of the following questions:
+
 1. What are you changing?
 2. Why are you chainging it?
 3. What do you need to purchase in order to facilitate this change?
 
-You must also submit an abridged BOM of the changes indicating what additionally is needed 
-including all vendors, part numbers, quantities and cost.  The new BOM can be an attachment 
-and need not fit within the one-page limit of the memo.   These will be sent to the 
-instructor, your TA, and your sponsor for approval.  When your funds are approved, you can 
-purchase through any of the above means.
+You must also submit an abridged BOM of the changes indicating what
+additionally is needed including all vendors, part numbers, quantities and
+cost. The new BOM can be an attachment and need not fit within the one-page
+limit of the memo. These will be sent to the instructor, your TA, and your
+sponsor for approval. When your funds are approved, you can purchase through
+any of the above means.
 
 Tips
 ====
 
 - Plan your purchases well in advance to avoid rush orders and unnecessary high
   shipping charges.
-- When in doubt about our policy & procedures, please contact the main office.
+- When in doubt about our policy and procedures, please contact the main office.
 - Your cooperation is much appreciated!
