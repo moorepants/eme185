@@ -880,6 +880,7 @@ Week 10
 
 - [All] Participate in Meijo visit activities.
 - [Lead TA] Coordinate competition rules, scoring, etc.
+- [All] Remind teams about post-showcase clean up protocol of the storage room.
 - [All TAs] Help students get projects to showcase.
 - [All] Showcase!
 - [All] Design competition with Meijo students.
@@ -892,4 +893,5 @@ Week 11 (finals week)
 - [All] Grade final reports.
 - [All] Hold end-of-course meeting to discuss how the course went.
 - [All] Hold critical design reviews.
+- [All] Address any storage room clean up issues
 - [Instructor] Submit final grades.
