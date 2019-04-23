@@ -81,7 +81,7 @@ DUE_DATES = \
      'rep_04': '2019-06-09 23:59:59',
      'pre_01': '2019-03-04 00:00:00',  # design review 1
      'pre_02': '2019-03-14 00:00:00',  # lightning talk
-     'pre_03': '2019-05-24 12:00:00',  # showcase poster
+     'pre_03': '2019-05-17 23:59:00',  # showcase poster
      'pre_04': '2019-06-10 23:59:59',  # design review 2
      'show_reg': '2019-04-19 23:59:59',  # showcase registration
      'show': '2019-06-06 13:00:00',  # showcase
