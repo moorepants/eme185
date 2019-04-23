@@ -75,7 +75,7 @@ Engineering Design Showcase Poster Presentation [{{ DUE_DATES['pre_03'].strftime
 
 Your team will be required to present your work at the `Engineering Design
 Showcase`_ at the ARC Pavilion on {{ DUE_DATES['show'].strftime('%A %b %-d,
-%Y') }} from 1:30-4:30 pm. You need to `register for the showcase`_ by {{
+%Y') }} from 1:00-4:00 pm. You need to `register for the showcase`_ by {{
 DUE_DATES['show_reg'].strftime('%A %b %-d, %Y') }}. Each team will develop a
 poster that showcases and explains your project which must be submitted to both
 Canvas and to the Dean's office for printing by {{
@@ -85,7 +85,7 @@ are also welcome and encouraged to bring any prototype that you have
 constructed or videos and other media that will explain your project. Any
 special accommodations for your prototype (size, power, etc) or presentation
 must be coordinated with the Dean's office at registration. At least one member
-of the team must be present at the poster at all times from 1:30-4:30 pm and
+of the team must be present at the poster at all times from 1:00-4:00 pm and
 all team members must attend the event. Your team's poster will be visited by
 one or more industry judges who will score your poster. You should wear
 business attire. Your TA will visit your poster for approximately 10 minutes,
@@ -194,13 +194,13 @@ and quality product.
 5. The CoE cannot be responsible for verifying the accuracy of technical
    content, so you are strongly advised to have your instructor review your
    poster prior to submission.
-6. Once printed, the posters will be stored in 1050 Kemper Hall. The College will
+6. Once printed, the posters will be stored in Kemper Hall. The College will
    arrange for setup and display of all posters in the Pavilion on the day of
    the showcase. Posters will be mounted to foam/poster board for stability and
    easier viewing.
-7. If you do not want to keep your poster you should return it to the
-   instructors after the showcase and it will be displayed in Bainer Hall the
-   following year.
+7. If you do not want to keep your poster you should return it to the EME 185
+   instructors after the showcase and it will possibly be displayed in Bainer
+   Hall the following year.
 
 Critical Design Review [{{ DUE_DATES['pre_04'].strftime('%b %-d, %Y') }}]
 ===================================================================================================
