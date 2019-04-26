@@ -15,7 +15,7 @@ Basic Steps
 3. Purchaser creates multiple orders lists (likely a subset of your BoM)
    throughout the quarter and submits one of three ways:
 
-   a. If an MAE account, log into OPS and create an order, select Jason K.
+   a. If an MAE account, log into OPP and create an order, select Jason K.
       Moore as the approver.
    b. If from a BME account, email the order list to your TA and they will
       order.
@@ -53,6 +53,7 @@ Purchasing Lead
 Select one purchasing lead. The lead's responsibility includes:
 
 - place orders
+- indicate recieved orders
 - submit packing slips to MAE Office
 - serve as primary liaison with MAE and Shared Services offices or with your
   client if they are handling purchasing
@@ -83,21 +84,27 @@ cannot help.
 - Melanie Burt-Schipke, maburt@ucdavis.edu, 754-0394 (back-up)
 - Forms link: http://intranet.engineering.ucdavis.edu/shared-service-units/purchasing-and-accounts-payable/purchasing-and-travel/
 
-OPS User Registration
+OPP User Registration
 =====================
 
 If your purchases are made through your client, ignore this section.
 
-**On-line Purchase System (OPS) Link**: http://ops.engineering.ucdavis.edu
+**On-line PrePurchase (OPP) Link**: http://prepurchasing.ucdavis.edu/
 
-See above OPS link. Team or Purchasing Lead: Contact one of the MAE staff to
-register as OPS user and obtain a brief OPS user training. Provide your
-Kerberos ID and phone number (cell phone preferably) for OPS user registration
+Team Purchasing Lead: Contact Jessica Rodriguez <jesrod@ucdavis.edu> of the MAE
+staff to register as OPP user and obtain a brief OPP user training. Provide your
+Kerberos ID and phone number (cell phone preferably) for OPP user registration
 to MAE staff.
 
-Note that the required "unit" column in the web form is to specify the unit of
-the quantity number. For example if could be "kilograms", "each", "bundles",
-etc.
+OPP Order Placement Procedure
+=============================
+
+Step-by-Step procedure for using the OPP system can be found in this powerpoint:
+https://ucdavis.box.com/shared/static/xd9w3j60on4xus6nc5lvhztei4tflddy.pptx
+
+Additionally, After logging into the OPP webpage and navigating to the order 
+placement page, there is a Guided Tour button highlighted in a green box with
+blue text near the top of the page.
 
 Shipping
 ========
@@ -145,17 +152,18 @@ must be sent to your team's TA via e-mail:
 Local Purchases
 ===============
 
-To place an OPS order at a local store for pickup, these are the procedures to
+To place an OPP order at a local store for pickup, these are the procedures to
 follow:
 
 1. Go to local store and record quantity and part number of items or make a
    conservative guess at the prices.
-2. Place OPS order listing the normal quantity, unit, parts number,
-   description. Use the "Not to exceed amount" column to give a conservative
-   dollar amount needed for the purchase.
-3. Check box in OPS for "order for pick up"
-4. OPS will give a purchase order in the amount needed to pick up the items at
-   the local store
+2. Place OPP order listing the normal quantity, unit, parts number,
+   description.
+3. Under "Shipping Options" in OPP, select "no shipping required".
+4. In the "Comments and/or special instructions" section please type,
+   "requesting PO only, please e-mail PO to ____." in include your email.
+4. OPP will give a purchase order in the amount needed to pick up the items at
+   the local store, and will be delivered to your email.
 5. Return the receipt as the "packing slip"
 
 Order for Supplies and Consumables using a Department Purchase Order (DPO)
@@ -163,22 +171,25 @@ Order for Supplies and Consumables using a Department Purchase Order (DPO)
 
 Applicable to Store Pickup, FAX/Internet Order, Credit Card Order
 
-- Obtain approval and correct account # for the order from the instructor.
-  Your requested purchases must match your pre-approved bill of materials.
-- Submit a complete OPS order via http://ops.engineering.ucdavis.edu.
-  Order will e-route to the instructor and the MAE staff for approvals.
-- Include in the OPS order: # of items, unit price, item/catalog #. Attach a
-  price quotation or screen shot of product information if needed.
-- If you have a large list of items from an online vendor, save the order in
-  CART with your exact items in it and provide a copy to OPS as an attachment.
-- Include shipping/handling charges when you calculate the total order for
-  budgeting purposes. Charges may vary depending on delivery method (regular
-  ground vs. overnight). RUSH order will incur extra shipping costs. For RUSH
-  shipment, obtain approval from your instructor.
-- Verify with the vendor that item is in stock and available for shipment
-  within the time frame needed.
-- Submit packing slips as soon as possible to process payment of invoices.
-- Plan ahead to avoid unnecessary high shipping charges.
+1. Obtain approval and correct account # for the order from the instructor.
+   Your requested purchases must match your pre-approved bill of materials.
+2. Submit a complete OPP order via http://prepurchasing.ucdavis.edu/.
+   Order will e-route to the instructor and the MAE staff for approvals.
+3. Include in the OPP order: # of items, unit price, item/catalog #. Attach a
+   price quotation or screen shot of product information if needed.
+4. Note that the required "unit" column in the web form is to specify the unit of
+   the quantity number. For example if could be "kilograms", "each", "bundles",
+   etc.
+5. If you have a large list of items from an online vendor, save the order in
+   CART with your exact items in it and provide a copy to OPP as an attachment.
+6. Include shipping/handling charges when you calculate the total order for
+   budgeting purposes. Charges may vary depending on delivery method (regular
+   ground vs. overnight). RUSH order will incur extra shipping costs. For RUSH
+   shipment, obtain approval from your instructor.
+7. Verify with the vendor that item is in stock and available for shipment
+   within the time frame needed.
+8. Submit packing slips as soon as possible to process payment of invoices.
+9. Plan ahead to avoid unnecessary high shipping charges.
 
 Reimbursement for Out-of-Pocket Expenses
 ========================================
