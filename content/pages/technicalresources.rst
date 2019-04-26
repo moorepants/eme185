@@ -181,6 +181,19 @@ Standards
    - `Electric Machinery`_- IEEE electric machinery standards
 - `NEMA`_ - Electric Equipment and Medical Imaging Manufacturers Standards
    - `Motor Standards`_- NEMA motor and generator standards
+- Electrical E-Stops - NFPA 79:
+   - 9.2.5.3.1:“Each machine shall be equipped with a Category 0 stop” 
+        - 9.2.2 : “Category 0 is an uncontrolled stop by immediately removing power”
+   - 9.2.5.4.1: ”Emergency stop functions provided in accordance with 9.2.5.3 shall be designed to be initiated by a single human         action”
+   - 9.2.5.4.1.1: 
+        - (1) E-stop shall override all other functions
+        - (2) Power should be removed from system ASAP
+        - (3) Reset of E-stop should not initiate restart
+- Electrical Panels - NEC or NFPA 70:
+    - 110.10 : “The overcurrent protective devices …  shall be selected ... to clear a fault to [without] extensive damage to the electrical equipment of the circuit”
+     - 409.21(B)(2): “[There shall be]  a single main overcurrent protective device located within the industrial control panel”
+     - 409.110: Labeling requirements inside control panel
+     - 409.106: Wire Spacing:409.106: Wire Spacing
 
 .. _library site: https://www.library.ucdavis.edu/guide/mechanical-aerospace-engineering/#standards-10
 .. _OSHA: https://www.osha.gov/SLTC/text_index.html
@@ -191,4 +204,4 @@ Standards
 .. _IEEE: https://ieeexplore.ieee.org/browse/standards/collection/ieee
 .. _Electric Machinery: https://ieeexplore.ieee.org/browse/standards/collection/ieee/power-and-energy?selectedValue=Electric%20Machinery
 .. _NEMA: https://www.nema.org/Standards/pages/default.aspx
-.. _Motor Standards: https://www.nema.org/Standards/Pages/All-Standards-by-Product.aspx?ProductId=f6107549-40c5-4110-9a4c-dd7215bf1e60
+.. _Motor Standards: https://www.nema.org/Standards/Pages/All-Standards-by-Product.aspx?ProductId=f6107549-40c5-4110-9a4c-dd7215bf1e60      
