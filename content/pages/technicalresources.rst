@@ -78,11 +78,11 @@ formats and Drawing Views are linked to below:
 
 Other references:
 
-- `Standard Dimensioning and Tolerancing practices  <https://engineering.pages.tcnj.edu/files/2012/02/dimensioning_and_tolerancing.pdf>`_
+- `Standard Dimensioning and Tolerancing practices  <https://github.com/moorepants/eme185/blob/master/content/docs/dimensioning_and_tolerancing.pdf>`_
 
 - `Dimensioning guidelines <https://www.google.com/search?q=chapter7.demtol>`_ (Click on first search result 'Dimension Guidelines' ppt file)
 
-- `Making Drawing packages <http://www.me.udel.edu/meeg304/08/ddp.pdf>`_
+- `Making Drawing packages <https://github.com/moorepants/eme185/blob/master/content/docs/CreatingDesignPackages.pdf>`_
 
 - `Drawing package example <https://www.csuchico.edu/mmem/documents/Department_Drawing_Standard.pdf>`_
 
