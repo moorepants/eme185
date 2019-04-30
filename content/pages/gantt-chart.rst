@@ -8,7 +8,7 @@ generating a quality Gantt chart.
 No matter what tool you decide to use for creating a Gantt chart, make sure the
 chart you submit is legible and shows the full timeline of the project. Vector
 formats (e.g. PDF) are preferred because they can be fit to a standard page
-size, and they can be zoomed into without losing legibility.
+size, and they can be zoomed into without losing legibility. Here is an `example <{filename}/docs/Shoe-Tie-Machine_GANTT.pdf>`_ of a Gantt chart from a previous EME 185 project.
 
 InstaGantt
 ----------
