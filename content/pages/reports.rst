@@ -260,7 +260,7 @@ Preliminary planning and scheduling
    The preliminary plan should give at least a coarse idea of the important
    milestones you will need to meet for the remaining weeks of the course, i.e.
    now until ~June 15th. You should include a `Gantt chart
-   <{filename}/pages/gantt-chart.rst>`_ with the details.
+   <{filename}/pages/gantt-chart.rst>`_ with the details. Here is an `example <{filename}/docs/Shoe-Tie-Machine_GANTT.pdf>`_ Gantt chart from a previous EME 185 project.
 Preliminary budget
    The purpose of the preliminary budget statement is to give a very rough idea
    of what expected project costs may be for your top designs. This will vary
@@ -338,7 +338,7 @@ Plan
    task should have a duration, due date, its dependencies, and an assignee(s).
    This information should be presented as a `Gantt Chart
    <{filename}/pages/gantt-chart.rst>`_ in addition to some text that explains
-   the high level view of the plan.
+   the high level view of the plan. Here is an `example <{filename}/docs/Shoe-Tie-Machine_GANTT.pdf>`_ Gantt chart from a previous EME 185 project.
 Financing
    The costs should be refined as much as possible to give a very realistic
    estimate of what you plan to spend. A refined budget and bill of materials
