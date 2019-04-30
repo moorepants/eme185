@@ -30,12 +30,12 @@ Both the accomplishments and objectives sections should indicate who worked on
 (or will work on) each item and how much time that person spent (or will spend)
 on that item.
 
-During the Spring quatert, this document should include a snapshot of your
+During the Spring quarter, this document should include a snapshot of your
 `Gantt Chart <{filename}/pages/gantt-chart.rst>`_ with a vertical line
 indicating the date of the meeting and the percent complete of each task in the
-chart. For tips on creating a good snapshot see the `Gantt Chart page
+chart. Here is an `example <{filename}/docs/Shoe-Tie-Machine_GANTT.pdf>`_ of an entire Spring quarter Gantt chart from a previous EME 185 project. You will need to take a snapshot of ~4 weeks centered around the date you submit your AIO. For tips on creating a good snapshot see the `Gantt Chart page
 <{filename}/pages/gantt-chart.rst>`_. The accomplishments and objectives in
-your AIO should match up with your Gantt Chart.
+your AIO should match up with your Gantt Chart. 
 
 Here is a template for the AIO and an example:
 
