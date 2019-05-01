@@ -184,14 +184,18 @@ Standards
 - Electrical E-Stops - NFPA 79:
 
    - 9.2.5.3.1:“Each machine shall be equipped with a Category 0 stop” 
+   
         - 9.2.2 : “Category 0 is an uncontrolled stop by immediately removing power”
    - 9.2.5.4.1: ”Emergency stop functions provided in accordance with 9.2.5.3 shall be designed to be initiated by a single human         action”
    - 9.2.5.4.1.1: 
+   
         - (1) E-stop shall override all other functions
         - (2) Power should be removed from system ASAP
         - (3) Reset of E-stop should not initiate restart
 - Electrical Panels - NEC or NFPA 70:
+
     - 110.10 : “The overcurrent protective devices …  shall be selected ... to clear a fault to [without] extensive damage to the electrical equipment of the circuit”
+    
      - 409.21(B)(2): “[There shall be]  a single main overcurrent protective device located within the industrial control panel”
      - 409.110: Labeling requirements inside control panel
      - 409.106: Wire Spacing:409.106: Wire Spacing
