@@ -86,6 +86,8 @@ Other references:
 
 - `Drawing package example <https://www.csuchico.edu/mmem/documents/Department_Drawing_Standard.pdf>`_
 
+- `ANSI Y32.10 For Hydraulic Symbols <https://advancedfluidpowerinc.com/wp-content/uploads/2016/03/Fluid_Power_Symbols.pdf>`_
+
 Software
 --------
 
