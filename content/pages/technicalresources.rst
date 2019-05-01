@@ -182,6 +182,7 @@ Standards
 - `NEMA`_ - Electric Equipment and Medical Imaging Manufacturers Standards
    - `Motor Standards`_- NEMA motor and generator standards
 - Electrical E-Stops - NFPA 79:
+
    - 9.2.5.3.1:“Each machine shall be equipped with a Category 0 stop” 
         - 9.2.2 : “Category 0 is an uncontrolled stop by immediately removing power”
    - 9.2.5.4.1: ”Emergency stop functions provided in accordance with 9.2.5.3 shall be designed to be initiated by a single human         action”
