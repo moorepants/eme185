@@ -162,9 +162,9 @@ follow:
 3. Under "Shipping Options" in OPP, select "no shipping required".
 4. In the "Comments and/or special instructions" section please type,
    "requesting PO only, please e-mail PO to ____." in include your email.
-4. OPP will give a purchase order in the amount needed to pick up the items at
+5. OPP will give a purchase order in the amount needed to pick up the items at
    the local store, and will be delivered to your email.
-5. Return the receipt as the "packing slip"
+6. Return the receipt as the "packing slip"
 
 Order for Supplies and Consumables using a Department Purchase Order (DPO)
 --------------------------------------------------------------------------
