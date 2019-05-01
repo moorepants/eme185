@@ -70,6 +70,10 @@ switch from attending Thursday to attending Friday or vice versa, then you will
 have a larger chance of getting the project you want. Please indicate in the
 survey if you can switch sections **only if you have no time conflicts**.
 
+`Instruction for viewing in-text feedback can be found in this canvas document`_.
+
+.. _Instruction for viewing in-text feedback can be found in this canvas document: https://community.canvaslms.com/docs/DOC-10542-4212352349
+
 Memo 2: Team Charter [Due: {{ DUE_DATES['mem_02'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
@@ -86,6 +90,10 @@ responsibilities change throughout the project.
 
 With your group members, select a company name and write a 1-page charter
 following this `team charter template <{filename}/pages/team-charter.rst>`_.
+
+`Instruction for viewing in-text feedback can be found in this canvas document`_.
+
+.. _Instruction for viewing in-text feedback can be found in this canvas document: https://community.canvaslms.com/docs/DOC-10542-4212352349
 
 Memo 3: Needs and Specs [Due: {{ DUE_DATES['mem_03'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
@@ -127,6 +135,10 @@ Items to include:
   specifications should come from relevant engineering standards or codes.
 - Reflections on the process and the results.
 
+`Instruction for viewing in-text feedback can be found in this canvas document`_.
+
+.. _Instruction for viewing in-text feedback can be found in this canvas document: https://community.canvaslms.com/docs/DOC-10542-4212352349
+
 Memo 4: Selection and Architecture [Due: {{ DUE_DATES['mem_04'].strftime('%A, %b %-d, %Y') }}]
 ===================================================================================================
 
@@ -147,3 +159,7 @@ Suggestions of what to include:
 - Justification for your elimination of the abandoned concepts.
 - Documentation of your selection process in the form of any screening or
   scoring charts/tables/graphs, etc.
+  
+  `Instruction for viewing in-text feedback can be found in this canvas document`_.
+
+.. _Instruction for viewing in-text feedback can be found in this canvas document: https://community.canvaslms.com/docs/DOC-10542-4212352349
