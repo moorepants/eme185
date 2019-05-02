@@ -20,6 +20,10 @@ to fully understand what is being presented and why without reading any of the
 other reports. The reports should be directed to other personnel that may not
 have detailed knowledge of the project.
 
+*Important: Each report must include each section detailed in both the Report Format
+and the Report Content*
+
+
 Report Format
 =============
 
@@ -196,8 +200,17 @@ Examples
   -- note the creativity needed to convey somewhat complex instructions with
   almost no text at all.
 
+
+Report Content
+================
+
+Each report must include the following sections *in addition to* the sections outlined in the `Report Format`_ above.
+
+.. _report format: https://moorepants.github.io/eme185/pages/reports.html#report-format
+
+
 Report #1: Project Proposal [Due: {{ DUE_DATES['rep_01'].strftime('%A, %b %-d, %Y') }}]
-===================================================================================================
+---------------------------------------------------------------------------------------------------
 
 The primary purpose of the project proposal is for your team to clearly
 articulate your understanding of the customer's needs and to share your
@@ -274,8 +287,12 @@ Use your memo as a building block for the proposal. The instructors and
 sponsors will evaluate your report to determine the size and scope of your
 project and if the objectives are both well thought out and feasible.
 
+`Instruction for viewing in-text feedback can be found in this canvas document`_.
+
+.. _Instruction for viewing in-text feedback can be found in this canvas document: https://community.canvaslms.com/docs/DOC-10542-4212352349
+
 Report #2: Preliminary Design [Due: {{ DUE_DATES['rep_02'].strftime('%A, %b %-d, %Y') }}]
-===================================================================================================
+---------------------------------------------------------------------------------------------------
 
 The purpose of the preliminary design report is to present your selected
 design, show that it is highly likely to work and that your goals will
@@ -383,8 +400,12 @@ Be sure to utilize your memos, proposal, and critical design review as a basis
 for your report. Use the feedback from them all to improve the work for this
 final written presentation of your preliminary design.
 
+`Instruction for viewing in-text feedback can be found in this canvas document`_.
+
+.. _Instruction for viewing in-text feedback can be found in this canvas document: https://community.canvaslms.com/docs/DOC-10542-4212352349
+
 Report #3: Spring Midterm Progress [Due: {{ DUE_DATES['rep_03'].strftime('%A, %b %-d, %Y') }}]
-===================================================================================================
+---------------------------------------------------------------------------------------------------
 
 The purpose of this report is to update the instructors and sponsors on your
 progress, outline your deliverables, and to provide us with *draft* technical
@@ -430,9 +451,13 @@ Technical Documentation
 
    We will provide feedback on this material so that your documentation can be
    improved for the final report.
+   
+   `Instruction for viewing in-text feedback can be found in this canvas document`_.
+
+.. _Instruction for viewing in-text feedback can be found in this canvas document: https://community.canvaslms.com/docs/DOC-10542-4212352349
 
 Report #4: Final Design [Due: {{ DUE_DATES['rep_04'].strftime('%A, %b %-d, %Y') }}]
-===================================================================================================
+---------------------------------------------------------------------------------------------------
 
 The final design report should be a comprehensive report detailing the final
 version of your project. It is not necessary to provide information about the
@@ -445,7 +470,7 @@ basis for your report. Use the feedback from them all to improve the work for
 this final written presentation of your design.
 
 Main Content
-------------
++++++++++++++
 
 **The main content should be no longer than 20 pages.**
 
@@ -494,7 +519,7 @@ Conclusion
    that would improve the design.
 
 Appendices
-----------
++++++++++++++
 
 The appendices should include any technical documentation needed to support the
 main content of your paper. The general descriptions in the main content should
@@ -520,3 +545,7 @@ your final report. For example:
 - PDF #1: Report + appendices
 - PDF #2: Mechanical drawings
 - PDF #3: Usage manual
+
+`Instruction for viewing in-text feedback can be found in this canvas document`_.
+
+.. _Instruction for viewing in-text feedback can be found in this canvas document: https://community.canvaslms.com/docs/DOC-10542-4212352349
