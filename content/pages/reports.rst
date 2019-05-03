@@ -161,6 +161,7 @@ Examples
 
 - `Assembly drawings for a machine <http://www.moorepants.info/media/docs/cell-shearer-assembly.pdf>`_
 - `Layout drawings for all the parts of the above machine <http://www.moorepants.info/media/docs/cell-shearer-08-11-12.pdf>`_
+- `Example weldment drawing <{filename}/docs/weldment-example.pdf>`_
 - `Wiring schematic for a data aquisition system <{filename}/docs/instrumented-bicycle-wiring-schematic.pdf>`_
 - `Flowchart for software design <{filename}/images/software_flowchart_example.PNG>`_
 
