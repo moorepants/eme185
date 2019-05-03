@@ -104,14 +104,14 @@ Getting a Job
 
 `Internship and Career Center`_
    Submit your resume and look for job postings.
-`Engineering Career Fairs`_
+`Internship and Career Fairs`_
    UCD hosts several of these every year.
 `UC Davis Corporate Relations`_
    Get into the specialized engineering student recruitment database, Eureka!,
    visit a company on a tour, etc.
 
 .. _Internship and Career Center: https://icc.ucdavis.edu/
-.. _Engineering Career Fairs: https://icc.ucdavis.edu/services/fairs/engineering.htm
+.. _Internship and Career Fairs: https://icc.ucdavis.edu/services/fair/prepare/attendees/
 .. _UC Davis Corporate Relations: http://engineering.ucdavis.edu/corporate-relations/student-recruitment/
 
 Resume Information
