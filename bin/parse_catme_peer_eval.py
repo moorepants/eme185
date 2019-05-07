@@ -319,7 +319,7 @@ if __name__ == "__main__":
     # TODO : The range should adjust based on the number of files in the
     # directory.
 
-    for i in range(1):
+    for i in range(3):
 
         path = os.path.join(DIR, FNAME_TEMP.format(i + 1))
 
@@ -356,10 +356,10 @@ if __name__ == "__main__":
 
     for team_id in team_questions_df['Team ID'].unique():
         subset = team_questions_df[team_questions_df['Team ID'] == team_id]
-        facet = sns.factorplot(x='Question ID', y='Score', hue='Evaluation',
-                               col='Question Page', data=subset, kind='bar',
-                               ci='sd', sharey=False, sharex=False,
-                               legend_out=False)
+        facet = sns.catplot(x='Question ID', y='Score', hue='Evaluation',
+                            col='Question Page', data=subset, kind='bar',
+                            ci='sd', sharey=False, sharex=False,
+                            legend_out=False)
         facet.axes[0, 0].set_title(team_id + ': ' +
                                    facet.axes[0, 0].get_title(), fontsize=12)
         facet.axes[0, 0].set_ylim((0, 5))
