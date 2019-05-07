@@ -850,11 +850,13 @@ Week 6
 - [All] Review CATME results.
 - [All TAs] Grade report 3 except for the progress rubric row.
 - [Instructor] Grade the progress rubric row for report 3.
-- [Lead TA] Finalize design review scheduling.
+- [All TAs] Setup trash and left over parts system in project room.
 
 Week 7
 ^^^^^^
 
+- [Instructor] Remind students of showcase poster submission deadline.
+- [Lead TA] Finalize design review scheduling.
 - [Lead TA] Create a preliminary schedule for Meijo visit and have Petros
   approve it.
 - [Lead TA] Work on Meijo visit scheduling.
@@ -862,8 +864,8 @@ Week 7
 Week 8
 ^^^^^^
 
-- [Instructor] Remind students of showcase poster submission deadline.
-- [Lead TA] Ask students about needing help transporting projects.
+- [Lead TA] Ask students about needing help transporting projects and setup
+  transport organization.
 
 Week 9
 ^^^^^^
