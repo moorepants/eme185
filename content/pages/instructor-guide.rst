@@ -247,6 +247,9 @@ Grading
 - For assignments not co-graded with the instructor (e.g. memos), the TAs
   should calibrate by grading one submission together. For group-submitted
   assignments, choose a team from one of the 25% TAs to co-grade.
+- All feedback on the submitted reports and documents should be given via the
+  Speedgrader tool so that a digital record is kept of the embedded PDF
+  comments, rubric scores, rubric comments, and assignment comments.
 
 Memos
 -----
