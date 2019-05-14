@@ -860,6 +860,8 @@ Week 7
 
 - [Instructor] Remind students of showcase poster submission deadline.
 - [Lead TA] Finalize design review scheduling.
+- [Lead TA] Send out invitations to the project sponsors and affliates for the
+  design showcase and the design reviews.
 - [Lead TA] Create a preliminary schedule for Meijo visit and have Petros
   approve it.
 - [Lead TA] Work on Meijo visit scheduling.
@@ -867,26 +869,26 @@ Week 7
 Week 8
 ^^^^^^
 
+- [Instructor] Invite department to the showcase.
 - [Lead TA] Ask students about needing help transporting projects and setup
   transport organization.
-
-Week 9
-^^^^^^
-
-- [Instructor] Invite department to the showcase.
 - [Lead TA] Finalize Meijo visit scheduling.
 - [TA] Create and distribute a Google Form for attendance signups for joint EME
   185 and Meijo student activities/ company tours.
 - [Lead TA] Invite students to Meijo lunch and cultural activities.
+
+Week 9
+^^^^^^
+
 - [Instructor] Post final report and design review assignments/rubrics.
 
 Week 10
 ^^^^^^^
 
-- [All] Participate in Meijo visit activities.
 - [Lead TA] Coordinate competition rules, scoring, etc.
-- [All] Remind teams about post-showcase clean up protocol of the storage room.
 - [All TAs] Help students get projects to showcase.
+- [All] Participate in Meijo visit activities.
+- [All] Remind teams about post-showcase clean up protocol of the storage room.
 - [All] Showcase!
 - [All] Design competition with Meijo students.
 
@@ -898,5 +900,5 @@ Week 11 (finals week)
 - [All] Grade final reports.
 - [All] Hold end-of-course meeting to discuss how the course went.
 - [All] Hold critical design reviews.
-- [All] Address any storage room clean up issues
+- [All TAs] Clean up the senior design room.
 - [Instructor] Submit final grades.
