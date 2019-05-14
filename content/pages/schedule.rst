@@ -114,15 +114,14 @@ Week    Section  Date           Instructor  Topic                               
 5       A02/A03  F May 3                                                                              - Report 3: Midterm Progress
                                                                                                       - Peer evaluations
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-6       A02/A03  F May 10                                                                             Showcase coordination
+7       A02/A03  F May 17                                                                             - Poster submission
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-8       A02/A03  F May 24                                                                             - Poster submission
-                                                                                                      - Sandia Award Report
+8       A02/A03  F May 24                                                                             - Sandia Award Report
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 9       A02/A03  M May 27                   Memorial Day Holiday
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
-10      A02/A03  R Jun 6                    - `Engineering Design Showcase`_      - 1:00PM-4:00PM
-                                            - Meijo/UCD Competition               - 5:00PM-7:00PM
+10      A02/A03  R Jun 6                    - `Engineering Design Showcase`_      - 1:30PM-4:30PM
+                                            - Meijo/UCD Competition               - 5:30PM-7:30PM
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
 11      A02/A03  S Jun 9                                                                              Report 4: Final Design
 ------  -------  -------------  ----------  ------------------------------------  ------------------  -----
