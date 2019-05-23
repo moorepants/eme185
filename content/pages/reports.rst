@@ -45,6 +45,8 @@ assignment. A single report should be submitted by one team member.
   such.
 - The audience you should write for is a technically competent reader, e.g.
   another engineering colleague or engineering management.
+- Specific standalone appendices (e.g. drawing packages, manuals, etc.) can be
+  submitted as additional PDF files.
 
 See the `Report Style Guide`_ for visual explanations of these formatting
 rules. Feel free to use the document as a template. For report writing tips see
@@ -203,14 +205,12 @@ Examples
   -- note the creativity needed to convey somewhat complex instructions with
   almost no text at all.
 
-
 Report Content
 ================
 
 Each report must include the following sections *in addition to* the sections outlined in the `Report Format`_ above.
 
 .. _report format: https://moorepants.github.io/eme185/pages/reports.html#report-format
-
 
 Report #1: Project Proposal [Due: {{ DUE_DATES['rep_01'].strftime('%A, %b %-d, %Y') }}]
 ---------------------------------------------------------------------------------------------------
@@ -454,7 +454,7 @@ Technical Documentation
 
    We will provide feedback on this material so that your documentation can be
    improved for the final report.
-   
+
    `Instruction for viewing in-text feedback can be found in this canvas document`_.
 
 .. _Instruction for viewing in-text feedback can be found in this canvas document: https://community.canvaslms.com/docs/DOC-10542-4212352349
@@ -463,14 +463,15 @@ Report #4: Final Design [Due: {{ DUE_DATES['rep_04'].strftime('%A, %b %-d, %Y') 
 ---------------------------------------------------------------------------------------------------
 
 The final design report should be a comprehensive report detailing the final
-version of your project. It is not necessary to provide information about the
-process that led to this design. This report should have sufficient information
-for someone unfamiliar with your project to understand what it is for, how to
-fabricate it, and how to use it. The report should be self contained.
+design version of your project. It is not necessary to provide information
+about any prior designs or the process that led to this design. This report
+should have sufficient information for someone unfamiliar with your project to
+understand what it is for, how to fabricate it, and how to use it. The report
+should be self contained.
 
-Be sure to utilize your past memos, reports, and critical design review as a
-basis for your report. Use the feedback from them all to improve the work for
-this final written presentation of your design.
+Be sure to utilize your past memos, reports, and design reviews as a basis for
+your report. Use the feedback from them all to improve the work for this final
+written presentation of your design.
 
 Main Content
 +++++++++++++
@@ -486,9 +487,8 @@ Introduction
    literature that helps put your problem and solution into context.
 Needs, Specifications, and Standards
    The sponsor's needs should be explained along with the target specifications
-   that you've developed from the needs. Be sure to note any engineering
-   standards that were used to set your specifications or were relevant to your
-   project.
+   that you've developed from the needs. Some of your specifications should be
+   tied directly to the relevant engineering standards you have researched.
 Design Description
    You should fully describe your design and explain how it functions. The goal
    is to provide sufficient technical details to communicate the conceptual
@@ -533,7 +533,7 @@ electrical systems. Other possible items to include:
 - Electrical schematics
 - Final bill of materials
 - Supporting calculations
-- Manufacturing guides
+- Manufacturing process plans
 - User manual
 - Experiment details and results
 - Explanatory code snippets
