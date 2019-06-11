@@ -901,4 +901,5 @@ Week 11 (finals week)
 - [All] Hold end-of-course meeting to discuss how the course went.
 - [All] Hold critical design reviews.
 - [All TAs] Clean up the senior design room.
+- [Lead TA/Instructor] Mail thank you letters to all sponsors and tour docents.
 - [Instructor] Submit final grades.
