@@ -73,7 +73,7 @@ def load_main_table(table_text):
     return df
 
 
-def find_deliquent_students(df):
+def find_delinquent_students(df):
     """Returns a list of student names who did not fill out the survey."""
 
     def is_int(s):
@@ -83,17 +83,17 @@ def find_deliquent_students(df):
         except ValueError:
             return False
 
-    deliquent_students = []
+    delinquent_students = []
 
     for name, group in df.groupby('Team ID'):
         na_cols = group.columns[group.isna().any()].tolist()
         num_members = len(group)
-        deliquent_rater_nums = set([int(name.strip()[-1]) for name in na_cols
+        delinquent_rater_nums = set([int(name.strip()[-1]) for name in na_cols
                                     if is_int(name.strip()[-1])])
-        deliquent_students += [group['Student Name'][group['Rater #'] == num].values[0]
-                               for num in deliquent_rater_nums if num <= num_members]
+        delinquent_students += [group['Student Name'][group['Rater #'] == num].values[0]
+                               for num in delinquent_rater_nums if num <= num_members]
 
-    return deliquent_students
+    return delinquent_students
 
 
 def merge_adjustment_factor(*dataframes, with_self=True):
@@ -319,7 +319,7 @@ if __name__ == "__main__":
     # TODO : The range should adjust based on the number of files in the
     # directory.
 
-    for i in range(3):
+    for i in range(4):
 
         path = os.path.join(DIR, FNAME_TEMP.format(i + 1))
 
@@ -349,7 +349,7 @@ if __name__ == "__main__":
     q_id_map = dict(zip(questions['Question ID'], questions['Question']))
 
     for i, df in enumerate(dfs):
-        names = find_deliquent_students(df)
+        names = find_delinquent_students(df)
         print('Missing survey {}:'.format(i + 1))
         print(names)
         print('\n')
