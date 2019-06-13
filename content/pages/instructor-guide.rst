@@ -901,5 +901,9 @@ Week 11 (finals week)
 - [All] Hold end-of-course meeting to discuss how the course went.
 - [All] Hold critical design reviews.
 - [All TAs] Clean up the senior design room.
-- [Lead TA/Instructor] Mail thank you letters to all sponsors and tour docents.
+- [Lead TA/Instructor] Mail thank you letters to all sponsors and tour docents,
+  have lead instructor sign them.
+- [Lead TA] Upload the grades and completed rubrics of the design reviews to
+  canvas.
+- [Lead TA] Send out the final sponsor feedback form.
 - [Instructor] Submit final grades.
