@@ -38,8 +38,6 @@ The final section are the private comments that the students provide.
 
 """
 
-# TODO : Report which students are not filling out the peer eval.
-
 import os
 import textwrap
 from io import StringIO
@@ -76,6 +74,9 @@ def load_main_table(table_text):
 def find_delinquent_students(df):
     """Returns a list of student names who did not fill out the survey."""
 
+    # TODO : Setup to print results with students name and email so an email
+    # can quickly be sent to all students.
+
     def is_int(s):
         try:
             int(s)
@@ -90,8 +91,9 @@ def find_delinquent_students(df):
         num_members = len(group)
         delinquent_rater_nums = set([int(name.strip()[-1]) for name in na_cols
                                     if is_int(name.strip()[-1])])
-        delinquent_students += [group['Student Name'][group['Rater #'] == num].values[0]
-                               for num in delinquent_rater_nums if num <= num_members]
+        delinquent_students += [
+            group['Student Name'][group['Rater #'] == num].values[0]
+            for num in delinquent_rater_nums if num <= num_members]
 
     return delinquent_students
 
@@ -100,7 +102,20 @@ def merge_adjustment_factor(*dataframes, with_self=True):
     """Returns a data frame with student id as the index and the peer
     evaluation instances as the columns. The entry is the adjustment factor
     value. A numerical value is also computed in the column 'Improvement' that
-    shows whether they were ranked higher or lower as time progressed."""
+    shows whether they were ranked higher or lower as time progressed.
+
+    Parameters
+    ==========
+    with_self : boolean, optional
+        If True the adjustment factor that includes the students self rating is
+        returned.
+
+    """
+
+    # TODO : Maybe it would be better to select the better of the two
+    # adjustement factors. For students rated low by their team, their rating
+    # would improve the score and for students that rated themselves lower than
+    # their team would get a boost too.
 
     if with_self:
         col = 'Adj Factor (w/ Self)'
@@ -128,6 +143,9 @@ def merge_adjustment_factor(*dataframes, with_self=True):
     stds = []
     adjusted_scores = []
 
+    # I weight the later evals more than the prior ones because the later ones
+    # tend to be more serious because the stakes become more real as the class
+    # progresses.
     eval_names = ['P1', 'P2', 'P3', 'P4']
     weights = [0.85, 0.90, 0.95, 1.0]
 
@@ -145,7 +163,8 @@ def merge_adjustment_factor(*dataframes, with_self=True):
 
         # If the student was rated low but improved over time, bump their
         # factor up based on the improvement. Also, don't allow any factor's
-        # lower than 0.75.
+        # lower than 0.75. A factor of 0.75 can drop the grade two letter
+        # grades (based on 85).
         if mean < 0.95 and improvement > 0.0:
             adjusted_score = mean + 1.5 * improvement
         else:
@@ -177,7 +196,7 @@ def plot_student_adj(df, with_self=True):
             yerr='STD Adj Factor', ylim=(0.6, 1.1), ax=axes[0])
     df.plot(x='Student Name', y='Improvement', kind='bar', ax=axes[1])
     df.plot(x='Student Name', y='Final Adj Factor', kind='bar',
-            ylim=(0.75, 1.1), ax=axes[2])
+            ylim=(0.70, 1.1), ax=axes[2])
     return axes
 
 
@@ -193,6 +212,7 @@ def load_catme_data_sections(path_to_file):
 
 
 def create_team_factor(df):
+    # NOTE : This is not complete and not used anywhere. Needs more work.
     # TODO : What to do about note="over"
     df['Team Factor'] = df['Adj Factor (w/ Self)']
     unders = df['Note'] == 'Under'
@@ -411,3 +431,5 @@ if __name__ == "__main__":
     plt.gcf().set_size_inches(20.0, 15.0)
     plt.tight_layout()
     plt.savefig(os.path.join(DIR, 'charts', 'adjustment.png'))
+
+    adj_fact_df.to_csv(os.path.join(DIR, 'adjustment_factors.csv'))
