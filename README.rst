@@ -1,3 +1,6 @@
+Introduction
+============
+
 Here lie the source files for the UCD Mechanical Engineering senior capstone
 design course that is organized and taught by Jason K. Moore.
 
@@ -10,6 +13,12 @@ Versions for prior years are at:
 - http://moorepants.github.io/eme185/2019
 - http://moorepants.github.io/eme185/2018
 - 2017 and 2016 do not yet have archived sites.
+
+License
+=======
+
+The text, images, contents, and source of the website are released under the
+Creative Commons Attribution License 4.0.
 
 Editing On Github
 =================
@@ -47,8 +56,3 @@ Rebuild and serve the site locally::
 
 .. _miniconda: http://conda.pydata.org/miniconda.html
 
-License
-=======
-
-The text, images, contents, and source of the website are released under the
-Creative Commons Attribution License 4.0.
