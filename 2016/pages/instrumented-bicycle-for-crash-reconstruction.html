@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Instrumented Bicycle For Crash Reconstruction</title>
+  <link rel="stylesheet" href="http://moorepants.github.io/eme185/2016/theme/css/main.css" />
+  <link rel="stylesheet" href="http://moorepants.github.io/eme185/2016/theme/css/custom.css" />
+
+  <!--[if IE]>
+      <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body id="index" class="home">
+  <header id="banner" class="body">
+    <h1><a href="http://moorepants.github.io/eme185/2016/">EME 185: Mechanical Systems Design Project </a></h1>
+    <nav><ul>
+        <li><a href="http://moorepants.github.io/eme185/2016/">Syllabus</a></li>
+        <li><a href="http://moorepants.github.io/eme185/2016/pages/schedule.html">Schedule</a></li>
+        <li><a href="http://moorepants.github.io/eme185/2016/pages/assignments.html">Assignments</a></li>
+        <li><a href="http://moorepants.github.io/eme185/2016/pages/projects.html">Projects</a></li>
+        <li><a href="http://moorepants.github.io/eme185/2016/pages/resources.html">Resources</a></li>
+    </ul></nav>
+  </header><!-- /#banner -->
+<section id="content" class="body">
+    <h1 class="entry-title">Instrumented Bicycle For Crash Reconstruction</h1>
+    <h2><a href="http://www.inscitech.com/">InSciTech</a>, Mountain View, CA, USA</h2>
+    <p><strong>ID:</strong> JII6</p>
+    <p><strong>Relevant Skills:</strong> instrumentation, measurement, software, dynamics</p>
+    
+    <div class="section" id="need">
+<h2>Need</h2>
+<p>Bicycling, while a common activity, is not particularly well understood.
+“Simple” actions such as balancing and steady turning have been the subject of
+recent research efforts (e.g., Moore et al., 2011; Kooijman et al., 2011;
+Peterson and Hubbard, 2009; Meijaard et al., 2007) In terms of accident
+reconstruction it would be useful to have better estimates of  meaningful
+motion envelop of riding behavior as well as the ability to measure aspects of
+an individual rider and/or bicycle. An instrumented bicycle would enable us to
+conduct accurate and repeatable studies such as:</p>
+<ul class="simple">
+<li>Acceleration/braking performance</li>
+<li>Comfortable and maximum speeds of an individual rider</li>
+<li>Effects of road perturbations on steer inputs and other bicycle dynamics</li>
+<li>Compare/test accuracy of popular fitness devices (e.g., Garmin bike computers
+or popular fitness apps such as Strava, Run Keeper, or Endomondo)</li>
+</ul>
+<p>To address this need, we propose a modular sensor and data acquisition system
+that will facilitate data collection.</p>
+</div>
+<div class="section" id="desired-outcomes">
+<h2>Desired Outcomes</h2>
+<p>We wish to be able to measure and log the following parameters:</p>
+<ol class="arabic simple">
+<li>Steer angle</li>
+<li>Lean angle</li>
+<li>Pitch angle</li>
+<li>Speed (via wheel speed sensor)</li>
+<li>Speed and position (via GPS)</li>
+<li>Front and rear brake status (on/off), should also activate a high-intensity
+LED clearly visible to a video camera located ~30 feet to the side of the
+bike in daylight conditions (1 LED, or if necessary, 1 set of LEDs, for each
+brake)</li>
+<li>Estimate the forces experienced by a rider due to road perturbations</li>
+<li>Crank pedal cadence</li>
+</ol>
+<p>Additional Measurement Requirements:</p>
+<ul class="simple">
+<li>Ideally the measurement and data logging system would be (relatively) easy to
+swap to different bicycles.</li>
+<li>An ideal measurement system would not influence the system it is trying to
+measure! In practice, this is never truly possible, but a useful system would
+not be particularly bulky, heavy, or otherwise encumber a rider.</li>
+<li>All the measurements should be collected by a single “computer”
+(microcontroller, embedded machine, DAQ box, etc.) and have a common time
+base</li>
+<li>Think about the position/alignment of the sensors. Ideally they would be
+placed so that swapping the system to a new bicycle would make comparison of
+results more straight forward without lots of calibration.</li>
+</ul>
+<p>Software Requirements:</p>
+<ul class="simple">
+<li>If it is not practical to directly measure, the angular speeds for steer,
+lean, and pitch should be calculated in software.</li>
+<li>The system would make it easy to visually display the collected data.</li>
+<li>Whenever possible, we would prefer to use free and open source tools, e.g.,
+Python, Octave, etc.</li>
+</ul>
+</div>
+<div class="section" id="references">
+<h2>References</h2>
+<ul class="simple">
+<li>Moore, J., Kooijman, J., Schwab, A., and Hubbard, M. (2011). Rider motion
+identification during normal bicycling by means of principal component
+analysis. Multibody System Dynamics, 25:225–244.</li>
+<li>J. D. G. Kooijman, J. P. Meijaard, Jim M. Papadopoulos, Andy Ruina, and A. L.
+Schwab. (2011). &quot;A bicycle can be self-stable without gyroscopic or caster
+effects&quot;, Science 332(6027):339-342.</li>
+<li>Peterson, D. L. and Hubbard, M. (2009). General steady turning of a benchmark
+bicycle model. In Proceedings of IDETC/MSNDC 2009 the ASME 2009 International
+Design Engineering Technical Conferences &amp; 7th International Conference on
+Multibody Systems, Nonlinear Dynamics, and Control, number
+DETC2009/MSNDC-86145.</li>
+<li>J.P. Meijaard, J.M. Papadopoulos, A. Ruina, and A.L. Schwab. (2007).
+Linearized dynamics equations for the balance and steer of a bicycle: a
+benchmark and review - including appendix. Proc. Roy. Soc. A.,
+463(2084):1955-1982.</li>
+</ul>
+</div>
+
+    <a href="http://moorepants.github.io/eme185/2016/pages/instrumentation-to-measure-equine-tail-pull-force.html">Previous Project</a>
+    |
+    <a href="http://moorepants.github.io/eme185/2016/pages/laparoscopic-field-hydraulic-surgery-table.html">Next Project</a>
+    </a>
+</section>
+  <section id="extras" class="body">
+  </section><!-- /#extras -->
+  <footer id="contentinfo" class="body">
+    <address id="about" class="vcard body">
+<p>
+  The materials presented on this page are copyrighted by the listed
+  organization.
+</p>
+      Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+      <p>The source for the website is <a
+        href="https://github.com/moorepants/eme185">hosted on
+        Github</a>. Report issues
+      and make contributions there.</p>
+    </address><!-- /#about -->
+  </footer><!-- /#contentinfo -->
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-15966419-8', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

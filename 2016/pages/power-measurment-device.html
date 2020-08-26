@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Power Measurment Device</title>
+  <link rel="stylesheet" href="http://moorepants.github.io/eme185/2016/theme/css/main.css" />
+  <link rel="stylesheet" href="http://moorepants.github.io/eme185/2016/theme/css/custom.css" />
+
+  <!--[if IE]>
+      <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body id="index" class="home">
+  <header id="banner" class="body">
+    <h1><a href="http://moorepants.github.io/eme185/2016/">EME 185: Mechanical Systems Design Project </a></h1>
+    <nav><ul>
+        <li><a href="http://moorepants.github.io/eme185/2016/">Syllabus</a></li>
+        <li><a href="http://moorepants.github.io/eme185/2016/pages/schedule.html">Schedule</a></li>
+        <li><a href="http://moorepants.github.io/eme185/2016/pages/assignments.html">Assignments</a></li>
+        <li><a href="http://moorepants.github.io/eme185/2016/pages/projects.html">Projects</a></li>
+        <li><a href="http://moorepants.github.io/eme185/2016/pages/resources.html">Resources</a></li>
+    </ul></nav>
+  </header><!-- /#banner -->
+<section id="content" class="body">
+    <h1 class="entry-title">Power Measurment Device</h1>
+    <h2><a href="http://www.davisenergy.com/">Davis Energy Group</a>, Davis, CA, USA</h2>
+    <p><strong>ID:</strong> SDE0</p>
+    <p><strong>Relevant Skills:</strong> instrumentation, measurement, software, electronics</p>
+    
+    <p>One service we do a lot of here is to consult on projects trying to determine
+energy savings in buildings before and after energy saving measures have been
+applied. Often this involves measuring power from many devices plugged into
+electrical outlets (plug loads) throughout a building. There currently is no
+inexpensive, wireless, an unobtrusive commercial product to do this. We are
+interested in having a student group work to develop something we can use on
+future projects. This would include:</p>
+<ul class="simple">
+<li>prototyping a lab scale power meter and ensuring it can accurately measure
+power for a variety of real world load shapes (function of current transducer
+and voltage transducer response times, acquisition speed, etc. - non trivial)</li>
+<li>design a small scale version to make this unobtrusive. The goal would be
+something approaching the size of a wall outlet and an inch thick.
+Alternatively, instead of concentrating on outlet-based packaging, a
+powerstrip-based device that could measure several plug loads would also be
+valuable.</li>
+<li>design a logging and communication system.<ul>
+<li>a micro controller would be required to do signal processing and
+integration to determine real power</li>
+<li>put the data in an onboard buffer to avoid data losses during temporary
+communication outages</li>
+<li>communicate the data to a base station (through a mesh network is a plus)</li>
+</ul>
+</li>
+<li>test product for accuracy</li>
+<li>test product for electrical safety</li>
+</ul>
+
+    <a href="http://moorepants.github.io/eme185/2016/pages/portable-pasture-fencing.html">Previous Project</a>
+    |
+    <a href="http://moorepants.github.io/eme185/2016/pages/presentations.html">Next Project</a>
+    </a>
+</section>
+  <section id="extras" class="body">
+  </section><!-- /#extras -->
+  <footer id="contentinfo" class="body">
+    <address id="about" class="vcard body">
+<p>
+  The materials presented on this page are copyrighted by the listed
+  organization.
+</p>
+      Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+      <p>The source for the website is <a
+        href="https://github.com/moorepants/eme185">hosted on
+        Github</a>. Report issues
+      and make contributions there.</p>
+    </address><!-- /#about -->
+  </footer><!-- /#contentinfo -->
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-15966419-8', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
